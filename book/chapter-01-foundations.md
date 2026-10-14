@@ -62,11 +62,9 @@ The screenshots below are visual references from the Binance mobile app. Menu na
 
 ### 2.1 USDⓈ-M and COIN-M: two different futures families
 
-**USDⓈ-M Futures** are margined and generally settled in a dollar-referenced asset such as USDT or USDC. In the screenshot, `1000PEPEUSDC Perp` is a USDⓈ-M perpetual: the contract is quoted in USDC, and the futures account uses the eligible stablecoin collateral under the selected asset mode. USDⓈ-M makes the PNL unit easier to read in a stablecoin, but the stablecoin and exchange still carry risk.
+**USDⓈ-M Futures** are margined and generally settled in a dollar-referenced asset such as USDT or USDC. For a BTC example, `BTCUSDC Perp` is a USDⓈ-M perpetual: the contract is quoted in USDC, and the futures account uses the eligible stablecoin collateral under the selected asset mode. USDⓈ-M makes the PNL unit easier to read in a stablecoin, but the stablecoin and exchange still carry risk.
 
-![Binance USDⓈ-M 1000PEPEUSDC perpetual screen](assets/binance/futures-usdm-1000pepe.png)
-
-*Figure 2.1 — USDⓈ-M screen: perpetual contract, chart, funding countdown, cross margin, leverage, order type, order book, and long/short controls.*
+*BTC example — a USDⓈ-M screen shows the perpetual contract, chart, funding countdown, cross margin, leverage, order type, order book, and long/short controls. The exact BTCUSDC screenshot should be read together with the current contract specification.*
 
 **COIN-M Futures** use a cryptocurrency as margin and settlement collateral. In the screenshot, `BTCUSD CM Perp` is a BTC coin-margined perpetual. The contract is quoted in USD, but BTC is the collateral unit. This creates a double exposure: BTC collateral can lose dollar value while a position is losing. COIN-M contracts can be useful for a specific hedging or collateral objective, but they are harder to reason about than a stablecoin-margined position.
 
@@ -186,13 +184,7 @@ Option premium depends mainly on underlying price, strike, time remaining, and v
 
 The Futures Grid is an exchange-hosted trading bot. You set rules; Binance’s system places and manages multiple futures orders on your behalf. It is not an AI that knows the future, and it is not the same as writing your own robot with an API. The bot still trades a leveraged derivative, so its losses can include fees, funding, adverse movement, and liquidation.
 
-![Binance Futures Grid manual setup](assets/binance/futures-grid-manual.png)
-
-*Figure 2.5 — Futures Grid manual setup: direction, price range, grid count, arithmetic mode, margin, and leverage.*
-
-![Binance Futures Grid advanced controls](assets/binance/futures-grid-advanced.png)
-
-*Figure 2.6 — Futures Grid advanced controls: margin mode, trailing up/down, grid trigger, TP/SL, and close-all-on-stop.*
+*BTC example — the Futures Grid setup uses the same fields: direction, price range, grid count, arithmetic mode, margin, leverage, margin mode, trailing up/down, grid trigger, TP/SL, and close-all-on-stop.*
 
 #### The robot’s main inputs
 
