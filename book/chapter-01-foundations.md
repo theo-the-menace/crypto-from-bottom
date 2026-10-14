@@ -146,14 +146,27 @@ The order-type sheet in Figure 2.3 lists **Limit, Post Only, Market, Conditional
 
 *Figure 2.3 — Binance order-type menu shown in the supplied screenshot.*
 
-| Type | What it does | Main trade-off |
-| --- | --- | --- |
-| **Limit** | Places a buy or sell at a specified price or better. | Price control, but it may not fill. A limit that crosses the book can execute immediately and take liquidity. |
-| **Post Only** | Requires the order to rest on the book as a maker; if it would match immediately, Binance cancels/rejects it under the product rule. | Maker intent and often maker fees, but no execution guarantee. |
-| **Market** | Consumes available liquidity at the best prices currently offered. | Execution priority, but slippage and multiple fill prices; there is no guaranteed displayed price. |
-| **Conditional** | Waits for a trigger, then submits a selected limit, market, or BBO-style order. The trigger can use Mark or Last price where supported. | Automation after a condition, but a triggered limit can remain unfilled and triggers can differ by price source. |
-| **Trailing Stop** | Follows a favorable move by a callback/activation rule and triggers an exit when price reverses by the configured amount. | Can protect a moving profit, but it can trigger during noise and does not guarantee a precise fill. |
-| **Scaled Order** | Splits one intended size into multiple limit sub-orders across a lower-to-upper price range. | Better control of average entry/exit and less information revealed at once, but some sub-orders may never fill. |
+| Order type | In everyday language | What happens in a BTC trade | What you give up |
+| --- | --- | --- | --- |
+| **Limit** | “Buy or sell only at my chosen price, or a better one.” | BTC is at 83,300 USDC. You place a BTCUSDC buy limit at 82,800. Nothing happens until sellers offer BTC at 82,800 or lower. If BTC never falls there, the order stays open or expires. | You control price, but you may miss the trade. If you place the buy limit above the current ask, it can fill immediately and behave like a taker order. |
+| **Post Only** | “Put my limit order on the book; cancel it if it would fill immediately.” | BTC is at 83,300. You place a post-only buy at 83,250. It must wait as a maker. If 83,250 would immediately match an existing sell, Binance cancels/rejects it instead of filling it. | You protect maker intent and may receive a maker fee, but you sacrifice certainty of execution. |
+| **Market** | “Fill me now at the best prices available.” | You want to open a BTC long immediately. A market buy consumes the cheapest sell orders: perhaps part fills at 83,300, another part at 83,305, and another at 83,320. | You get speed, but the final average price can be worse than the number on the screen, especially with a large order or thin liquidity. |
+| **Conditional** | “Wait for a condition, then place an order.” | BTC is 83,300. You set a stop-market sell triggered when Mark Price reaches 82,800. When the trigger is reached, Binance submits a market sell. A stop-limit version would submit your chosen limit price instead. | The trigger can use Mark or Last Price, and a triggered limit order can still remain unfilled during a fast fall. |
+| **Trailing Stop** | “Let my exit follow BTC while it moves in my favor; exit after a specified reversal.” | BTC rises from 83,300 to 84,000. With a 1% trailing callback, the protected level follows upward. If BTC then reverses by the configured amount, the exit triggers. | A small normal pullback can trigger it, and the resulting market execution is not guaranteed to equal the trigger price. |
+| **Scaled Order** | “Break one large order into many smaller limit orders across a price range.” | To buy BTC with 1,000 USDC, you spread buys at 82,800, 82,600, 82,400, and 82,200. A deeper dip fills more orders; a shallow dip fills only the higher ones. | You can improve the average entry and reveal less size at once, but some orders may never fill and the price may run away before the full position is built. |
+
+### A single BTC example: choosing the order deliberately
+
+Imagine BTCUSDC is trading at **83,300**, and you have decided—before opening the ticket—that you will risk only **10 USDC** on a small paper-trading experiment. Your market view is not enough by itself; you also need an entry, an invalidation, and an exit plan.
+
+1. **You want a cheaper entry, and missing the trade is acceptable.** Place a limit buy at 82,800. If the market dips to 82,800, you may fill; if it jumps to 84,000, you remain out. The order expresses patience, not a prediction that 82,800 must hold.
+2. **You want to join the book and avoid taking liquidity.** Place a post-only buy at 83,250. It will wait. If the current ask is already 83,250 or lower, the exchange cancels it instead of filling it immediately. You must decide whether to replace it later.
+3. **You need exposure immediately.** Place a market buy. Check the order-book depth and estimated slippage first. “Market” means best available prices, not “the last price shown.”
+4. **You want to enter only after a breakout.** Set a conditional buy: trigger when Mark Price reaches 84,000, then submit a market or limit order. A wick on Last Price alone may not trigger a Mark Price condition, and a limit order after the trigger may not fill.
+5. **You already own a BTC long and want profits to run.** Use a trailing stop with a callback that fits BTC’s normal noise. It can protect part of a rise, but it is still an execution rule, not a guarantee.
+6. **You want to build a position gradually.** Use a scaled order across 82,800–82,200. Before submitting, calculate the total BTC if every child order fills, the average price, fees, and the maximum loss if your invalidation is broken.
+
+The correct choice depends on the job: **limit controls price, post-only controls maker behavior, market controls urgency, conditional controls timing, trailing stop controls a moving exit, and scaled orders control distribution**. None of them turns an uncertain market into a certain profit.
 
 Binance documents conditional orders as a category containing stop-limit, stop-market, and stop-BBO orders; the availability of this category differs between USDⓈ-M and COIN-M. Its scaled-order tool lets the user choose lower/upper price, size, order count, and distribution. See the [order-type guide](https://www.binance.com/en/support/faq/detail/360033779452), [conditional-order guide](https://www.binance.com/en/support/faq/detail/998e63d2587d4e2fb894b1615de3b288), and [scaled-order guide](https://www.binance.com/en/support/faq/detail/109e5e36156d4c57a8ee29734f8bed3a).
 
