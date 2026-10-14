@@ -82,27 +82,25 @@ The supplied screenshots search for `btc`. This is a useful warning: **the searc
 
 *Figure 2.3 — Searching `btc` in Binance returns results grouped as Spot, Futures, Stocks, and Alpha.*
 
-![Binance search results for BTC Futures](assets/binance/search-btc-futures.png)
+The screenshot shows why a search result needs interpretation: one search can lead to a normal coin purchase, a leveraged contract, a stock ticker, or an on-chain discovery page. Start with the product you actually intend to use, then open its details before placing an order.
 
-*Figure 2.4 — The Futures filter separates USDⓈ-M and COIN-M results and shows perpetual/delivery symbols.*
+#### Spot results: the usual way to buy Bitcoin
 
-#### Spot results
+- **BTC/USDT** is the normal starting point for most learners. You spend USDT and receive BTC, or sell BTC and receive USDT. Choose it when you want to own Bitcoin, hold it, withdraw it, or use a simple recurring-buy plan. A filled 100 USDT market buy gives you roughly 100 USDT worth of BTC after fees; there is no liquidation price because you are not borrowing.
+- **BTC/USDC** gives the same spot exposure, but your cash balance is USDC. Choose it when your funds are already in USDC or its spread and fees are better. If you have USDT and no special reason to use USDC, BTC/USDT is usually simpler.
+- **ETH/BTC** is for trading Ethereum against Bitcoin. Buying it spends BTC to receive ETH; selling it turns ETH into BTC. Use it when you want to change your ETH-to-BTC mix, not when you simply want dollar-priced Bitcoin.
 
-- **BTC/USDT:** buy BTC with USDT or sell BTC for USDT. BTC is the base asset; USDT is the quote asset. A filled spot buy gives you BTC in the relevant exchange wallet, subject to custody and withdrawal rules.
-- **BTC/USDC:** the same underlying BTC spot exposure, but priced and settled through USDC. The price can differ slightly because liquidity, fees, and stablecoin markets differ.
-- **ETH/BTC:** this does not buy BTC with ETH. ETH is the base asset and BTC is the quote asset. Buying ETH/BTC spends BTC to acquire ETH; selling it receives BTC. The chart measures ETH relative to BTC, not ETH in dollars.
+The `10x` badge is an app/product availability label, not automatic leverage on a normal Spot purchase. **Price Protection** and **Taker Fee Promo** are temporary execution or fee-program labels; read the order ticket and current terms.
 
-The `10x` badge in the supplied Spot results is a product/availability label shown by the app, not a statement that a normal Spot purchase automatically uses 10x leverage. Read the ticket and account mode before assuming margin is involved. Badges such as **Price Protection** and **Taker Fee Promo** are execution or fee-program labels; they are not properties of Bitcoin itself and may expire.
+#### Futures results: choose these for a defined reason
 
-#### Futures results
+- **BTCUSDT Perp** is the common futures choice. It is a USDⓈ-M perpetual: you post eligible stablecoin margin and take a leveraged long or short position. Use it only for a controlled hedge or directional trade after understanding funding, liquidation, leverage, and position size. It does not give you BTC to withdraw.
+- **BTCUSDC Perp** is the same broad idea with USDC as the margin/settlement currency where supported. It makes sense when your collateral is already USDC or its execution conditions suit your strategy.
+- **BTCUSD CM Perp** is COIN-M. The contract is quoted in USD, but BTC is the margin and settlement asset. A BTC holder may choose it to keep collateral in BTC or hedge a BTC balance, but profits and losses are also affected by BTC's dollar value.
+- **A suffix such as `1225` or `0326`** usually identifies a dated delivery contract. Use one only when you deliberately want an expiry and have checked the settlement date, multiplier, and delivery rules.
+- **Unfamiliar symbols such as `BTCU`** should never be selected from the name alone. Open the contract details and confirm the margin asset, contract type, expiry, multiplier, funding, mark price, and leverage limits.
 
-- **BTCUSDT Perp:** normally a USDⓈ-M perpetual, quoted and settled in a stablecoin under the contract rules. It gives leveraged long/short exposure; it does not give you BTC.
-- **BTCUSDT with a date/quantity tag such as `1225` or `0326`:** likely a dated delivery contract in the selected Futures family. The date identifies expiry/settlement, and the contract specification determines the exact collateral, size, and settlement rules.
-- **BTCUSDC Perp:** a USDⓈ-M perpetual using USDC rather than USDT as the settlement/margin asset where supported.
-- **BTCUSD CM Perp / other COIN-M result:** a coin-margined contract whose collateral and settlement are in BTC. The screen may show USD as the quote convention while BTC is the collateral asset.
-- **BTCU or other unfamiliar symbols:** do not infer the product from the ticker alone. Open the contract details and check the margin asset, contract type, expiry, multiplier, mark-price rules, funding, and leverage limits.
-
-The exact rows and counts in the screenshot (`USDⓈ-M (8)` and `COIN-M (3)`) are an account/app-time snapshot. Listings, contract dates, regional access, and promotional badges can change. Binance’s [trading-pair guide](https://www.binance.com/en/support/faq/detail/360037328091) explains that BTCUSDT and BTCUSD CM represent different Futures families; the current contract specification is the authority for a particular symbol.
+A practical rule: use **Spot BTC/USDT** to own Bitcoin; use **BTCUSDT Perp** only for a controlled leveraged or hedging plan; use **BTC/USDC** when your collateral or execution conditions make it worthwhile; and use **COIN-M or dated futures** only when you can explain the collateral and settlement choice in one sentence.
 
 #### Stocks results
 
