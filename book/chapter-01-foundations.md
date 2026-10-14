@@ -2,7 +2,7 @@
 
 ## Chapter map
 
-1. [What is crypto?](#1-what-is-crypto)
+1. [Before you dive into trading: what is crypto?](#1-before-you-dive-into-trading-what-is-crypto)
 2. [What a real CEX looks like](#2-what-a-real-cex-looks-like)
 3. [Foundations: reading K-lines and market structure](#3-foundations-reading-k-lines-and-market-structure)
 4. [The essence of making money](#4-the-essence-of-making-money)
@@ -12,7 +12,9 @@ This chapter answers a simple question: what exactly are you looking at when you
 
 ---
 
-## 1. What is crypto?
+## 1. Before you dive into trading: what is crypto?
+
+Trading is not the first step. Before opening an order ticket, learn what you are buying, what can move its price, and what can go wrong. You do not need to master every technical detail before making a small, careful start. You do need a clear map of the products and risks in front of you.
 
 ### 1.1 A useful definition
 
@@ -27,7 +29,18 @@ Separate four layers:
 
 The same ticker can be misleading. BTC held in a Binance Exchange account is a custodial account claim until withdrawn; BTC held in a self-custody wallet is controlled by whoever can sign the transaction; BTCUSD perpetual exposure is a derivative and does not give ownership of BTC.
 
-### 1.2 Why this matters for the market
+### 1.1 Glossary: only the terms you need at first
+
+- **Spot:** you buy or sell the asset itself. A spot BTC purchase can leave you with BTC in the exchange wallet; there is no automatic liquidation.
+- **Margin:** borrowed or reserved collateral used to make a position larger than your cash balance. Losses can consume the collateral and trigger liquidation.
+- **Perpetual (perp):** a futures contract with no ordinary expiry. It tracks a reference price through funding payments; it gives price exposure, not the underlying coin.
+- **Option:** a contract giving the buyer the right, but not the obligation, to buy or sell at a specified price before or at an expiry. The buyer pays a premium; the seller takes a different, potentially much larger risk.
+- **Leverage:** the size of the position compared with the margin supporting it. It magnifies gains, losses, fees, and liquidation risk.
+- **Wallet/custody:** where the asset or claim is held and who controls the keys or account withdrawals.
+
+These definitions are enough to read a basic order screen. Learn more technical details when a strategy actually uses them; memorizing vocabulary is not the same as understanding risk.
+
+### 1.2 Why does the market go up and down?
 
 Knowing what the thing is tells you what can make or destroy its value:
 
@@ -39,7 +52,40 @@ Knowing what the thing is tells you what can make or destroy its value:
 
 Markets are prices formed by participants trading these exposures. The chart is only the visible output. The cause may be new information, forced liquidation, funding pressure, a token unlock, a change in liquidity, a protocol failure, or a change in risk appetite. If you cannot name the exposure, you cannot interpret the chart responsibly.
 
-### 1.3 A beginner’s identification checklist
+At the simplest level, price moves because buyers are willing to pay more aggressively than sellers, or sellers are willing to accept less. Behind that interaction are several forces:
+
+- new information about adoption, regulation, security, rates, liquidity, or a project;
+- changing expectations about the future rather than only current facts;
+- leverage, funding, liquidations, and stop orders forcing trades;
+- large holders, market makers, ETFs, treasuries, and miners changing their flow;
+- thin liquidity, where a modest order moves price a long way;
+- fear, greed, and the need for participants to reduce risk quickly.
+
+The chart is the final record of these competing decisions. One headline can push price briefly, while a liquidation cascade or a change in global liquidity can carry the move for weeks. You rarely know the full cause in real time, so separate what you observed from the story you are using to explain it.
+
+### 1.3 Whose prediction should you trust?
+
+You will find traders, influencers, analysts, and AI systems making opposite forecasts. That is normal: the future is uncertain, and a confident explanation is not evidence. Do not choose the loudest person or outsource your decision to a chatbot.
+
+Use advice as a **hypothesis**, then check it yourself:
+
+1. What product and timeframe is the person discussing?
+2. What evidence would prove the idea wrong?
+3. Is there a defined entry, invalidation, position size, and time horizon?
+4. Does the claim survive fees, slippage, funding, and a losing streak?
+5. Can you test it on past data or paper trades without changing the rules afterward?
+
+Build your own mindset by keeping a trade journal. Record what you believed before the trade, what would change your mind, what actually happened, and whether you followed your rules. Your goal is not to predict every move; it is to make decisions you can repeat and review.
+
+### 1.4 Protect yourself before trying to profit
+
+Do not begin with dangerous leverage, all-in bets, borrowed money, revenge trades, or a product you cannot explain. Gambling feels like action but gives you no reliable feedback. Start with an amount whose loss will not damage your life, and use spot or a simulator while learning.
+
+You will lose some trades even when your process is good. Loss is the price of uncertainty, not proof that you must immediately win it back. The dangerous response is increasing size, moving a stop, or abandoning a plan to relieve an emotion. Fear, greed, impatience, and the need to be right are often more damaging than a bad indicator.
+
+“Knowing more is knowing less” is a useful warning: more information does not automatically produce better decisions. Learn enough to identify the risk, then act only when your rules and size are clear. This is a form of **修行**—a practice of patience, self-observation, and disciplined repetition—rather than a race to find a secret signal.
+
+### 1.5 A beginner’s identification checklist
 
 Before researching a symbol, write:
 
