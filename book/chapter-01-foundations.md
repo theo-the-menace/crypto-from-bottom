@@ -16,7 +16,7 @@ This chapter answers a simple question: what exactly are you looking at when you
 
 Trading is not the first step. Before opening an order ticket, learn what you are buying, what can move its price, and what can go wrong. You do not need to master every technical detail before making a small, careful start. You do need a clear map of the products and risks in front of you.
 
-### 1.1 A useful definition
+### What crypto means
 
 “Crypto” is a broad name for digital assets and networks that use cryptographic techniques to control ownership, authorize transactions, and coordinate a shared ledger. It is not one asset class with one behavior. Bitcoin, a stablecoin, an exchange token, a governance token, an NFT, and a perpetual future can all appear in a crypto app while carrying different economic and technical risks.
 
