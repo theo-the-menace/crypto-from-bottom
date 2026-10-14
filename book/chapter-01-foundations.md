@@ -76,6 +76,54 @@ The screenshots below are visual references from the Binance mobile app. Menu na
 
 Both families can include perpetuals and dated delivery contracts. A perpetual has no ordinary expiry, so a funding mechanism helps keep it near its reference market. A dated future settles at expiry. Before comparing a USDⓈ-M and COIN-M chart, check contract size, quote/collateral asset, tick size, funding, mark price, leverage limits, and liquidation rules.
 
+### 2.2 One search term can return several different products
+
+The supplied screenshots search for `btc`. This is a useful warning: **the search result is not a list of interchangeable ways to buy Bitcoin**. It is a filter across several product families. BTC appears in many of them because it is widely listed, but other assets can have a smaller or different set of markets.
+
+![Binance search results for BTC across products](assets/binance/search-btc-all.png)
+
+*Figure 2.3 — Searching `btc` in Binance returns results grouped as Spot, Futures, Stocks, and Alpha.*
+
+![Binance search results for BTC Futures](assets/binance/search-btc-futures.png)
+
+*Figure 2.4 — The Futures filter separates USDⓈ-M and COIN-M results and shows perpetual/delivery symbols.*
+
+#### Spot results
+
+- **BTC/USDT:** buy BTC with USDT or sell BTC for USDT. BTC is the base asset; USDT is the quote asset. A filled spot buy gives you BTC in the relevant exchange wallet, subject to custody and withdrawal rules.
+- **BTC/USDC:** the same underlying BTC spot exposure, but priced and settled through USDC. The price can differ slightly because liquidity, fees, and stablecoin markets differ.
+- **ETH/BTC:** this does not buy BTC with ETH. ETH is the base asset and BTC is the quote asset. Buying ETH/BTC spends BTC to acquire ETH; selling it receives BTC. The chart measures ETH relative to BTC, not ETH in dollars.
+
+The `10x` badge in the supplied Spot results is a product/availability label shown by the app, not a statement that a normal Spot purchase automatically uses 10x leverage. Read the ticket and account mode before assuming margin is involved. Badges such as **Price Protection** and **Taker Fee Promo** are execution or fee-program labels; they are not properties of Bitcoin itself and may expire.
+
+#### Futures results
+
+- **BTCUSDT Perp:** normally a USDⓈ-M perpetual, quoted and settled in a stablecoin under the contract rules. It gives leveraged long/short exposure; it does not give you BTC.
+- **BTCUSDT with a date/quantity tag such as `1225` or `0326`:** likely a dated delivery contract in the selected Futures family. The date identifies expiry/settlement, and the contract specification determines the exact collateral, size, and settlement rules.
+- **BTCUSDC Perp:** a USDⓈ-M perpetual using USDC rather than USDT as the settlement/margin asset where supported.
+- **BTCUSD CM Perp / other COIN-M result:** a coin-margined contract whose collateral and settlement are in BTC. The screen may show USD as the quote convention while BTC is the collateral asset.
+- **BTCU or other unfamiliar symbols:** do not infer the product from the ticker alone. Open the contract details and check the margin asset, contract type, expiry, multiplier, mark-price rules, funding, and leverage limits.
+
+The exact rows and counts in the screenshot (`USDⓈ-M (8)` and `COIN-M (3)`) are an account/app-time snapshot. Listings, contract dates, regional access, and promotional badges can change. Binance’s [trading-pair guide](https://www.binance.com/en/support/faq/detail/360037328091) explains that BTCUSDT and BTCUSD CM represent different Futures families; the current contract specification is the authority for a particular symbol.
+
+#### Stocks results
+
+Rows such as **BTCS**, **BTCT**, and **BTCZ** are stock tickers containing the letters “BTC”; they are not Bitcoin and are not crypto pairs. A stock result represents a separate securities product, issuer, trading schedule, custody arrangement, and legal regime. Binance’s current stock and tokenized-securities products are jurisdiction-limited; a ticker match does not mean you own the underlying company or Bitcoin. Read the product disclosure before using a Stocks result. See Binance’s [stock trading guide](https://www.binance.com/en/support/faq/detail/a7469c7703524024b5bc2d492b03639d) and [bStocks explanation](https://academy.binance.com/en/articles/what-are-bstocks-a-guide-to-tokenized-stocks-on-binance).
+
+#### Alpha results
+
+**Alpha** is a discovery/listing category, not a special kind of BTC ownership. It may surface early or on-chain assets and related market information. Treat the label as a navigation filter. Check the token contract, network, liquidity, price impact, holder concentration, permissions, and whether the action is Spot or Wallet/on-chain before signing or trading anything.
+
+#### A five-question check before opening any result
+
+1. Is this **Spot**, **Futures**, **Options**, **Stocks**, or **Alpha/on-chain**?
+2. What exactly is the base asset, quote asset, collateral, and settlement asset?
+3. Do I own the underlying asset, or do I hold a contract/account claim that tracks its price?
+4. Is there an expiry, funding payment, leverage, liquidation price, or smart-contract approval?
+5. What are the fees, spread, liquidity, network, jurisdiction, and withdrawal rules?
+
+If you cannot answer those questions, you have not yet selected a product—you have only selected a search result.
+
 ### 2.2 Read the futures screen from top to bottom
 
 1. **Product tab:** USDⓈ-M, COIN-M, Options, or another derivative product.
