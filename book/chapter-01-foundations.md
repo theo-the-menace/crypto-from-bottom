@@ -56,57 +56,122 @@ This is not paperwork. It prevents the common error of using a spot intuition on
 
 ## 2. What a real CEX looks like
 
-A **centralized exchange (CEX)** is a company-operated venue that normally combines account management, custody, asset transfer, price discovery, order matching, settlement, and risk controls. Binance is a large example, but the same anatomy appears on other exchanges. A CEX is convenient because it hides blockchain mechanics; that convenience creates custody and platform dependence.
+A **centralized exchange (CEX)** is a company-operated venue that combines account management, custody, market data, order matching, settlement, and risk controls. Binance is a useful case study because one app contains Spot, USDⓈ-M Futures, COIN-M Futures, Options, trading bots, wallet transfers, and other products. Those tabs are not interchangeable: each one creates a different exposure, fee model, and failure mode.
 
-### 2.1 The account and wallet layer
+The screenshots below are visual references from the Binance mobile app. Menu names, limits, eligibility, and exact behavior can change by region, account type, contract, and app version. Read the current order preview and product terms before submitting an order.
 
-The app may show Exchange, Spot, Funding, Futures, Earn, and other subaccounts. These are internal ledgers maintained by the exchange. Moving assets between them is usually an internal transfer, not a blockchain transaction. A withdrawal to a network address is different: it needs a chain, a destination address, a network fee, and confirmation.
+### 2.1 USDⓈ-M and COIN-M: two different futures families
 
-The exchange can credit a balance instantly in its internal ledger, but an on-chain withdrawal waits for network processing and may be delayed, reviewed, or suspended. Always check the destination network. Sending an asset through the wrong network can make recovery difficult or impossible.
+**USDⓈ-M Futures** are margined and generally settled in a dollar-referenced asset such as USDT or USDC. In the screenshot, `1000PEPEUSDC Perp` is a USDⓈ-M perpetual: the contract is quoted in USDC, and the futures account uses the eligible stablecoin collateral under the selected asset mode. USDⓈ-M makes the PNL unit easier to read in a stablecoin, but the stablecoin and exchange still carry risk.
 
-### 2.2 The market-data layer
+![Binance USDⓈ-M 1000PEPEUSDC perpetual screen](assets/binance/futures-usdm-1000pepe.png)
 
-A trading screen is assembled from several feeds:
+*Figure 2.1 — USDⓈ-M screen: perpetual contract, chart, funding countdown, cross margin, leverage, order type, order book, and long/short controls.*
 
-- **Last price:** the most recent matched trade; it is not necessarily executable for your size.
-- **Bid/ask:** the best currently displayed buying and selling prices.
-- **Spread:** ask minus bid; it is an immediate execution cost for crossing the book.
-- **Order book/depth:** resting limit orders at different prices. Displayed liquidity can disappear.
-- **Candles:** time-bucketed OHLC summaries, often with volume.
-- **Mark/index price:** derivative reference prices used under product rules for risk and liquidation.
-- **24-hour change/volume:** a rolling or venue-defined summary, not a prediction.
+**COIN-M Futures** use a cryptocurrency as margin and settlement collateral. In the screenshot, `BTCUSD CM Perp` is a BTC coin-margined perpetual. The contract is quoted in USD, but BTC is the collateral unit. This creates a double exposure: BTC collateral can lose dollar value while a position is losing. COIN-M contracts can be useful for a specific hedging or collateral objective, but they are harder to reason about than a stablecoin-margined position.
 
-A chart compresses these streams into visual history. It does not show your likely fill, the amount of hidden liquidity, or whether a displayed order will remain.
+![Binance COIN-M BTCUSD perpetual screen](assets/binance/futures-coinm-btcusd.png)
 
-### 2.3 The matching layer
+*Figure 2.2 — COIN-M screen: BTC collateral, contract quantity, funding, order book, mark/last-price choices, and TP/SL fields.*
 
-When you submit an order, the exchange validates account permissions, minimum quantity, tick size, available balance, and product rules. An order then enters a matching engine or triggers another order. The engine matches compatible bids and asks under its priority rules. Your result may be one fill, many partial fills, a rejection, or an order that stays open.
+Both families can include perpetuals and dated delivery contracts. A perpetual has no ordinary expiry, so a funding mechanism helps keep it near its reference market. A dated future settles at expiry. Before comparing a USDⓈ-M and COIN-M chart, check contract size, quote/collateral asset, tick size, funding, mark price, leverage limits, and liquidation rules.
 
-**Maker** orders add liquidity to the book; **taker** orders remove existing liquidity. Fees often differ. A limit order is not automatically a maker order: if it crosses existing liquidity, it can execute immediately as a taker.
+### 2.2 Read the futures screen from top to bottom
 
-### 2.4 The risk and settlement layer
+1. **Product tab:** USDⓈ-M, COIN-M, Options, or another derivative product.
+2. **Symbol and contract:** the underlying, quote/settlement convention, and `Perp` or expiry.
+3. **Chart:** selected timeframe, candles, indicators, and mark/last display.
+4. **Funding:** current rate and countdown; funding is a transfer between eligible long and short positions, not a free yield.
+5. **Open/Close:** whether the order increases exposure or reduces an existing position.
+6. **Margin mode:** Cross or Isolated. Cross can use the eligible futures-wallet balance collectively; isolated assigns margin to a position under the product rules.
+7. **Leverage:** exposure relative to margin. It magnifies PNL, fees, and liquidation sensitivity; it does not create an edge.
+8. **Price and amount:** confirm whether amount means base asset, quote asset, or contract count. One `Cont` is not necessarily one coin.
+9. **Trigger source:** Last Price or Mark Price. A stop based on one can trigger differently from a stop based on the other.
+10. **TP/SL:** check whether it is reduce-only, which quantity it covers, and what order type is created after triggering.
+11. **Order book:** red asks and green bids are currently displayed liquidity, not guaranteed support or resistance.
 
-Spot settlement transfers the exchange’s internal claim from one balance to another. Derivatives settlement continuously calculates collateral, unrealized PNL, fees, funding, maintenance margin, and liquidation risk. The risk engine may cancel orders, reduce positions, or liquidate according to contract rules. Read the contract specification instead of inferring behavior from a screenshot.
+Binance’s own futures guide explains that USDⓈ-M can use USDT/USDC margin while COIN-M uses coin collateral, and that futures PNL and liquidation calculations depend on the contract specification and mark price. Read the [current Futures contract and clearing rules](https://www.binance.com/en/support/faq/detail/360033180732) before using derivatives.
 
-### 2.5 The interface anatomy
+### 2.3 Order types in the screenshot
 
-Most CEX screens contain:
+The order-type sheet in Figure 2.3 lists **Limit, Post Only, Market, Conditional, Trailing Stop, and Scaled Order**. They answer different execution questions:
 
-1. **Navigation:** Markets, Trade, Futures, Assets, Earn, P2P, and account/security settings.
-2. **Instrument selector:** symbol, quote currency, contract type, and sometimes settlement asset.
-3. **Chart:** timeframe, indicators, drawings, and price scale.
-4. **Order book and recent trades:** current displayed liquidity and matched activity.
-5. **Order ticket:** side, order type, price, quantity, time-in-force, and optional TP/SL.
-6. **Open orders and history:** what is waiting, what filled, and what was cancelled.
-7. **Margin/balance panel:** available funds, locked funds, collateral, and estimated liquidation data.
+![Binance Futures order type menu](assets/binance/order-types.png)
 
-Read the ticket from top to bottom before submitting: product, symbol, side, order type, trigger source, price, amount, leverage/margin mode, reduce-only, fee estimate, and final confirmation.
+*Figure 2.3 — Binance order-type menu shown in the supplied screenshot.*
+
+| Type | What it does | Main trade-off |
+| --- | --- | --- |
+| **Limit** | Places a buy or sell at a specified price or better. | Price control, but it may not fill. A limit that crosses the book can execute immediately and take liquidity. |
+| **Post Only** | Requires the order to rest on the book as a maker; if it would match immediately, Binance cancels/rejects it under the product rule. | Maker intent and often maker fees, but no execution guarantee. |
+| **Market** | Consumes available liquidity at the best prices currently offered. | Execution priority, but slippage and multiple fill prices; there is no guaranteed displayed price. |
+| **Conditional** | Waits for a trigger, then submits a selected limit, market, or BBO-style order. The trigger can use Mark or Last price where supported. | Automation after a condition, but a triggered limit can remain unfilled and triggers can differ by price source. |
+| **Trailing Stop** | Follows a favorable move by a callback/activation rule and triggers an exit when price reverses by the configured amount. | Can protect a moving profit, but it can trigger during noise and does not guarantee a precise fill. |
+| **Scaled Order** | Splits one intended size into multiple limit sub-orders across a lower-to-upper price range. | Better control of average entry/exit and less information revealed at once, but some sub-orders may never fill. |
+
+Binance documents conditional orders as a category containing stop-limit, stop-market, and stop-BBO orders; the availability of this category differs between USDⓈ-M and COIN-M. Its scaled-order tool lets the user choose lower/upper price, size, order count, and distribution. See the [order-type guide](https://www.binance.com/en/support/faq/detail/360033779452), [conditional-order guide](https://www.binance.com/en/support/faq/detail/998e63d2587d4e2fb894b1615de3b288), and [scaled-order guide](https://www.binance.com/en/support/faq/detail/109e5e36156d4c57a8ee29734f8bed3a).
+
+A beginner should first understand **limit, market, and one explicit stop rule** in paper trading. Post Only, conditional, trailing, and scaled orders are execution tools—not independent strategies. If you cannot explain what happens when the trigger gaps through your price, do not rely on that order to protect you.
+
+### 2.4 What does the Options tab mean, and do you need it?
+
+The Options tab is a derivatives market. A **call** gives the buyer the right, but not the obligation, to buy the underlying at a **strike** by/at an **expiry**. A **put** gives the buyer the right to sell. The buyer pays a **premium**; the seller receives premium but takes potentially substantial obligations under the contract. Unlike a future, an option has a right/obligation asymmetry and expires.
+
+![Binance Options chain](assets/binance/options-chain.png)
+
+*Figure 2.4 — Binance ETH Options chain: expiry dates, Call/Put sides, Ask/Bid, IV, and strike prices.*
+
+In Figure 2.4:
+
+- **Expiry** (`10-14`, `10-15`, etc.) is when the contract ends under its rules.
+- **Call / Put** separates the two rights.
+- **Strike** is the predetermined exercise price.
+- **Bid / Ask** are the current quotes for the option premium.
+- **IV** means implied volatility: the volatility level implied by the option price and model assumptions.
+- **Underlying price** is shown near the strike ladder; the relationship to strike helps determine whether an option is in, at, or out of the money.
+
+Option premium depends mainly on underlying price, strike, time remaining, and volatility; Greeks such as delta, gamma, theta, and vega describe sensitivity to those inputs. The [Binance Options FAQ](https://www.binance.com/en/support/faq/detail/456326b5f4cd45a296ae6e3acf262de7) explains these relationships.
+
+**Do beginners need Options? Usually no.** Learn spot, custody, order mechanics, and unleveraged risk first. Options are worth studying later if you have a specific use—such as hedging a spot holding or learning volatility—but an options chain is not a simpler prediction screen. You can lose the premium as an option buyer, and option selling introduces obligations and risk that require a complete understanding of margin and settlement.
+
+### 2.5 How Binance’s built-in Futures Grid robot works
+
+The Futures Grid is an exchange-hosted trading bot. You set rules; Binance’s system places and manages multiple futures orders on your behalf. It is not an AI that knows the future, and it is not the same as writing your own robot with an API. The bot still trades a leveraged derivative, so its losses can include fees, funding, adverse movement, and liquidation.
+
+![Binance Futures Grid manual setup](assets/binance/futures-grid-manual.png)
+
+*Figure 2.5 — Futures Grid manual setup: direction, price range, grid count, arithmetic mode, margin, and leverage.*
+
+![Binance Futures Grid advanced controls](assets/binance/futures-grid-advanced.png)
+
+*Figure 2.6 — Futures Grid advanced controls: margin mode, trailing up/down, grid trigger, TP/SL, and close-all-on-stop.*
+
+#### The robot’s main inputs
+
+| Field | Meaning | Beginner question |
+| --- | --- | --- |
+| **Neutral / Long / Short** | Directional grid behavior. Neutral can trade both sides within a range; Long and Short express directional exposure. | What happens if price leaves the range in the wrong direction? |
+| **Lower Price / Upper Price** | Initial boundaries of the grid. | What evidence supports this range, and where is the invalidation? |
+| **Number of Grids** | How many price intervals/orders divide the range. | Is each grid’s expected profit larger than fees, spread, and funding? |
+| **Arithmetic / Geometric** | Arithmetic uses equal absolute price gaps; geometric uses equal percentage gaps. | Does the asset’s price scale make absolute or percentage spacing more sensible? |
+| **Profit/Grid (fees deducted)** | Estimated matched profit per completed grid movement after the displayed fee assumption. | Is it still positive after real spread, funding, slippage, and partial fills? |
+| **Investment (Margin)** | Margin allocated to this bot. | What is the maximum loss I accept if the range fails? |
+| **Leverage** | Notional exposure relative to margin. | Why use leverage at all? Can the same hypothesis be tested on Spot? |
+| **Auto-Add Margin** | Adds eligible margin when the bot’s bracket changes under the product rules. | Could this silently commit more capital than intended? |
+| **Est. Liquidation Price** | An estimate based on current settings and assumptions. | How far is it from the range, and can a gap reach it? |
+| **Cross / Isolated** | Whether margin is shared across positions or assigned more narrowly. | Which balance is exposed if this bot fails? |
+| **Grid Trigger** | Delays activation until a trigger condition/price. | What happens if price never reaches it? |
+| **TP/SL** | Take-profit and stop-loss controls for the strategy. | Which price source and quantity do they use? |
+| **Trailing Up / Down** | Moves the grid range upward/downward as price trends, subject to limits and product rules. | When does following price become buying high or selling low? |
+| **Close all positions on stop** | Attempts to close positions when the bot stop condition is reached. | What happens with slippage, a halted market, or insufficient liquidity? |
+
+A normal grid assumes price will oscillate through a range. A strong one-way move can leave the bot holding a losing leveraged position. Binance’s documentation describes Futures Grid as a tool for preset orders and explains that trailing functions adjust the range; it also warns that trailing up can run into maximum-notional limits. Read the [Futures Grid AI/parameter guide](https://www.binance.com/en/support/faq/detail/647b0dba72d145219688b04aa51405fc), [margin-mode guide](https://www.binance.com/en/support/faq/detail/7e5f04b86f124776bb1c784973769ade), and [trailing guide](https://www.binance.com/en-AU/support/faq/detail/7a7bb22420404385991dee3a0930207d).
+
+Before using a bot, reproduce its order logic in a spreadsheet or paper simulator. Include fees, funding, liquidation, price gaps, unfilled orders, range breakouts, and the possibility that “profit/grid” is only a matched-order estimate rather than a portfolio return.
 
 ### 2.6 What a CEX cannot promise
 
-A CEX cannot promise that a market order fills at the number on your chart, that a stop-limit exits during a gap, that a displayed order-book wall is real support, or that a yield product preserves principal. It also cannot remove the risk of phishing, API-key leakage, account takeover, or a chain/network mistake. Convenience is not certainty.
-
----
+A CEX cannot promise that a market order fills at the number on your chart, that a stop-limit exits during a gap, that a displayed order-book wall remains, that a grid bot profits outside its assumptions, or that an options premium will retain value. It also cannot remove phishing, API-key leakage, account takeover, or network mistakes. Convenience is not certainty.
 
 ## 3. Foundations: reading K-lines and market structure
 
