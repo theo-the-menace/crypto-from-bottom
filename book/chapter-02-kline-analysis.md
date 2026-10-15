@@ -59,11 +59,13 @@ Indicators transform price, volume, or derivatives data into another view. They 
 
 A moving average replaces many closing prices with one smoother reference line. The number of periods tells you how many candles are used. For example, a 20-period average on a 1-hour BTC chart uses the most recent 20 hourly closes, so it summarizes roughly the last 20 hours.
 
-**SMA** means **Simple Moving Average**. It adds the closing prices in the selected period and divides by the number of candles. If the last three BTC closes are 82,000, 83,000, and 84,000 USDT, the 3-period SMA is `(82,000 + 83,000 + 84,000) / 3 = 83,000 USDT`. Every candle has the same weight, so an old close remains just as influential as the newest close until it leaves the window.
-
-**EMA** means **Exponential Moving Average**. It also uses past closing prices, but it gives more weight to recent candles and gradually less weight to older ones. That makes an EMA respond faster when BTC changes direction. The trade-off is that it can react more strongly to short-term noise and produce more false turns. You normally do not calculate an EMA by hand; the charting platform applies the formula using the selected period and the previous EMA value.
+**SMA** means **Simple Moving Average**: add the closing prices in the selected number of candles and divide by that number. Every candle counts equally. **EMA** means **Exponential Moving Average**: it also averages recent closes, but gives the newest candles more influence, so it reacts faster. EMA can turn sooner, but it can also react to noise sooner. In practice, the chart calculates both for you.
 
 Traders use SMA and EMA to smooth noise, describe direction, and identify a moving reference for pullbacks. Price above a rising average can support a bullish context; price below a falling average can support a bearish context. A shorter average reacts faster, while a longer average gives a slower view of the broader trend. Crossovers are delayed signals and can lose repeatedly in a sideways market; they are context, not automatic buy or sell commands.
+
+![BTC moving-average example with MA(7), MA(25), and MA(99)](assets/ma-btcusd-example.svg)
+
+The Binance screenshot shows **MA(7), MA(25), and MA(99)**. The number is the lookback length: on a 15-minute chart, MA(7) summarizes roughly the last 105 minutes, MA(25) roughly the last 6 hours 15 minutes, and MA(99) roughly the last 24 hours 45 minutes. MA(7) follows short-term price changes closely; MA(25) gives a medium-term view; MA(99) changes slowly and helps show the broader intraday direction. The chart may be using SMA or EMA depending on its settings, so check the indicator name before comparing it with another chart. If the shorter lines move above the longer lines and all slope upward, that can support a bullish context. If they stack below longer lines and slope downward, it can support a bearish context. This is a reference, not a guarantee: the lines lag price and can cross back and forth in a range.
 
 #### Bollinger Bands
 
