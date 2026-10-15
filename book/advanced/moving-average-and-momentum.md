@@ -16,6 +16,8 @@ A moving average takes the closing prices from a chosen number of candles and tu
 
 The chart calculates both for us. Before comparing two charts, check whether each one uses SMA or EMA; a line with the same period can behave differently under the two methods.
 
+For further reading, see Binance Academy’s [Moving Averages Explained](https://www.binance.com/en/academy/articles/moving-averages-explained/) and this [SMA versus EMA reference](https://altfins.com/knowledge-base/sma-vs-ema/). Treat outside examples as explanations of a tool, not as trading signals.
+
 ### 1.2 What MA(7), MA(25), and MA(99) mean
 
 The number in an MA is a **lookback length**, not a rating or a confidence score. In the Binance 15-minute example:
@@ -60,6 +62,20 @@ The following Binance-style MACD panel uses the names **DIF**, **DEA**, and **MA
 
 ![Bitcoin MACD with DIF, DEA, and histogram](../assets/btc-macd-dif-dea.png)
 
+### 4.1 Why MACD looks different in different regions
+
+The word **MACD** is used differently by different charting platforms. In many Chinese-language apps, the panel is presented as **DIF** (the fast line), **DEA** (the signal line), and **MACD柱** (the red/green histogram). In many international platforms, **MACD** usually means the fast-minus-slow line, while **Signal** means its smoothed line and **Histogram** means the gap between them.
+
+| Label often seen in Chinese apps | Label often seen in international apps | Meaning |
+| --- | --- | --- |
+| DIF | MACD line | Fast EMA minus slow EMA, often EMA(12) − EMA(26) |
+| DEA | Signal line | A smoothing EMA of the DIF/MACD line, often 9 periods |
+| MACD柱 | Histogram | The distance between DIF and DEA |
+
+There is one more source of confusion: some Chinese chart packages display the histogram as `DIF − DEA`, while others display `2 × (DIF − DEA)`. Colors can also be assigned differently, and some platforms calculate from a different price source or use non-standard periods. Therefore, do not identify a line by color or by the word “MACD” alone. Open the indicator settings, check the formula and periods, and compare the displayed values. In the supplied image, `DIF: 248.7`, `DEA: 857.1`, and `MACD: −608.5` are consistent with a histogram close to `DIF − DEA`; the exact display convention belongs to that app.
+
+For standard terminology, compare the platform’s documentation with TradingView’s [MACD explanation](https://www.tradingview.com/support/solutions/43000502344-macd-moving-average-convergence-divergence/) and Binance Academy’s [MACD guide](https://www.binance.com/en/academy/articles/macd-indicator). The calculation matters more than the translation.
+
 ### 4.1 How traders read MACD
 
 A MACD line crossing above the signal line can support a bullish momentum hypothesis. A cross below can support a bearish hypothesis. A histogram that keeps growing can support continuation; a histogram that shrinks while price keeps rising can warn that momentum is slowing.
@@ -98,3 +114,10 @@ Do not count EMA, SMA, a moving-average crossover, and MACD as four independent 
 Before trusting an MA or MACD signal, state the market regime, the timeframe, the price structure, and the condition that would invalidate the idea. Decide whether the tool is being used as a trend filter, a pullback reference, a momentum warning, or an exit rule. Keep the position small enough that a late or false signal does not force an emotional decision.
 
 The advanced skill is not memorizing a special crossover or finding a perfect setting. It is knowing what the calculation measures, what information it repeats, when it tends to fail, and how to combine it with a clear risk plan.
+
+## References and further reading
+
+- [Moving Averages Explained — Binance Academy](https://www.binance.com/en/academy/articles/moving-averages-explained/)
+- [MACD Indicator — Binance Academy](https://www.binance.com/en/academy/articles/macd-indicator)
+- [MACD: Moving Average Convergence Divergence — TradingView](https://www.tradingview.com/support/solutions/43000502344-macd-moving-average-convergence-divergence/)
+- [SMA versus EMA — Altfins](https://altfins.com/knowledge-base/sma-vs-ema/)
