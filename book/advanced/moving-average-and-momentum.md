@@ -56,19 +56,35 @@ If the MACD line is above the signal line, recent momentum is stronger than its 
 
 ![MACD explained](../assets/macd-explained.svg)
 
+The following Binance-style MACD panel uses the names **DIF**, **DEA**, and **MACD** that appear in some charting apps. DIF is the MACD line, DEA is the signal line, and the green or red bars are the histogram. The labels are different, but the ideas are the same as MACD line, signal line, and histogram described above.
+
+![Bitcoin MACD with DIF, DEA, and histogram](../assets/btc-macd-dif-dea.png)
+
 ### 4.1 How traders read MACD
 
 A MACD line crossing above the signal line can support a bullish momentum hypothesis. A cross below can support a bearish hypothesis. A histogram that keeps growing can support continuation; a histogram that shrinks while price keeps rising can warn that momentum is slowing.
 
 MACD divergence compares price swings with MACD swings. If price makes a higher high but MACD makes a lower high, bullish momentum may be weakening. If price makes a lower low but MACD makes a higher low, selling momentum may be weakening. Divergence is a warning to investigate, not a command to reverse. Strong trends can produce several divergences before price turns.
 
-## 5. Combining the evidence
+## 5. Reading the supplied BTC examples
+
+The MA example shows three lines on a 15-minute BTCUSD CM chart. The yellow MA(7) follows candles most closely, the pink MA(25) moves more slowly, and the purple MA(99) gives the broadest view in that screenshot. Price spends much of the right side below the longer purple line, while the shorter lines flatten and move close together. That combination describes weakening short-term momentum and a lack of clean trend continuation; it does not prove that the next candle must fall.
+
+![BTC moving-average example](../assets/ma-btcusd-example.png)
+
+The MACD example shows DIF and DEA moving down toward and below the zero line. Red histogram bars appear when the MACD line is below the signal line, while green bars appear when it is above. Notice that the lines and bars change after price has already moved: MACD is useful for describing momentum confirmation and weakening, but it is delayed. The chart should be read with the price structure and timeframe beside it.
+
+![BTC MACD DIF/DEA example](../assets/btc-macd-dif-dea.png)
+
+These examples support a careful reading: first identify the trend or range from price, then use the MA and MACD panels to ask whether momentum agrees, weakens, or conflicts. Do not treat a colored line or histogram bar as an independent prediction.
+
+## 6. Combining the evidence
 
 A sensible reading might look like this: the daily chart has HH/HL structure, the 4-hour chart holds above a rising MA(25), volume expands at a breakout, and MACD turns upward after a pullback. Together these observations form a bullish hypothesis. They still do not specify an entry, stop, size, or exit; those must be defined separately.
 
 Do not count EMA, SMA, a moving-average crossover, and MACD as four independent confirmations. They are all heavily derived from the same price data. More lines can make a chart look certain without adding new information. Price structure, volume, volatility, and higher-timeframe context provide different kinds of evidence.
 
-## 6. Common misunderstandings
+## 7. Common misunderstandings
 
 - **“A golden cross means BTC must rise.”** It means the recent average has moved above the longer average, usually after a move has already started.
 - **“A death cross means shorting is safe.”** It can arrive late and fail during a range or a sudden recovery.
@@ -77,7 +93,7 @@ Do not count EMA, SMA, a moving-average crossover, and MACD as four independent 
 - **“A line touching an MA is guaranteed support.”** A moving average is a reference zone; it can fail with news, liquidation, or thin liquidity.
 - **“More indicators mean more certainty.”** Several indicators may simply repeat the same price information.
 
-## 7. A disciplined way to use these tools
+## 8. A disciplined way to use these tools
 
 Before trusting an MA or MACD signal, state the market regime, the timeframe, the price structure, and the condition that would invalidate the idea. Decide whether the tool is being used as a trend filter, a pullback reference, a momentum warning, or an exit rule. Keep the position small enough that a late or false signal does not force an emotional decision.
 
