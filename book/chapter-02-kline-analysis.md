@@ -65,11 +65,18 @@ A **moving average (MA)** is a line that smooths recent closing prices. **SMA** 
 
 Moving averages can help us see direction, pullback areas, and whether short-term price is stronger or weaker than the broader trend. They lag price and can cross repeatedly in a sideways market, so they are reference lines rather than automatic buy or sell signals. For the detailed explanation of SMA, EMA, MA periods, crossovers, MACD, and related momentum tools, read [Advanced — Moving-average and momentum tools](advanced/moving-average-and-momentum.md).
 
-At a glance, **BOLL** (Bollinger Bands) shows volatility around an average; **SAR** (Parabolic Stop and Reverse) places a trend-following stop reference; **AVL** and **SUPER** are platform-specific or composite trend tools whose exact formulas must be checked in the settings. **RSI**, **KDJ**, **WR**, and **StochRSI** are momentum oscillators; they overlap heavily, so beginners usually need only RSI. **ATR** measures typical movement for risk planning. **OBV** combines direction and volume, while **VOL** is the raw volume panel. VWAP and volume profile also describe participation and traded price areas.
+For beginners, start with a small set that answers different questions. **VOL is important, but it is not the only important tool**: MA/EMA describe trend, RSI or MACD describe momentum, and ATR helps plan risk.
 
-For perpetual futures, **O.I.** means open interest: the amount of outstanding contracts. **L.S Ratio** compares long and short positioning, while **L.S Account** and **L.S Position** usually separate the number of accounts from the size of positions; the exact Binance calculation and sample can differ. **B.S Vol** means buy/sell volume or an aggressive buyer-versus-seller volume estimate, depending on the product. **Basis** is the difference between futures and spot prices. These data panels are useful for studying leverage and crowding, but they are not direct predictions. Several indicators can agree because they often use the same candles, so more lines do not automatically mean more independent evidence.
+| Indicator | What it helps you see | Beginner use |
+| --- | --- | --- |
+| **MA / EMA** | The general direction of price after smoothing short-term noise. | Check whether BTC is broadly rising, falling, or moving sideways. |
+| **RSI** | Whether recent upward or downward movement has been stronger. | Spot strong momentum and possible divergence; do not sell only because RSI is high. |
+| **MACD** | Whether momentum is strengthening or weakening through moving-average relationships. | Check momentum changes together with price structure; it can give false signals in ranges. |
+| **VOL** | How much was traded during each candle. | Ask whether a breakout or reversal attracted real participation. |
+| **ATR** | How large recent BTC moves usually are. | Choose a realistic stop distance and position size; ATR does not show direction. |
+| **BOLL** | Whether volatility is expanding or contracting around an average. | Understand quiet periods and sudden expansion; a band touch is not an automatic reversal. |
 
-The detailed guide to selecting and combining these tools is in [Advanced — Combining price, volume, and indicators](advanced/combining-indicators.md).
+These tools answer different questions, but they are all derived from market data and can still be wrong. A practical beginner chart is **price structure + MA/EMA + RSI or MACD + VOL + ATR**. The full indicator reference, including optional and futures-specific tools, is in [Advanced — Combining price, volume, and indicators](advanced/combining-indicators.md).
 
 #### Volume: did the move attract participation?
 

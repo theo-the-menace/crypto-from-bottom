@@ -16,6 +16,32 @@ The menu contains more tools than a beginner needs. Use this order when deciding
 
 The short list is not a ranking of profitable signals. It is a learning order that reduces duplicated information and makes it easier to understand why a decision was made.
 
+
+## Full indicator reference
+
+The table below explains the indicators shown in the Binance-style menu. Use it as a reference after you understand the smaller beginner set in Chapter 2.
+
+| Indicator | What it measures | When it is useful | Priority and main limit |
+| --- | --- | --- | --- |
+| **MA / EMA** | A smoothed average of recent closing prices. EMA reacts faster because it weights recent candles more. | Describing trend direction, pullback zones, and fast/slow alignment. | **Core.** It lags and gives false crosses in ranges. |
+| **BOLL (Bollinger Bands)** | A moving average with upper and lower bands that expand and contract with volatility. | Seeing volatility contraction, expansion, and unusually large moves. | **Useful.** A band touch is not automatically a reversal. |
+| **SAR (Parabolic Stop and Reverse)** | Dots that follow a trend and suggest a possible trailing stop or reversal point. | A simple trend-following exit in a clearly moving market. | **Optional.** It flips repeatedly in sideways markets. |
+| **AVL / SUPER** | Platform-specific or composite trend tools; the exact formula depends on the app. | Only after reading the settings and testing the tool. | **Optional.** Do not infer meaning from the name alone. |
+| **MACD** | The gap between fast and slow EMAs, its signal average, and a histogram of their difference. | Studying momentum acceleration, weakening, crossovers, zero-line behavior, and divergence. | **Core momentum tool.** It is derived from price and lags. |
+| **RSI** | Recent upward movement compared with recent downward movement on a 0–100 scale. | Comparing momentum, spotting extreme movement, and studying divergence. | **Core momentum tool.** “Overbought” can stay high in a strong trend. |
+| **KDJ** | A stochastic oscillator using the recent high-low range, with K, D, and J lines. | Short-term momentum and range analysis. | **Optional.** It overlaps with RSI. |
+| **WR (Williams %R)** | Where the latest close sits within its recent high-low range. | Range-bound momentum and possible short-term exhaustion. | **Optional.** It is closely related to stochastic oscillators. |
+| **StochRSI** | Applies a stochastic calculation to RSI instead of directly to price. | Finding very short-term momentum turns. | **Optional and noisy.** It can over-signal. |
+| **ATR** | The typical size of recent price movement, without saying up or down. | Choosing stop distance, position size, and understanding volatility. | **Core risk tool.** It measures movement, not direction. |
+| **VOL** | The amount traded during each candle on the selected venue. | Checking whether a breakout or move attracted participation. | **Core confirmation tool.** It does not reveal intent by itself. |
+| **OBV** | A running volume total that adds volume on up closes and subtracts it on down closes. | Looking for volume flow that confirms or conflicts with price direction. | **Useful supplement.** It depends on close direction and venue data. |
+| **VWAP / Volume Profile** | VWAP estimates volume-weighted average price; volume profile groups activity by price. | Finding average execution references and high-activity price zones. | **Useful for context.** Settings and session boundaries matter. |
+| **O.I. (Open Interest)** | The amount of outstanding futures contracts. | Seeing whether leverage is entering or leaving the market. | **Advanced futures data.** It does not reveal long or short direction alone. |
+| **L.S Ratio** | A platform-defined comparison of long and short accounts or positions. | Studying crowding and positioning when the calculation is understood. | **Advanced.** Formula and sample can differ. |
+| **L.S Account / L.S Position** | Usually separates the number of long/short accounts from the size of their positions. | Comparing participation breadth with position concentration. | **Advanced.** Labels vary across platforms. |
+| **B.S Vol.** | A buy-versus-sell volume estimate, often based on aggressive trades. | Studying short-term order-flow pressure. | **Advanced.** Classification is venue-specific. |
+| **Basis** | The difference between a futures price and the corresponding spot price. | Studying futures premium/discount and market expectations. | **Advanced futures data.** It changes with expiry, funding, and liquidity. |
+
 ## 1. Start with price structure
 
 Begin with the candles before opening the indicator panels. Mark the meaningful swing highs and lows, support and resistance zones, and the current regime: trend, range, or transition. A long setup has a different meaning in an established HH/HL uptrend than it does in the middle of a range.
