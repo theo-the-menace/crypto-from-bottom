@@ -207,57 +207,7 @@ Binance documents conditional orders as a category containing stop-limit, stop-m
 
 A beginner should first understand **limit, market, and one explicit stop rule** in paper trading. Post Only, conditional, trailing, and scaled orders are execution tools—not independent strategies. If you cannot explain what happens when the trigger gaps through your price, do not rely on that order to protect you.
 
-### 2.4 What does the Options tab mean, and do you need it?
-
-The Options tab is a derivatives market. A **call** gives the buyer the right, but not the obligation, to buy the underlying at a **strike** by/at an **expiry**. A **put** gives the buyer the right to sell. The buyer pays a **premium**; the seller receives premium but takes potentially substantial obligations under the contract. Unlike a future, an option has a right/obligation asymmetry and expires.
-
-![Binance Options chain](assets/binance/options-chain.png)
-
-*Figure 2.4 — Binance ETH Options chain: expiry dates, Call/Put sides, Ask/Bid, IV, and strike prices.*
-
-In Figure 2.4:
-
-- **Expiry** (`10-14`, `10-15`, etc.) is when the contract ends under its rules.
-- **Call / Put** separates the two rights.
-- **Strike** is the predetermined exercise price.
-- **Bid / Ask** are the current quotes for the option premium.
-- **IV** means implied volatility: the volatility level implied by the option price and model assumptions.
-- **Underlying price** is shown near the strike ladder; the relationship to strike helps determine whether an option is in, at, or out of the money.
-
-Option premium depends mainly on underlying price, strike, time remaining, and volatility; Greeks such as delta, gamma, theta, and vega describe sensitivity to those inputs. The [Binance Options FAQ](https://www.binance.com/en/support/faq/detail/456326b5f4cd45a296ae6e3acf262de7) explains these relationships.
-
-**Do beginners need Options? Usually no.** Learn spot, custody, order mechanics, and unleveraged risk first. Options are worth studying later if you have a specific use—such as hedging a spot holding or learning volatility—but an options chain is not a simpler prediction screen. You can lose the premium as an option buyer, and option selling introduces obligations and risk that require a complete understanding of margin and settlement.
-
-### 2.5 How Binance’s built-in Futures Grid robot works
-
-The Futures Grid is an exchange-hosted trading bot. You set rules; Binance’s system places and manages multiple futures orders on your behalf. It is not an AI that knows the future, and it is not the same as writing your own robot with an API. The bot still trades a leveraged derivative, so its losses can include fees, funding, adverse movement, and liquidation.
-
-*BTC example — the Futures Grid setup uses the same fields: direction, price range, grid count, arithmetic mode, margin, leverage, margin mode, trailing up/down, grid trigger, TP/SL, and close-all-on-stop.*
-
-#### The robot’s main inputs
-
-| Field | Meaning | Beginner question |
-| --- | --- | --- |
-| **Neutral / Long / Short** | Directional grid behavior. Neutral can trade both sides within a range; Long and Short express directional exposure. | What happens if price leaves the range in the wrong direction? |
-| **Lower Price / Upper Price** | Initial boundaries of the grid. | What evidence supports this range, and where is the invalidation? |
-| **Number of Grids** | How many price intervals/orders divide the range. | Is each grid’s expected profit larger than fees, spread, and funding? |
-| **Arithmetic / Geometric** | Arithmetic uses equal absolute price gaps; geometric uses equal percentage gaps. | Does the asset’s price scale make absolute or percentage spacing more sensible? |
-| **Profit/Grid (fees deducted)** | Estimated matched profit per completed grid movement after the displayed fee assumption. | Is it still positive after real spread, funding, slippage, and partial fills? |
-| **Investment (Margin)** | Margin allocated to this bot. | What is the maximum loss I accept if the range fails? |
-| **Leverage** | Notional exposure relative to margin. | Why use leverage at all? Can the same hypothesis be tested on Spot? |
-| **Auto-Add Margin** | Adds eligible margin when the bot’s bracket changes under the product rules. | Could this silently commit more capital than intended? |
-| **Est. Liquidation Price** | An estimate based on current settings and assumptions. | How far is it from the range, and can a gap reach it? |
-| **Cross / Isolated** | Whether margin is shared across positions or assigned more narrowly. | Which balance is exposed if this bot fails? |
-| **Grid Trigger** | Delays activation until a trigger condition/price. | What happens if price never reaches it? |
-| **TP/SL** | Take-profit and stop-loss controls for the strategy. | Which price source and quantity do they use? |
-| **Trailing Up / Down** | Moves the grid range upward/downward as price trends, subject to limits and product rules. | When does following price become buying high or selling low? |
-| **Close all positions on stop** | Attempts to close positions when the bot stop condition is reached. | What happens with slippage, a halted market, or insufficient liquidity? |
-
-A normal grid assumes price will oscillate through a range. A strong one-way move can leave the bot holding a losing leveraged position. Binance’s documentation describes Futures Grid as a tool for preset orders and explains that trailing functions adjust the range; it also warns that trailing up can run into maximum-notional limits. Read the [Futures Grid AI/parameter guide](https://www.binance.com/en/support/faq/detail/647b0dba72d145219688b04aa51405fc), [margin-mode guide](https://www.binance.com/en/support/faq/detail/7e5f04b86f124776bb1c784973769ade), and [trailing guide](https://www.binance.com/en-AU/support/faq/detail/7a7bb22420404385991dee3a0930207d).
-
-Before using a bot, reproduce its order logic in a spreadsheet or paper simulator. Include fees, funding, liquidation, price gaps, unfilled orders, range breakouts, and the possibility that “profit/grid” is only a matched-order estimate rather than a portfolio return.
-
-### 2.6 What a CEX cannot promise
+### 2.4 What a CEX cannot promise
 
 A CEX cannot promise that a market order fills at the number on your chart, that a stop-limit exits during a gap, that a displayed order-book wall remains, that a grid bot profits outside its assumptions, or that an options premium will retain value. It also cannot remove phishing, API-key leakage, account takeover, or network mistakes. Convenience is not certainty.
 
