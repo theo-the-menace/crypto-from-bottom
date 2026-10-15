@@ -2,6 +2,20 @@
 
 Chapter 2 introduced each indicator separately. This article explains how to read them together without counting the same price movement several times. The goal is not to find a chart where every line points in the same direction. The goal is to form a conditional hypothesis, identify what would confirm it, and define what would invalidate it.
 
+## Indicator priority
+
+The menu contains more tools than a beginner needs. Use this order when deciding what deserves attention:
+
+| Priority | Tools | Why |
+| --- | --- | --- |
+| Start here | Price structure, MA/EMA, volume, ATR | They answer direction, participation, and risk questions with relatively clear interpretations. |
+| Add for momentum | MACD or RSI | They describe acceleration or weakening; choose one first because they overlap. |
+| Add for a specific use | Bollinger Bands, VWAP, OBV, open interest, funding, basis | Useful when volatility, execution, volume flow, or futures positioning is the question. |
+| Usually optional | SAR, KDJ, Williams %R, StochRSI | They can help a tested method, but they largely repeat trend or momentum information. |
+| Check the formula first | AVL, SUPER, L.S Account, L.S Position, L.S Ratio, B.S Vol | Names and calculations vary by platform, market, and data sample. |
+
+The short list is not a ranking of profitable signals. It is a learning order that reduces duplicated information and makes it easier to understand why a decision was made.
+
 ## 1. Start with price structure
 
 Begin with the candles before opening the indicator panels. Mark the meaningful swing highs and lows, support and resistance zones, and the current regime: trend, range, or transition. A long setup has a different meaning in an established HH/HL uptrend than it does in the middle of a range.

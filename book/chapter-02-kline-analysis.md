@@ -55,13 +55,21 @@ A lower timeframe gives more entries and more noise, fees, and false signals. A 
 
 Indicators are calculations made from price, volume, or derivatives data. They help us organize evidence, but they cannot predict the market by themselves.
 
+![Binance indicator menu](assets/indicators-menu.svg)
+
+The menu groups indicators by purpose. You do not need to add every item to one chart. Start with a small set that answers different questions: trend, momentum, volatility, participation, and—only when using futures—positioning.
+
 A **moving average (MA)** is a line that smooths recent closing prices. **SMA** gives each candle equal weight; **EMA** gives newer candles more weight and reacts faster. In the Binance chart below, **MA(7)** follows the short-term movement, **MA(25)** shows a medium-term view, and **MA(99)** shows a slower, broader view. On a 15-minute chart, they cover about 105 minutes, 6 hours 15 minutes, and 24 hours 45 minutes respectively.
 
 ![BTC moving-average example with MA(7), MA(25), and MA(99)](assets/ma-btcusd-example.png)
 
 Moving averages can help us see direction, pullback areas, and whether short-term price is stronger or weaker than the broader trend. They lag price and can cross repeatedly in a sideways market, so they are reference lines rather than automatic buy or sell signals. For the detailed explanation of SMA, EMA, MA periods, crossovers, MACD, and related momentum tools, read [Advanced — Moving-average and momentum tools](advanced/moving-average-and-momentum.md).
 
-At a glance, other common indicators include Bollinger Bands for volatility, RSI for momentum, ATR for typical movement and risk planning, volume and VWAP for participation and average traded price, and open interest, funding, and basis for perpetual-futures positioning. Several indicators can agree because they often use the same candles, so more lines do not automatically mean more independent evidence.
+At a glance, **BOLL** (Bollinger Bands) shows volatility around an average; **SAR** (Parabolic Stop and Reverse) places a trend-following stop reference; **AVL** and **SUPER** are platform-specific or composite trend tools whose exact formulas must be checked in the settings. **RSI**, **KDJ**, **WR**, and **StochRSI** are momentum oscillators; they overlap heavily, so beginners usually need only RSI. **ATR** measures typical movement for risk planning. **OBV** combines direction and volume, while **VOL** is the raw volume panel. VWAP and volume profile also describe participation and traded price areas.
+
+For perpetual futures, **O.I.** means open interest: the amount of outstanding contracts. **L.S Ratio** compares long and short positioning, while **L.S Account** and **L.S Position** usually separate the number of accounts from the size of positions; the exact Binance calculation and sample can differ. **B.S Vol** means buy/sell volume or an aggressive buyer-versus-seller volume estimate, depending on the product. **Basis** is the difference between futures and spot prices. These data panels are useful for studying leverage and crowding, but they are not direct predictions. Several indicators can agree because they often use the same candles, so more lines do not automatically mean more independent evidence.
+
+The detailed guide to selecting and combining these tools is in [Advanced — Combining price, volume, and indicators](advanced/combining-indicators.md).
 
 #### Volume: did the move attract participation?
 
