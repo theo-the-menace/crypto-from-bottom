@@ -92,23 +92,63 @@ There is one more source of confusion: some Chinese chart packages display the h
 
 For standard terminology, compare the platform’s documentation with TradingView’s [MACD explanation](https://www.tradingview.com/support/solutions/43000502344-macd-moving-average-convergence-divergence/) and Binance Academy’s [MACD guide](https://www.binance.com/en/academy/articles/macd-indicator). The calculation matters more than the translation.
 
-### 4.1 How traders read MACD
+### 4.2 How traders read MACD
 
 A MACD line crossing above the signal line can support a bullish momentum hypothesis. A cross below can support a bearish hypothesis. A histogram that keeps growing can support continuation; a histogram that shrinks while price keeps rising can warn that momentum is slowing.
 
 MACD divergence compares price swings with MACD swings. If price makes a higher high but MACD makes a lower high, bullish momentum may be weakening. If price makes a lower low but MACD makes a higher low, selling momentum may be weakening. Divergence is a warning to investigate, not a command to reverse. Strong trends can produce several divergences before price turns.
 
-## 5. Reading the supplied BTC examples
+## 5. Reading the BTC technical story
 
-The MA example shows three lines on a 15-minute BTCUSD CM chart. The yellow MA(7) follows candles most closely, the pink MA(25) moves more slowly, and the purple MA(99) gives the broadest view in that screenshot. Price spends much of the right side below the longer purple line, while the shorter lines flatten and move close together. That combination describes weakening short-term momentum and a lack of clean trend continuation; it does not prove that the next candle must fall.
+The two daily BTC screenshots show a useful sequence: a quiet range, a strong breakout, a weakening advance, and a possible reversal. The indicators do not tell us the future in advance. They help us describe how the move developed and what evidence changed at each stage.
 
-![BTC moving-average example](../assets/ma-btcusd-example.png)
+### Stage 1: sideways consolidation
 
-The MACD example shows DIF and DEA moving down toward and below the zero line. Red histogram bars appear when the MACD line is below the signal line, while green bars appear when it is above. Notice that the lines and bars change after price has already moved: MACD is useful for describing momentum confirmation and weakening, but it is delayed. The chart should be read with the price structure and timeframe beside it.
+At the beginning of the chart, price moves roughly between the 61,000 and 68,000 area. EMA(7), EMA(25), and EMA(99) are close together and repeatedly cross. None has a clear slope. In the MACD panel, DIF and DEA remain near the zero line, crossing back and forth, while the histogram alternates between small green and red bars.
 
-![BTC MACD DIF/DEA example](../assets/btc-macd-dif-dea.png)
+This is a range, not a clean trend. A crossover system can lose repeatedly here because every apparent direction is quickly reversed. The correct conclusion is limited: the market has not shown sustained directional commitment. It is not evidence that a breakout must happen next.
 
-These examples support a careful reading: first identify the trend or range from price, then use the MA and MACD panels to ask whether momentum agrees, weakens, or conflicts. Do not treat a colored line or histogram bar as an independent prediction.
+### Stage 2: breakout and acceleration
+
+Around 20 August, price breaks above the upper part of the range near 68,000 with strong bullish candles and reaches a high near 82,265.9. That is roughly a 21% rise from 68,000. The price move is the primary evidence; the indicators then help us describe its strength.
+
+- EMA(7), the yellow line, turns upward first because it reacts fastest.
+- EMA(25), the pink line, bends upward after it and begins to separate from the slow average.
+- EMA(99), the purple line, turns more slowly but also begins rising.
+- The averages form **bullish alignment**: `EMA(7) > EMA(25) > EMA(99)`, with all three generally rising.
+- DIF crosses above DEA, the two lines move above zero, and the histogram expands with tall green bars.
+
+The three MACD observations describe the same acceleration from different angles: a line crossover, a move above the zero line, and increasing distance between DIF and DEA. Together with the price breakout and participation, they make a stronger continuation hypothesis than any one signal alone. They still arrive after the move has started, so they are confirmation rather than a guaranteed early entry.
+
+![BTC bullish moving-average alignment](assets/btc-bull-ma-alignment.png)
+
+### Stage 3: a top and a divergence warning
+
+Near the 82,000 area, price makes another high, but the force of the advance becomes less convincing. The key observation is a **bearish divergence**: price reaches a higher high while the MACD/DIF line fails to reach a higher high. At the same time, the histogram bars begin to shrink and DIF moves closer to DEA.
+
+This says that price is still rising while measured momentum is weakening. It does not say that the top is already confirmed. A strong trend can continue after divergence. The useful response is to stop treating every new high as proof of stronger demand, then watch structure, support, and the next pullback.
+
+### Stage 4: weakening and possible reversal
+
+In the later screenshot, price has pulled back from the high. The fast EMA(7) has turned down and price has moved below it, while EMA(25) is nearby and EMA(99) is still rising. This is a weakening short-term picture, but the longer trend is not automatically broken. A decisive close below EMA(25), loss of a meaningful higher low, and failure to reclaim the level would provide stronger evidence of a structural change.
+
+The MACD numbers make the direction clear. The panel shows `DIF: 1,021.4` and `DEA: 1,807.0`. Because **1,021.4 is below 1,807.0**, DIF is below DEA: the MACD line has made a bearish crossover or remains in a bearish crossover state. The histogram is approximately:
+
+`DIF − DEA = 1,021.4 − 1,807.0 = −785.6`
+
+That negative value matches the displayed `MACD: −785.6` under this app’s convention. The negative histogram supports weakening or bearish momentum; it does not by itself prove that price must continue down. The current price shown in the screenshot is about 80,536, so descriptions such as 78,776 should not be substituted for the value actually displayed in the image.
+
+![BTC moving-average trend weakening](assets/btc-ma-trend-weakening.png)
+
+### What this story teaches
+
+1. **A range creates noisy signals.** Crosses near zero and tangled averages are common when there is no sustained trend.
+2. **A breakout is stronger when price, participation, MA alignment, and MACD momentum agree.** Agreement improves a hypothesis; it does not remove risk.
+3. **Divergence is a warning.** It tells us that momentum is no longer keeping pace with price, not that a reversal must begin immediately.
+4. **A reversal needs structure.** Price below EMA(7) is an early warning; losing EMA(25), a higher low, or a reclaimed support zone gives more information.
+5. **MACD arithmetic matters.** Always check whether DIF is above or below DEA and calculate the displayed histogram using the platform’s convention before describing it as bullish or bearish.
+
+The images are historical chart examples, not a live recommendation. Their value is that they show how a trader can update a hypothesis as the evidence changes.
 
 ## 6. Combining the evidence
 
