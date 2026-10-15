@@ -65,7 +65,7 @@ The following Binance-style MACD panel uses the names **DIF**, **DEA**, and **MA
 
 ### 4.1 Why MACD looks different in different regions
 
-The word **MACD** is used differently by different charting platforms. In many Chinese-language apps, the panel is presented as **DIF** (the fast line), **DEA** (the signal line), and **MACD柱** (the red/green histogram). In many international platforms, **MACD** usually means the fast-minus-slow line, while **Signal** means its smoothed line and **Histogram** means the gap between them.
+The word **MACD** is used differently by different charting platforms. Some regional apps present the panel as **DIF** (the fast line), **DEA** (the signal line), and **Histogram** (the red/green bars). In many international platforms, **MACD** usually means the fast-minus-slow line, while **Signal** means its smoothed line and **Histogram** means the gap between them.
 
 ![Bitcoin MACD with DIF, DEA, and histogram](../assets/btc-macd-dif-dea.png)
 
@@ -75,7 +75,7 @@ This is the Binance-style display used in the supplied screenshot. Binance’s [
 | --- | --- | --- |
 | DIF | MACD line | Fast EMA minus slow EMA, often EMA(12) − EMA(26) |
 | DEA | Signal line | A smoothing EMA of the DIF/MACD line, often 9 periods |
-| MACD柱 | Histogram | The distance between DIF and DEA |
+| Histogram bars | Histogram | The distance between DIF and DEA |
 
 There is one more source of confusion: some Chinese chart packages display the histogram as `DIF − DEA`, while others display `2 × (DIF − DEA)`. Colors can also be assigned differently, and some platforms calculate from a different price source or use non-standard periods. Therefore, do not identify a line by color or by the word “MACD” alone. Open the indicator settings, check the formula and periods, and compare the displayed values. In the supplied image, `DIF: 248.7`, `DEA: 857.1`, and `MACD: −608.5` are consistent with a histogram close to `DIF − DEA`; the exact display convention belongs to that app.
 
