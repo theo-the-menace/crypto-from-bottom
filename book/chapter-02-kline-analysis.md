@@ -51,7 +51,13 @@ Indicators transform price, volume, or derivatives data into another view. They 
 
 #### Moving averages (SMA and EMA)
 
-A moving average takes the average closing price over a chosen number of candles. A 20-period average on a 1-hour chart averages the last 20 hours. An **SMA** gives each candle equal weight; an **EMA** gives more weight to recent candles and reacts faster. Traders use them to smooth noise, describe direction, and identify a moving reference for pullbacks. Price above a rising average can support a bullish context; price below a falling average can support a bearish context. Crossovers are late and can lose repeatedly in a sideways market.
+A moving average replaces many closing prices with one smoother reference line. The number of periods tells you how many candles are used. For example, a 20-period average on a 1-hour BTC chart uses the most recent 20 hourly closes, so it summarizes roughly the last 20 hours.
+
+**SMA** means **Simple Moving Average**. It adds the closing prices in the selected period and divides by the number of candles. If the last three BTC closes are 82,000, 83,000, and 84,000 USDT, the 3-period SMA is `(82,000 + 83,000 + 84,000) / 3 = 83,000 USDT`. Every candle has the same weight, so an old close remains just as influential as the newest close until it leaves the window.
+
+**EMA** means **Exponential Moving Average**. It also uses past closing prices, but it gives more weight to recent candles and gradually less weight to older ones. That makes an EMA respond faster when BTC changes direction. The trade-off is that it can react more strongly to short-term noise and produce more false turns. You normally do not calculate an EMA by hand; the charting platform applies the formula using the selected period and the previous EMA value.
+
+Traders use SMA and EMA to smooth noise, describe direction, and identify a moving reference for pullbacks. Price above a rising average can support a bullish context; price below a falling average can support a bearish context. A shorter average reacts faster, while a longer average gives a slower view of the broader trend. Crossovers are delayed signals and can lose repeatedly in a sideways market; they are context, not automatic buy or sell commands.
 
 #### Bollinger Bands
 
