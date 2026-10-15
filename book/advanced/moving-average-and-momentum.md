@@ -30,6 +30,22 @@ A shorter MA reacts first but gives more false turns. A longer MA filters more n
 
 ![BTC moving-average example with MA(7), MA(25), and MA(99)](../assets/ma-btcusd-example.png)
 
+### 1.3 Three BTC chart examples
+
+The following examples show why the lines need to be read as a sequence rather than as isolated colors.
+
+**Bullish alignment.** In this daily BTC chart, EMA(7) is above EMA(25), and EMA(25) is above EMA(99). The three lines are generally rising, while price remains well above the slow purple line. This is a picture of strong recent momentum and a broad bullish context. It does not mean that buying at the current candle is safe: the fast yellow line can turn down first, and price can still make a sharp pullback.
+
+![BTC bullish moving-average alignment](assets/btc-bull-ma-alignment.png)
+
+**Trend weakening.** In this later daily chart, the short averages have moved closer together and begun to turn down, while the long EMA(99) is still rising. Price is losing the clean separation it had during the earlier advance. That is evidence of weakening short-term momentum, not proof of a complete reversal. A trader would now watch whether price forms a lower high, breaks a meaningful higher low, or recovers above the averages.
+
+![BTC moving-average trend weakening](assets/btc-ma-trend-weakening.png)
+
+**SMA and EMA behave differently.** This comparison uses the same BTC price history with simple and exponential averages. The EMA responds sooner to the sharp move because it gives recent candles more weight; the SMA stays smoother and turns later. The faster response can help with an early trend signal, but it can also create earlier false signals. Before comparing a line with another chart, confirm both the method and the period.
+
+![SMA and EMA comparison on Bitcoin](assets/sma-vs-ema-btc.png)
+
 ## 2. What moving averages can tell us
 
 A rising MA says that recent closes are generally higher than earlier closes in its window. A falling MA says the opposite. Price holding above a rising MA can support a bullish context; price remaining below a falling MA can support a bearish context. The MA may also act as a **dynamic support or resistance zone** when many traders are watching the same line.
