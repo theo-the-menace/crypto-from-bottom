@@ -34,6 +34,10 @@ A break of a level matters more when the candle closes beyond it, activity is me
 
 ### 1.3 Timeframes: 1m, 5m, 1h, and weeks
 
+A chart’s **interval** or **timeframe** tells the exchange how much trading time belongs in one candle. On the Binance selector below, choosing 15m means each K-line summarizes 15 minutes; choosing 1h means each K-line summarizes one hour; choosing 1d means each summarizes one day. The chart is not showing more or less truth when you change the setting—it is grouping the same market activity at a different scale.
+
+![Binance BTCUSD interval selector](assets/intervals-btcusd.svg)
+
 A 1-minute candle shows a tiny slice of trading noise. A weekly candle shows a broad shift in direction but hides many short-term reversals. Higher timeframes are not automatically more accurate, and lower timeframes are not automatically more precise; they answer different questions and carry different costs.
 
 A practical workflow is **top down**:
@@ -42,6 +46,8 @@ A practical workflow is **top down**:
 2. Use the 4-hour or 1-hour chart to study the current trend or range and form a setup.
 3. Use the 15-minute or 5-minute chart to plan execution if your strategy needs that detail.
 4. Use the 1-minute chart only when your tested method genuinely depends on very short-term execution.
+
+There is no universally best timeframe. Match it to the job: weekly and daily charts for broad direction and major levels, 4-hour and 1-hour charts for setups, and 15-minute or 5-minute charts for execution. A lower timeframe gives more apparent precision but also more noise, false signals, fees, and decisions. A higher timeframe gives a slower, wider view and may require a wider stop. Many beginners do better by making the higher timeframe decide the context and using a lower timeframe only to improve the entry.
 
 A lower timeframe gives more entries and more noise, fees, and false signals. A higher timeframe gives fewer decisions and wider stops. Choose the timeframe that fits your holding period, available attention, capital, and trading costs.
 
