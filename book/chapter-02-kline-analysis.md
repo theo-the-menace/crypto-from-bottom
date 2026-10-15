@@ -53,9 +53,15 @@ A lower timeframe gives more entries and more noise, fees, and false signals. A 
 
 ### 1.4 Indicators: the colored lines and panels
 
-Indicators are calculations based on price, volume, or derivatives data. They help organize evidence, but they do not predict the market by themselves. Start with one trend tool, one volatility tool, and volume. The detailed guide is in [Chapter 4 — Moving-average and momentum tools](chapter-04-moving-average-advanced.md).
+Indicators are calculations made from price, volume, or derivatives data. They help us organize evidence, but they cannot predict the market by themselves.
 
-At a glance: moving averages smooth trend; Bollinger Bands show volatility around an average; RSI measures recent momentum on a 0–100 scale; MACD compares moving averages to study momentum; ATR estimates typical movement for risk planning; volume and VWAP describe participation and average traded price; open interest, funding, and basis describe perpetual-futures positioning. These tools can agree because they often use the same underlying candles, so several signals do not automatically mean several independent confirmations.
+A **moving average (MA)** is a line that smooths recent closing prices. **SMA** gives each candle equal weight; **EMA** gives newer candles more weight and reacts faster. In the Binance chart below, **MA(7)** follows the short-term movement, **MA(25)** shows a medium-term view, and **MA(99)** shows a slower, broader view. On a 15-minute chart, they cover about 105 minutes, 6 hours 15 minutes, and 24 hours 45 minutes respectively.
+
+![BTC moving-average example with MA(7), MA(25), and MA(99)](assets/ma-btcusd-example.png)
+
+Moving averages can help us see direction, pullback areas, and whether short-term price is stronger or weaker than the broader trend. They lag price and can cross repeatedly in a sideways market, so they are reference lines rather than automatic buy or sell signals. For the detailed explanation of SMA, EMA, MA periods, crossovers, MACD, and related momentum tools, read [Advanced — Moving-average and momentum tools](advanced/moving-average-and-momentum.md).
+
+At a glance, other common indicators include Bollinger Bands for volatility, RSI for momentum, ATR for typical movement and risk planning, volume and VWAP for participation and average traded price, and open interest, funding, and basis for perpetual-futures positioning. Several indicators can agree because they often use the same candles, so more lines do not automatically mean more independent evidence.
 
 ![Bullish and bearish divergence](assets/divergence.svg)
 

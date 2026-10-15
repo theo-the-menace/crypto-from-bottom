@@ -1,4 +1,4 @@
-# Chapter 4 — Moving-average and momentum tools
+# Advanced — Moving-average and momentum tools
 
 Chapter 2 introduced indicators as summaries of market data. This advanced chapter studies how moving averages, crossovers, MACD, and related momentum signals are used together. None of them is a prediction machine; each is a delayed view of what price has already done.
 
