@@ -36,7 +36,7 @@ A break of a level matters more when the candle closes beyond it, activity is me
 
 A chart’s **interval** or **timeframe** tells the exchange how much trading time belongs in one candle. On the Binance selector below, choosing 15m means each K-line summarizes 15 minutes; choosing 1h means each K-line summarizes one hour; choosing 1d means each summarizes one day. The chart is not showing more or less truth when you change the setting—it is grouping the same market activity at a different scale.
 
-![Binance BTCUSD interval selector](assets/intervals-btcusd.svg)
+![Binance BTCUSD interval selector](assets/intervals-btcusd.png)
 
 A 1-minute candle shows a tiny slice of trading noise. A weekly candle shows a broad shift in direction but hides many short-term reversals. Higher timeframes are not automatically more accurate, and lower timeframes are not automatically more precise; they answer different questions and carry different costs.
 
@@ -53,55 +53,9 @@ A lower timeframe gives more entries and more noise, fees, and false signals. A 
 
 ### 1.4 Indicators: the colored lines and panels
 
-Indicators transform price, volume, or derivatives data into another view. They are calculators, not independent observers: most use the same candles you already see. Use them to answer a question, not to decorate a chart. The most useful beginner set is explained below.
+Indicators are calculations based on price, volume, or derivatives data. They help organize evidence, but they do not predict the market by themselves. Start with one trend tool, one volatility tool, and volume. The detailed guide is in [Chapter 4 — Moving-average and momentum tools](chapter-04-moving-average-advanced.md).
 
-#### Moving averages (SMA and EMA)
-
-A moving average replaces many closing prices with one smoother reference line. The number of periods tells you how many candles are used. For example, a 20-period average on a 1-hour BTC chart uses the most recent 20 hourly closes, so it summarizes roughly the last 20 hours.
-
-**SMA** means **Simple Moving Average**: add the closing prices in the selected number of candles and divide by that number. Every candle counts equally. **EMA** means **Exponential Moving Average**: it also averages recent closes, but gives the newest candles more influence, so it reacts faster. EMA can turn sooner, but it can also react to noise sooner. In practice, the chart calculates both for you.
-
-Traders use SMA and EMA to smooth noise, describe direction, and identify a moving reference for pullbacks. Price above a rising average can support a bullish context; price below a falling average can support a bearish context. A shorter average reacts faster, while a longer average gives a slower view of the broader trend. Crossovers are delayed signals and can lose repeatedly in a sideways market; they are context, not automatic buy or sell commands.
-
-![BTC moving-average example with MA(7), MA(25), and MA(99)](assets/ma-btcusd-example.svg)
-
-The Binance screenshot shows **MA(7), MA(25), and MA(99)**. The number is the lookback length: on a 15-minute chart, MA(7) summarizes roughly the last 105 minutes, MA(25) roughly the last 6 hours 15 minutes, and MA(99) roughly the last 24 hours 45 minutes. MA(7) follows short-term price changes closely; MA(25) gives a medium-term view; MA(99) changes slowly and helps show the broader intraday direction. The chart may be using SMA or EMA depending on its settings, so check the indicator name before comparing it with another chart. If the shorter lines move above the longer lines and all slope upward, that can support a bullish context. If they stack below longer lines and slope downward, it can support a bearish context. This is a reference, not a guarantee: the lines lag price and can cross back and forth in a range.
-
-#### Bollinger Bands
-
-Bollinger Bands place an upper and lower envelope around a moving average. The bands widen when recent movement becomes more volatile and narrow when it becomes quieter. A touch of the upper band does not automatically mean “sell,” and a touch of the lower band does not automatically mean “buy”; strong trends can ride a band. Use the bands to study expansion, contraction, and whether price is unusually far from its recent average.
-
-![Moving average and Bollinger Bands](assets/moving-average-bbands.svg)
-
-#### RSI (Relative Strength Index)
-
-RSI is a momentum oscillator scaled from 0 to 100. Many charts mark 70 and 30 as reference levels. A high RSI says recent upward moves have been strong relative to recent downward moves; it does not prove that price must fall. A low RSI says the opposite. RSI is useful for comparing momentum with price, spotting possible divergence, and noticing when a move is extended. In a strong trend, RSI can remain high or low for a long time.
-
-![RSI explained](assets/rsi-explained.svg)
-
-#### MACD (Moving Average Convergence Divergence)
-
-MACD compares a faster moving average with a slower one. The **MACD line**, **signal line**, and **histogram** show whether recent momentum is strengthening or weakening relative to that baseline. A line crossing can be a clue that momentum changed; a histogram growing can show increasing separation. MACD is trend-following and lagging, so crossings arrive late and can whipsaw when BTC moves sideways. Use it with structure rather than as a stand-alone buy or sell command.
-
-![MACD explained](assets/macd-explained.svg)
-
-#### ATR (Average True Range)
-
-ATR estimates typical price movement over a chosen number of candles. It does not say whether price will rise or fall. A higher ATR means larger normal swings; traders can use it to avoid placing a stop inside ordinary noise and to reduce position size when volatility is high. ATR is especially useful for risk planning, not direction prediction.
-
-#### Volume and volume profile
-
-Volume bars show how much was traded during each candle on that venue. Rising volume can make a breakout more meaningful, while weak volume can warn that a move has little participation. **Volume profile** reorganizes volume by price, showing where trading concentrated. Both are clues, not proof: exchange volume is fragmented, and volume cannot identify every buyer’s intention.
-
-#### VWAP (Volume-Weighted Average Price)
-
-VWAP estimates the average traded price weighted by volume over a chosen session or period. It is often used as a reference for whether price is trading above or below the period’s average execution level. VWAP resets according to the chart or tool’s settings, so confirm the session and calculation before comparing it.
-
-#### Derivatives indicators: open interest, funding, and basis
-
-**Open interest** counts outstanding futures positions; it can show whether leverage is entering or leaving, but it does not reveal direction by itself. **Funding rate** is the periodic transfer between eligible perpetual longs and shorts that helps keep the contract near its reference price; a positive rate is not free yield. **Basis** compares a futures price with spot. These indicators are useful when studying perpetuals, but they are exchange-specific and can change quickly.
-
-Use one trend measure, one volatility measure, and volume before adding more. RSI and MACD are both momentum tools, so using both does not automatically give two independent confirmations. A chart full of signals can still be one uncertain market.
+At a glance: moving averages smooth trend; Bollinger Bands show volatility around an average; RSI measures recent momentum on a 0–100 scale; MACD compares moving averages to study momentum; ATR estimates typical movement for risk planning; volume and VWAP describe participation and average traded price; open interest, funding, and basis describe perpetual-futures positioning. These tools can agree because they often use the same underlying candles, so several signals do not automatically mean several independent confirmations.
 
 ![Bullish and bearish divergence](assets/divergence.svg)
 
