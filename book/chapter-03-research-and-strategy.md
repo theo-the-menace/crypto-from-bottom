@@ -1,4 +1,4 @@
-# Chapter 2 — Research, tools, and building your own strategy
+# Chapter 3 — Research, tools, and building your own strategy
 
 This chapter turns the foundations into a repeatable research process.
 

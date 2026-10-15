@@ -9,15 +9,16 @@ A book-style, practice-first curriculum for people who are new to crypto and wan
 ### Part I — Foundations
 
 1. [Chapter 1 — Foundations: from crypto to a real trading decision](book/chapter-01-foundations.md)
-   - [1. What is crypto?](book/chapter-01-foundations.md#1-what-is-crypto)
+   - [1. Before you dive into trading](book/chapter-01-foundations.md#1-before-you-dive-into-trading)
    - [2. What a real CEX looks like](book/chapter-01-foundations.md#2-what-a-real-cex-looks-like)
-   - [3. Foundations: reading K-lines and market structure](book/chapter-01-foundations.md#3-foundations-reading-k-lines-and-market-structure)
+   - [3. The essence of making money](book/chapter-01-foundations.md#3-the-essence-of-making-money)
    - [4. The essence of making money](book/chapter-01-foundations.md#4-the-essence-of-making-money)
    - [5. Binance app field guide](book/chapter-01-foundations.md#5-binance-app-field-guide)
 
 ### Part II — Practice and research
 
-2. [Chapter 2 — Research, tools, and building your own strategy](book/chapter-02-research-and-strategy.md)
+2. [Chapter 2 — K-line analysis and market structure](book/chapter-02-kline-analysis.md)
+3. [Chapter 3 — Research, tools, and building your own strategy](book/chapter-03-research-and-strategy.md)
 3. [Strategy specification template](docs/strategy-template.md)
 4. [Glossary](book/glossary.md)
 
