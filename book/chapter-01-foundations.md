@@ -70,7 +70,7 @@ Do not begin with dangerous leverage, all-in bets, borrowed money, revenge trade
 
 You will lose some trades even when your process is good. Loss is the price of uncertainty, not proof that you must immediately win it back. The dangerous response is increasing size, moving a stop, or abandoning a plan to relieve an emotion. Fear, greed, impatience, and the need to be right are often more damaging than a bad indicator.
 
-“Knowing more is knowing less” is a useful warning: more information does not automatically produce better decisions. Learn enough to identify the risk, then act only when your rules and size are clear. This is a form of **修行**—a practice of patience, self-observation, and disciplined repetition—rather than a race to find a secret signal.
+“Knowing more is knowing less” is a useful warning: more information does not automatically produce better decisions. Learn enough to identify the risk, then act only when your rules and size are clear. This is a form of **training and personal discipline**—a practice of patience, self-observation, and repeated practice—rather than a race to find a secret signal.
 
 ### 1.5 A beginner’s identification checklist
 
