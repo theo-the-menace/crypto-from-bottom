@@ -63,6 +63,18 @@ Moving averages can help us see direction, pullback areas, and whether short-ter
 
 At a glance, other common indicators include Bollinger Bands for volatility, RSI for momentum, ATR for typical movement and risk planning, volume and VWAP for participation and average traded price, and open interest, funding, and basis for perpetual-futures positioning. Several indicators can agree because they often use the same candles, so more lines do not automatically mean more independent evidence.
 
+#### Volume: did the move attract participation?
+
+**Volume** is the amount traded during each candle on the selected venue. Rising volume during a breakout can show that more participants are accepting the new prices. Falling volume while price continues in the same direction can warn that participation is thinning. A sudden volume spike can accompany a breakout, a news reaction, stop orders, or forced liquidations; volume alone cannot tell us which one happened.
+
+**VWAP** is an average traded price weighted by volume. It can provide a reference for whether price is above or below the period’s average execution level. **Volume profile** groups volume by price instead of by time, showing where trading concentrated. Exchange volume is fragmented, so treat all of these as evidence rather than a complete picture.
+
+#### A simple way to combine indicators
+
+Start with price structure: is BTC making HH/HL, LH/LL, or moving in a range? Then use moving averages to describe trend direction, MACD or RSI to describe momentum, and volume to ask whether the move has participation. Use ATR or Bollinger Bands to understand normal movement and set a sensible risk distance. For perpetuals, funding and open interest add information about leverage and crowding.
+
+For example, a breakout above resistance is more convincing when the candle closes beyond the level, the relevant moving averages slope upward, MACD momentum expands, and volume is higher than usual. If price breaks out but volume is weak and MACD is already fading, treat it as a hypothesis that needs confirmation. These tools should create a structured question, not a pile of matching colors. The detailed framework is in [Advanced — Combining price, volume, and indicators](advanced/combining-indicators.md).
+
 ![Bullish and bearish divergence](assets/divergence.svg)
 
 Divergence—price making a lower low while an oscillator makes a higher low, for example—can warn that momentum is changing. It is not a guaranteed reversal and can appear repeatedly during a strong trend.

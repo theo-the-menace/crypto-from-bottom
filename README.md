@@ -19,6 +19,7 @@ A book-style, practice-first curriculum for people who are new to crypto and wan
 2. [Chapter 2 — K-line analysis and market structure](book/chapter-02-kline-analysis.md)
 3. [Chapter 3 — Research, tools, and building your own strategy](book/chapter-03-research-and-strategy.md)
    - [Advanced — Moving-average and momentum tools](book/advanced/moving-average-and-momentum.md)
+   - [Advanced — Combining price, volume, and indicators](book/advanced/combining-indicators.md)
 3. [Strategy specification template](docs/strategy-template.md)
 4. [Glossary](book/glossary.md)
 
