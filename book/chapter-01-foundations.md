@@ -2,7 +2,7 @@
 
 ## Chapter map
 
-1. [Before you dive into trading: what is crypto?](#1-before-you-dive-into-trading-what-is-crypto)
+1. [Before you dive into trading](#1-before-you-dive-into-trading)
 2. [What a real CEX looks like](#2-what-a-real-cex-looks-like)
 3. [Foundations: reading K-lines and market structure](#3-foundations-reading-k-lines-and-market-structure)
 4. [The essence of making money](#4-the-essence-of-making-money)
@@ -12,22 +12,9 @@ This chapter answers a simple question: what exactly are you looking at when you
 
 ---
 
-## 1. Before you dive into trading: what is crypto?
+## 1. Before you dive into trading
 
-Trading is not the first step. Before opening an order ticket, learn what you are buying, what can move its price, and what can go wrong. You do not need to master every technical detail before making a small, careful start. You do need a clear map of the products and risks in front of you.
-
-### What crypto means
-
-“Crypto” is a broad name for digital assets and networks that use cryptographic techniques to control ownership, authorize transactions, and coordinate a shared ledger. It is not one asset class with one behavior. Bitcoin, a stablecoin, an exchange token, a governance token, an NFT, and a perpetual future can all appear in a crypto app while carrying different economic and technical risks.
-
-Separate four layers:
-
-1. **Network:** the distributed system that records state and validates transactions (for example Bitcoin, Ethereum, Solana, or BNB Smart Chain).
-2. **Asset:** a native coin or token represented on that network.
-3. **Application:** a wallet, exchange, lending protocol, game, bridge, or other software that uses the network.
-4. **Claim or contract:** an off-chain account balance, tokenized exposure, option, future, or perpetual whose value depends on an issuer or venue.
-
-The same ticker can be misleading. BTC held in a Binance Exchange account is a custodial account claim until withdrawn; BTC held in a self-custody wallet is controlled by whoever can sign the transaction; BTCUSD perpetual exposure is a derivative and does not give ownership of BTC.
+Crypto consists of digital assets such as Bitcoin; this book focuses on crypto rather than stocks because its markets trade around the clock and involve different custody and leverage risks—not because it is easier to make money.
 
 ### 1.1 Glossary: only the terms you need at first
 
