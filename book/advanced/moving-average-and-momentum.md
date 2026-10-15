@@ -67,6 +67,10 @@ The following Binance-style MACD panel uses the names **DIF**, **DEA**, and **MA
 
 The word **MACD** is used differently by different charting platforms. In many Chinese-language apps, the panel is presented as **DIF** (the fast line), **DEA** (the signal line), and **MACD柱** (the red/green histogram). In many international platforms, **MACD** usually means the fast-minus-slow line, while **Signal** means its smoothed line and **Histogram** means the gap between them.
 
+![Bitcoin MACD with DIF, DEA, and histogram](../assets/btc-macd-dif-dea.png)
+
+This is the Binance-style display used in the supplied screenshot. Binance’s [MACD indicator explanation](https://www.binance.com/en/academy/articles/macd-indicator) is a useful reference for the exchange’s terminology; always compare the chart’s settings with the documentation for the platform you are using.
+
 | Label often seen in Chinese apps | Label often seen in international apps | Meaning |
 | --- | --- | --- |
 | DIF | MACD line | Fast EMA minus slow EMA, often EMA(12) − EMA(26) |
@@ -122,8 +126,6 @@ The MACD numbers make the direction clear. The panel shows `DIF: 1,021.4` and `D
 `DIF − DEA = 1,021.4 − 1,807.0 = −785.6`
 
 That negative value matches the displayed `MACD: −785.6` under this app’s convention. The negative histogram supports weakening or bearish momentum; it does not by itself prove that price must continue down. The current price shown in the screenshot is about 80,536, so descriptions such as 78,776 should not be substituted for the value actually displayed in the image.
-
-![BTC MACD DIF/DEA example](../assets/btc-macd-dif-dea.png)
 
 ![BTC moving-average trend weakening](assets/btc-ma-trend-weakening.png)
 
