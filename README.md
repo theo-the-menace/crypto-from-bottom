@@ -12,7 +12,6 @@ A book-style, practice-first curriculum for people who are new to crypto and wan
    - [1. Before you dive into trading](book/chapter-01-foundations.md#1-before-you-dive-into-trading)
    - [2. What a real CEX looks like](book/chapter-01-foundations.md#2-what-a-real-cex-looks-like)
    - [3. The essence of making money](book/chapter-01-foundations.md#3-the-essence-of-making-money)
-   - [4. The essence of making money](book/chapter-01-foundations.md#4-the-essence-of-making-money)
    - [5. Binance app field guide](book/chapter-01-foundations.md#5-binance-app-field-guide)
 
 ### Part II — Practice and research
