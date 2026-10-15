@@ -47,9 +47,47 @@ A lower timeframe gives more entries and more noise, fees, and false signals. A 
 
 ### 1.4 Indicators: the colored lines and panels
 
-Indicators transform price, volume, or derivatives data into another view. A moving average smooths price; RSI and MACD summarize momentum; ATR measures typical movement; volume and volume profile show participation and traded areas; VWAP estimates the average traded price weighted by volume. Open interest and funding add information about perpetual-futures positioning.
+Indicators transform price, volume, or derivatives data into another view. They are calculators, not independent observers: most use the same candles you already see. Use them to answer a question, not to decorate a chart. The most useful beginner set is explained below.
 
-Use indicators to answer a question, not to decorate a chart. For a first chart, structure plus one trend tool, ATR, and volume is enough. Add RSI or MACD when you have a specific momentum hypothesis. Several indicators built from the same price data can agree without adding independent evidence.
+#### Moving averages (SMA and EMA)
+
+A moving average takes the average closing price over a chosen number of candles. A 20-period average on a 1-hour chart averages the last 20 hours. An **SMA** gives each candle equal weight; an **EMA** gives more weight to recent candles and reacts faster. Traders use them to smooth noise, describe direction, and identify a moving reference for pullbacks. Price above a rising average can support a bullish context; price below a falling average can support a bearish context. Crossovers are late and can lose repeatedly in a sideways market.
+
+#### Bollinger Bands
+
+Bollinger Bands place an upper and lower envelope around a moving average. The bands widen when recent movement becomes more volatile and narrow when it becomes quieter. A touch of the upper band does not automatically mean “sell,” and a touch of the lower band does not automatically mean “buy”; strong trends can ride a band. Use the bands to study expansion, contraction, and whether price is unusually far from its recent average.
+
+![Moving average and Bollinger Bands](assets/moving-average-bbands.svg)
+
+#### RSI (Relative Strength Index)
+
+RSI is a momentum oscillator scaled from 0 to 100. Many charts mark 70 and 30 as reference levels. A high RSI says recent upward moves have been strong relative to recent downward moves; it does not prove that price must fall. A low RSI says the opposite. RSI is useful for comparing momentum with price, spotting possible divergence, and noticing when a move is extended. In a strong trend, RSI can remain high or low for a long time.
+
+![RSI explained](assets/rsi-explained.svg)
+
+#### MACD (Moving Average Convergence Divergence)
+
+MACD compares a faster moving average with a slower one. The **MACD line**, **signal line**, and **histogram** show whether recent momentum is strengthening or weakening relative to that baseline. A line crossing can be a clue that momentum changed; a histogram growing can show increasing separation. MACD is trend-following and lagging, so crossings arrive late and can whipsaw when BTC moves sideways. Use it with structure rather than as a stand-alone buy or sell command.
+
+![MACD explained](assets/macd-explained.svg)
+
+#### ATR (Average True Range)
+
+ATR estimates typical price movement over a chosen number of candles. It does not say whether price will rise or fall. A higher ATR means larger normal swings; traders can use it to avoid placing a stop inside ordinary noise and to reduce position size when volatility is high. ATR is especially useful for risk planning, not direction prediction.
+
+#### Volume and volume profile
+
+Volume bars show how much was traded during each candle on that venue. Rising volume can make a breakout more meaningful, while weak volume can warn that a move has little participation. **Volume profile** reorganizes volume by price, showing where trading concentrated. Both are clues, not proof: exchange volume is fragmented, and volume cannot identify every buyer’s intention.
+
+#### VWAP (Volume-Weighted Average Price)
+
+VWAP estimates the average traded price weighted by volume over a chosen session or period. It is often used as a reference for whether price is trading above or below the period’s average execution level. VWAP resets according to the chart or tool’s settings, so confirm the session and calculation before comparing it.
+
+#### Derivatives indicators: open interest, funding, and basis
+
+**Open interest** counts outstanding futures positions; it can show whether leverage is entering or leaving, but it does not reveal direction by itself. **Funding rate** is the periodic transfer between eligible perpetual longs and shorts that helps keep the contract near its reference price; a positive rate is not free yield. **Basis** compares a futures price with spot. These indicators are useful when studying perpetuals, but they are exchange-specific and can change quickly.
+
+Use one trend measure, one volatility measure, and volume before adding more. RSI and MACD are both momentum tools, so using both does not automatically give two independent confirmations. A chart full of signals can still be one uncertain market.
 
 ![Bullish and bearish divergence](assets/divergence.svg)
 
