@@ -21,21 +21,24 @@ The short list is not a ranking of profitable signals. It is a learning order th
 
 The table below explains the indicators shown in the Binance-style menu. Use it as a reference after you understand the smaller beginner set in Chapter 2.
 
+
+**Naming note:** *Parabolic SAR* is the full indicator name. **SAR** means **Stop and Reverse**; “Parabolic” describes the way the stop reference follows price and is not part of the acronym.
+
 | Indicator (full name) | What question does it answer? | Simple example | Priority and main limit |
 | --- | --- | --- | --- |
 | **MA — Moving Average / EMA — Exponential Moving Average** | Is the market generally rising, falling, or sideways? | Price holds above a rising average during pullbacks. | **Core.** It lags and crosses falsely in ranges. |
-| **BOLL — Bollinger Bands** | Is volatility expanding or contracting around an average? | Bands narrow during a quiet range and widen when movement expands. | **Useful.** A band touch is not automatically a reversal. |
-| **SAR — Parabolic Stop and Reverse** | Where might a trend-following stop move as the trend develops? | Dots stay below price in an uptrend and may flip above it after a decline. | **Optional.** It flips repeatedly in sideways markets. |
-| **AVL / SUPER — platform-specific trend tools** | What trend calculation does this platform-specific tool display? | Read the settings before treating a color change as a signal. | **Optional.** The formula may vary by platform. |
 | **MACD — Moving Average Convergence/Divergence** | Is momentum accelerating, weakening, or crossing between bullish and bearish conditions? | A rising histogram supports strengthening momentum; a crossover in a range may fail. | **Core momentum tool.** It is derived from price and lags. |
 | **RSI — Relative Strength Index** | Are recent gains or losses stronger, and is momentum becoming extreme? | RSI falls while price makes a higher high: momentum may be weakening. | **Core momentum tool.** High RSI can persist in a strong trend. |
+| **VOL — Volume** | How much was traded during each candle? | A breakout with clearly higher volume has stronger participation evidence. | **Core confirmation tool.** It does not reveal intent by itself. |
+| **ATR — Average True Range** | How large are recent moves, whether up or down? | Use a larger normal-movement estimate to avoid placing a stop inside ordinary noise. | **Core risk tool.** It measures movement, not direction. |
+| **BOLL — Bollinger Bands** | Is volatility expanding or contracting around an average? | Bands narrow during a quiet range and widen when movement expands. | **Useful.** A band touch is not automatically a reversal. |
+| **OBV — On-Balance Volume** | Is cumulative volume flowing more on rising or falling candles? | Price makes a new high while OBV does not: participation may be lagging. | **Useful supplement.** It depends on close direction and venue data. |
+| **VWAP — Volume-Weighted Average Price / Volume Profile** | What price was most important based on traded volume? | Price holding above VWAP can show buyers accepting prices above the period average. | **Useful for context.** Settings and session boundaries matter. |
+| **SAR — Parabolic SAR (Stop and Reverse)** | Where might a trend-following stop move as the trend develops? | Dots stay below price in an uptrend and may flip above it after a decline. | **Optional.** It flips repeatedly in sideways markets. |
 | **KDJ — stochastic K, D, and J lines** | Where is the close within its recent high-low range, and is short-term momentum turning? | K crossing below D in a range can warn of a short-term pullback. | **Optional.** It overlaps with RSI. |
 | **WR — Williams %R** | Is the latest close near the top or bottom of its recent range? | A reading near the top of a range shows strong recent closes, not a guaranteed reversal. | **Optional.** It is closely related to stochastic oscillators. |
 | **StochRSI — Stochastic RSI** | Is RSI itself near the top or bottom of its recent range? | A fast turn can flag a short-term momentum change, but may reverse again. | **Optional and noisy.** It can over-signal. |
-| **ATR — Average True Range** | How large are recent moves, whether up or down? | Use a larger normal-movement estimate to avoid placing a stop inside ordinary noise. | **Core risk tool.** It measures movement, not direction. |
-| **VOL — Volume** | How much was traded during each candle? | A breakout with clearly higher volume has stronger participation evidence. | **Core confirmation tool.** It does not reveal intent by itself. |
-| **OBV — On-Balance Volume** | Is cumulative volume flowing more on rising or falling candles? | Price makes a new high while OBV does not: participation may be lagging. | **Useful supplement.** It depends on close direction and venue data. |
-| **VWAP — Volume-Weighted Average Price / Volume Profile** | What price was most important based on traded volume? | Price holding above VWAP can show buyers accepting prices above the period average. | **Useful for context.** Settings and session boundaries matter. |
+| **AVL / SUPER — platform-specific trend tools** | What trend calculation does this platform-specific tool display? | Read the settings before treating a color change as a signal. | **Optional.** The formula may vary by platform. |
 | **O.I. — Open Interest** | Are outstanding futures contracts growing or shrinking? | Price rises while open interest rises: new leveraged positions may be entering. | **Advanced futures data.** It does not show long or short direction alone. |
 | **L.S Ratio — Long/Short Ratio** | How large is the platform's measured long-versus-short imbalance? | An extreme ratio can show crowding, but does not say when price will reverse. | **Advanced.** Formula and sample can differ. |
 | **L.S Account / L.S Position — Long/Short accounts or positions** | Is the imbalance coming from many accounts or from larger position sizes? | A small number of large positions can produce a different risk picture from many small accounts. | **Advanced.** Labels vary across platforms. |
