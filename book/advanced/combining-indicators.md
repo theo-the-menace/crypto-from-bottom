@@ -21,26 +21,26 @@ The short list is not a ranking of profitable signals. It is a learning order th
 
 The table below explains the indicators shown in the Binance-style menu. Use it as a reference after you understand the smaller beginner set in Chapter 2.
 
-| Indicator | What it measures | When it is useful | Priority and main limit |
+| Indicator (full name) | What question does it answer? | Simple example | Priority and main limit |
 | --- | --- | --- | --- |
-| **MA — Moving Average / EMA — Exponential Moving Average** | A smoothed average of recent closing prices. EMA reacts faster because it weights recent candles more. | Describing trend direction, pullback zones, and fast/slow alignment. | **Core.** It lags and gives false crosses in ranges. |
-| **BOLL (Bollinger Bands)** | A moving average with upper and lower bands that expand and contract with volatility. | Seeing volatility contraction, expansion, and unusually large moves. | **Useful.** A band touch is not automatically a reversal. |
-| **SAR (Parabolic Stop and Reverse)** | Dots that follow a trend and suggest a possible trailing stop or reversal point. | A simple trend-following exit in a clearly moving market. | **Optional.** It flips repeatedly in sideways markets. |
-| **AVL / SUPER** | Platform-specific or composite trend tools; the exact formula depends on the app. | Only after reading the settings and testing the tool. | **Optional.** Do not infer meaning from the name alone. |
-| **MACD — Moving Average Convergence/Divergence** | The gap between fast and slow EMAs, its signal average, and a histogram of their difference. | Studying momentum acceleration, weakening, crossovers, zero-line behavior, and divergence. | **Core momentum tool.** It is derived from price and lags. |
-| **RSI — Relative Strength Index** | Recent upward movement compared with recent downward movement on a 0–100 scale. | Comparing momentum, spotting extreme movement, and studying divergence. | **Core momentum tool.** “Overbought” can stay high in a strong trend. |
-| **KDJ** | A stochastic oscillator using the recent high-low range, with K, D, and J lines. | Short-term momentum and range analysis. | **Optional.** It overlaps with RSI. |
-| **WR (Williams %R)** | Where the latest close sits within its recent high-low range. | Range-bound momentum and possible short-term exhaustion. | **Optional.** It is closely related to stochastic oscillators. |
-| **StochRSI** | Applies a stochastic calculation to RSI instead of directly to price. | Finding very short-term momentum turns. | **Optional and noisy.** It can over-signal. |
-| **ATR — Average True Range** | The typical size of recent price movement, without saying up or down. | Choosing stop distance, position size, and understanding volatility. | **Core risk tool.** It measures movement, not direction. |
-| **VOL — Volume** | The amount traded during each candle on the selected venue. | Checking whether a breakout or move attracted participation. | **Core confirmation tool.** It does not reveal intent by itself. |
-| **OBV** | A running volume total that adds volume on up closes and subtracts it on down closes. | Looking for volume flow that confirms or conflicts with price direction. | **Useful supplement.** It depends on close direction and venue data. |
-| **VWAP / Volume Profile** | VWAP estimates volume-weighted average price; volume profile groups activity by price. | Finding average execution references and high-activity price zones. | **Useful for context.** Settings and session boundaries matter. |
-| **O.I. (Open Interest)** | The amount of outstanding futures contracts. | Seeing whether leverage is entering or leaving the market. | **Advanced futures data.** It does not reveal long or short direction alone. |
-| **L.S Ratio** | A platform-defined comparison of long and short accounts or positions. | Studying crowding and positioning when the calculation is understood. | **Advanced.** Formula and sample can differ. |
-| **L.S Account / L.S Position** | Usually separates the number of long/short accounts from the size of their positions. | Comparing participation breadth with position concentration. | **Advanced.** Labels vary across platforms. |
-| **B.S Vol.** | A buy-versus-sell volume estimate, often based on aggressive trades. | Studying short-term order-flow pressure. | **Advanced.** Classification is venue-specific. |
-| **Basis** | The difference between a futures price and the corresponding spot price. | Studying futures premium/discount and market expectations. | **Advanced futures data.** It changes with expiry, funding, and liquidity. |
+| **MA — Moving Average / EMA — Exponential Moving Average** | Is the market generally rising, falling, or sideways? | Price holds above a rising average during pullbacks. | **Core.** It lags and crosses falsely in ranges. |
+| **BOLL — Bollinger Bands** | Is volatility expanding or contracting around an average? | Bands narrow during a quiet range and widen when movement expands. | **Useful.** A band touch is not automatically a reversal. |
+| **SAR — Parabolic Stop and Reverse** | Where might a trend-following stop move as the trend develops? | Dots stay below price in an uptrend and may flip above it after a decline. | **Optional.** It flips repeatedly in sideways markets. |
+| **AVL / SUPER — platform-specific trend tools** | What trend calculation does this platform-specific tool display? | Read the settings before treating a color change as a signal. | **Optional.** The formula may vary by platform. |
+| **MACD — Moving Average Convergence/Divergence** | Is momentum accelerating, weakening, or crossing between bullish and bearish conditions? | A rising histogram supports strengthening momentum; a crossover in a range may fail. | **Core momentum tool.** It is derived from price and lags. |
+| **RSI — Relative Strength Index** | Are recent gains or losses stronger, and is momentum becoming extreme? | RSI falls while price makes a higher high: momentum may be weakening. | **Core momentum tool.** High RSI can persist in a strong trend. |
+| **KDJ — stochastic K, D, and J lines** | Where is the close within its recent high-low range, and is short-term momentum turning? | K crossing below D in a range can warn of a short-term pullback. | **Optional.** It overlaps with RSI. |
+| **WR — Williams %R** | Is the latest close near the top or bottom of its recent range? | A reading near the top of a range shows strong recent closes, not a guaranteed reversal. | **Optional.** It is closely related to stochastic oscillators. |
+| **StochRSI — Stochastic RSI** | Is RSI itself near the top or bottom of its recent range? | A fast turn can flag a short-term momentum change, but may reverse again. | **Optional and noisy.** It can over-signal. |
+| **ATR — Average True Range** | How large are recent moves, whether up or down? | Use a larger normal-movement estimate to avoid placing a stop inside ordinary noise. | **Core risk tool.** It measures movement, not direction. |
+| **VOL — Volume** | How much was traded during each candle? | A breakout with clearly higher volume has stronger participation evidence. | **Core confirmation tool.** It does not reveal intent by itself. |
+| **OBV — On-Balance Volume** | Is cumulative volume flowing more on rising or falling candles? | Price makes a new high while OBV does not: participation may be lagging. | **Useful supplement.** It depends on close direction and venue data. |
+| **VWAP — Volume-Weighted Average Price / Volume Profile** | What price was most important based on traded volume? | Price holding above VWAP can show buyers accepting prices above the period average. | **Useful for context.** Settings and session boundaries matter. |
+| **O.I. — Open Interest** | Are outstanding futures contracts growing or shrinking? | Price rises while open interest rises: new leveraged positions may be entering. | **Advanced futures data.** It does not show long or short direction alone. |
+| **L.S Ratio — Long/Short Ratio** | How large is the platform's measured long-versus-short imbalance? | An extreme ratio can show crowding, but does not say when price will reverse. | **Advanced.** Formula and sample can differ. |
+| **L.S Account / L.S Position — Long/Short accounts or positions** | Is the imbalance coming from many accounts or from larger position sizes? | A small number of large positions can produce a different risk picture from many small accounts. | **Advanced.** Labels vary across platforms. |
+| **B.S Vol. — Buy/Sell Volume** | Which side appears to be trading more aggressively? | A buy-volume surge during a breakout can support participation, but classification may be estimated. | **Advanced.** It is venue-specific. |
+| **Basis — futures minus spot price** | Is the futures market trading above or below the spot market? | A widening positive basis can show a futures premium, often alongside stronger leverage demand. | **Advanced futures data.** It changes with expiry, funding, and liquidity. |
 
 ## 1. Start with price structure
 
