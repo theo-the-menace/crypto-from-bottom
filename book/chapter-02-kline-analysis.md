@@ -67,14 +67,14 @@ Moving averages can help us see direction, pullback areas, and whether short-ter
 
 For beginners, start with a small set that answers different questions. **VOL is important, but it is not the only important tool**: MA/EMA describe trend, RSI or MACD describe momentum, and ATR helps plan risk.
 
-| Indicator | What it helps you see | Beginner use |
+| Indicator (full name) | What question does it answer? | Simple BTC example |
 | --- | --- | --- |
-| **MA / EMA** | The general direction of price after smoothing short-term noise. | Check whether BTC is broadly rising, falling, or moving sideways. |
-| **RSI** | Whether recent upward or downward movement has been stronger. | Spot strong momentum and possible divergence; do not sell only because RSI is high. |
-| **MACD** | Whether momentum is strengthening or weakening through moving-average relationships. | Check momentum changes together with price structure; it can give false signals in ranges. |
-| **VOL** | How much was traded during each candle. | Ask whether a breakout or reversal attracted real participation. |
-| **ATR** | How large recent BTC moves usually are. | Choose a realistic stop distance and position size; ATR does not show direction. |
-| **BOLL** | Whether volatility is expanding or contracting around an average. | Understand quiet periods and sudden expansion; a band touch is not an automatic reversal. |
+| **MA — Moving Average** / **EMA — Exponential Moving Average** | Is BTC generally moving up, down, or sideways after short-term noise is smoothed? | If the 25-period average keeps rising and price stays above it, the trend is stronger than if the line is flat and tangled. EMA reacts faster than a simple moving average. |
+| **RSI — Relative Strength Index** | Have recent upward moves been stronger than recent downward moves? | RSI rising from 40 to 60 supports improving momentum. RSI above 70 does not automatically mean “sell”; BTC can stay strong for a long time. |
+| **MACD — Moving Average Convergence/Divergence** | Is momentum speeding up or slowing down compared with recent price movement? | BTC breaks above resistance and MACD rises: momentum supports the breakout. A crossover inside a sideways range can fail quickly. |
+| **VOL — Volume** | How much BTC changed hands during each candle? | A breakout with a noticeably larger volume bar has more participation than a breakout made on very thin volume. Volume alone does not prove direction. |
+| **ATR — Average True Range** | How large are BTC's usual recent moves, whether up or down? | If ATR is large, a very tight stop may be hit by normal noise, so use a smaller position or a wider planned stop. ATR does not show direction. |
+| **BOLL — Bollinger Bands** | Is volatility becoming quieter or wider around a moving average? | Narrow bands show a quiet period; a wide move after the bands expand shows rising volatility. Touching the upper band is not automatically a sell signal. |
 
 These tools answer different questions, but they are all derived from market data and can still be wrong. A practical beginner chart is **price structure + MA/EMA + RSI or MACD + VOL + ATR**. The full indicator reference, including optional and futures-specific tools, is in [Advanced — Combining price, volume, and indicators](advanced/combining-indicators.md).
 
