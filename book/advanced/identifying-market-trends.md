@@ -148,5 +148,5 @@ The spot strategy uses this process:
 4. Put the stop below the structure that must hold for the idea to remain valid.
 5. Reduce or exit when that structure fails; do not wait for a perfect reversal signal.
 
-This process is slower than reacting to every short-term candle, but it gives the word “trend” a testable meaning. It also explains why trend following and DCA are different: DCA follows a calendar, while trend following changes exposure when market evidence changes.
+This process is slower than reacting to every short-term candle, but it gives the word “trend” a testable meaning. Exposure changes when the market evidence changes, rather than because a fixed schedule says that another trade must be made.
 
