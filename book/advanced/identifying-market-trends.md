@@ -163,7 +163,34 @@ The lower recent bars need careful interpretation. This panel is the volume for 
 
 ![BTC daily trend and momentum snapshot](assets/btc-multi-indicator-trend-snapshot-2026-10-18.png)
 
-The daily screenshot gives the shorter-term condition inside that weekly environment. BTC rose from roughly 63,000 to the 85,000–87,000 area, then stopped making new highs and pulled back toward **81,292.2**. Daily MACD is negative, with DIF below DEA and a histogram near **−529.6**. RSI is around **45.68**, below its smoother line near **52.88**, while volume has not returned to the breakout peak. ATR is around **2,182.9**, so the recent daily movement is smaller than during the sharp breakout.
+The daily screenshot gives the shorter-term condition inside that weekly environment. The visible levels are:
+
+- Price: **81,292.2**
+- Bollinger upper band: **86,349.2**
+- Bollinger middle band: **83,413.7**
+- EMA(9): **82,280.0**
+- Bollinger lower band: **80,478.3**
+- MACD fast line: **90.7**
+- MACD slow line: **620.3**
+- MACD histogram: **−529.6**
+- ATR: **2,182.9**
+- RSI fast line: **45.68**
+- RSI smoother: **52.88**
+
+The daily MACD is negative because the fast line is below the slow line. RSI is below 50 and below its smoother line, so recent momentum is weak. Price is below EMA(9) and the Bollinger middle band, but still above the lower band. ATR is smaller than during the sharp breakout, so the current move is a pullback with lower daily movement rather than another expansion phase.
+
+Reading the larger daily K-line structure from January to now:
+
+- **January to February:** a sharp bearish impulse with lower highs and lower lows, ending near the 60,000 area.
+- **February to May:** a recovery with several higher highs and higher lows, reaching the low 80,000s.
+- **May to June:** another clear decline toward the high 50,000s or low 60,000s.
+- **June to late August:** a broad range around the low-to-mid 60,000s.
+- **Late August:** a strong breakout with large green candles and a clear volume expansion, carrying price into the 80,000s.
+- **September to October:** high-level consolidation followed by a pullback from the 85,000–87,000 area; the latest candles show short-term weakness, but they have not yet confirmed a full daily downtrend.
+
+The daily conclusion is therefore **a short-term pullback inside a larger recovery**. A daily close back above the middle band and EMA(9), followed by a higher high with stronger volume, would support continuation. A sustained close below the lower band and a sequence of LH and LL would make the daily trend materially weaker.
+
+This chart is detailed enough to identify the major phases and the latest indicator relationships. It is not reliable for assigning meaning to every small candle or wick. I can read the broad structure, visible levels, and clear crossings; exact candle-by-candle pattern names require a closer crop, a confirmed timeframe, and the original chart settings. A complex screenshot should support a hypothesis, not create false precision.
 
 The combined reading is not “everything is bullish” or “the bull market is over.” It is: **weekly recovery, daily pullback**. A spot trader can keep a bullish bias on the larger timeframe while waiting for the daily chart to stabilize. A daily close below the relevant higher low, followed by a lower high and lower low, would weaken that interpretation. A daily recovery above the recent high with stronger participation would strengthen it.
 
