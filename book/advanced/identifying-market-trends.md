@@ -39,9 +39,49 @@ Do not choose a chart interval by asking how many trades you should force into a
 | **Intraday trading** | 15m and 1h | Several decisions in a day | More noise, fees, screen time, and emotional pressure |
 | **Swing trading** | 4h and 1d | Often zero to a few trades in a week | You may miss some short moves and must hold through overnight volatility |
 | **Position trading** | 1d and 1w | A few decisions per month | Stops are wider and a thesis can take weeks or months to play out |
-| **DCA** | No signal timeframe is required | A fixed weekly or monthly purchase | It keeps buying during a prolonged decline unless you define a limit or review rule |
 
 For a beginner trading BTC spot, a 4-hour and daily combination is usually the most practical starting point: the daily chart defines the environment, and the 4-hour chart provides an entry without demanding constant monitoring. A 15-minute chart can refine that entry, but it should not create a reason to trade more often. If no valid setup appears, zero trades is a correct result.
+
+## 1.3 A top-down process: environment, opportunity, entry
+
+The three charts answer different questions. Do not use the 15-minute chart to decide whether the daily market is bullish.
+
+### Daily: decide the environment
+
+Start with the last several months of daily candles. Mark the important swing highs and lows, then classify the chart:
+
+- **Bullish environment:** price is making HH and HL, the latest important HL is holding, and price is not immediately rejecting a major resistance level.
+- **Bearish environment:** price is making LH and LL, rallies fail below important prior highs, and the latest important low is under pressure.
+- **Range or unclear:** price is between clear boundaries or the recent break has no follow-through.
+
+Use EMA, MACD, RSI, VOL, BOLL, and ATR to describe the context. For example, a rising EMA(25), positive MACD momentum, and expanding volume can support a bullish daily hypothesis. They cannot overrule a daily close that breaks the structure the hypothesis depends on.
+
+The daily chart should answer: **Am I mainly looking for long setups, protecting capital, or waiting?** It should not answer the exact entry price.
+
+### 4-hour: find a tradeable opportunity
+
+Only after the daily environment is clear, inspect the 4-hour chart. Look for a setup that fits the daily direction:
+
+1. **Pullback:** price returns to a prior breakout level, support zone, or rising EMA and begins to hold.
+2. **Breakout:** price closes above a meaningful 4-hour resistance level, preferably with stronger-than-usual volume.
+3. **Structure confirmation:** after the pullback, price forms a 4-hour HL and then breaks the nearby swing high.
+
+Define the level that must hold before thinking about entry. If BTC breaks daily resistance but the 4-hour candles close back inside the old range, the opportunity is invalid or needs more evidence. The 4-hour chart should answer: **Is there a defined setup with a clear invalidation point and acceptable risk?**
+
+### 15-minute: refine the entry
+
+Use the 15-minute chart only after the 4-hour setup exists. It can help reduce entry distance or avoid buying during a fast spike:
+
+- wait for a small 15-minute range or pullback to hold the 4-hour level;
+- look for a close back in the planned direction, rather than entering on a wick;
+- place the stop where the 4-hour or daily idea is invalidated, not at an arbitrary 15-minute noise point;
+- skip the trade if the 15-minute signal requires a much wider stop or contradicts the higher-timeframe setup.
+
+The 15-minute chart should answer: **Has the planned level produced a usable trigger now?** It cannot turn a bearish daily environment into a bullish one. A 15-minute bullish pattern inside a daily downtrend is usually a short-lived countertrend move unless the higher timeframe also changes.
+
+### Example
+
+Suppose BTC is making daily HH and HL, and the daily EMA(25) is rising. On the 4-hour chart, BTC breaks 70,000, pulls back to 70,000, and holds above it while volume remains healthy. On the 15-minute chart, price forms a small HL and closes above the local swing high. The daily chart supplied the environment, the 4-hour chart supplied the opportunity, and the 15-minute chart supplied the trigger. If the 4-hour candle later closes back below 70,000, the original trade idea is weakened even if the 15-minute chart briefly turns upward again.
 
 ## 2. Define the trend from price structure
 
