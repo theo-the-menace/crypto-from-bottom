@@ -10,7 +10,33 @@ A beginner can make money by luck, by entering during a strong trend, or by foll
 
 Treat this period as training. Study experienced traders whose reasoning, records, and losses are visible. Use their work to learn questions and methods, not to copy entries. An analyst, influencer, or AI can be wrong, can use a different timeframe, or can hide the risk behind a confident explanation. Your account still needs its own limits.
 
-## 2. Money management comes before the order
+## 2. Personal lessons from trading
+
+The following lessons are easy to say and difficult to practice. They are more valuable than another isolated indicator because they protect the decisions made around every indicator.
+
+### Do not chase the high or the low
+
+Do not open a long position simply because price has just surged to a high. Do not open a short position simply because price has just fallen to a low. The move may continue, but the entry often has poor risk-to-reward and leaves no clear place for a protective stop. Wait for a structure, a pullback, or a defined breakout rule. Missing a move is frustrating; turning a missed move into a large loss is avoidable. Do not follow someone else's entry just because it sounds confident. It is better to earn less than to lose more.
+
+### Do not keep opening positions
+
+Repeatedly adding or reopening a position can make a trader feel active while quietly increasing exposure. In perpetual futures, every additional order can add trading fees, funding payments, slippage, liquidation risk, and emotional pressure. Even in spot, repeated entries can use all available cash before the market has confirmed the idea. Decide the maximum exposure before the first order. Add only if the written strategy explicitly allows it and the total risk remains within the limit.
+
+### A low win rate can still be a valid model
+
+Trading is mathematics, not gambling, when the rules and risk are defined before the outcome. A method can lose often and still make money if its winners are sufficiently larger than its losers. For example, a method that wins 30% of trades at +3R and loses 70% at -1R has an expectancy of `0.30 × 3R − 0.70 × 1R = +0.20R` before fees and slippage. Here, **R** is the amount planned to lose if the stop is hit.
+
+This example is not evidence that the method works. The win rate, average win, losing streak, drawdown, and costs must come from a large enough sample. A low-win-rate method is reasonable only if the trader can survive its losing streaks and follow the rules without changing them after a loss. Without a defined edge and controlled risk, “high reward” is only a story told after the trade.
+
+### Follow the exit plan when emotion becomes loud
+
+Seeing an unrealized loss can create an urge to sell immediately, move the stop, or wait for a miracle. The answer should already be in the plan. If the invalidation level is reached, execute the stop and record the loss. If the take-profit or trailing rule is reached, follow that rule as well. A planned loss is a business cost; an unmanaged loss can become a threat to the whole account.
+
+### Trading reveals the trader
+
+Trading is a long contest with greed, fear, impatience, and the need to be right. The chart becomes a mirror: chasing a candle reveals urgency, repeated entries reveal discomfort with waiting, and refusing a stop reveals attachment to a prediction. This is not a moral judgment. It is useful information about which rule the process needs to strengthen.
+
+## 3. Money management comes before the order
 
 Money management answers a question that indicators cannot: **how much can this idea lose without damaging the account?** Decide the risk before looking for an entry.
 
@@ -26,7 +52,7 @@ If a BTC spot idea buys at 100,000 USDT and the invalidation stop is 98,000 USDT
 
 Keep separate limits for one trade, one day, and the whole account. Do not average down simply because the price moved against you. Do not increase leverage to recover a loss. A written loss limit protects your future decisions when emotion is strongest.
 
-## 3. How to analyze a possible trade
+## 4. How to analyze a possible trade
 
 Use the same order every time. The order prevents a fast indicator from overriding the larger context.
 
@@ -61,7 +87,7 @@ A usable hypothesis has four parts:
 
 Example: “On the 4-hour chart, BTC is in an HH/HL structure. I will consider a long only after a close above 84,000 and a pullback that holds 84,000 as support. A close below the new higher low invalidates the idea. I will risk no more than 5 USDT and will not widen the stop.” This is a hypothesis, not a prediction.
 
-## 4. How to open a position
+## 5. How to open a position
 
 First choose the product. A spot purchase gives you the asset after the order fills. A perpetual futures position gives leveraged long or short exposure under the contract rules and can be liquidated. A beginner should understand the spot example before using futures; leverage changes the speed and size of losses, not the quality of an analysis.
 
@@ -78,7 +104,7 @@ Before pressing Buy, Sell, Open Long, or Open Short, check:
 
 A trade is not complete when the entry fills. Record the fill price, fees, stop, reason for entry, and the condition that would make you exit.
 
-## 5. How to choose a stop-loss location
+## 6. How to choose a stop-loss location
 
 A stop should sit where the trade idea is invalidated, with enough room for normal movement. It should not be chosen only because it creates a convenient position size.
 
@@ -93,7 +119,7 @@ For a short position, reverse the logic: the stop can sit above the protected lo
 
 The correct order is **invalidation first, size second**. If the structural stop is too far away, reduce the position. Do not move the stop closer just to trade a larger amount, and do not move it farther away after entry to avoid accepting a loss. A stop is an exit rule, not a guarantee of an exact fill.
 
-## 6. Practice a position on Binance without risking capital
+## 7. Practice a position on Binance without risking capital
 
 Use Binance Demo Trading or the relevant official test environment before using real funds. Binance describes Demo Trading as a virtual interface for practicing Spot and Futures with virtual funds; availability and product access can vary by region and account. See [Binance's Demo Trading guide](https://www.binance.com/en-NG/learn/binance-demo-trading) and [Binance's Spot Testnet and Futures Demo FAQ](https://www.binance.com/en/support/faq/detail/ab78f9a1b8824cf0a106b4229c76496d).
 
@@ -109,7 +135,7 @@ The practice workflow is:
 
 We will add annotated Binance screenshots for this workflow in a later revision. The important lesson is already testable without them: practice the complete decision—analysis, size, entry, stop, exit, and review—not only the moment of clicking an order button.
 
-## 7. A repeatable checklist
+## 8. A repeatable checklist
 
 Before every simulated or live trade, answer these questions in writing:
 
