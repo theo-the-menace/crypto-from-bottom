@@ -32,6 +32,22 @@ The number in an MA is a **lookback length**, not a rating or a confidence score
 
 A shorter MA reacts first but gives more false turns. A longer MA filters more noise but reacts later. Traders often use three different lengths to compare short-term behavior with the larger trend. These numbers are conventions, not laws; the useful period depends on the asset, timeframe, and strategy.
 
+### 1.3 The same MA numbers mean different things on different timeframes
+
+An MA(7) is based on seven candles, so its real-time window changes when the chart interval changes. On a daily chart, MA(7) summarizes about seven days. On a weekly chart, it summarizes about seven weeks. The calculation is the same, but the question is different: the daily chart describes a shorter swing, while the weekly chart describes a much broader market phase.
+
+![Weekly chart with EMA(7), EMA(25), and EMA(99)](assets/btc-weekly-ma-momentum.jpg)
+
+The supplied image is a weekly chart. At the right side, **EMA(7)** (yellow) is above **EMA(99)** (purple), while **EMA(25)** (pink) is below EMA(99). This is not a contradiction with a daily chart that may show another order. The two charts average different candles. A recent weekly recovery can lift the seven-week EMA above the slower average even while the daily chart shows another short-term arrangement, or the daily chart can improve before the weekly chart has enough candles to turn.
+
+This difference gives us useful information about scale:
+
+- The **weekly chart** helps answer whether the larger market structure is recovering, weakening, or still in a broad range.
+- The **daily chart** helps answer how the current swing is developing inside that larger context.
+- A disagreement tells us that the timeframes are describing different layers of the market. It is a reason to reduce confidence and check support, resistance, volume, and closed candles—not a reason to choose whichever chart supports a preferred trade.
+
+For example, a weekly bullish alignment with a daily pullback can describe a possible pullback inside a larger uptrend. A daily bullish crossover while the weekly averages remain bearish can describe an early recovery that has not yet changed the broader trend. Neither arrangement predicts what must happen next.
+
 ## 2. What moving averages can tell us
 
 A rising MA says that recent closes are generally higher than earlier closes in its window. A falling MA says the opposite. Price holding above a rising MA can support a bullish context; price remaining below a falling MA can support a bearish context. The MA may also act as a **dynamic support or resistance zone** when many traders are watching the same line.
@@ -46,7 +62,15 @@ A **golden cross** occurs when a shorter MA crosses above a longer MA. A **death
 
 Crossovers are delayed because the averages need enough new candles to change direction. In a sideways market, the same two lines can cross several times and produce a series of small losses. A crossover is more useful when the averages are sloping, price has broken a meaningful level, and the next pullback holds. It is weaker when the lines are flat and tangled.
 
-## 4. MACD: moving-average momentum
+## 4. Momentum: what the word means on a chart
+
+In physics, momentum describes motion. In trading, **momentum** is a practical description of how strongly and consistently price has been moving in one direction recently. It is not the market's physical speed and it is not a guarantee that the move will continue.
+
+We observe momentum through clues such as the size and sequence of candles, the slope and separation of moving averages, the distance between MACD lines, RSI behavior, and participation from volume. A series of large green candles with rising volume suggests stronger upward momentum. Smaller candles near the same high, a flattening fast EMA, or a shrinking MACD histogram suggests that the upward move is losing force. Price can still rise while momentum weakens; this is why divergence is a warning rather than an automatic reversal signal.
+
+Momentum answers a narrower question than trend. **Trend** asks, “Which direction has the market generally taken?” **Momentum** asks, “How much force is behind the latest part of that move, and is that force increasing or fading?” A market can remain in an uptrend while its short-term momentum slows during a pullback.
+
+### 4.1 MACD: moving-average momentum
 
 MACD stands for **Moving Average Convergence Divergence**. It compares a faster EMA with a slower EMA to show whether recent momentum is becoming stronger or weaker relative to that baseline.
 
@@ -63,7 +87,7 @@ If the MACD line is above the signal line, recent momentum is stronger than its 
 The following Binance-style MACD panel uses the names **DIF**, **DEA**, and **MACD** that appear in some charting apps. DIF is the MACD line, DEA is the signal line, and the green or red bars are the histogram. The labels are different, but the ideas are the same as MACD line, signal line, and histogram described above.
 
 
-### 4.1 Why MACD looks different in different regions
+### 4.2 Why MACD looks different in different regions
 
 The word **MACD** is used differently by different charting platforms. Some regional apps present the panel as **DIF** (the fast line), **DEA** (the signal line), and **Histogram** (the red/green bars). In many international platforms, **MACD** usually means the fast-minus-slow line, while **Signal** means its smoothed line and **Histogram** means the gap between them.
 
@@ -81,7 +105,7 @@ There is one more source of confusion: some Chinese chart packages display the h
 
 For standard terminology, compare the platform’s documentation with TradingView’s [MACD explanation](https://www.tradingview.com/support/solutions/43000502344-macd-moving-average-convergence-divergence/) and Binance Academy’s [MACD guide](https://www.binance.com/en/academy/articles/macd-indicator). The calculation matters more than the translation.
 
-### 4.2 How traders read MACD
+### 4.3 How traders read MACD
 
 A MACD line crossing above the signal line can support a bullish momentum hypothesis. A cross below can support a bearish hypothesis. A histogram that keeps growing can support continuation; a histogram that shrinks while price keeps rising can warn that momentum is slowing.
 
