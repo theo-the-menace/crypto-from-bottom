@@ -102,6 +102,14 @@ In this bearish example, BTC first forms **LH and LL**. It then makes a small **
 
 These examples show why HH, HL, LH, and LL are observations rather than automatic signals. A market can contain a small bullish structure inside a larger downtrend, or a small bearish structure inside a larger uptrend. Always define the swing size and timeframe, then ask whether the move broke a meaningful level, closed beyond it, and held during the next pullback. Structure analysis remains useful because it describes who is currently winning at a chosen scale; it becomes misleading when every minor fluctuation is treated as a new trend.
 
+### 1.4.2 CHoCH — Change of Character
+
+A **Change of Character (CHoCH)** is more specific than seeing one LH/LL or HH/HL. It is a possible first change in the behavior of the current trend. In a downtrend, the important test is whether price breaks and closes above the most recent **protected LH**—the lower high that helped produce the latest LL. In an uptrend, the test is whether price breaks and closes below the most recent **protected HL**. A wick or a tiny intraday move is not enough; a pullback that holds the broken level gives stronger confirmation.
+
+The two examples above are therefore **not clean CHoCH examples**. The LH and LL inside the bullish chart show a local pullback that did not break the larger protected HL. The HH and HL inside the bearish chart show a weak countertrend rally that did not break the larger protected LH. They become meaningful only after a later candle breaks the relevant protected swing and the market either follows through or fails.
+
+At the moment a new LH/LL or HH/HL appears, you cannot know whether the next move will continue or reverse. That uncertainty is normal. Structure analysis describes what has already happened and gives you levels to monitor; it does not reveal the next candle in advance. For a CHoCH hypothesis, mark the protected swing before the decision, wait for a confirmed close beyond it, and define what would invalidate the reversal idea. If the level is never broken, the original trend remains the better description.
+
 Divergence—price making a lower low while an oscillator makes a higher low, for example—can warn that momentum is changing. It is not a guaranteed reversal and can appear repeatedly during a strong trend.
 
 ### 1.5 Context before patterns
