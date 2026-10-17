@@ -145,7 +145,7 @@ The weekly chart below adds a higher-timeframe view to this four-stage story:
 
 ![Weekly chart with EMA(7), EMA(25), and EMA(99)](assets/btc-weekly-ma-momentum.jpg)
 
-At the right side of the weekly image, **EMA(7)** (yellow) is above **EMA(99)** (purple), while **EMA(25)** (pink) remains below EMA(99). This shows a recent weekly recovery that has improved short-term strength without fully restoring the medium-term order. The daily chart may therefore look different: it is measuring a shorter swing with a different set of candles. The weekly chart says that the larger recovery is still incomplete; the daily chart helps us see the current pullback and nearby decision levels.
+At the right side of the weekly image, **EMA(7)** is above **EMA(99)** , while **EMA(25)** remains below EMA(99). This shows a recent weekly recovery that has improved short-term strength without fully restoring the medium-term order. The daily chart may therefore look different: it is measuring a shorter swing with a different set of candles. The weekly chart says that the larger recovery is still incomplete; the daily chart helps us see the current pullback and nearby decision levels.
 
 This is useful in Stage 4 because it prevents us from calling a daily weakening signal a complete long-term reversal too early. If the daily chart loses EMA(25) and a higher low while the weekly EMA(7) also turns down, the evidence of a broader reversal becomes stronger. If the daily pullback stabilizes and the weekly EMA(25) later rises through EMA(99), the recovery has gained broader support. These are conditions to monitor, not predictions.
 
