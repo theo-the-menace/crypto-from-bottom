@@ -144,11 +144,7 @@ MACD divergence compares price swings with MACD swings. If price makes a higher 
 
 ## 5. Reading the BTC technical story
 
-The two daily BTC screenshots show a useful sequence: a quiet range, a strong breakout, a weakening advance, and a possible reversal. The indicators do not tell us the future in advance. They help us describe how the move developed and what evidence changed at each stage.
-
-![BTC bullish moving-average alignment](assets/btc-bull-ma-alignment.png)
-
-This image corresponds to **case 5**: `EMA(7) > EMA(25) > EMA(99)` with the averages rising during the breakout, a bullish alignment rather than a guarantee of continuation.
+The chart examples show a useful sequence: a quiet range, a strong breakout, a weakening advance, and a possible reversal. The indicators do not tell us the future in advance. They help us describe how the move developed and what evidence changed at each stage.
 
 ### Stage 1: sideways consolidation
 
@@ -168,16 +164,16 @@ Around 20 August, price breaks above the upper part of the range near 68,000 wit
 
 The three MACD observations describe the same acceleration from different angles: a line crossover, a move above the zero line, and increasing distance between DIF and DEA. Together with the price breakout and participation, they make a stronger continuation hypothesis than any one signal alone. They still arrive after the move has started, so they are confirmation rather than a guaranteed early entry.
 
+![BTC bullish moving-average alignment](assets/btc-bull-ma-alignment.png)
+
+This image corresponds to **case 5**: `EMA(7) > EMA(25) > EMA(99)` with the averages rising during the breakout, a bullish alignment rather than a guarantee of continuation.
+
+
 ### Stage 3: a top and a divergence warning
 
 Near the 82,000 area, price makes another high, but the force of the advance becomes less convincing. The key observation is a **bearish divergence**: price reaches a higher high while the MACD/DIF line fails to reach a higher high. At the same time, the histogram bars begin to shrink and DIF moves closer to DEA.
 
 This says that price is still rising while measured momentum is weakening. It does not say that the top is already confirmed. A strong trend can continue after divergence. The useful response is to stop treating every new high as proof of stronger demand, then watch structure, support, and the next pullback.
-
-![BTC moving-average trend weakening](assets/btc-ma-trend-weakening.png)
-
-At the right side, this corresponds to **case 3**: `EMA(7) < EMA(25)` while `EMA(99)` remains below both, showing short-term weakness inside a still higher average order.
-
 
 ### Stage 4: weakening and possible reversal
 
@@ -189,6 +185,10 @@ The MACD numbers make the direction clear. The panel shows `DIF: 1,021.4` and `D
 
 That negative value matches the displayed `MACD: −785.6` under this app’s convention. The negative histogram supports weakening or bearish momentum; it does not by itself prove that price must continue down. The current price shown in the screenshot is about 80,536, so descriptions such as 78,776 should not be substituted for the value actually displayed in the image.
 
+![BTC moving-average trend weakening](assets/btc-ma-trend-weakening.png)
+
+At the right side, this corresponds to **case 3**: `EMA(7) < EMA(25)` while `EMA(99)` remains below both, showing short-term weakness inside a still higher average order.
+
 
 The weekly chart below adds a higher-timeframe view to this four-stage story:
 
@@ -198,13 +198,12 @@ At the right side of the weekly image, **EMA(7)** is above **EMA(99)** , while *
 
 This corresponds to **case 2**: `EMA(7) > EMA(99)` while `EMA(25)` remains below both, an early or mixed recovery rather than a complete bullish alignment.
 
-This is useful in Stage 4 because it prevents us from calling a daily weakening signal a complete long-term reversal too early. If the daily chart loses EMA(25) and a higher low while the weekly EMA(7) also turns down, the evidence of a broader reversal becomes stronger. If the daily pullback stabilizes and the weekly EMA(25) later rises through EMA(99), the recovery has gained broader support. These are conditions to monitor, not predictions.
 
 ### Stage summary: reading the daily and weekly pictures together
 
 The **daily chart** is useful for the current swing. In this four-stage example, it shows the breakout from the range, the loss of short-term momentum, the pullback below EMA(7), and the nearby question of whether EMA(25) and the last higher low will hold. It helps describe the setup, invalidation level, and possible execution area.
 
-The **weekly chart** is useful for the larger market phase. In the supplied weekly image, EMA(7) has recovered above EMA(99), but EMA(25) remains below EMA(99). That combination suggests that the latest recovery is meaningful enough to improve short-term weekly strength, while the medium-term trend still needs more evidence. It helps prevent a daily pullback from being mistaken for a confirmed long-term reversal, and it also prevents a daily bounce from being mistaken for a fully restored bull market.
+The **weekly chart** is useful for the larger market phase. In the supplied image, the weekly arrangement is an early or mixed recovery rather than a complete bullish alignment. It helps put the daily pullback into a broader context.
 
 Together, the charts tell a conditional story: the daily structure is weakening inside a weekly recovery that is not yet complete. A stronger bearish interpretation would require continued daily deterioration plus a weekly loss of its improving structure. A stronger bullish interpretation would require the daily pullback to hold and the weekly medium-term averages to turn upward. Until one of those conditions develops, the most accurate conclusion is mixed evidence rather than a forced prediction.
 
