@@ -1,6 +1,6 @@
-# Chapter 4 — From TradingView Script to a Binance Order
+# Chapter 5 — From TradingView Script to a Binance Order
 
-Chapter 3 explained how to form a trade hypothesis, size a position, and place a simulated order. This chapter connects those pieces into an automated workflow:
+Chapter 4 explained how to choose a trading approach, define a testable hypothesis, and build a written playbook. Chapter 3 introduced money management, position sizing, stops, and simulated execution. This chapter connects those pieces into an automated workflow:
 
 ```text
 TradingView chart → Pine Script condition → TradingView alert

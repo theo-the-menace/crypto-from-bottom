@@ -20,8 +20,9 @@ A book-style, practice-first curriculum for people who are new to crypto and wan
 3. [Chapter 3 — Welcome to the Crypto World](book/chapter-03-welcome-to-crypto-world.md)
    - [Advanced — Moving-average and momentum tools](book/advanced/moving-average-and-momentum.md)
    - [Advanced — Combining price, volume, and indicators](book/advanced/combining-indicators.md)
-4. [Chapter 4 — From TradingView Script to a Binance Order](book/chapter-04-tradingview-webhook-binance.md)
+4. [Chapter 4 — Choose Your Trading Approach](book/chapter-04-choose-your-trading-approach.md)
+5. [Chapter 5 — From TradingView Script to a Binance Order](book/chapter-05-tradingview-webhook-binance.md)
 
 ## How to use this book
 
-Read Chapter 1 without placing a trade. Re-draw the diagrams, annotate historical charts, and answer the exercises at the end. Only then move to a written strategy specification. The goal is to understand what a button, chart, or number means before risking money on it.
+Read Chapters 1–3 without placing a trade. Re-draw the diagrams and annotate historical charts. Then use Chapter 4 to write one trading approach and test it with simulated orders before moving to Chapter 5 automation. The goal is to understand what a button, chart, or number means before risking money on it.
