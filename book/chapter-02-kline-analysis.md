@@ -58,6 +58,8 @@ These level terms are essential because a structure label has meaning only in re
 - **Range high and range low:** the upper and lower boundaries repeatedly respected while price moves sideways.
 - **Breakout and retest:** a close beyond a level followed by a return to test it. A hold from the other side provides more evidence than the first candle alone.
 
+![Previous high, resistance, breakout, retest, support, and new structure](assets/chapter-02-kline-key-levels.svg)
+
 For example, if BTC repeatedly fails near 70,000, that area is resistance. If a daily candle closes above 70,000 and a later pullback holds near it, the old resistance may have become support. The important observation is not the number by itself; it is the reaction, the close, and whether the next swing confirms the idea.
 
 A break of a level matters more when the candle closes beyond it, activity is meaningful, and a later pullback holds the level from the other side. A wick through a level that closes back inside the range is weaker evidence.
