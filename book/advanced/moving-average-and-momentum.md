@@ -83,8 +83,10 @@ The position of the lines gives more context than the word “cross” alone. Ke
 
 For example, MA(7) can cross above MA(25) while all three averages are still falling. That is a short-term improvement inside a declining market, not a confirmed bullish trend. The following examples use **MA(7)** as the fast average, **MA(25)** as the medium average, and **MA(99)** as the slow average. They are observations to investigate, not automatic trade instructions.
 
-1. **MA(7) crosses above MA(25), while MA(99) is below both.** This describes a short-term improvement and a bullish line order. It does **not** say that all three lines are rising. If all three slope upward and price holds above them, the continuation case is stronger. If MA(7) and MA(25) rise while MA(99) is flat or falling, it may only be an early recovery.
-2. **MA(7) crosses above MA(99), while MA(25) is below both.** This describes a fast rebound above the long-term average while the medium-term average remains weaker. If MA(7) is rising but MA(25) and MA(99) are still falling, the move may be counter-trend. Check whether MA(25) turns upward and whether price holds the reclaimed level.
+Cases **1–4 describe crossing events or transition points**. Cases **5–7 describe the broader arrangement after we observe the lines and their slopes**. One chart can therefore move through several cases in sequence.
+
+1. **MA(7) crosses above MA(25), while MA(99) is below both.** At the crossing, this is a short-term improvement and a bullish line order. It does **not** say that all three lines are rising. If the lines later rise together and price holds above them, the chart may develop into case 5. If MA(7) and MA(25) rise while MA(99) is flat or falling, it may only be an early recovery.
+2. **MA(7) crosses above MA(99), while MA(25) is below both.** At the crossing, this is a fast rebound above the long-term average while the medium-term average remains weaker. If MA(7) is rising but MA(25) and MA(99) are still falling, the move may be counter-trend. Check whether MA(25) turns upward and whether price holds the reclaimed level.
 3. **MA(7) crosses below MA(25), while MA(99) remains below both.** This describes short-term weakness inside a still higher average order. If MA(99) is rising and MA(25) remains above it, the move may be a pullback in a larger uptrend. If all three slopes turn down, the bearish interpretation becomes stronger.
 4. **MA(7) crosses below MA(99), while MA(25) remains above both.** This is a mixed transition: the fast average is weak, but the medium average still has the stronger position. If MA(25) is rising, it may be a pullback before continuation. If MA(25) and MA(99) are both falling, it may be the first stage of a deeper reversal.
 5. **MA(7) > MA(25) > MA(99), with all three rising.** This is a bullish alignment: recent prices are stronger across all three windows, and the slopes agree with the order. It is more credible when price makes HH/HL and a pullback holds. Because averages lag, it may appear after a large part of the move.
@@ -154,7 +156,7 @@ This is a range, not a clean trend. A crossover system can lose repeatedly here 
 
 ![BTC MA range to early breakout](assets/btc-ma-range-to-early-breakout.png)
 
-This image shows a transition from **case 7**—MA(7) and MA(25) tangled while MA(99) falls—to **case 1**, as MA(7) sharply rises above MA(25). It shows improving short-term momentum, not a confirmed long-term trend change.
+This image shows a transition from **case 7**—MA(7) and MA(25) tangled while MA(99) falls—through **case 1**, as MA(7) rises above MA(25), and toward **case 5** at the right side, where `EMA(7) > EMA(25) > EMA(99)`. It shows improving momentum, not a confirmed long-term trend change.
 
 ### Stage 2: breakout and acceleration
 
