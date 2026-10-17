@@ -128,6 +128,12 @@ This chart is a clear range-breakout example. BTC spends many daily candles betw
 
 A range breakout is more credible when the close is outside the boundary, the candle has meaningful participation, and a later pullback holds the old resistance as support. If price quickly closes back inside the range, treat it as a failed breakout or liquidity sweep. The range gives a map of the market's accepted prices; it does not tell us in advance which boundary will break.
 
+### Patterns are descriptions, not predictions
+
+A chart pattern can look obvious only after the next candles have already printed. Before the break, the same candles may support several explanations: a new trend, a range, a false break, or a temporary reaction to news. This is why calling every completed move a “pattern” can create hindsight bias. The label describes what happened; it does not prove that a trader could have known the outcome in advance.
+
+Real markets are also layered. A bullish breakout on a 15-minute chart can be a small rally inside a daily downtrend. A clean-looking range can be interrupted by a liquidation cascade, a policy announcement, or a sudden change in liquidity. Use patterns as conditional maps: state the level, the confirmation you need, the invalidation point, and the risk before acting. If the next candles do not confirm the idea, the correct response is to revise the hypothesis rather than force the pattern to fit.
+
 Divergence—price making a lower low while an oscillator makes a higher low, for example—can warn that momentum is changing. It is not a guaranteed reversal and can appear repeatedly during a strong trend.
 
 ### 1.5 Context before patterns
