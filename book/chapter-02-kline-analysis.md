@@ -120,6 +120,14 @@ This chart begins with a broad HH/HL sequence. Near the top, price stops making 
 
 This is the **June 2026** BTC example. The interpretation remains a hypothesis: a reclaim of the broken higher-low area would weaken the bearish reading.
 
+### 1.4.3 Range breakout
+
+![BTC daily range breakout from approximately 57,000–67,000 to above 77,000](assets/btc-range-breakout-2026-08.jpg)
+
+This chart is a clear range-breakout example. BTC spends many daily candles between roughly **57,000 and 67,000 USDT**, with repeated tests of both the lower and upper boundaries. The move becomes a breakout only when price closes above the upper range rather than briefly wicking through it. The fast move toward **77,000 USDT and higher** is follow-through after the breakout, not the definition of the range itself.
+
+A range breakout is more credible when the close is outside the boundary, the candle has meaningful participation, and a later pullback holds the old resistance as support. If price quickly closes back inside the range, treat it as a failed breakout or liquidity sweep. The range gives a map of the market's accepted prices; it does not tell us in advance which boundary will break.
+
 Divergence—price making a lower low while an oscillator makes a higher low, for example—can warn that momentum is changing. It is not a guaranteed reversal and can appear repeatedly during a strong trend.
 
 ### 1.5 Context before patterns
