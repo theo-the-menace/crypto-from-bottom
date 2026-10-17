@@ -20,7 +20,7 @@ DCA is closer to a long-term accumulation plan than to active trading. It is use
 
 **Trend following** holds an asset when its own price trend is positive and reduces or leaves the position when the trend breaks. A simple version might compare BTC's daily close with a long moving average, while a more structured version might use a breakout and a volatility-adjusted stop.
 
-The logic is that a strong move can persist longer than a trader expects. The [AQR century-long trend-following study](https://www.aqr.com/-/media/AQR/Documents/Insights/Journal-Article/AQR-JPM-Fall-2017.pdf) is an older but important cross-asset reference: it explains why trend following is studied as a repeatable family of rules rather than as a prediction of every turning point.
+The logic is that a strong move can persist longer than a trader expects. Trend following is a repeatable family of rules, not a promise that a trader can predict every turning point.
 
 Trend following enters late by design. It can give back profit during a reversal and lose repeatedly when price moves sideways. It is a strong research candidate for BTC because the rules can be tested on daily or weekly candles without predicting an exact top or bottom.
 
