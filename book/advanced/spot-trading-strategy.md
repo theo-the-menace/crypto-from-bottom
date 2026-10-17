@@ -12,17 +12,17 @@ The strategies below have produced profitable results in some markets or histori
 
 **Dollar-cost averaging (DCA)** invests a fixed amount on a schedule instead of trying to choose one perfect entry. For example, a person might buy the same amount of BTC every week and keep a separate rule for when to stop, reduce, or sell.
 
-DCA can reduce the emotional pressure of choosing one entry and spreads purchases across different prices. Binance's [DCA guide](https://www.binance.com/en/academy/articles/dollar-cost-averaging-dca-explained) explains this use while also warning that DCA does not remove loss risk. It can underperform a lump-sum purchase in a steadily rising market, and it cannot protect against a long decline. Frequent small orders can also add fees.
+DCA can reduce the emotional pressure of choosing one entry and spreads purchases across different prices. Binance's [DCA guide](https://www.binance.com/en/academy/glossary/dollar-cost-averaging) explains this use, and Binance's [Recurring feature](https://www.binance.com/en/support/faq/detail/5026705ac87942069b1bdcf5a99ffc48) can automate fixed purchases where it is available. Binance also warns that DCA does not remove loss risk. It can underperform a lump-sum purchase in a steadily rising market, and it cannot protect against a long decline. Frequent small orders can also add fees.
 
 DCA is closer to a long-term accumulation plan than to active trading. It is useful for someone with regular income, a long holding horizon, and no need to predict the next few candles. It still needs an allocation limit, a review date, and an exit or rebalancing rule. “I will keep buying until it recovers” is not a complete strategy.
 
 ### 1.2 Trend following and time-series momentum
 
-**Trend following** means buying while an asset is clearly moving upward, then reducing or exiting when that upward trend breaks. **Time-series momentum** is the same idea stated as a rule: compare BTC with its own recent history, rather than comparing it with other coins.
+**Trend following** means buying while an asset is clearly moving upward, then reducing or exiting when that upward trend breaks. **Time-series momentum** is the same idea stated as a rule: compare BTC with its own recent history, rather than comparing it with other coins. It is therefore an active, conditional plan; DCA buys on the calendar whether the chart is rising, falling, or unclear.
 
 For example, a simple BTC rule could be: stay invested when the daily close is above a rising long-term moving average; move to USDT when the daily close falls below it. A breakout rule could instead wait for BTC to close above a previous range high.
 
-The advantage is that the rule does not require guessing the exact bottom. The cost is that it enters after a move has already started, gives back some profit during reversals, and can lose several small trades when BTC moves sideways. It is a method for participating in large moves, not a prediction machine.
+The advantage is that the rule does not require guessing the exact bottom. The cost is that it enters after a move has already started, gives back some profit during reversals, and can lose several small trades when BTC moves sideways. It is a method for participating in large moves, not a prediction machine. TradingView's [Moving Averages guide](https://www.tradingview.com/support/solutions/43000502589-moving-averages/) describes moving averages as reactive trend-confirmation tools, and its [MovingAvg Cross strategy](https://www.tradingview.com/support/solutions/43000599885-movingavg-cross/) shows the basic rule of going long when the close is above an average and switching when it falls below. These are building blocks for a testable trend rule, not a guarantee of a profitable signal.
 
 ### 1.3 Breakout and pullback
 
