@@ -118,6 +118,12 @@ The price chart should lead. The indicators in [Advanced — Moving-average and 
 
 These percentages are a thinking aid, not a score that can prove a trade. K-lines and structure receive the largest share because every other tool is calculated from market data and reacts after price has moved. EMA and MACD overlap because both use moving averages; RSI also uses price history. Agreement among them is useful, but it is not three independent votes.
 
+### What weight should analyst price targets receive?
+
+Long-term targets such as “BTC could reach 250,000” are scenario opinions, not chart evidence. They can help a reader think about possible upside, but they do not tell us when to enter, where to place a stop, or whether the current trend is intact. A major bank changing a target from 300,000 to 150,000 after market conditions change is a useful reminder that the number is conditional, not a fact; [Bloomberg reported such a revision in 2025](https://www.bloomberg.com/news/articles/2025-12-09/bitcoin-bulls-standard-chartered-bernstein-pare-back-most-ambitious-forecasts).
+
+For a short-term or swing trade, give an analyst target **0% weight** in the entry decision. For a multi-month allocation plan, it may provide a **small background weight, roughly 0–5%**, only after you record the forecast date, time horizon, assumptions, base case, and downside case. Do not treat the absence of a 40,000 forecast as evidence that 40,000 is impossible. Analysts who publish upside targets are a selected group, and bullish targets receive more attention than quiet or wrong forecasts. Use the target to define scenarios; use price structure, participation, volatility, and a risk limit to make the decision.
+
 Change the emphasis with the situation:
 
 - **Breakout:** give more attention to the closing candle, follow-through, and VOL; reduce the importance of RSI because RSI can remain high during a strong rise.
