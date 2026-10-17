@@ -34,11 +34,35 @@ Example: BTC makes a daily high at 70,000, pulls back to 66,000, then closes abo
 
 One higher high does not automatically create a bull trend, and one lower low does not automatically create a bear trend. Ask whether the next pullback or rally confirms the new structure.
 
-## 4. Use indicators as supporting evidence
+## 4. Use seven tools to ask different questions
 
-The MA and momentum tools in [Advanced — Moving-average and momentum tools](moving-average-and-momentum.md) can support a trend reading. For example, a rising long-term average and price holding above it are consistent with a bullish context. MA, MACD, RSI, volume, and ATR do not create the trend by themselves; they describe direction, momentum, participation, or movement around the price structure.
+The price chart should lead. The indicators in [Advanced — Moving-average and momentum tools](moving-average-and-momentum.md) and [Advanced — Combining price, volume, and indicators](combining-indicators.md) help test the idea formed from price structure:
 
-Do not count several price-derived indicators as independent proof. If the daily chart shows HH/HL and the MA and MACD agree, that is a stronger hypothesis than any one line alone, but it is still a hypothesis.
+| Tool | Question it helps answer | Starting weight in a trend reading |
+| --- | --- | ---: |
+| **K-lines and structure** | Are buyers and sellers making HH/HL, LH/LL, or a range? | **35%** |
+| **EMA** | Is price direction supported by a smooth short, medium, and long trend reference? | **15%** |
+| **VOL (volume)** | Did enough participation appear to support the move? | **15%** |
+| **MACD** | Is directional momentum strengthening or weakening? | **10%** |
+| **RSI** | Is recent upward or downward pressure strong, neutral, or diverging? | **10%** |
+| **BOLL (Bollinger Bands)** | Is volatility expanding, contracting, or pressing against a band? | **8%** |
+| **ATR (Average True Range)** | How large are recent moves, and can the planned stop survive normal noise? | **7%** |
+
+These percentages are a thinking aid, not a score that can prove a trade. K-lines and structure receive the largest share because every other tool is calculated from market data and reacts after price has moved. EMA and MACD overlap because both use moving averages; RSI also uses price history. Agreement among them is useful, but it is not three independent votes.
+
+Change the emphasis with the situation:
+
+- **Breakout:** give more attention to the closing candle, follow-through, and VOL; reduce the importance of RSI because RSI can remain high during a strong rise.
+- **Established trend:** give more attention to EMA slope, pullback behavior, and MACD; use RSI mainly to detect a loss of momentum rather than to sell automatically.
+- **Range:** give more attention to BOLL and RSI near the range boundaries; reduce the weight of EMA crossovers and MACD because they can flip repeatedly.
+- **Risk planning:** give ATR more attention when setting the stop and position size. ATR describes movement size, not direction.
+- **Unusual news or liquidation:** reduce confidence in every indicator. A chart calculation cannot know an event before it reaches the market.
+
+A practical reading separates three steps:
+
+1. **Observation:** BTC has made two daily HHs and the latest pullback held above the prior HL; EMA(25) is rising; breakout volume is above its recent average.
+2. **Interpretation:** the daily structure is bullish and the breakout has reasonable participation, while the indicators support rather than create that conclusion.
+3. **Decision:** wait for a defined entry, stop, and position size. If the next daily candle closes back inside the range, the bullish hypothesis is weakened or invalidated.
 
 ## 5. Decide when the trend has failed
 
