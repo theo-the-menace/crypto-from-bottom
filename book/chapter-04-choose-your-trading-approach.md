@@ -56,6 +56,16 @@ Suppose BTC is trading below a falling daily EMA(25) after making LH and LL:
 
 The chart does not choose the product for you. The product changes what “being right” costs while you wait.
 
+### 2.4 Start with BTC, then expand carefully
+
+For most beginners, BTC is the best first research market. It usually has deep liquidity, long price history, many timeframes, and a large amount of public information. That makes it easier to compare a chart observation with an actual order, and easier to notice when a result came from spread, slippage, or a thin market rather than from the idea itself.
+
+This does not mean BTC is safe or predictable. BTC can move sharply, and its history still contains long drawdowns and sudden liquidations. The point is to reduce the number of unknowns while you learn. If the product, coin, timeframe, leverage, and strategy all change at once, you cannot tell what caused a win or a loss.
+
+After you have a written BTC process and a meaningful sample of simulated or small spot trades, add a short watchlist of highly liquid assets one at a time. Keep the same questions: does the market structure hold, is the volume real enough for the order size, does the spread fit the plan, and does the asset respond differently to news or market-wide BTC moves? Do not assume that a pattern that worked on BTC has the same probability on a small altcoin.
+
+Avoid expanding just because another coin is moving faster. Smaller or newer tokens can have thinner liquidity, larger gaps, concentrated ownership, unlock-related supply, and sharper liquidation moves. Their apparent return can be compensation for risks that are difficult to measure. Researching them is reasonable later; using them to escape a weak BTC process usually adds confusion.
+
 ## 3. Match the approach to the market regime
 
 The same setup should not be used in every environment. First label the regime; then choose whether to trade, wait, or reduce exposure.
@@ -86,7 +96,8 @@ A beginner can study the two routes without trading both at once:
 1. **Start with BTC spot swing trading:** use daily context, 4-hour entries, no leverage, a fixed allocation, and a structural stop.
 2. **Run the same ideas in futures Demo Trading:** compare how funding, leverage, liquidation distance, and short exposure change the result.
 3. **Keep separate records:** spot and futures are different products and must not be mixed into one performance number.
-4. **Only consider a small live futures position after a stable simulated and spot record:** the product should be earned through evidence, not selected because it looks faster.
+4. **Add other liquid assets only after the BTC process is stable:** change one variable at a time and keep the same risk limit.
+5. **Only consider a small live futures position after a stable simulated and spot record:** the product should be earned through evidence, not selected because it looks faster.
 
 The goal is not to choose the product with the largest possible return. It is to choose the product whose risks you understand well enough to follow a written plan.
 
