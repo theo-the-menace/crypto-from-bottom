@@ -32,12 +32,6 @@ Mark **support** as a zone where buyers have previously defended price and **res
 
 A break of a level matters more when the candle closes beyond it, activity is meaningful, and a later pullback holds the level from the other side. A wick through a level that closes back inside the range is weaker evidence.
 
-### 1.2.1 BOS — Break of Structure
-
-![Bullish BOS example: a sequence of HH and HL followed by a weaker LH and LL](assets/btc-bos-bullish-hh-hl.jpg)
-
-![Bearish BOS example: LH and LL, a weak recovery, then another LL and LH](assets/btc-bos-bearish-structure.jpg)
-
 ### 1.3 Timeframes: 1m, 5m, 1h, and weeks
 
 A chart’s **interval** or **timeframe** tells the exchange how much trading time belongs in one candle. On the Binance selector below, choosing 15m means each K-line summarizes 15 minutes; choosing 1h means each K-line summarizes one hour; choosing 1d means each summarizes one day. The chart is not showing more or less truth when you change the setting—it is grouping the same market activity at a different scale.
@@ -95,6 +89,12 @@ These tools answer different questions, but they are all derived from market dat
 Start with price structure: is BTC making HH/HL, LH/LL, or moving in a range? Then use moving averages to describe trend direction, MACD or RSI to describe momentum, and volume to ask whether the move has participation. Use ATR or Bollinger Bands to understand normal movement and set a sensible risk distance. For perpetuals, funding and open interest add information about leverage and crowding.
 
 For example, a breakout above resistance is more convincing when the candle closes beyond the level, the relevant moving averages slope upward, MACD momentum expands, and volume is higher than usual. If price breaks out but volume is weak and MACD is already fading, treat it as a hypothesis that needs confirmation. These tools should create a structured question, not a pile of matching colors. The detailed framework is in [Advanced — Combining price, volume, and indicators](advanced/combining-indicators.md).
+
+### 1.4.1 BOS — Break of Structure
+
+![Bullish BOS example: a sequence of HH and HL followed by a weaker LH and LL](assets/btc-bos-bullish-hh-hl.jpg)
+
+![Bearish BOS example: LH and LL, a weak recovery, then another LL and LH](assets/btc-bos-bearish-structure.jpg)
 
 Divergence—price making a lower low while an oscillator makes a higher low, for example—can warn that momentum is changing. It is not a guaranteed reversal and can appear repeatedly during a strong trend.
 
