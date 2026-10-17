@@ -102,6 +102,8 @@ A beginner can study the two routes without trading both at once:
 
 The goal is not to choose the product with the largest possible return. It is to choose the product whose risks you understand well enough to follow a written plan.
 
+The two detailed strategy guides are [Advanced — A spot trading strategy](advanced/spot-trading-strategy.md) and [Advanced — A futures trading strategy](advanced/futures-trading-strategy.md). They will turn these product-level ideas into separate rules, examples, and review methods.
+
 ## 6. A practical beginner default
 
 If you do not yet have evidence for another style, start with a **BTC spot swing approach**:
@@ -140,20 +142,7 @@ The distance from entry to stop determines the position size. If the stop is wid
 
 Write the condition that cancels the trade and the condition that would make the idea stronger. This prevents a trader from explaining every new candle as support for a position already held.
 
-## 8. How to combine the tools from Chapters 1–3
-
-A useful order of analysis is:
-
-1. **Product and risk:** spot or derivatives, collateral, leverage, maximum loss, and liquidation risk.
-2. **Higher-timeframe context:** weekly or daily direction, major support and resistance, and known event risk.
-3. **Market structure:** HH/HL, LH/LL, range, BOS, CHoCH, or failed breakout.
-4. **Participation and movement:** volume, ATR, and whether the move is expanding or losing energy.
-5. **Momentum timing:** MA/EMA, MACD, RSI, or divergence as supporting evidence.
-6. **Execution:** entry type, stop, target, size, and what happens if the order is only partly filled.
-
-Do not count EMA(7), EMA(25), a moving-average crossover, and MACD as four independent confirmations. They all use price history. A stronger case usually comes from different evidence: a meaningful structural level, a close and hold, increased participation, and a risk plan that remains acceptable.
-
-## 9. A worked example
+## 8. A worked example
 
 Assume BTC has made a daily HH and HL and remains above a rising EMA(99). On the 4-hour chart, price pulls back into a prior resistance area that may now act as support. Volume is lower during the pullback, ATR shows that a normal candle is large enough to require a wider stop, and RSI recovers from below 50 without reaching an extreme. MACD turns upward, but the signal is only useful because the structure and level were identified first.
 
@@ -161,7 +150,7 @@ The hypothesis is: “If BTC closes back above the reclaimed level and the next 
 
 This example does not predict the next candle. It defines a testable idea with a known cost.
 
-## 10. What “high return” should mean
+## 9. What “high return” should mean
 
 A high return is meaningful only after fees, slippage, losing streaks, and drawdown. A strategy with a spectacular backtest but a 60% drawdown may be impossible for its owner to follow. A strategy with modest returns and controlled losses may be more valuable because it can be repeated.
 
@@ -176,7 +165,7 @@ Evaluate a method with questions such as:
 
 The objective is not to find a magic signal. It is to find a process that preserves capital while you learn whether an edge exists.
 
-## 11. Build your own written playbook
+## 10. Build your own written playbook
 
 Write one page before you expand the system:
 
