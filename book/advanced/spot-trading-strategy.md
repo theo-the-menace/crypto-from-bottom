@@ -20,9 +20,9 @@ DCA is closer to a long-term accumulation plan than to active trading. It is use
 
 **Trend following** means buying while an asset is clearly moving upward, then reducing or exiting when that upward trend breaks. **Time-series momentum** is the same idea stated as a rule: compare BTC with its own recent history, rather than comparing it with other coins. It is therefore an active, conditional plan; DCA buys on the calendar whether the chart is rising, falling, or unclear.
 
-For example, a simple BTC rule could be: stay invested when the daily close is above a rising long-term moving average; move to USDT when the daily close falls below it. A breakout rule could instead wait for BTC to close above a previous range high.
+For example, one BTC trend-following rule could use the MA setup explained earlier: stay invested while the daily close remains above a rising long-term average, then move to USDT after a confirmed break below it. Another rule could use market structure: buy after a breakout and pullback, then exit when the higher-low structure fails. The indicator changes, but the strategy idea stays the same: follow strength and leave when the reason for holding disappears.
 
-The advantage is that the rule does not require guessing the exact bottom. The cost is that it enters after a move has already started, gives back some profit during reversals, and can lose several small trades when BTC moves sideways. It is a method for participating in large moves, not a prediction machine. TradingView's [Moving Averages guide](https://www.tradingview.com/support/solutions/43000502589-moving-averages/) describes moving averages as reactive trend-confirmation tools, and its [MovingAvg Cross strategy](https://www.tradingview.com/support/solutions/43000599885-movingavg-cross/) shows the basic rule of going long when the close is above an average and switching when it falls below. These are building blocks for a testable trend rule, not a guarantee of a profitable signal.
+The advantage is that the rule does not require guessing the exact bottom. The cost is that it enters after a move has already started, gives back some profit during reversals, and can lose several small trades when BTC moves sideways. It is a method for participating in large moves, not a prediction machine.
 
 ### 1.3 Breakout and pullback
 
