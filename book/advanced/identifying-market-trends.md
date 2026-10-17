@@ -15,6 +15,21 @@ Use a top-down order:
 
 For a beginner, the daily chart should usually decide whether a BTC spot position is allowed. The 4-hour chart can improve the entry. A 5-minute chart can show a temporary move against the daily trend, but it should not overrule the daily structure by itself.
 
+## 1.1 How much history should you inspect?
+
+The right amount depends on how long you expect to hold the position. A useful beginner default is:
+
+| Chart interval | History to inspect | Main job |
+| --- | --- | --- |
+| **1w** | At least 1–2 years; use more when studying a full market cycle | Identify the broad cycle, major support and resistance, and whether the market is broadly rising, falling, or ranging |
+| **1d** | About 3–6 months for a swing decision; check 1 year when major levels are unclear | Decide the working trend and the important HH/HL or LH/LL structure |
+| **4h** | About 2–8 weeks; extend to 3 months when the structure is crowded or unclear | Plan a pullback, breakout, or invalidation level inside the daily context |
+| **15m** | About 1–3 trading days | Refine execution and observe a local entry pattern; do not use it to define the main trend |
+
+These are starting ranges, not laws. Make sure the chart contains enough candles for the tools you use. For example, EMA(99) needs at least 99 completed candles before its reference is meaningful: that is roughly 99 days on a daily chart, about 16.5 days on a 4-hour chart, and about 24.75 hours on a 15-minute chart. A longer history is still useful because it shows the level and the trend in context.
+
+If the holding plan is several weeks, the daily chart should carry more weight than the 15-minute chart. If the plan is a short intraday trade, the 15-minute chart can guide the entry, but the trader should still check the 4-hour or daily context before assuming the move has room to continue. More candles do not automatically mean more accuracy; the timeframe must match the decision being made.
+
 ## 2. Define the trend from price structure
 
 An upward trend normally creates **higher highs (HH)** and **higher lows (HL)**. A downward trend normally creates **lower highs (LH)** and **lower lows (LL)**. A range has no reliable sequence because price keeps returning between boundaries.
