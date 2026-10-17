@@ -158,6 +158,22 @@ A MACD line crossing above the signal line can support a bullish momentum hypoth
 
 MACD divergence compares price swings with MACD swings. If price makes a higher high but MACD makes a lower high, bullish momentum may be weakening. If price makes a lower low but MACD makes a higher low, selling momentum may be weakening. Divergence is a warning to investigate, not a command to reverse. Strong trends can produce several divergences before price turns.
 
+### 4.4 Combining MA and MACD
+
+MA and MACD are complementary, but they are not equally independent. MA describes the direction and structure of the recent price window. MACD describes whether that movement is accelerating or losing force. Because MACD is calculated from moving averages, it is a second view of related price information rather than a completely separate confirmation.
+
+| MA context | MACD context | What the combination may suggest |
+| --- | --- | --- |
+| `MA(7) > MA(25) > MA(99)` and the averages rise | MACD line is above its signal line, the histogram expands, or both move above zero | Trend and momentum agree. A continuation hypothesis is stronger, especially after a confirmed breakout and healthy volume. |
+| Bullish MA alignment remains, but the histogram shrinks or MACD crosses below its signal line | Momentum is weakening while the broader trend is still positive | The trend may be mature or entering a pullback. Tighten the question, not the certainty: check support and the next higher low. |
+| `MA(7) < MA(25) < MA(99)` and the averages fall | MACD is below its signal line and the histogram remains negative | Trend and momentum agree on weakness. The move can still become oversold or reverse, so structure and risk rules remain necessary. |
+| MA structure is bearish, but MACD crosses upward from a low level | Momentum is improving before the trend has changed | This often describes a rebound or early recovery. It is not a confirmed reversal until price reclaims important levels and the averages turn. |
+| The averages are flat and tangled | MACD crosses repeatedly near zero | Both tools are describing a range. Crosses are more likely to fail, so support, resistance, and a confirmed close matter more than the latest signal. |
+
+Read the combination in order: **structure first, MA direction second, MACD momentum third, and volume or volatility as a quality check**. For example, a price breakout above resistance with bullish MA alignment, a rising MACD histogram, and stronger volume gives a coherent bullish hypothesis. If the same breakout has weak volume and a shrinking histogram, treat it as an unconfirmed move even if one MA has crossed.
+
+MACD therefore deserves a full explanation, but it should not receive more authority than MA. MA helps define the market regime; MACD helps describe the force inside that regime. Neither tool predicts the next candle by itself.
+
 ## 5. Reading the BTC technical story
 
 The chart examples show a useful sequence: a quiet range, a strong breakout, a weakening advance, and a possible reversal. The indicators do not tell us the future in advance. They help us describe how the move developed and what evidence changed at each stage.
