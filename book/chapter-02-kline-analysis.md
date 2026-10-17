@@ -39,8 +39,6 @@ A practical workflow is **top down**:
 
 There is no universally best timeframe. Match it to the job: weekly and daily charts for broad direction and major levels, 4-hour and 1-hour charts for setups, and 15-minute or 5-minute charts for execution. A lower timeframe gives more apparent precision but also more noise, false signals, fees, and decisions. A higher timeframe gives a slower, wider view and may require a wider stop. Many beginners do better by making the higher timeframe decide the context and using a lower timeframe only to improve the entry.
 
-A lower timeframe gives more entries and more noise, fees, and false signals. A higher timeframe gives fewer decisions and wider stops. Choose the timeframe that fits your holding period, available attention, capital, and trading costs.
-
 ### 1.3 Market structure: HH, HL, LH, LL and key levels
 
 Structure is the sequence of meaningful swing points, not every tiny tick. For a swing high or low, mark the candle's **wick extreme** first: the highest wick is the candidate high, and the lowest wick is the candidate low. This records the furthest price that the market actually traded. Use the **candle close** to confirm a break of that level for BOS or CHoCH; a wick through a level that closes back inside it is not the same as a confirmed structural break. Some traders use candle bodies instead, but the method matters less than choosing one rule, applying it consistently, and stating it clearly.
@@ -158,9 +156,9 @@ For example, a breakout above resistance is more convincing when the candle clos
 
 ### 1.4.1 Divergence: when price and momentum disagree
 
-Divergence means that price and a momentum indicator are telling different stories. A **bullish divergence** occurs when price makes a lower low but an oscillator, such as RSI or MACD, makes a higher low. It says that the latest sell-off has less measured momentum than the previous sell-off. A **bearish divergence** is the opposite: price makes a higher high while the oscillator makes a lower high, suggesting that the latest rise has less momentum.
-
 ![Conceptual bullish divergence: price makes a lower low while the oscillator makes a higher low](assets/divergence.svg)
+
+Divergence means that price and a momentum indicator are telling different stories. A **bullish divergence** occurs when price makes a lower low but an oscillator, such as RSI or MACD, makes a higher low. It says that the latest sell-off has less measured momentum than the previous sell-off. A **bearish divergence** is the opposite: price makes a higher high while the oscillator makes a lower high, suggesting that the latest rise has less momentum.
 
 ![BTC chart with higher highs and divergence across MACD, volume, ATR, Bollinger Band Width, and RSI](assets/btc-multi-indicator-divergence.png)
 
@@ -170,11 +168,15 @@ The illustration is a vocabulary aid, not a BTC trading signal. On a real chart,
 
 For the next real examples, useful screenshots would be: one BTC **RSI bullish divergence**, one BTC **RSI bearish divergence**, one BTC **MACD divergence** with the DIF/DEA panel visible, and—if available—one example where divergence failed and price continued. Please include the timeframe, enough candles to see both swing points, and the price panel together with the indicator; a cropped indicator alone makes the comparison difficult.
 
+**Further reading:** [Binance Academy: Divergence](https://www.binance.com/en/academy/glossary/divergence), [Binance Academy: What Is the RSI Indicator?](https://www.binance.com/en/square/post/43083), [Binance Academy: What Is the MACD Indicator?](https://www.binance.com/en/square/post/43184), [TradingView: RSI divergence indicator](https://www.tradingview.com/support/solutions/43000589127-rsi-divergence-indicator/), and [TradingView: MACD indicator](https://www.tradingview.com/support/solutions/43000502344-moving-average-convergence-divergence-macd-indicator/). These references describe divergence as a warning about weakening or changing momentum and emphasize that it should be combined with other evidence rather than used alone. Binance's MACD guide also discusses regular and hidden divergence; treat those labels as hypotheses that still need price confirmation.
+
 ### 1.5 What are we trying to infer?
 
 Learning K-lines is not mainly about gaining the power to predict every next candle. It helps us form testable ideas about trend, range, momentum, liquidity, and invalidation. Those ideas can guide a discretionary plan, become rules for a quantitative tool, or simply tell us when not to trade. The useful output is a decision with a known risk—not a confident story about the future.
 
 ## 2. Keep learning and test your own ideas
+
+The first part of this chapter gave us a sequence for reading a chart: describe the candles, choose the timeframe, map the market structure and key levels, then use indicators to examine trend, momentum, participation, and volatility. The next step is not to add more signals. It is to turn that description into a hypothesis with a confirmation condition, an invalidation level, and a known risk. Historical review then tests whether the idea survives different market regimes.
 
 ### 2.1 Tools for viewing K-lines
 
@@ -187,6 +189,8 @@ Neither wins in every situation. K-lines show the market’s response; news may 
 ### 2.3 Make a hypothesis, then check what happened
 
 Hide the future on a historical chart. Describe the current structure, mark the important level, and write what you think may happen next, including the condition that would prove you wrong. Then reveal the following candles and record the result without changing the original rule. Repeat this across many examples. This turns chart reading from a feeling into a reviewable learning process.
+
+This closes the loop with Chapter 1: knowledge does not remove uncertainty, but it can replace impulse with a process. If an idea cannot be stated clearly, tested fairly, and sized so that a loss is survivable, it is not ready to trade. The advanced chapters then examine MA/MACD and combined indicators in more detail; they extend this workflow rather than replace the basic order of analysis.
 
 ## 3. Books and further study
 
