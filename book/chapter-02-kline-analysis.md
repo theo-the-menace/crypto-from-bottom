@@ -140,7 +140,15 @@ Patterns are useful as a shared vocabulary and as a way to organize repeated sit
 
 A pattern becomes a trading method only after it is defined precisely and tested across enough historical examples, fees, slippage, and different market regimes. Without that work, buying because a chart “looks like” a pattern is gambling with a story attached. The goal is not to find a shape that guarantees profit; it is to find a repeatable situation where the possible loss is known and the tested odds are acceptable. If no such evidence exists, standing aside is more rational than forcing a trade.
 
-Divergence—price making a lower low while an oscillator makes a higher low, for example—can warn that momentum is changing. It is not a guaranteed reversal and can appear repeatedly during a strong trend.
+### 1.4.4 Divergence: when price and momentum disagree
+
+Divergence means that price and a momentum indicator are telling different stories. A **bullish divergence** occurs when price makes a lower low but an oscillator, such as RSI or MACD, makes a higher low. It says that the latest sell-off has less measured momentum than the previous sell-off. A **bearish divergence** is the opposite: price makes a higher high while the oscillator makes a lower high, suggesting that the latest rise has less momentum.
+
+![Conceptual bullish divergence: price makes a lower low while the oscillator makes a higher low](assets/divergence.svg)
+
+The illustration is a vocabulary aid, not a BTC trading signal. On a real chart, compare like-for-like swing points, use the same timeframe, and wait for price confirmation such as a close back above resistance, a higher low, or a break of a short-term trend line. Divergence can persist while price continues in the same direction, and it can disappear when a strong trend accelerates. It is therefore a warning about momentum, not a promise of reversal or an automatic entry.
+
+For the next real examples, useful screenshots would be: one BTC **RSI bullish divergence**, one BTC **RSI bearish divergence**, one BTC **MACD divergence** with the DIF/DEA panel visible, and—if available—one example where divergence failed and price continued. Please include the timeframe, enough candles to see both swing points, and the price panel together with the indicator; a cropped indicator alone makes the comparison difficult.
 
 ### 1.5 Context before patterns
 
