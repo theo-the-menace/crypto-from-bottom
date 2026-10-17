@@ -201,6 +201,21 @@ There were two understandable entries:
 
 The evidence could have identified a tradeable breakout, but it could not identify the later 20,000-point rally in advance. If the breakout candle had already moved far above the range, chasing it would have produced a worse risk-to-reward. This is a useful example of the difference between recognizing a favorable setup and knowing the future.
 
+### What about the rally before October?
+
+The later rise from the high-70,000s or low-80,000s toward the mid-80,000s was a different setup. BTC had already made the large August move, then pulled back and consolidated. The useful question was whether that pullback formed a daily higher low and whether price could reclaim the local range high.
+
+If we had watched the chart in real time, a reasonable confirmation would have been:
+
+- price holding above the recent pullback low;
+- a daily close above the local consolidation high;
+- EMA(9) turning upward and price reclaiming it;
+- MACD crossing upward with a growing positive histogram;
+- RSI recovering through 50;
+- volume increasing, even if it did not match the August breakout peak.
+
+That would have been a valid **continuation or range-breakout setup**, but it was less clean than the first escape from the long 60,000-range. The prior rally meant that resistance was closer and the market had more room to fail at the 85,000–87,000 area. The setup could justify a planned entry after confirmation; it could not justify assuming another uninterrupted 10,000-point rise.
+
 This chart is detailed enough to identify the major phases and the latest indicator relationships. It is not reliable for assigning meaning to every small candle or wick. I can read the broad structure, visible levels, and clear crossings; exact candle-by-candle pattern names require a closer crop, a confirmed timeframe, and the original chart settings. A complex screenshot should support a hypothesis, not create false precision.
 
 The combined reading is not “everything is bullish” or “the bull market is over.” It is: **weekly recovery, daily pullback**. A spot trader can keep a bullish bias on the larger timeframe while waiting for the daily chart to stabilize. A daily close below the relevant higher low, followed by a lower high and lower low, would weaken that interpretation. A daily recovery above the recent high with stronger participation would strengthen it.
