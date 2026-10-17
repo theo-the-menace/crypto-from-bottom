@@ -1,6 +1,10 @@
-# Chapter 3 — Research, tools, and building your own strategy
+# Chapter 3 — Welcome to the Crypto World
 
-This chapter turns the foundations into a repeatable research process.
+Learning to read K-lines and indicators is only the beginning. Many beginners go through a period of small wins followed by much larger losses. That pattern does not mean the market has a secret rule against them; it often means that a chart idea was used without a position-size rule, a loss limit, or enough testing.
+
+Before trying to make more money, learn how to keep one bad trade from damaging your account. Build a simple money-management plan, study people whose methods are transparent and testable, and keep your own records. Learning from experienced traders can shorten the path, but no expert, influencer, or AI can remove uncertainty or take responsibility for your account.
+
+This chapter turns those lessons into a repeatable research and strategy process. The goal is not to rush from an indicator to a trading bot. The goal is to build enough technical support, risk control, and evidence that a decision remains reasonable when the next trade loses.
 
 ## The learning path
 

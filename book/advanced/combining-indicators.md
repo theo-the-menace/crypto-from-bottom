@@ -112,9 +112,21 @@ The updated momentum readings are **RSI(6) = 38.2**, **RSI(12) = 44.5**, **RSI(2
 
 ![BTC daily Bollinger Bands on 17 October 2026](assets/btc-bollinger-bands-2026-10-17.jpeg)
 
+#### How Bollinger Bands are calculated
+
+Bollinger Bands turn an average and recent spread of prices into three lines. With the common **BOLL(20, 2)** settings:
+
+- **Middle band:** the 20-period simple moving average (SMA).
+- **Upper band:** middle band plus two standard deviations.
+- **Lower band:** middle band minus two standard deviations.
+
+Standard deviation measures how far recent closes have been moving away from their average. When those closes spread out, the bands widen; when they cluster, the bands narrow. The exact result changes with the period, multiplier, price source, timeframe, and platform settings. See [TradingView's Bollinger Bands reference](https://www.tradingview.com/support/solutions/43000501840-bollinger-bands-bb/) for the calculation and inputs.
+
 #### Bollinger Bands in the same BTC snapshot
 
 The Bollinger panel shows **BOLL(20, 2)**: an upper band at **86,341.7**, a middle band at **83,367.7**, and a lower band at **80,393.8**. BTC near **81,362.5** is below the middle band but still above the lower band. In everyday language, price has moved into the lower half of its recent 20-day range, but it has not yet broken the lower volatility boundary. The bands are no longer expanding sharply at the right edge, so this looks more like a pullback and cooling volatility than a confirmed downside breakout. Bollinger Bands do not say “buy at the lower band”; price can ride a band during a strong trend.
+
+The same screenshot also shows why the bands must be read as a sequence. During the earlier sharp rally, BTC pushed through the upper band. That was an expansion move: price was moving unusually far from its recent average, which can happen at the start of a strong trend. Near the right edge, price has fallen through the middle band and is approaching the lower band while the channel is narrowing. This usually means recent movement is cooling and the market is compressing after the earlier move. It can precede a new expansion in either direction; it does not by itself prove that BTC will reverse upward or continue downward. Combined with the weak RSI/MACD and lack of a fresh volume high in the other panels, it supports the more cautious reading already stated: a weakening pullback inside a broader daily structure, with confirmation of a deeper decline still absent.
 
 ![BTC daily On-Balance Volume on 17 October 2026](assets/btc-obv-2026-10-17.jpeg)
 
