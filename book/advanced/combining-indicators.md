@@ -62,6 +62,30 @@ Moving averages are delayed. They are useful as trend filters and dynamic refere
 
 MACD compares moving averages and shows whether recent momentum is strengthening or weakening. A MACD line above its signal line, a rising histogram, and a move above zero can support a bullish momentum hypothesis. RSI shows the balance of recent upward and downward movement on a 0–100 scale. A high RSI means strong recent gains, not an automatic sell signal.
 
+### 3.1 RSI lookback periods: RSI(6), RSI(12), and RSI(24)
+
+The number in an RSI label is the number of completed candles used in its lookback window. On a daily chart, RSI(6) uses roughly six days of gains and losses, RSI(12) uses roughly twelve days, and RSI(24) uses roughly twenty-four days. They are three speeds of the same gauge, not three separate markets:
+
+| Line | What it reacts to | Useful question | Main limitation |
+| --- | --- | --- | --- |
+| **RSI(6)** | The most recent price changes | Has short-term momentum just weakened or turned? | It moves quickly and can produce noise. |
+| **RSI(12)** | The recent swing | Is the current move becoming stronger or weaker over several weeks? | It reacts later than RSI(6). |
+| **RSI(24)** | The broader recent trend | Is the larger daily momentum still healthy? | It can hide a fast reversal. |
+
+When the short line is above the longer lines, recent gains are stronger than the older part of the window. When it falls below them, recent losses are becoming more influential. If all three rise together, momentum is broadening across several windows. If RSI(6) falls first while RSI(24) stays high, the chart may be showing a short-term pullback rather than a complete trend change. If all three fall and remain below 50, the weakness is broader.
+
+The familiar 70 and 30 levels are reference zones, not automatic sell and buy buttons. In a strong trend, RSI can remain above 70 or below 30 for a long time. The 50 level is also useful: sustained readings above 50 often fit a bullish regime, while sustained readings below 50 fit a bearish one. Always compare RSI with price structure, support and resistance, volume, and the timeframe. Binance’s [RSI reference](https://www.binance.com/en/square/post/43083) describes the 0–100 calculation, the standard 14-period setting, and why extreme readings are not standalone reversal signals.
+
+![BTC daily RSI(6), RSI(12), and RSI(24) on 17 October 2026](assets/rsi-btc-2026-10-17.png)
+
+#### Reading the supplied BTC daily snapshot
+
+The screenshot shows BTC near **81,466.7**, with **RSI(6) = 38.8**, **RSI(12) = 44.9**, and **RSI(24) = 51.8**. The ordering is `RSI(6) < RSI(12) < RSI(24)`: the newest daily momentum is weaker than the older part of the lookback. RSI(6) is below 50, RSI(12) is also below 50, and RSI(24) is just above 50. That describes a short-term pullback or loss of momentum inside a still mixed broader condition, not an oversold reversal signal.
+
+The price panel adds context. EMA(7) is below EMA(25), so the short-term trend has weakened, while both remain well above the rising EMA(99), which keeps the longer daily structure from looking fully bearish. A practical reading is therefore: **short-term momentum is soft, medium momentum is neutral-to-weak, and the longer daily backdrop is not yet decisively bearish**. Confirmation would require the RSI lines to recover, price to reclaim the short averages, or a stronger break below the relevant higher low; one RSI reading cannot decide that question.
+
+This is a chart snapshot, not a live trading signal. The displayed values belong to the supplied candle and can change when the daily candle closes. On 17 October 2026, a current quote may also differ from the screenshot because price, RSI, and the selected candle interval update continuously.
+
 MACD and RSI are related evidence because both use price history. If both turn bullish, describe it as stronger momentum evidence, not two independent votes. Divergence can warn that momentum is no longer keeping pace with price, but it can persist during a strong trend.
 
 ## 4. Use volume to test participation
