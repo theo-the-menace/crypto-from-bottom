@@ -80,11 +80,14 @@ The familiar 70 and 30 levels are reference zones, not automatic sell and buy bu
 
 #### Reading the supplied BTC daily snapshot
 
-The screenshot shows BTC near **81,466.7**, with **RSI(6) = 38.8**, **RSI(12) = 44.9**, and **RSI(24) = 51.8**. The ordering is `RSI(6) < RSI(12) < RSI(24)`: the newest daily momentum is weaker than the older part of the lookback. RSI(6) is below 50, RSI(12) is also below 50, and RSI(24) is just above 50. That describes a short-term pullback or loss of momentum inside a still mixed broader condition, not an oversold reversal signal.
+The latest screenshot shows BTC at **81,463.9**. The daily panel reports **EMA(7) = 82,058.3**, **EMA(25) = 82,425.1**, and **EMA(99) = 76,876.9**. RSI reads **RSI(6) = 38.8**, **RSI(12) = 44.8**, and **RSI(24) = 51.8**. The ordering `RSI(6) < RSI(12) < RSI(24)` means that the newest daily price action is weaker than the older part of each lookback. RSI(6) and RSI(12) are below 50, while RSI(24) is only slightly above it: short-term momentum is weak, but the longer daily reading has not entered a clearly bearish zone.
 
-The price panel adds context. EMA(7) is below EMA(25), so the short-term trend has weakened, while both remain well above the rising EMA(99), which keeps the longer daily structure from looking fully bearish. A practical reading is therefore: **short-term momentum is soft, medium momentum is neutral-to-weak, and the longer daily backdrop is not yet decisively bearish**. Confirmation would require the RSI lines to recover, price to reclaim the short averages, or a stronger break below the relevant higher low; one RSI reading cannot decide that question.
+The MACD panel adds a bearish momentum signal: **DIF = 92.3**, **DEA = 610.8**, and **MACD = -518.4**. DIF is below DEA and the histogram is negative, so recent momentum is still losing strength. The price is also below EMA(7) and EMA(25), and EMA(7) is below EMA(25). These observations show that the pullback is real rather than just a one-candle dip. At the same time, price remains well above the rising EMA(99), so the broader daily structure has not yet confirmed a full bearish trend.
 
-This is a chart snapshot, not a live trading signal. The displayed values belong to the supplied candle and can change when the daily candle closes. On 17 October 2026, a current quote may also differ from the screenshot because price, RSI, and the selected candle interval update continuously.
+The most balanced conclusion is **a pullback within a previously bullish daily trend, with an early warning that the trend may be weakening**. It is too early to call this a confirmed downtrend. A recovery above the short averages, RSI(6) and RSI(12) reclaiming 50, and DIF turning back above DEA would support a resumption of the bullish trend. A sustained close below the recent higher low, continued negative MACD, and RSI(24) falling below 50 would make a deeper trend transition more likely. This is a chart reading, not a guaranteed forecast.
+
+This screenshot is a fixed daily-chart snapshot, not a live trading signal. The values can change as the current candle develops, and the quote may differ from the screenshot after the capture time.
+
 
 MACD and RSI are related evidence because both use price history. If both turn bullish, describe it as stronger momentum evidence, not two independent votes. Divergence can warn that momentum is no longer keeping pace with price, but it can persist during a strong trend.
 
