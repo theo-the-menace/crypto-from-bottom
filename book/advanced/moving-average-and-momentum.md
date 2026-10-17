@@ -212,7 +212,7 @@ This is a range, not a clean trend. A crossover system can lose repeatedly here 
 
 ![BTC MA range to early breakout](assets/btc-ma-range-to-early-breakout.png)
 
-This image shows a transition from **case 7**—MA(7) and MA(25) tangled while MA(99) falls—through **case 1**, as MA(7) rises above MA(25), and toward **case 5** at the right side, where `EMA(7) > EMA(25) > EMA(99)`. It shows improving momentum, not a confirmed long-term trend change.
+This image shows a transition from **case 7**—MA(7) and MA(25) tangled while MA(99) falls—through **case 1**, as MA(7) rises above MA(25), and toward **case 5** at the right side, where `EMA(7) > EMA(25) > EMA(99)`. During the long range, MACD stays close to zero; it rises only when the breakout begins. This is improving momentum, not a confirmed long-term trend change.
 
 ### Stage 2: breakout and acceleration
 
@@ -222,7 +222,7 @@ Around 20 August, price breaks above the upper part of the range near 68,000 wit
 - EMA(25), the pink line, bends upward after it and begins to separate from the slow average.
 - EMA(99), the purple line, turns more slowly but also begins rising.
 - The averages form **bullish alignment**: `EMA(7) > EMA(25) > EMA(99)`, with all three generally rising.
-- DIF crosses above DEA, the two lines move above zero, and the histogram expands with tall green bars.
+- DIF crosses above DEA, the two lines move above zero, and the histogram expands with tall green bars. In the replacement screenshot, the MACD lines rise toward 4,000, showing a sharp increase in momentum after the breakout.
 
 The three MACD observations describe the same acceleration from different angles: a line crossover, a move above the zero line, and increasing distance between DIF and DEA. Together with the price breakout and participation, they make a stronger continuation hypothesis than any one signal alone. They still arrive after the move has started, so they are confirmation rather than a guaranteed early entry.
 
@@ -237,6 +237,8 @@ Near the 82,000 area, price makes another high, but the force of the advance bec
 
 This says that price is still rising while measured momentum is weakening. It does not say that the top is already confirmed. A strong trend can continue after divergence. The useful response is to stop treating every new high as proof of stronger demand, then watch structure, support, and the next pullback.
 
+MACD also begins to pull back during this stage. The histogram changes from expanding green bars to shrinking bars and then red bars, while DIF moves toward DEA. The move is losing momentum even though price has not fully reversed yet.
+
 ### Stage 4: weakening and possible reversal
 
 In the later screenshot, price has pulled back from the high. The fast EMA(7) has turned down and price has moved below it, while EMA(25) is nearby and EMA(99) is still rising. This is a weakening short-term picture, but the longer trend is not automatically broken. A decisive close below EMA(25), loss of a meaningful higher low, and failure to reclaim the level would provide stronger evidence of a structural change.
@@ -246,6 +248,8 @@ The MACD numbers make the direction clear. The panel shows `DIF: 1,021.4` and `D
 `DIF − DEA = 1,021.4 − 1,807.0 = −785.6`
 
 That negative value matches the displayed `MACD: −785.6` under this app’s convention. The negative histogram supports weakening or bearish momentum; it does not by itself prove that price must continue down. The current price shown in the screenshot is about 80,536, so descriptions such as 78,776 should not be substituted for the value actually displayed in the image.
+
+At this point the histogram is red and moving back toward the zero line after the earlier positive expansion. That shows that bearish momentum is no longer accelerating as quickly, but it does not restore the bullish trend by itself. Price structure and the MA levels still decide whether this is a pause or a deeper reversal.
 
 ![BTC moving-average trend weakening](assets/btc-ma-trend-weakening.png)
 
