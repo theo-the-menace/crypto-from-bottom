@@ -142,6 +142,8 @@ The two daily BTC screenshots show a useful sequence: a quiet range, a strong br
 
 ![BTC bullish moving-average alignment](assets/btc-bull-ma-alignment.png)
 
+This image corresponds to **case 5**: `EMA(7) > EMA(25) > EMA(99)` with the averages rising during the breakout, a bullish alignment rather than a guarantee of continuation.
+
 ### Stage 1: sideways consolidation
 
 At the beginning of the chart, price moves roughly between the 61,000 and 68,000 area. EMA(7), EMA(25), and EMA(99) are close together and repeatedly cross. None has a clear slope. In the MACD panel, DIF and DEA remain near the zero line, crossing back and forth, while the histogram alternates between small green and red bars.
@@ -168,6 +170,8 @@ This says that price is still rising while measured momentum is weakening. It do
 
 ![BTC moving-average trend weakening](assets/btc-ma-trend-weakening.png)
 
+At the right side, this corresponds to **case 3**: `EMA(7) < EMA(25)` while `EMA(99)` remains below both, showing short-term weakness inside a still higher average order.
+
 
 ### Stage 4: weakening and possible reversal
 
@@ -185,6 +189,8 @@ The weekly chart below adds a higher-timeframe view to this four-stage story:
 ![Weekly chart with EMA(7), EMA(25), and EMA(99)](assets/btc-weekly-ma-momentum.jpg)
 
 At the right side of the weekly image, **EMA(7)** is above **EMA(99)** , while **EMA(25)** remains below EMA(99). This shows a recent weekly recovery that has improved short-term strength without fully restoring the medium-term order. The daily chart may therefore look different: it is measuring a shorter swing with a different set of candles. The weekly chart says that the larger recovery is still incomplete; the daily chart helps us see the current pullback and nearby decision levels.
+
+This corresponds to **case 2**: `EMA(7) > EMA(99)` while `EMA(25)` remains below both, an early or mixed recovery rather than a complete bullish alignment.
 
 This is useful in Stage 4 because it prevents us from calling a daily weakening signal a complete long-term reversal too early. If the daily chart loses EMA(25) and a higher low while the weekly EMA(7) also turns down, the evidence of a broader reversal becomes stronger. If the daily pullback stabilizes and the weekly EMA(25) later rises through EMA(99), the recovery has gained broader support. These are conditions to monitor, not predictions.
 
