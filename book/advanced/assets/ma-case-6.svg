@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" role="img" aria-labelledby="title desc">
+<title id="title">Moving-average case 6</title><desc id="desc">MA(7) &lt; MA(25) &lt; MA(99); all fall</desc>
+<rect width="900" height="230" fill="#202631" rx="12"/>
+<g stroke="#394352" stroke-width="1" opacity=".55"><path d="M40 55H860M40 115H860M40 175H860"/></g>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+<path d="M 55.0,70.0 L 126.8,80.0 L 198.6,90.0 L 270.5,100.0 L 342.3,110.0 L 414.1,120.0 L 485.9,130.0 L 557.7,140.0 L 629.5,150.0 L 701.4,160.0 L 773.2,170.0 L 845.0,180.0" stroke="#f5b800"/><path d="M 55.0,55.0 L 126.8,63.0 L 198.6,71.0 L 270.5,79.0 L 342.3,87.0 L 414.1,95.0 L 485.9,103.0 L 557.7,111.0 L 629.5,119.0 L 701.4,127.0 L 773.2,135.0 L 845.0,143.0" stroke="#e83cac"/><path d="M 55.0,40.0 L 126.8,46.0 L 198.6,52.0 L 270.5,58.0 L 342.3,64.0 L 414.1,70.0 L 485.9,76.0 L 557.7,82.0 L 629.5,88.0 L 701.4,94.0 L 773.2,100.0 L 845.0,106.0" stroke="#8d6bd1"/>
+</g>
+<g font-family="Arial, sans-serif" font-size="16" font-weight="600"><text x="55" y="28" fill="#f5b800">MA(7)</text><text x="145" y="28" fill="#e83cac">MA(25)</text><text x="250" y="28" fill="#8d6bd1">MA(99)</text><text x="845" y="210" text-anchor="end" fill="#d5d9e0">Case 6</text></g>
+</svg>
