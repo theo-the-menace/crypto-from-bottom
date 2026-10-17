@@ -163,7 +163,7 @@ The lower recent bars need careful interpretation. This panel is the volume for 
 
 ![BTC daily trend and momentum snapshot](assets/btc-multi-indicator-trend-snapshot-2026-10-18.png)
 
-The daily screenshot gives the shorter-term condition inside that weekly environment. BTC rose from roughly 63,000 to the 85,000–87,000 area, then stopped making new highs and pulled back toward **81,280**. Daily MACD is negative, with DIF below DEA and a histogram near **−530.4**. RSI is around **45.64**, below its smoother line near **52.88**, while volume has not returned to the breakout peak.
+The daily screenshot gives the shorter-term condition inside that weekly environment. BTC rose from roughly 63,000 to the 85,000–87,000 area, then stopped making new highs and pulled back toward **81,292.2**. Daily MACD is negative, with DIF below DEA and a histogram near **−529.6**. RSI is around **45.68**, below its smoother line near **52.88**, while volume has not returned to the breakout peak. ATR is around **2,182.9**, so the recent daily movement is smaller than during the sharp breakout.
 
 The combined reading is not “everything is bullish” or “the bull market is over.” It is: **weekly recovery, daily pullback**. A spot trader can keep a bullish bias on the larger timeframe while waiting for the daily chart to stabilize. A daily close below the relevant higher low, followed by a lower high and lower low, would weaken that interpretation. A daily recovery above the recent high with stronger participation would strengthen it.
 
