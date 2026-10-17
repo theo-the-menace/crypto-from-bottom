@@ -281,25 +281,25 @@ The next four BTC charts show why the cases should be read as a sequence of cond
 
 ![Historical BTC EMA breakout in 2021](assets/btc-historical-2021-ema-breakout.jpg)
 
-This chart shows a short-term MA(7)/MA(25) improvement while MA(99) remains the slower reference. It begins near **case 7** during the noisy section, passes through **case 1**, and develops toward **case 5** as the averages separate upward. The sharp rise in MA(7) shows increasing short-term momentum; it does not prove that every later pullback will hold.
+This chart shows a short-term MA(7)/MA(25) improvement while MA(99) remains the slower reference. It begins near **case 7** during the noisy section, passes through **case 1**, and develops toward **case 5** as the averages separate upward. During the main advance, MACD stays above the zero line, supporting a sustained positive-momentum context; the later pullback shows that this support can weaken. The sharp rise in MA(7) shows increasing short-term momentum; it does not prove that every later pullback will hold.
 
 #### MA(7) oscillates while the longer trend narrows
 
 ![Historical BTC EMA convergence in 2024](assets/btc-historical-2024-ema-convergence.jpeg)
 
-Here MA(7) repeatedly waves around MA(25), while MA(25) forms a broad arc and MA(99) keeps rising with a gradually smaller slope. The lines are converging, so this is mainly **case 7**, with a transition toward a more defined structure rather than a clean case 5 or case 6. A rising MA(99) provides broader support, but the short averages do not yet show consistent momentum. The narrowing gap is useful context; it is not a direction signal by itself.
+Here MA(7) repeatedly waves around MA(25), while MA(25) forms a broad arc and MA(99) keeps rising with a gradually smaller slope. The lines are converging, so this is mainly **case 7**, with a transition toward a more defined structure rather than a clean case 5 or case 6. MACD gradually moves toward zero, and during the later convergence phase DIF remains below DEA, showing weakening momentum rather than a fresh bullish impulse. A rising MA(99) provides broader support, but the short averages do not yet show consistent momentum. The narrowing gap is useful context; it is not a direction signal by itself.
 
 #### MA(7) tests MA(99) without breaking the structure
 
 ![Historical BTC MA(99) tests in 2025](assets/btc-historical-2025-ma99-tests.jpg)
 
-MA(7) drops to, and briefly tests, MA(99) twice while MA(25) remains above both. This resembles a **case 4 test**, but it does not become a confirmed bearish transition because price and the medium average recover. The broader arrangement returns toward **case 5**. Repeated tests are useful because they show where short-term weakness meets longer-term support; a test is not the same as a sustained break.
+MA(7) drops to, and briefly tests, MA(99) twice while MA(25) remains above both. This resembles a **case 4 test**, but it does not become a confirmed bearish transition because price and the medium average recover. MACD fluctuates around the zero line, matching the mixed, range-like character. The broader arrangement returns toward **case 5**. A roughly 20,000-point wick around October 2025 is best treated as a short-lived liquidity shock—possibly involving leveraged liquidations, a fast news reaction, or thin order-book conditions; the chart alone cannot identify the exact cause. Repeated tests are useful because they show where short-term weakness meets longer-term support; a test is not the same as a sustained break.
 
 #### MA(7) and MA(25) fall through MA(99)
 
 ![Historical BTC bearish moving-average fan in 2025](assets/btc-historical-2025-bearish-fan.jpg)
 
-This chart moves through **case 3** and **case 4** as the fast and medium averages lose their previous positions, then develops into **case 6**: `MA(7) < MA(25) < MA(99)` with the lines fanning downward. The widening separation and falling slopes show that weakness has become broader and more persistent. Even this established bearish arrangement can later fail if price reclaims the averages and the slopes turn upward.
+This chart moves through **case 3** and **case 4** as the fast and medium averages lose their previous positions, then develops into **case 6**: `MA(7) < MA(25) < MA(99)` with the lines fanning downward. MACD reaches deeply negative territory, around -10 on the supplied display, and stays below zero, which supports the interpretation of persistent downside momentum. The widening separation and falling slopes show that weakness has become broader and more persistent. Even this established bearish arrangement can later fail if price reclaims the averages and the slopes turn upward.
 
 These examples support the idea that Cases 1–7 cover many common MA states: noisy range, early bullish or bearish transitions, failed tests, and established alignments. They do not cover every market condition, and they do not predict the next move. A case is **working** when price structure, slope, volume, and the relevant timeframe support the interpretation. It is **invalidated** when the expected follow-through fails—for example, when a crossover reverses, a support test breaks, or the averages become tangled again.
 
