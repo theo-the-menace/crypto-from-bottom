@@ -127,6 +127,8 @@ Most charting tools show three parts:
 - **Signal line:** a slower EMA of the MACD line, commonly calculated over 9 periods.
 - **Histogram:** the distance between the MACD line and signal line, shown as bars.
 
+Some chart packages draw a rising histogram bar as solid and a weakening bar as hollow, or use fill to distinguish the current bar from the previous one. The exact hollow/solid convention is platform-specific; use the bar height, color, and the indicator settings rather than fill alone.
+
 If the MACD line is above the signal line, recent momentum is stronger than its recent average. If it is below, momentum is weaker. A move above or below the zero line compares the fast EMA with the slow EMA. Taller histogram bars show increasing separation; shrinking bars show that separation is fading.
 
 ![MACD explained](../assets/macd-explained.svg)
@@ -173,6 +175,30 @@ MA and MACD are complementary, but they are not equally independent. MA describe
 Read the combination in order: **structure first, MA direction second, MACD momentum third, and volume or volatility as a quality check**. For example, a price breakout above resistance with bullish MA alignment, a rising MACD histogram, and stronger volume gives a coherent bullish hypothesis. If the same breakout has weak volume and a shrinking histogram, treat it as an unconfirmed move even if one MA has crossed.
 
 MACD therefore deserves a full explanation, but it should not receive more authority than MA. MA helps define the market regime; MACD helps describe the force inside that regime. Neither tool predicts the next candle by itself.
+
+### 4.5 Common MACD cases
+
+These cases describe the relationship between DIF, DEA, the zero line, and the histogram. They are directional clues, not automatic entries. A crossover is more useful when price structure and volume support it.
+
+1. **Bullish crossover below zero — early recovery.** DIF rises through DEA while both remain below the zero line. This usually means bearish momentum is weakening and a rebound may be developing, but the broader trend has not yet turned bullish.
+
+   ![MACD case 1: bullish crossover below zero](assets/macd-case-1-below-zero.jpeg)
+
+2. **Bullish crossover above zero — positive momentum continuation.** DIF crosses above DEA while both are above zero, especially if the histogram expands. This is stronger momentum evidence than a below-zero crossover, but it can still fail near resistance or in a range.
+
+3. **Bearish crossover above zero — weakening bullish momentum.** DIF crosses below DEA while both remain above zero. This can describe a pullback or a loss of momentum inside a larger uptrend. The supplied panel shows why repeated crosses above zero should be treated as a changing or range-bound condition rather than a series of guaranteed reversals.
+
+   ![MACD cases 2 and 3: repeated crosses above zero](assets/macd-case-2-3-above-zero.jpg)
+
+4. **Bearish crossover moving toward zero — downside transition.** DIF falls through DEA while the lines are still above zero and move toward it. This suggests that bullish momentum is fading; a sustained move below zero would provide stronger evidence that the broader momentum has turned bearish.
+
+   ![MACD case 4: bearish crossover fading toward zero](assets/macd-case-4-fading.jpeg)
+
+5. **Price rises while MACD fails to make a new high — divergence or failed momentum.** Price continues to set higher highs, but DIF and DEA stay near earlier highs and cross repeatedly. This warns that the force behind the advance is not keeping pace with price. It is a reason to watch support and confirmation, not an automatic short signal.
+
+   ![MACD case 5: price and momentum divergence](assets/macd-case-5-divergence.jpeg)
+
+These five cases cover common MACD observations, but real charts often move through them in sequence. A below-zero bullish crossover can become a positive continuation, then weaken into a bearish crossover or divergence. The analysis fails when the expected follow-through does not appear—for example, when a bullish cross is rejected at resistance, the histogram immediately shrinks, or price returns to the prior range.
 
 ## 5. Reading the BTC technical story
 
