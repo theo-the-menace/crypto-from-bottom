@@ -127,7 +127,7 @@ Most charting tools show three parts:
 - **Signal line:** a slower EMA of the MACD line, commonly calculated over 9 periods.
 - **Histogram:** the distance between the MACD line and signal line, shown as bars.
 
-Some chart packages draw a rising histogram bar as solid and a weakening bar as hollow, or use fill to distinguish the current bar from the previous one. The exact hollow/solid convention is platform-specific; use the bar height, color, and the indicator settings rather than fill alone.
+In the supplied Binance-style panel, a **green bar is hollow when it is higher than the previous green bar and solid when it is shorter**. A **red bar is solid when it is longer than the previous red bar and hollow when it is shorter and moving back toward zero**. In other words, the fill shows whether positive or negative momentum is expanding or contracting; it is not simply a bullish or bearish label. This convention is platform-specific, so check the chart settings before applying it elsewhere.
 
 If the MACD line is above the signal line, recent momentum is stronger than its recent average. If it is below, momentum is weaker. A move above or below the zero line compares the fast EMA with the slow EMA. Taller histogram bars show increasing separation; shrinking bars show that separation is fading.
 
