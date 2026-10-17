@@ -92,9 +92,15 @@ For example, a breakout above resistance is more convincing when the candle clos
 
 ### 1.4.1 BOS — Break of Structure
 
-![Bullish BOS example: a sequence of HH and HL followed by a weaker LH and LL](assets/btc-bos-bullish-hh-hl.jpg)
+![Bullish BTC structure with a local LH and LL before continuation](assets/btc-bos-bullish-hh-hl.jpg)
 
-![Bearish BOS example: LH and LL, a weak recovery, then another LL and LH](assets/btc-bos-bearish-structure.jpg)
+In this bullish example, BTC builds a broad sequence of **HH and HL**. Near the later high, a smaller **LH and LL** appears. That local bearish sequence is a pullback or a temporary correction inside the larger uptrend. It does not invalidate the bullish structure unless price also breaks the key higher low that supported the larger move. The later break to a new high is the meaningful bullish continuation, not every small green candle before it.
+
+![Bearish BTC structure with a weak HH and HL before continuation lower](assets/btc-bos-bearish-structure.jpg)
+
+In this bearish example, BTC first forms **LH and LL**. It then makes a small **HH and HL**, but the recovery is weak and does not reclaim the important prior swing high. Price subsequently forms another **LL and LH**, showing that the small bullish sequence was a countertrend rally rather than a confirmed trend reversal.
+
+These examples show why HH, HL, LH, and LL are observations rather than automatic signals. A market can contain a small bullish structure inside a larger downtrend, or a small bearish structure inside a larger uptrend. Always define the swing size and timeframe, then ask whether the move broke a meaningful level, closed beyond it, and held during the next pullback. Structure analysis remains useful because it describes who is currently winning at a chosen scale; it becomes misleading when every minor fluctuation is treated as a new trend.
 
 Divergence—price making a lower low while an oscillator makes a higher low, for example—can warn that momentum is changing. It is not a guaranteed reversal and can appear repeatedly during a strong trend.
 
