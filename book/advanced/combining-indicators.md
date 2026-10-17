@@ -105,6 +105,20 @@ The newer screenshot shows BTC near **81,377.1**. The volume panel displays **VO
 
 The updated momentum readings are **RSI(6) = 38.2**, **RSI(12) = 44.5**, **RSI(24) = 51.6**, **DIF = 85.4**, **DEA = 609.4**, and **MACD = -524.0**. Compared with the previous snapshot, the short RSI readings have weakened slightly and MACD remains negative with DIF below DEA. Volume therefore does not contradict the earlier interpretation: it gives no strong evidence of a renewed bullish breakout, while RSI and MACD continue to show weak short-term momentum. Together, the evidence still fits **a pullback inside a previously bullish daily trend with an early warning of further weakening**, rather than a confirmed downtrend. A stronger bearish conclusion would need sustained selling volume, a break of the recent higher low, RSI(24) below 50, and continued negative MACD.
 
+![BTC daily Bollinger Bands on 17 October 2026](assets/btc-bollinger-bands-2026-10-17.jpeg)
+
+#### Bollinger Bands in the same BTC snapshot
+
+The Bollinger panel shows **BOLL(20, 2)**: an upper band at **86,341.7**, a middle band at **83,367.7**, and a lower band at **80,393.8**. BTC near **81,362.5** is below the middle band but still above the lower band. In everyday language, price has moved into the lower half of its recent 20-day range, but it has not yet broken the lower volatility boundary. The bands are no longer expanding sharply at the right edge, so this looks more like a pullback and cooling volatility than a confirmed downside breakout. Bollinger Bands do not say “buy at the lower band”; price can ride a band during a strong trend.
+
+![BTC daily On-Balance Volume on 17 October 2026](assets/btc-obv-2026-10-17.jpeg)
+
+#### OBV and participation
+
+The OBV reading is **-287,031,500**, and the line has generally declined from its late-September high while price has also moved lower and failed to make a fresh high. OBV adds participation evidence: more recent down closes have outweighed up closes in the cumulative series. That supports the idea that the pullback has not attracted strong new buying. OBV is not a direct count of all buying and selling, however; it assigns the whole period's volume according to whether the close rose or fell, so it should be read with the actual volume bars and price structure.
+
+Taken together, Bollinger Bands and OBV support, but do not prove, the earlier conclusion: **BTC is in a weakening pullback within a broader bullish daily structure, with no clear volume-backed recovery yet**. The view would improve if price reclaimed the Bollinger middle band, RSI recovered above 50, MACD turned upward, and OBV stopped falling. A decisive close below the lower band with expanding volume would be stronger evidence of a deeper bearish transition.
+
 ## 5. Add volatility and derivatives context
 
 ATR estimates the size of recent price movement and helps decide whether a stop is inside ordinary noise. It does **not** tell you whether the next move will be up or down. On a daily chart, `ATR(14)` uses the true ranges of the latest 14 daily candles. A true range is the largest of the current high-to-low move and the distance from the previous close to the current high or low. The platform then smooths those values into one average.
