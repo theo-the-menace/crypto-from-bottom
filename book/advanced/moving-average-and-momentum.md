@@ -68,6 +68,20 @@ This does not make the MA useless. Its limited predictive value comes from organ
 
 For example, an upward crossover may help a trader stay with a trend after it has become visible, but it cannot reliably identify the exact bottom. A downward crossover may confirm that weakness has lasted, but it can arrive after much of the decline and can reverse during a range. Use the MA to filter context, plan a response, and define invalidation; do not treat it as a standalone forecast.
 
+### 3.2 Common MA arrangements and what they may mean
+
+The position of the lines gives more context than the word “cross” alone. The following examples use **MA(7)** as the fast average, **MA(25)** as the medium average, and **MA(99)** as the slow average. They are observations to investigate, not automatic trade instructions.
+
+1. **MA(7) crosses above MA(25), while MA(99) is below both.** This suggests that short-term momentum has improved and the medium-term average is already above the broader reference. If all three lines slope upward and price holds above them, it can support a continuation hypothesis. If MA(99) is flat and price remains inside a range, the cross may be temporary.
+2. **MA(7) crosses above MA(99), while MA(25) is below both.** This often describes a fast rebound above the long-term average while the medium-term trend is still weak. It can be an early recovery or a sharp counter-trend move. Check whether MA(25) turns upward and whether price holds the reclaimed level.
+3. **MA(7) crosses below MA(25), while MA(99) remains below both.** Short-term momentum is weakening, but the broader averages still have a bullish order. This can be a normal pullback inside a larger uptrend. The idea weakens if price loses a higher low and MA(25) also turns down.
+4. **MA(7) crosses below MA(99), while MA(25) remains above both.** The fast average is showing short-term weakness, but the medium average is still stronger than the long-term average. This is a mixed transition state. It may be a pullback before continuation or the first stage of a deeper reversal; the next swing and the slope of MA(25) matter.
+5. **MA(7) > MA(25) > MA(99), with all three rising.** This is a bullish alignment: recent prices are stronger across all three windows. It is more credible when price makes HH/HL and a pullback holds. Because averages lag, the alignment may appear after a large part of the move.
+6. **MA(7) < MA(25) < MA(99), with all three falling.** This is a bearish alignment: recent prices are weaker across all three windows. It is more credible when price makes LH/LL and failed rallies remain below the averages. It can still reverse quickly after a large selloff.
+7. **The three averages are flat, tangled, or crossing repeatedly.** The market is probably ranging or changing regime. Cross-based signals are less reliable here, so support, resistance, volume, and a confirmed close matter more than the latest crossing line.
+
+Before acting on any arrangement, record the timeframe, whether each line is rising or falling, where price sits relative to the lines, and the price level that would invalidate the idea. The same arrangement on a 5-minute chart and a weekly chart does not carry the same meaning.
+
 ## 4. Momentum: what the word means on a chart
 
 In physics, momentum describes motion. In trading, **momentum** is a practical description of how strongly and consistently price has been moving in one direction recently. It is not the market's physical speed and it is not a guarantee that the move will continue.
