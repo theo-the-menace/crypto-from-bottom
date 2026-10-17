@@ -162,6 +162,10 @@ Divergence means that price and a momentum indicator are telling different stori
 
 ![Conceptual bullish divergence: price makes a lower low while the oscillator makes a higher low](assets/divergence.svg)
 
+![BTC chart with higher highs and divergence across MACD, volume, ATR, Bollinger Band Width, and RSI](assets/btc-multi-indicator-divergence.png)
+
+This annotated BTC chart shows three successive **higher highs**. At the second high, price rises but MACD does not make a matching high: a bearish momentum divergence. At the third high, the chart marks weaker or non-confirming readings in volume, ATR, Bollinger Band Width, and RSI. These panels answer different questions: participation, volatility, volatility range, and momentum. Their disagreement says that the new high is receiving less broad confirmation; it does not prove that the top is already in.
+
 The illustration is a vocabulary aid, not a BTC trading signal. On a real chart, compare like-for-like swing points, use the same timeframe, and wait for price confirmation such as a close back above resistance, a higher low, or a break of a short-term trend line. Divergence can persist while price continues in the same direction, and it can disappear when a strong trend accelerates. It is therefore a warning about momentum, not a promise of reversal or an automatic entry.
 
 For the next real examples, useful screenshots would be: one BTC **RSI bullish divergence**, one BTC **RSI bearish divergence**, one BTC **MACD divergence** with the DIF/DEA panel visible, and—if available—one example where divergence failed and price continued. Please include the timeframe, enough candles to see both swing points, and the price panel together with the indicator; a cropped indicator alone makes the comparison difficult.
