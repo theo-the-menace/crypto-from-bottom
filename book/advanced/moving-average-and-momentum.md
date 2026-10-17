@@ -60,6 +60,14 @@ A **golden cross** occurs when a shorter MA crosses above a longer MA. A **death
 
 Crossovers are delayed because the averages need enough new candles to change direction. In a sideways market, the same two lines can cross several times and produce a series of small losses. A crossover is more useful when the averages are sloping, price has broken a meaningful level, and the next pullback holds. It is weaker when the lines are flat and tangled.
 
+### 3.1 Is a moving average only hindsight?
+
+Partly, yes. A moving average is calculated from completed and current candles, so it cannot turn before price begins to move. A crossover often appears after the first part of a trend has already happened. If we draw an MA on a historical chart, it can look obvious because we already know what happened next. That is hindsight bias.
+
+This does not make the MA useless. Its limited predictive value comes from organizing current information, not from seeing the future. A rising average can show that recent prices have been stronger than older prices. A pullback that holds near a rising average can provide a repeatable reference for a trend-following rule. A flat, tangled group of averages can warn that trend signals are unreliable. These are conditions and probabilities, not predictions.
+
+For example, an upward crossover may help a trader stay with a trend after it has become visible, but it cannot reliably identify the exact bottom. A downward crossover may confirm that weakness has lasted, but it can arrive after much of the decline and can reverse during a range. Use the MA to filter context, plan a response, and define invalidation; do not treat it as a standalone forecast.
+
 ## 4. Momentum: what the word means on a chart
 
 In physics, momentum describes motion. In trading, **momentum** is a practical description of how strongly and consistently price has been moving in one direction recently. It is not the market's physical speed and it is not a guarantee that the move will continue.
@@ -141,13 +149,6 @@ This says that price is still rising while measured momentum is weakening. It do
 
 ![BTC moving-average trend weakening](assets/btc-ma-trend-weakening.png)
 
-The weekly chart below adds a higher-timeframe view to this four-stage story:
-
-![Weekly chart with EMA(7), EMA(25), and EMA(99)](assets/btc-weekly-ma-momentum.jpg)
-
-At the right side of the weekly image, **EMA(7)** is above **EMA(99)** , while **EMA(25)** remains below EMA(99). This shows a recent weekly recovery that has improved short-term strength without fully restoring the medium-term order. The daily chart may therefore look different: it is measuring a shorter swing with a different set of candles. The weekly chart says that the larger recovery is still incomplete; the daily chart helps us see the current pullback and nearby decision levels.
-
-This is useful in Stage 4 because it prevents us from calling a daily weakening signal a complete long-term reversal too early. If the daily chart loses EMA(25) and a higher low while the weekly EMA(7) also turns down, the evidence of a broader reversal becomes stronger. If the daily pullback stabilizes and the weekly EMA(25) later rises through EMA(99), the recovery has gained broader support. These are conditions to monitor, not predictions.
 
 ### Stage 4: weakening and possible reversal
 
@@ -158,6 +159,23 @@ The MACD numbers make the direction clear. The panel shows `DIF: 1,021.4` and `D
 `DIF − DEA = 1,021.4 − 1,807.0 = −785.6`
 
 That negative value matches the displayed `MACD: −785.6` under this app’s convention. The negative histogram supports weakening or bearish momentum; it does not by itself prove that price must continue down. The current price shown in the screenshot is about 80,536, so descriptions such as 78,776 should not be substituted for the value actually displayed in the image.
+
+
+The weekly chart below adds a higher-timeframe view to this four-stage story:
+
+![Weekly chart with EMA(7), EMA(25), and EMA(99)](assets/btc-weekly-ma-momentum.jpg)
+
+At the right side of the weekly image, **EMA(7)** is above **EMA(99)** , while **EMA(25)** remains below EMA(99). This shows a recent weekly recovery that has improved short-term strength without fully restoring the medium-term order. The daily chart may therefore look different: it is measuring a shorter swing with a different set of candles. The weekly chart says that the larger recovery is still incomplete; the daily chart helps us see the current pullback and nearby decision levels.
+
+This is useful in Stage 4 because it prevents us from calling a daily weakening signal a complete long-term reversal too early. If the daily chart loses EMA(25) and a higher low while the weekly EMA(7) also turns down, the evidence of a broader reversal becomes stronger. If the daily pullback stabilizes and the weekly EMA(25) later rises through EMA(99), the recovery has gained broader support. These are conditions to monitor, not predictions.
+
+### Stage summary: reading the daily and weekly pictures together
+
+The **daily chart** is useful for the current swing. In this four-stage example, it shows the breakout from the range, the loss of short-term momentum, the pullback below EMA(7), and the nearby question of whether EMA(25) and the last higher low will hold. It helps describe the setup, invalidation level, and possible execution area.
+
+The **weekly chart** is useful for the larger market phase. In the supplied weekly image, EMA(7) has recovered above EMA(99), but EMA(25) remains below EMA(99). That combination suggests that the latest recovery is meaningful enough to improve short-term weekly strength, while the medium-term trend still needs more evidence. It helps prevent a daily pullback from being mistaken for a confirmed long-term reversal, and it also prevents a daily bounce from being mistaken for a fully restored bull market.
+
+Together, the charts tell a conditional story: the daily structure is weakening inside a weekly recovery that is not yet complete. A stronger bearish interpretation would require continued daily deterioration plus a weekly loss of its improving structure. A stronger bullish interpretation would require the daily pullback to hold and the weekly medium-term averages to turn upward. Until one of those conditions develops, the most accurate conclusion is mixed evidence rather than a forced prediction.
 
 ### What this story teaches
 
