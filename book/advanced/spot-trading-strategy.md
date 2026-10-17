@@ -18,7 +18,7 @@ DCA is closer to a long-term accumulation plan than to active trading. It is use
 
 ### 1.2 Trend following and time-series momentum
 
-**Trend following** means buying while an asset is clearly moving upward, then reducing or exiting when that upward trend breaks. **Time-series momentum** is the same idea stated as a rule: compare BTC with its own recent history, rather than comparing it with other coins. It is therefore an active, conditional plan; DCA buys on the calendar whether the chart is rising, falling, or unclear.
+**Trend following** means buying while an asset is clearly moving upward, then reducing or exiting when that upward trend breaks. **Time-series momentum** is the same idea stated as a rule: compare BTC with its own recent history, rather than comparing it with other coins. It is therefore an active, conditional plan; DCA buys on the calendar whether the chart is rising, falling, or unclear. For the detailed definition of an uptrend, downtrend, range, timeframe, and failure condition, read [Advanced — How to Identify a Market Trend](identifying-market-trends.md).
 
 For example, one BTC trend-following rule could use the MA setup explained earlier: stay invested while the daily close remains above a rising long-term average, then move to USDT after a confirmed break below it. Another rule could use market structure: buy after a breakout and pullback, then exit when the higher-low structure fails. The indicator changes, but the strategy idea stays the same: follow strength and leave when the reason for holding disappears.
 

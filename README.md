@@ -22,6 +22,7 @@ A book-style, practice-first curriculum for people who are new to crypto and wan
    - [Advanced — Combining price, volume, and indicators](book/advanced/combining-indicators.md)
 4. [Chapter 4 — Choose Your Trading Approach](book/chapter-04-choose-your-trading-approach.md)
    - [Advanced — A spot trading strategy](book/advanced/spot-trading-strategy.md)
+   - [Advanced — How to identify a market trend](book/advanced/identifying-market-trends.md)
    - [Advanced — A futures trading strategy](book/advanced/futures-trading-strategy.md)
 5. [Chapter 5 — From TradingView Script to a Binance Order](book/chapter-05-tradingview-webhook-binance.md)
 
