@@ -97,6 +97,14 @@ Volume asks whether the move attracted activity. A resistance breakout with a cl
 
 Volume must be interpreted with the candle and location. High volume at resistance can mean acceptance above the level or aggressive selling into the breakout. The next candle and pullback help distinguish those possibilities.
 
+![BTC daily price, RSI, MACD, and volume snapshot on 17 October 2026](assets/btc-rsi-macd-volume-2026-10-17.jpeg)
+
+#### Reading the updated BTC volume snapshot
+
+The newer screenshot shows BTC near **81,377.1**. The volume panel displays **VOL(BTC) = 778K**, **VOL(USD) = 77.8M**, **MA(5) = 7.31M**, and **MA(10) = 6.93M**. The bars alternate between green and red and the recent bars do not make a new high comparable with the large participation seen during the earlier breakout. That pattern describes two-sided trading without a clear expansion of fresh participation. The latest bar is also from an unfinished daily candle, so its final volume can still change.
+
+The updated momentum readings are **RSI(6) = 38.2**, **RSI(12) = 44.5**, **RSI(24) = 51.6**, **DIF = 85.4**, **DEA = 609.4**, and **MACD = -524.0**. Compared with the previous snapshot, the short RSI readings have weakened slightly and MACD remains negative with DIF below DEA. Volume therefore does not contradict the earlier interpretation: it gives no strong evidence of a renewed bullish breakout, while RSI and MACD continue to show weak short-term momentum. Together, the evidence still fits **a pullback inside a previously bullish daily trend with an early warning of further weakening**, rather than a confirmed downtrend. A stronger bearish conclusion would need sustained selling volume, a break of the recent higher low, RSI(24) below 50, and continued negative MACD.
+
 ## 5. Add volatility and derivatives context
 
 ATR estimates normal movement and helps decide whether a stop is inside ordinary noise. Bollinger Bands show when volatility is expanding or contracting. Neither predicts direction. For perpetual futures, open interest shows whether outstanding positions are growing or shrinking, while funding indicates which side is paying the other. These measures can reveal crowded leverage, but they are venue-specific and do not identify the next price move by themselves.
