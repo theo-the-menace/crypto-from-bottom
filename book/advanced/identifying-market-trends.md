@@ -132,13 +132,31 @@ A practical reading separates three steps:
 2. **Interpretation:** the daily structure is bullish and the breakout has reasonable participation, while the indicators support rather than create that conclusion.
 3. **Decision:** wait for a defined entry, stop, and position size. If the next daily candle closes back inside the range, the bullish hypothesis is weakened or invalidated.
 
-## 5. Decide when the trend has failed
+## 5. Example: weekly environment and daily condition
+
+![BTC weekly full-history chart with volume, MACD, volatility, and RSI](assets/btc-weekly-full-history-2026-10-18.png)
+
+The weekly chart shows the full BTC history in the screenshot. It is useful for locating the current move inside the larger cycle, but it should not be used to postpone every decision until a new all-time high appears. We need a defined horizon: for a position held for weeks or months, the recent one-to-two-year weekly structure matters more than the entire history.
+
+On this chart, BTC remains far above the major 2022 low and has recovered from the recent low near the 60,000 area. Weekly RSI is around **56.34**, above its smoother line near **51.79** and above the neutral 50 area. The weekly MACD lines have turned upward and the histogram is positive near the right edge. Those observations support a **weekly recovery or bullish environment**.
+
+They do not prove that a new long-term bull cycle is already established. Price is still below the later peak near 120,000, and the chart has not yet shown a new weekly HH above that peak. Weekly volume at the right edge is also much lower than the largest historical expansion. A precise conclusion is therefore: **the long-term structure is recovering and currently constructive, but continuation still needs confirmation**.
+
+![BTC daily trend and momentum snapshot](assets/btc-multi-indicator-trend-snapshot-2026-10-18.png)
+
+The daily screenshot gives the shorter-term condition inside that weekly environment. BTC rose from roughly 63,000 to the 85,000–87,000 area, then stopped making new highs and pulled back toward **81,280**. Daily MACD is negative, with DIF below DEA and a histogram near **−530.4**. RSI is around **45.64**, below its smoother line near **52.88**, while volume has not returned to the breakout peak.
+
+The combined reading is not “everything is bullish” or “the bull market is over.” It is: **weekly recovery, daily pullback**. A spot trader can keep a bullish bias on the larger timeframe while waiting for the daily chart to stabilize. A daily close below the relevant higher low, followed by a lower high and lower low, would weaken that interpretation. A daily recovery above the recent high with stronger participation would strengthen it.
+
+This is how we avoid both extremes: we do not call every short pullback a bear market, and we do not keep expanding the historical window until every decision becomes impossible. The timeframe must match the holding period, and every bullish hypothesis needs a nearby failure condition.
+
+## 6. Decide when the trend has failed
 
 Define the failure condition before entering. In an upward BTC setup, a practical warning might be a close below the most recent important HL, followed by a failed recovery. A single intraday wick below support may be noise; a daily close below it and a new LH provide stronger evidence that the structure changed.
 
 Trend failure does not prove that the opposite trend has begun. It may become a range first. Move from “bullish” to “unclear” before moving to “bearish” unless the chart actually forms LH and LL.
 
-## 6. Trend following in the spot strategy
+## 7. Trend following in the spot strategy
 
 The spot strategy uses this process:
 
