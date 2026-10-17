@@ -49,6 +49,17 @@ An uptrend usually prints a **higher high (HH)** and then a **higher low (HL)**.
 
 Mark **support** as a zone where buyers have previously defended price and **resistance** as a zone where sellers have previously appeared. They are areas, not exact lines. A prior high, low, range edge, or high-volume area can become a key level. Volume helps us ask whether a move attracted participation, but volume alone cannot prove who was buying or selling.
 
+These level terms are essential because a structure label has meaning only in relation to a price area:
+
+- **Prior high / previous high:** the most recent meaningful swing high. Traders watch it because a close above it may create a new HH, while rejection there can create a LH.
+- **Prior low / previous low:** the most recent meaningful swing low. A close below it may create a new LL; a successful defense can create a HL.
+- **Resistance:** a zone where selling previously stopped or slowed an advance. It can become support after a confirmed breakout, but it does not have to.
+- **Support:** a zone where buying previously stopped or slowed a decline. It can become resistance after a confirmed breakdown.
+- **Range high and range low:** the upper and lower boundaries repeatedly respected while price moves sideways.
+- **Breakout and retest:** a close beyond a level followed by a return to test it. A hold from the other side provides more evidence than the first candle alone.
+
+For example, if BTC repeatedly fails near 70,000, that area is resistance. If a daily candle closes above 70,000 and a later pullback holds near it, the old resistance may have become support. The important observation is not the number by itself; it is the reaction, the close, and whether the next swing confirms the idea.
+
 A break of a level matters more when the candle closes beyond it, activity is meaningful, and a later pullback holds the level from the other side. A wick through a level that closes back inside the range is weaker evidence.
 
 ### 1.3.1 BOS — Break of Structure
