@@ -107,7 +107,17 @@ The updated momentum readings are **RSI(6) = 38.2**, **RSI(12) = 44.5**, **RSI(2
 
 ## 5. Add volatility and derivatives context
 
-ATR estimates normal movement and helps decide whether a stop is inside ordinary noise. Bollinger Bands show when volatility is expanding or contracting. Neither predicts direction. For perpetual futures, open interest shows whether outstanding positions are growing or shrinking, while funding indicates which side is paying the other. These measures can reveal crowded leverage, but they are venue-specific and do not identify the next price move by themselves.
+ATR estimates the size of recent price movement and helps decide whether a stop is inside ordinary noise. It does **not** tell you whether the next move will be up or down. On a daily chart, `ATR(14)` uses the true ranges of the latest 14 daily candles. A true range is the largest of the current high-to-low move and the distance from the previous close to the current high or low. The platform then smooths those values into one average.
+
+![BTC daily ATR with RSI, MACD, and volume on 17 October 2026](assets/btc-atr-rsi-macd-volume-2026-10-17.jpeg)
+
+#### Reading the ATR value in the supplied BTC snapshot
+
+The screenshot shows **ATR(14) = 2,134.5** on a daily BTC chart. In this context, the value is approximately **2,134.5 USDT of typical daily movement**, not a target price and not a prediction. With BTC near 81,000 USDT, that is roughly **2.6% of the price**. It gives a scale for ordinary movement: a stop only a few hundred dollars away could be inside normal daily noise, while a stop several ATRs away would allow much more room but would require a smaller position to keep the same risk.
+
+The ATR line is not making a strong new high or low in this screenshot. That means recent daily volatility is broadly stable, with a slight easing at the right edge; it does **not** mean that price is stable or that the market has chosen a direction. A flat ATR can occur while BTC trends, ranges, or changes direction. Use price structure, volume, MACD, and RSI to judge direction; use ATR to adjust stop distance and position size. Binance’s [Average True Range explanation](https://academy.binance.com/en/articles/what-is-average-true-range) describes ATR as a volatility measure that does not indicate direction. TradingView’s [ATR reference](https://www.tradingview.com/support/solutions/43000501823-average-true-range-atr/) explains true range, the common 14-period setting, and why a rising or falling ATR should not be read as bullish or bearish by itself.
+
+Bollinger Bands show when volatility is expanding or contracting around an average. Neither ATR nor Bollinger Bands predicts direction. For perpetual futures, open interest shows whether outstanding positions are growing or shrinking, while funding indicates which side is paying the other. These measures can reveal crowded leverage, but they are venue-specific and do not identify the next price move by themselves.
 
 ## 6. A complete BTC example
 
