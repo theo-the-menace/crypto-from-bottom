@@ -134,6 +134,12 @@ A chart pattern can look obvious only after the next candles have already printe
 
 Real markets are also layered. A bullish breakout on a 15-minute chart can be a small rally inside a daily downtrend. A clean-looking range can be interrupted by a liquidation cascade, a policy announcement, or a sudden change in liquidity. Use patterns as conditional maps: state the level, the confirmation you need, the invalidation point, and the risk before acting. If the next candles do not confirm the idea, the correct response is to revise the hypothesis rather than force the pattern to fit.
 
+### Why study patterns at all?
+
+Patterns are useful as a shared vocabulary and as a way to organize repeated situations. A range, a breakout-and-retest, or a failed break tells you what to watch: the boundary, the close, the pullback, the volume, and the point that proves the idea wrong. That can improve preparation even when the outcome is uncertain.
+
+A pattern becomes a trading method only after it is defined precisely and tested across enough historical examples, fees, slippage, and different market regimes. Without that work, buying because a chart “looks like” a pattern is gambling with a story attached. The goal is not to find a shape that guarantees profit; it is to find a repeatable situation where the possible loss is known and the tested odds are acceptable. If no such evidence exists, standing aside is more rational than forcing a trade.
+
 Divergence—price making a lower low while an oscillator makes a higher low, for example—can warn that momentum is changing. It is not a guaranteed reversal and can appear repeatedly during a strong trend.
 
 ### 1.5 Context before patterns
