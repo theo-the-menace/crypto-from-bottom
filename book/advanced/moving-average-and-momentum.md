@@ -36,9 +36,7 @@ A shorter MA reacts first but gives more false turns. A longer MA filters more n
 
 An MA(7) is based on seven candles, so its real-time window changes when the chart interval changes. On a daily chart, MA(7) summarizes about seven days. On a weekly chart, it summarizes about seven weeks. The calculation is the same, but the question is different: the daily chart describes a shorter swing, while the weekly chart describes a much broader market phase.
 
-![Weekly chart with EMA(7), EMA(25), and EMA(99)](assets/btc-weekly-ma-momentum.jpg)
-
-The supplied image is a weekly chart. At the right side, **EMA(7)** (yellow) is above **EMA(99)** (purple), while **EMA(25)** (pink) is below EMA(99). This is not a contradiction with a daily chart that may show another order. The two charts average different candles. A recent weekly recovery can lift the seven-week EMA above the slower average even while the daily chart shows another short-term arrangement, or the daily chart can improve before the weekly chart has enough candles to turn.
+The weekly chart can therefore show a different MA arrangement from the daily chart without either chart being wrong. A recent weekly recovery can lift the seven-week EMA above the slower average even while the daily chart shows another short-term arrangement, or the daily chart can improve before the weekly chart has enough candles to turn.
 
 This difference gives us useful information about scale:
 
@@ -115,6 +113,8 @@ MACD divergence compares price swings with MACD swings. If price makes a higher 
 
 The two daily BTC screenshots show a useful sequence: a quiet range, a strong breakout, a weakening advance, and a possible reversal. The indicators do not tell us the future in advance. They help us describe how the move developed and what evidence changed at each stage.
 
+![BTC bullish moving-average alignment](assets/btc-bull-ma-alignment.png)
+
 ### Stage 1: sideways consolidation
 
 At the beginning of the chart, price moves roughly between the 61,000 and 68,000 area. EMA(7), EMA(25), and EMA(99) are close together and repeatedly cross. None has a clear slope. In the MACD panel, DIF and DEA remain near the zero line, crossing back and forth, while the histogram alternates between small green and red bars.
@@ -133,13 +133,21 @@ Around 20 August, price breaks above the upper part of the range near 68,000 wit
 
 The three MACD observations describe the same acceleration from different angles: a line crossover, a move above the zero line, and increasing distance between DIF and DEA. Together with the price breakout and participation, they make a stronger continuation hypothesis than any one signal alone. They still arrive after the move has started, so they are confirmation rather than a guaranteed early entry.
 
-![BTC bullish moving-average alignment](assets/btc-bull-ma-alignment.png)
-
 ### Stage 3: a top and a divergence warning
 
 Near the 82,000 area, price makes another high, but the force of the advance becomes less convincing. The key observation is a **bearish divergence**: price reaches a higher high while the MACD/DIF line fails to reach a higher high. At the same time, the histogram bars begin to shrink and DIF moves closer to DEA.
 
 This says that price is still rising while measured momentum is weakening. It does not say that the top is already confirmed. A strong trend can continue after divergence. The useful response is to stop treating every new high as proof of stronger demand, then watch structure, support, and the next pullback.
+
+![BTC moving-average trend weakening](assets/btc-ma-trend-weakening.png)
+
+The weekly chart below adds a higher-timeframe view to this four-stage story:
+
+![Weekly chart with EMA(7), EMA(25), and EMA(99)](assets/btc-weekly-ma-momentum.jpg)
+
+At the right side of the weekly image, **EMA(7)** (yellow) is above **EMA(99)** (purple), while **EMA(25)** (pink) remains below EMA(99). This shows a recent weekly recovery that has improved short-term strength without fully restoring the medium-term order. The daily chart may therefore look different: it is measuring a shorter swing with a different set of candles. The weekly chart says that the larger recovery is still incomplete; the daily chart helps us see the current pullback and nearby decision levels.
+
+This is useful in Stage 4 because it prevents us from calling a daily weakening signal a complete long-term reversal too early. If the daily chart loses EMA(25) and a higher low while the weekly EMA(7) also turns down, the evidence of a broader reversal becomes stronger. If the daily pullback stabilizes and the weekly EMA(25) later rises through EMA(99), the recovery has gained broader support. These are conditions to monitor, not predictions.
 
 ### Stage 4: weakening and possible reversal
 
@@ -150,8 +158,6 @@ The MACD numbers make the direction clear. The panel shows `DIF: 1,021.4` and `D
 `DIF − DEA = 1,021.4 − 1,807.0 = −785.6`
 
 That negative value matches the displayed `MACD: −785.6` under this app’s convention. The negative histogram supports weakening or bearish momentum; it does not by itself prove that price must continue down. The current price shown in the screenshot is about 80,536, so descriptions such as 78,776 should not be substituted for the value actually displayed in the image.
-
-![BTC moving-average trend weakening](assets/btc-ma-trend-weakening.png)
 
 ### What this story teaches
 
