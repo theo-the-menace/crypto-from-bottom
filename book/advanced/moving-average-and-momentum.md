@@ -152,6 +152,8 @@ At the beginning of the chart, price moves roughly between the 61,000 and 68,000
 
 This is a range, not a clean trend. A crossover system can lose repeatedly here because every apparent direction is quickly reversed. The correct conclusion is limited: the market has not shown sustained directional commitment. It is not evidence that a breakout must happen next.
 
+The additional daily example shows an early transition out of this kind of range. It corresponds most closely to **case 1**: `EMA(7)` moves above `EMA(25)` while `EMA(99)` remains below both. The detail matters: EMA(99) is still falling, EMA(7) and EMA(25) have been fighting around each other, and then EMA(7) turns sharply upward. That is a burst of short-term momentum and a possible breakout attempt, not yet proof that the long-term trend has turned bullish. Confirmation would require price to hold the breakout, EMA(25) to turn upward, and the broader structure to make higher highs and higher lows.
+
 ### Stage 2: breakout and acceleration
 
 Around 20 August, price breaks above the upper part of the range near 68,000 with strong bullish candles and reaches a high near 82,265.9. That is roughly a 21% rise from 68,000. The price move is the primary evidence; the indicators then help us describe its strength.
