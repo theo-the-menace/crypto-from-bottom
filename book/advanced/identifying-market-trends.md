@@ -30,6 +30,19 @@ These are starting ranges, not laws. Make sure the chart contains enough candles
 
 If the holding plan is several weeks, the daily chart should carry more weight than the 15-minute chart. If the plan is a short intraday trade, the 15-minute chart can guide the entry, but the trader should still check the 4-hour or daily context before assuming the move has room to continue. More candles do not automatically mean more accuracy; the timeframe must match the decision being made.
 
+## 1.2 Match the timeframe to the trading pace
+
+Do not choose a chart interval by asking how many trades you should force into a day. Choose the interval that matches the time you can watch the market and the length of the move you want to capture.
+
+| Style | Main charts | Typical pace | Main cost |
+| --- | --- | --- | --- |
+| **Intraday trading** | 15m and 1h | Several decisions in a day | More noise, fees, screen time, and emotional pressure |
+| **Swing trading** | 4h and 1d | Often zero to a few trades in a week | You may miss some short moves and must hold through overnight volatility |
+| **Position trading** | 1d and 1w | A few decisions per month | Stops are wider and a thesis can take weeks or months to play out |
+| **DCA** | No signal timeframe is required | A fixed weekly or monthly purchase | It keeps buying during a prolonged decline unless you define a limit or review rule |
+
+For a beginner trading BTC spot, a 4-hour and daily combination is usually the most practical starting point: the daily chart defines the environment, and the 4-hour chart provides an entry without demanding constant monitoring. A 15-minute chart can refine that entry, but it should not create a reason to trade more often. If no valid setup appears, zero trades is a correct result.
+
 ## 2. Define the trend from price structure
 
 An upward trend normally creates **higher highs (HH)** and **higher lows (HL)**. A downward trend normally creates **lower highs (LH)** and **lower lows (LL)**. A range has no reliable sequence because price keeps returning between boundaries.
