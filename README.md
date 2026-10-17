@@ -20,8 +20,7 @@ A book-style, practice-first curriculum for people who are new to crypto and wan
 3. [Chapter 3 — Welcome to the Crypto World](book/chapter-03-welcome-to-crypto-world.md)
    - [Advanced — Moving-average and momentum tools](book/advanced/moving-average-and-momentum.md)
    - [Advanced — Combining price, volume, and indicators](book/advanced/combining-indicators.md)
-3. [Strategy specification template](docs/strategy-template.md)
-4. [Glossary](book/glossary.md)
+4. [Chapter 4 — From TradingView Script to a Binance Order](book/chapter-04-tradingview-webhook-binance.md)
 
 ## How to use this book
 
