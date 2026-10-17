@@ -85,25 +85,27 @@ For example, MA(7) can cross above MA(25) while all three averages are still fal
 
 Cases **1–4 describe crossing events or transition points**. Cases **5–7 describe the broader arrangement after we observe the lines and their slopes**. One chart can therefore move through several cases in sequence.
 
-1. **MA(7) crosses above MA(25), while MA(99) is below both.** At the crossing, this is a short-term improvement and a bullish line order. It does **not** say that all three lines are rising. If the lines later rise together and price holds above them, the chart may develop into case 5. If MA(7) and MA(25) rise while MA(99) is flat or falling, it may only be an early recovery.
+The labels below describe a **typical directional bias**, not a guaranteed forecast. A bullish case means recent price behavior is becoming relatively stronger; it does not mean price must rise. A bearish case means recent price behavior is becoming relatively weaker; it does not mean price must fall.
+
+1. **MA(7) crosses above MA(25), while MA(99) is below both — early bullish bias.** At the crossing, this is a short-term improvement and a bullish line order. It does **not** say that all three lines are rising. If the lines later rise together and price holds above them, the chart may develop into case 5. If MA(7) and MA(25) rise while MA(99) is flat or falling, it may only be an early recovery.
 
    ![Conceptual diagram of moving-average case 1](assets/ma-case-1.svg)
-2. **MA(7) crosses above MA(99), while MA(25) is below both.** At the crossing, this is a fast rebound above the long-term average while the medium-term average remains weaker. If MA(7) is rising but MA(25) and MA(99) are still falling, the move may be counter-trend. Check whether MA(25) turns upward and whether price holds the reclaimed level.
+2. **MA(7) crosses above MA(99), while MA(25) is below both — rebound or mixed bullish bias.** At the crossing, this is a fast rebound above the long-term average while the medium-term average remains weaker. If MA(7) is rising but MA(25) and MA(99) are still falling, the move may be counter-trend. Check whether MA(25) turns upward and whether price holds the reclaimed level.
 
    ![Conceptual diagram of moving-average case 2](assets/ma-case-2.svg)
-3. **MA(7) crosses below MA(25), while MA(99) remains below both.** This describes short-term weakness inside a still higher average order. If MA(99) is rising and MA(25) remains above it, the move may be a pullback in a larger uptrend. If all three slopes turn down, the bearish interpretation becomes stronger.
+3. **MA(7) crosses below MA(25), while MA(99) remains below both — early bearish bias or bullish pullback.** This describes short-term weakness inside a still higher average order. If MA(99) is rising and MA(25) remains above it, the move may be a pullback in a larger uptrend. If all three slopes turn down, the bearish interpretation becomes stronger.
 
    ![Conceptual diagram of moving-average case 3](assets/ma-case-3.svg)
-4. **MA(7) crosses below MA(99), while MA(25) remains above both.** This is a mixed transition: the fast average is weak, but the medium average still has the stronger position. If MA(25) is rising, it may be a pullback before continuation. If MA(25) and MA(99) are both falling, it may be the first stage of a deeper reversal.
+4. **MA(7) crosses below MA(99), while MA(25) remains above both — mixed bearish transition.** This is a mixed transition: the fast average is weak, but the medium average still has the stronger position. If MA(25) is rising, it may be a pullback before continuation. If MA(25) and MA(99) are both falling, it may be the first stage of a deeper reversal.
 
    ![Conceptual diagram of moving-average case 4](assets/ma-case-4.svg)
-5. **MA(7) > MA(25) > MA(99), with all three rising.** This is a bullish alignment: recent prices are stronger across all three windows, and the slopes agree with the order. It is more credible when price makes HH/HL and a pullback holds. Because averages lag, it may appear after a large part of the move.
+5. **MA(7) > MA(25) > MA(99), with all three rising — established bullish bias.** This is a bullish alignment: recent prices are stronger across all three windows, and the slopes agree with the order. It is more credible when price makes HH/HL and a pullback holds. Because averages lag, it may appear after a large part of the move.
 
    ![Conceptual diagram of moving-average case 5](assets/ma-case-5.svg)
-6. **MA(7) < MA(25) < MA(99), with all three falling.** This is a bearish alignment: recent prices are weaker across all three windows, and the slopes agree with the order. It is more credible when price makes LH/LL and failed rallies remain below the averages. It can still reverse quickly after a large selloff.
+6. **MA(7) < MA(25) < MA(99), with all three falling — established bearish bias.** This is a bearish alignment: recent prices are weaker across all three windows, and the slopes agree with the order. It is more credible when price makes LH/LL and failed rallies remain below the averages. It can still reverse quickly after a large selloff.
 
    ![Conceptual diagram of moving-average case 6](assets/ma-case-6.svg)
-7. **The three averages are flat, tangled, or crossing repeatedly.** The market is probably ranging or changing regime. Cross-based signals are less reliable here, so support, resistance, volume, and a confirmed close matter more than the latest crossing line.
+7. **The three averages are flat, tangled, or crossing repeatedly — neutral or unclear bias.** The market is probably ranging or changing regime. Cross-based signals are less reliable here, so support, resistance, volume, and a confirmed close matter more than the latest crossing line.
 
 Before acting on any arrangement, record the timeframe, whether each line is rising or falling, where price sits relative to the lines, and the price level that would invalidate the idea. The same arrangement on a 5-minute chart and a weekly chart does not carry the same meaning.
 
