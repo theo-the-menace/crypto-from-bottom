@@ -46,6 +46,12 @@ This difference gives us useful information about scale:
 
 For example, a weekly bullish alignment with a daily pullback can describe a possible pullback inside a larger uptrend. A daily bullish crossover while the weekly averages remain bearish can describe an early recovery that has not yet changed the broader trend. Neither arrangement predicts what must happen next.
 
+### 1.4 Shorter timeframes usually fail more easily
+
+Your timeframe changes how durable an MA observation is. A 4-hour MA arrangement can be overturned by one news headline, a liquidation cascade, or a temporary liquidity imbalance because it is built from a small number of recent candles. A daily arrangement usually changes more slowly and filters out more intraday noise. A weekly arrangement changes more slowly still.
+
+This does **not** mean that a daily or weekly signal is safe. A major macro announcement, a market-wide liquidity crisis, an exchange failure, or a severe protocol event can invalidate a higher-timeframe structure as well. The more accurate rule is: **shorter timeframes usually produce more signals and more false breaks; longer timeframes produce fewer signals and slower but often more durable observations.** Use the higher timeframe for context and the lower timeframe for timing, while defining what would prove the idea wrong on each timeframe.
+
 ## 2. What moving averages can tell us
 
 A rising MA says that recent closes are generally higher than earlier closes in its window. A falling MA says the opposite. Price holding above a rising MA can support a bullish context; price remaining below a falling MA can support a bearish context. The MA may also act as a **dynamic support or resistance zone** when many traders are watching the same line.
