@@ -116,7 +116,7 @@ At the moment a new LH/LL or HH/HL appears, you cannot know whether the next mov
 
 This chart begins with a broad HH/HL sequence. Near the top, price stops making clean higher highs, forms a lower high, and then closes below the most recent meaningful higher low. That first confirmed break is the possible **bearish CHoCH**. The later lower highs, lower lows, and sharp sell-off provide follow-through; they are evidence that the change may have developed into a downtrend, not the CHoCH trigger itself. A single wick or the final crash alone would be too late and too ambiguous to identify the first change in character.
 
-The screenshot's visible time axis shows **2026**, so the chart should be dated from the actual candle data rather than described as June 2025 unless the source chart is corrected. Even with the correct date, the interpretation remains a hypothesis: a reclaim of the broken higher-low area would weaken the bearish reading.
+This is the **June 2026** BTC example. The interpretation remains a hypothesis: a reclaim of the broken higher-low area would weaken the bearish reading.
 
 Divergence—price making a lower low while an oscillator makes a higher low, for example—can warn that momentum is changing. It is not a guaranteed reversal and can appear repeatedly during a strong trend.
 
