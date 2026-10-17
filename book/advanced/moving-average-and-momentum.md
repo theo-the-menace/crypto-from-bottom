@@ -293,7 +293,7 @@ Here MA(7) repeatedly waves around MA(25), while MA(25) forms a broad arc and MA
 
 ![Historical BTC MA(99) tests in 2025](assets/btc-historical-2025-ma99-tests.jpg)
 
-MA(7) drops to, and briefly tests, MA(99) twice while MA(25) remains above both. This resembles a **case 4 test**, but it does not become a confirmed bearish transition because price and the medium average recover. MACD fluctuates around the zero line, matching the mixed, range-like character. The broader arrangement returns toward **case 5**. A roughly 20,000-point wick around October 2025 is best treated as a short-lived liquidity shock—possibly involving leveraged liquidations, a fast news reaction, or thin order-book conditions; the chart alone cannot identify the exact cause. Repeated tests are useful because they show where short-term weakness meets longer-term support; a test is not the same as a sustained break.
+MA(7) drops to, and briefly tests, MA(99) twice while MA(25) remains above both. This resembles a **case 4 test**, but it does not become a confirmed bearish transition because price and the medium average recover. MACD fluctuates around the zero line, matching the mixed, range-like character. The broader arrangement returns toward **case 5**. The roughly 20,000-point wick occurred during the 10 October 2025 crash. Binance attributed the sell-off to global macro events and concentrated selling; its review says the market low came before USDE, BNSOL, and WBETH depegged, so those depegs did not trigger the crash. Binance also reported brief glitches in some platform modules after the sell-off began. See its [market review](https://www.binance.com/en/support/announcement/detail/d9cb0d52d7c142a5be4f49732bd8760c) and [depeg follow-up](https://www.binance.com/en/support/announcement/detail/0989d6c7f32545bfb019e3249eaabc3f). Repeated MA tests show where short-term weakness meets longer-term support; a test is not a sustained break.
 
 #### MA(7) and MA(25) fall through MA(99)
 
@@ -315,24 +315,25 @@ The images are historical chart examples, not a live recommendation. Their value
 
 ## 6. Combining the evidence
 
-A sensible reading might look like this: the daily chart has HH/HL structure, the 4-hour chart holds above a rising MA(25), volume expands at a breakout, and MACD turns upward after a pullback. Together these observations form a bullish hypothesis. They still do not specify an entry, stop, size, or exit; those must be defined separately.
+The historical examples showed how MA and MACD readings change as a move develops. Now combine them with evidence that answers different questions. For example, BTC makes higher highs and higher lows on the daily chart, holds above a rising MA(25) on the 4-hour chart, breaks resistance on stronger volume, and MACD turns upward after a pullback. This supports a bullish hypothesis: structure is rising, participation has increased, and momentum is improving. It still does not define an entry, stop, position size, or exit; those belong in a separate risk plan.
 
-Do not count EMA, SMA, a moving-average crossover, and MACD as four independent confirmations. They are all heavily derived from the same price data. More lines can make a chart look certain without adding new information. Price structure, volume, volatility, and higher-timeframe context provide different kinds of evidence.
+Do not count EMA, SMA, an MA crossover, and MACD as four independent confirmations: all are strongly influenced by price. Give more weight to evidence with a different source, such as price structure, traded volume, volatility, and a higher timeframe. Even then, agreement raises confidence only modestly; it does not remove uncertainty.
 
 ## 7. Common misunderstandings
 
-- **“A golden cross means BTC must rise.”** It means the recent average has moved above the longer average, usually after a move has already started.
-- **“A death cross means shorting is safe.”** It can arrive late and fail during a range or a sudden recovery.
-- **“An overbought or high MACD reading means sell now.”** Strong trends can remain extended for a long time.
-- **“The perfect MA period exists.”** Periods are choices that must fit the timeframe and purpose.
-- **“A line touching an MA is guaranteed support.”** A moving average is a reference zone; it can fail with news, liquidation, or thin liquidity.
-- **“More indicators mean more certainty.”** Several indicators may simply repeat the same price information.
+The examples can look clearer after the event than they felt in real time. Keep these distinctions in mind:
+
+- **A golden cross describes a past change in averages.** It can support a bullish reading, but often appears after price has already risen.
+- **A death cross is not a safe short signal.** It can arrive late, especially in a range or fast rebound.
+- **A high RSI or MACD reading does not automatically mean “sell.”** Strong trends can stay extended.
+- **An MA touch is not guaranteed support.** It is a reference area that can fail during a sharp move or thin liquidity.
+- **A clean historical case is not a live forecast.** Real charts overlap cases, change timeframe, and produce false breaks.
 
 ## 8. A disciplined way to use these tools
 
-Before trusting an MA or MACD signal, state the market regime, the timeframe, the price structure, and the condition that would invalidate the idea. Decide whether the tool is being used as a trend filter, a pullback reference, a momentum warning, or an exit rule. Keep the position small enough that a late or false signal does not force an emotional decision.
+Before acting on an MA or MACD reading, describe four things in plain language: **the market regime**, **the timeframe**, **what price structure is doing**, and **what would invalidate your interpretation**. Then say what job the indicator has: trend context, pullback reference, momentum warning, or exit support. If you cannot state what would prove the idea wrong, the analysis is not ready to guide a trade.
 
-The advanced skill is not memorizing a special crossover or finding a perfect setting. It is knowing what the calculation measures, what information it repeats, when it tends to fail, and how to combine it with a clear risk plan.
+Finally, size any position so a late or false signal is survivable. The skill is not finding a perfect setting; it is understanding what the calculation measures, which evidence it repeats, when it tends to fail, and how much risk the idea deserves.
 
 ## References and further reading
 
