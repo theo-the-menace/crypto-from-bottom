@@ -16,6 +16,11 @@ The menu contains more tools than a beginner needs. Use this order when deciding
 
 The short list is not a ranking of profitable signals. It is a learning order that reduces duplicated information and makes it easier to understand why a decision was made.
 
+## Do traders really need many indicators?
+
+Usually, no. A trader does not become more accurate by filling the chart with more panels. Most indicators are different calculations of the same price and volume data, so adding five momentum indicators can create the appearance of agreement without adding five independent reasons. A practical beginner setup can be enough: **price structure for direction, one moving-average tool for trend, volume for participation, and either RSI or MACD for momentum**. ATR can then help adjust the stop distance and position size.
+
+Add another indicator only when it answers a question that the current tools cannot answer. For example, use Bollinger Bands when volatility compression or expansion matters, or open interest and funding when you are studying crowded perpetual-futures positions. Before adding it, state the question in one sentence and decide what observation would change your view. If a new indicator only repeats “momentum is strong,” it probably adds visual clutter rather than useful evidence. A simple chart that you understand and can test is more valuable than a crowded chart that appears precise.
 
 ## Full indicator reference
 
