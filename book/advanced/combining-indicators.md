@@ -60,7 +60,7 @@ Moving averages are delayed. They are useful as trend filters and dynamic refere
 
 ## 3. Use MACD and RSI for momentum
 
-MACD compares moving averages and shows whether recent momentum is strengthening or weakening. A MACD line above its signal line, a rising histogram, and a move above zero can support a bullish momentum hypothesis. RSI shows the balance of recent upward and downward movement on a 0–100 scale. A high RSI means strong recent gains, not an automatic sell signal.
+The detailed MA and MACD foundations are already covered in [Advanced — Moving-average and momentum tools](moving-average-and-momentum.md). The screenshot below is the latest RSI view used in this article. We begin with RSI, then combine its evidence with MACD and price structure. MACD compares moving averages and shows whether recent momentum is strengthening or weakening. RSI shows the balance of recent upward and downward movement on a 0–100 scale. Neither indicator predicts the market by itself.
 
 ### 3.1 RSI lookback periods: RSI(6), RSI(12), and RSI(24)
 
@@ -76,7 +76,7 @@ When the short line is above the longer lines, recent gains are stronger than th
 
 The familiar 70 and 30 levels are reference zones, not automatic sell and buy buttons. In a strong trend, RSI can remain above 70 or below 30 for a long time. The 50 level is also useful: sustained readings above 50 often fit a bullish regime, while sustained readings below 50 fit a bearish one. Always compare RSI with price structure, support and resistance, volume, and the timeframe. Binance’s [RSI reference](https://www.binance.com/en/square/post/43083) describes the 0–100 calculation, the standard 14-period setting, and why extreme readings are not standalone reversal signals.
 
-![BTC daily RSI(6), RSI(12), and RSI(24) on 17 October 2026](assets/rsi-btc-2026-10-17.png)
+![BTC daily RSI(6), RSI(12), and RSI(24) on 17 October 2026](assets/rsi-btc-2026-10-17.jpeg)
 
 #### Reading the supplied BTC daily snapshot
 
