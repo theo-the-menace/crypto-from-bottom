@@ -24,7 +24,9 @@ A long upper wick shows that buyers reached higher prices but sellers pushed the
 
 ### 1.2 Market structure: HH, HL, LH, LL and key levels
 
-Structure is the sequence of meaningful swing points, not every tiny tick. An uptrend usually prints a **higher high (HH)** and then a **higher low (HL)**. A downtrend prints a **lower high (LH)** and then a **lower low (LL)**. When neither side is consistently winning, price may be in a range.
+Structure is the sequence of meaningful swing points, not every tiny tick. For a swing high or low, mark the candle's **wick extreme** first: the highest wick is the candidate high, and the lowest wick is the candidate low. This records the furthest price that the market actually traded. Use the **candle close** to confirm a break of that level for BOS or CHoCH; a wick through a level that closes back inside it is not the same as a confirmed structural break. Some traders use candle bodies instead, but the method matters less than choosing one rule, applying it consistently, and stating it clearly.
+
+An uptrend usually prints a **higher high (HH)** and then a **higher low (HL)**. A downtrend prints a **lower high (LH)** and then a **lower low (LL)**. When neither side is consistently winning, price may be in a range.
 
 ![Higher highs and lower lows](assets/market-structure.svg)
 
