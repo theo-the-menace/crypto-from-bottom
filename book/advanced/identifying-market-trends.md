@@ -144,7 +144,18 @@ A practical reading separates three steps:
 
 The weekly chart shows the full BTC history in the screenshot. It is useful for locating the current move inside the larger cycle, but it should not be used to postpone every decision until a new all-time high appears. We need a defined horizon: for a position held for weeks or months, the recent one-to-two-year weekly structure matters more than the entire history.
 
-On this chart, BTC remains far above the major 2022 low and has recovered from the recent low near the 60,000 area. Price is around **81,292.5**, above the displayed EMA(9) near **79,827.8** and above the Bollinger middle band near **71,505.2**. Weekly RSI is around **56.24**, above its smoother line near **51.78** and above the neutral 50 area. The fast MACD line is around **2,277.0**, the slow line is around **38.9**, and the positive histogram is around **2,238.1**. ATR is near **6,175.9** and falling, which means typical weekly movement has been narrowing; ATR does not tell us the direction. These observations support a **weekly recovery or bullish environment**.
+On this chart:
+
+- BTC remains far above the major 2022 low and has recovered from the recent low near the 60,000 area.
+- Price is around **81,292.5**, above EMA(9) near **79,827.8**.
+- Price is also above the Bollinger middle band near **71,505.2**.
+- Weekly RSI is around **56.24**, above its smoother line near **51.78** and above the neutral 50 area.
+- The fast MACD line is around **2,277.0**.
+- The slow MACD line is around **38.9**.
+- The positive MACD histogram is around **2,238.1**.
+- ATR is near **6,175.9** and falling, which means typical weekly movement has been narrowing. ATR does not tell us the direction.
+
+These observations support a **weekly recovery or bullish environment**.
 
 They do not prove that a new long-term bull cycle is already established. Price is still below the later peak near 120,000, and the chart has not yet shown a new weekly HH above that peak. Weekly volume at the right edge is around **853.58K**, much lower than the largest historical expansion. A precise conclusion is therefore: **the fall from 120,000 toward 60,000 has probably lost its previous bearish momentum, but a new long-term bull cycle still needs structural confirmation**.
 
