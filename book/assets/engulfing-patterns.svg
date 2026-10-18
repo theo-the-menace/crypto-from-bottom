@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Bullish and bearish engulfing candlestick patterns</title>
+  <desc id="desc">Two side-by-side diagrams. Bullish engulfing shows a small red candle followed by a larger green candle whose body covers it. Bearish engulfing shows a small green candle followed by a larger red candle whose body covers it.</desc>
+  <rect width="1200" height="620" fill="#17202b"/>
+  <text x="55" y="48" fill="#e8edf3" font-family="Arial, sans-serif" font-size="29" font-weight="700">Two-candle engulfing patterns</text>
+  <text x="55" y="78" fill="#aab7c6" font-family="Arial, sans-serif" font-size="17">The second candle's body covers the first candle's body. The pattern is a reaction to context, not a prediction by itself.</text>
+
+  <!-- Bullish panel -->
+  <rect x="55" y="110" width="525" height="450" rx="12" fill="#202d3b" stroke="#314052" stroke-width="2"/>
+  <text x="85" y="151" fill="#38c79a" font-family="Arial, sans-serif" font-size="24" font-weight="700">Bullish engulfing</text>
+  <text x="85" y="179" fill="#aab7c6" font-family="Arial, sans-serif" font-size="16">A possible shift from sellers to buyers</text>
+  <line x1="95" y1="430" x2="540" y2="430" stroke="#314052" stroke-width="2"/>
+  <line x1="95" y1="280" x2="540" y2="280" stroke="#314052" stroke-width="1"/>
+  <rect x="95" y="390" width="445" height="40" fill="#38c79a" opacity="0.10"/>
+  <line x1="95" y1="390" x2="540" y2="390" stroke="#38c79a" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="105" y="382" fill="#38c79a" font-family="Arial, sans-serif" font-size="15">support area</text>
+  <!-- small bearish candle -->
+  <g stroke="#ef5364" fill="#ef5364" stroke-width="5">
+    <line x1="245" y1="265" x2="245" y2="415"/>
+    <rect x="228" y="315" width="34" height="65"/>
+  </g>
+  <!-- large bullish engulfing candle -->
+  <g stroke="#38c79a" fill="#38c79a" stroke-width="5">
+    <line x1="365" y1="235" x2="365" y2="420"/>
+    <rect x="342" y="285" width="46" height="120"/>
+  </g>
+  <path d="M245 315 L245 220 L170 220" fill="none" stroke="#ef5364" stroke-width="2"/>
+  <text x="95" y="214" fill="#ef5364" font-family="Arial, sans-serif" font-size="16" font-weight="700">1. Small bearish body</text>
+  <path d="M365 285 L365 220 L410 220" fill="none" stroke="#38c79a" stroke-width="2"/>
+  <text x="415" y="214" fill="#38c79a" font-family="Arial, sans-serif" font-size="16" font-weight="700">2. Larger bullish body</text>
+  <path d="M262 315 L342 315" fill="none" stroke="#f2b84b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="170" y="486" fill="#e8edf3" font-family="Arial, sans-serif" font-size="17" font-weight="700">The green body covers the red body</text>
+  <text x="115" y="518" fill="#aab7c6" font-family="Arial, sans-serif" font-size="15">More useful at support after a decline.</text>
+  <text x="115" y="541" fill="#aab7c6" font-family="Arial, sans-serif" font-size="15">It still needs follow-through and structure.</text>
+
+  <!-- Bearish panel -->
+  <rect x="620" y="110" width="525" height="450" rx="12" fill="#202d3b" stroke="#314052" stroke-width="2"/>
+  <text x="650" y="151" fill="#ef5364" font-family="Arial, sans-serif" font-size="24" font-weight="700">Bearish engulfing</text>
+  <text x="650" y="179" fill="#aab7c6" font-family="Arial, sans-serif" font-size="16">A possible shift from buyers to sellers</text>
+  <line x1="660" y1="280" x2="1105" y2="280" stroke="#314052" stroke-width="1"/>
+  <line x1="660" y1="430" x2="1105" y2="430" stroke="#314052" stroke-width="2"/>
+  <rect x="660" y="280" width="445" height="40" fill="#ef5364" opacity="0.10"/>
+  <line x1="660" y1="320" x2="1105" y2="320" stroke="#ef5364" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="670" y="345" fill="#ef5364" font-family="Arial, sans-serif" font-size="15">resistance area</text>
+  <!-- small bullish candle -->
+  <g stroke="#38c79a" fill="#38c79a" stroke-width="5">
+    <line x1="810" y1="205" x2="810" y2="430"/>
+    <rect x="793" y="260" width="34" height="65"/>
+  </g>
+  <!-- large bearish engulfing candle -->
+  <g stroke="#ef5364" fill="#ef5364" stroke-width="5">
+    <line x1="930" y1="175" x2="930" y2="445"/>
+    <rect x="907" y="225" width="46" height="120"/>
+  </g>
+  <path d="M810 260 L810 220 L735 220" fill="none" stroke="#38c79a" stroke-width="2"/>
+  <text x="650" y="214" fill="#38c79a" font-family="Arial, sans-serif" font-size="16" font-weight="700">1. Small bullish body</text>
+  <path d="M930 225 L930 220 L975 220" fill="none" stroke="#ef5364" stroke-width="2"/>
+  <text x="980" y="214" fill="#ef5364" font-family="Arial, sans-serif" font-size="16" font-weight="700">2. Larger bearish body</text>
+  <path d="M827 325 L907 325" fill="none" stroke="#f2b84b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="745" y="486" fill="#e8edf3" font-family="Arial, sans-serif" font-size="17" font-weight="700">The red body covers the green body</text>
+  <text x="680" y="518" fill="#aab7c6" font-family="Arial, sans-serif" font-size="15">More useful at resistance after a rise.</text>
+  <text x="680" y="541" fill="#aab7c6" font-family="Arial, sans-serif" font-size="15">It still needs follow-through and structure.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#f2b84b"/>
+    </marker>
+  </defs>
+</svg>

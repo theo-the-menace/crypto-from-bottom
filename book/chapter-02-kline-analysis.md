@@ -126,6 +126,8 @@ A structure is **established** only after the relevant swing is clear and the ma
 
 A **bullish engulfing pattern** is a bearish candle followed by a larger bullish candle whose body covers the previous candle's body. It shows that buyers moved from losing the previous interval to controlling the next one. The pattern is more meaningful when it appears at a well-tested support zone after a decline, closes strongly, and is followed by a higher low or a break of the nearby swing high.
 
+![Bullish and bearish engulfing candlestick patterns](assets/engulfing-patterns.svg)
+
 For example, if BTC falls toward a daily support zone, prints a small red candle, and then prints a larger green candle that closes above the red candle's open, the engulfing candle shows a strong response from that area. It does **not** prove that a new bull trend has begun. In the middle of a range, after a large news spike, or directly below major resistance, the same shape can be a temporary bounce. Volume, the next candle, and the higher-timeframe structure still matter.
 
 The pattern can also be drawn with different platform conventions. Some traders require the second candle's body to cover the first body completely; others include the wicks or allow a small gap. State the rule before testing it. A bullish engulfing candle is therefore best treated as a possible entry trigger or confirmation inside a larger plan, with a defined invalidation below the support or swing low—not as a reason to buy every large green candle.
