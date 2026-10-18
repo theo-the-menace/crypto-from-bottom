@@ -122,6 +122,14 @@ Bullish structure is more credible when price holds a higher low, breaks a prior
 
 A structure is **established** only after the relevant swing is clear and the market confirms it with a close and follow-through. It is **invalidated** when price breaks the level that made the idea meaningful, such as losing the higher low in an uptrend. Define that level before entering; otherwise the pattern can be endlessly reinterpreted after the fact.
 
+#### Bullish engulfing: a two-candle reversal attempt
+
+A **bullish engulfing pattern** is a bearish candle followed by a larger bullish candle whose body covers the previous candle's body. It shows that buyers moved from losing the previous interval to controlling the next one. The pattern is more meaningful when it appears at a well-tested support zone after a decline, closes strongly, and is followed by a higher low or a break of the nearby swing high.
+
+For example, if BTC falls toward a daily support zone, prints a small red candle, and then prints a larger green candle that closes above the red candle's open, the engulfing candle shows a strong response from that area. It does **not** prove that a new bull trend has begun. In the middle of a range, after a large news spike, or directly below major resistance, the same shape can be a temporary bounce. Volume, the next candle, and the higher-timeframe structure still matter.
+
+The pattern can also be drawn with different platform conventions. Some traders require the second candle's body to cover the first body completely; others include the wicks or allow a small gap. State the rule before testing it. A bullish engulfing candle is therefore best treated as a possible entry trigger or confirmation inside a larger plan, with a defined invalidation below the support or swing low—not as a reason to buy every large green candle.
+
 ### 1.3.8 False breaks and traps
 
 A market can briefly move beyond support or resistance and then return. Before calling a breakout real, ask: **Did it close beyond the level? Was volume or participation supportive? Did the next pullback hold?** These checks reduce false confidence, but they do not remove uncertainty. A whale can move price temporarily, and news or a liquidation cascade can invalidate a clean-looking setup.
