@@ -30,6 +30,12 @@
     <!-- Wick rejection: trades above zone but closes back inside -->
     <g stroke="#ef5364" fill="#ef5364"><line x1="505" y1="140" x2="505" y2="275"/><rect x="494" y="205" width="22" height="42"/></g>
   </g>
+  <g fill="#1d2936" opacity="0.94">
+    <rect x="575" y="106" width="345" height="27" rx="5"/>
+    <rect x="665" y="82" width="330" height="27" rx="5"/>
+    <rect x="805" y="300" width="270" height="27" rx="5"/>
+    <rect x="995" y="20" width="140" height="27" rx="5"/>
+  </g>
   <path d="M505 140 L505 112 L575 112" fill="none" stroke="#ef5364" stroke-width="2"/>
   <text x="585" y="118" fill="#ef5364" font-family="Arial, sans-serif" font-size="17" font-weight="700">Wick above, close back inside = weak break</text>
 
