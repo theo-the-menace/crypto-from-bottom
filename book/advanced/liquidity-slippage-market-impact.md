@@ -54,14 +54,14 @@ A retail trader can form only a cautious inference. Repeated unusually large exe
 
 ### 1.4 Does this matter if we cannot identify the whale?
 
-Yes, but for a more practical reason than guessing who placed the orders:
+Yes, but use the information to read the trading conditions, not to play detective:
 
-- **Execution:** the spread, depth, and recent fills tell you whether your own order may fill close to the displayed price. *In plain language: can I buy or sell without paying a surprisingly bad price?*
-- **Participation:** a breakout with sustained executions and rising volume has more activity behind it than a move on very quiet trading. *In plain language: are many trades supporting the move, or did price jump on almost no activity?*
-- **Absorption:** large trades with little price progress can show that opposing liquidity is absorbing the flow. *In plain language: buyers may be hitting the market, but sellers keep taking the other side, so price is not moving as expected.*
-- **Urgency:** fast prints, thinning depth, and a widening spread can warn that conditions are becoming unstable. *In plain language: the market is moving too quickly for a calm entry; reduce size or wait instead of guessing why.*
-- **Risk:** if a stop would need to cross several empty price levels, the possible loss is larger than the chart distance suggests. *In plain language: the stop may say “1% away,” but a fast move can make the actual loss larger before you get out.*
-- **Limits:** none of these observations proves direction or trader identity. *In plain language: this helps you decide whether the trade is practical and affordable, not whether BTC must rise or fall.*
+- **Execution — “Will my order get a fair fill?”** You press Buy on BTC and the screen shows 80,000 USDT, but only a small amount is offered there. Your order then fills at 80,020, 80,050, and 80,080. The chart did not lie; the nearby sell orders simply ran out. Check the spread and depth before assuming that the displayed price is your price.
+- **Participation — “Is this move backed by real activity?”** BTC breaks resistance and the candles keep printing with high volume and steady trades. That is more meaningful than a single jump on almost no trading. It still does not guarantee continuation, but it tells you that the move is being accepted by more participants.
+- **Absorption — “Why did a big order fail to move price?”** Imagine a trader sells 100,000 USDT of BTC into the market. Price barely falls because a large amount of buying takes the other side. That may be absorption: someone is willing to buy the selling pressure. Do not immediately conclude “the big seller failed, so I should go long.” If those bids disappear, the price can fall quickly. A displayed buy wall can also be cancelled, so it is not a promise of support.
+- **Urgency — “Is the market becoming dangerous to enter?”** Recent Trades start flashing rapidly, the order book becomes thin, and the spread widens. This often means that traders are rushing, news is moving the market, or liquidity is leaving. Do not try to guess the hidden reason with a large order; reduce size, use a controlled limit order, or wait for the market to calm down.
+- **Risk — “Can my stop really protect me at the chart price?”** Your stop looks only 1% below entry, but there are very few bids between your entry and the stop. During a fast fall, your sell may fill below the stop because it has to search for the next available buyers. The chart distance says 1%; the actual loss can be larger.
+- **Limits — “What can this data actually tell me?”** Trades, depth, and volume can show that orders are active, prices are being absorbed, or execution is becoming difficult. They cannot tell you with certainty who placed the orders or whether BTC must rise or fall. Use them to decide whether a trade is executable and affordable, then use structure and a defined invalidation to decide direction.
 
 For most beginners, this is enough. Use Recent Trades and depth as an **execution and risk check**, not as a secret whale detector. Price structure, timeframe context, and a defined invalidation remain more important for deciding direction.
 
