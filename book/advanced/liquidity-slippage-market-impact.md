@@ -158,6 +158,8 @@ What can be read from this screenshot:
 
 - To the left of the current-price marker, the red cumulative line represents lower price levels. A sharp fall through a concentrated lower cluster could force some long positions to close and add selling pressure.
 - To the right of the current-price marker, the green cumulative line rises sharply through the **83,000–85,000** area. A fast rise through a concentrated short-liquidation area could force short positions to close by buying, creating a short squeeze.
+- The especially tall bar just to the right of the current price, near **83,159**, represents a large estimated concentration in that price bucket. A second cluster appears around **84,183–84,695**. The heatmap shows corresponding bright horizontal bands in these higher-price areas, so the two views are pointing to the same broad zones rather than to two unrelated signals.
+- The red side contains much less visible bar concentration than the green side. In this snapshot, the map therefore shows less estimated long-liquidation leverage immediately below the current price than short-liquidation leverage above it. That can mean less obvious downside liquidation fuel in this selected window, but it does **not** mean that price must rise: ordinary selling, news, spot outflows, or a change in the estimates can still push price lower.
 - The largest visible bars show areas where the estimate is concentrated, but they do not tell us which side will win or whether price will visit that area.
 - The chart uses a seven-day window and a specific Binance perpetual contract. Changing the exchange, contract, leverage filter, or time window changes the map.
 
