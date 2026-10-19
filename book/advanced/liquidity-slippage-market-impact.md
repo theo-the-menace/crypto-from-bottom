@@ -146,7 +146,30 @@ Liquidity risk becomes more severe with leverage. A small move against a highly 
 
 The order book is therefore not a promise that a liquidation price will be filled exactly. Mark price, liquidation rules, insurance mechanisms, and contract specifications differ across products. Check the current Binance contract details before trading futures.
 
-## 6. What a beginner should do
+## 6. CoinGlass liquidation maps: useful context, not a price target
+
+CoinGlass liquidation maps estimate where leveraged positions may be forced to close if price moves through their liquidation ranges. They are useful for seeing where a fast move could encounter forced buying or selling. They are not a list of guaranteed orders waiting at exact prices. The [CoinGlass Liquidation Map](https://www.coinglass.com/pro/futures/LiquidationMap) and [BTC Liquidation Heatmap](https://www.coinglass.com/pro/futures/LiquidationHeatMap?coin=BTC) are the live versions of the views shown below; the data and layout can change.
+
+![CoinGlass Binance BTC/USDT liquidation map](assets/coinglass-binance-btcusdt-liquidation-map.png)
+
+*Figure 4 — Binance BTC/USDT Perpetual, seven-day liquidation map. The screenshot marks the current price near **82,531**. The red cumulative long-liquidation curve is below the current price; the green cumulative short-liquidation curve is above it. The colored bars estimate liquidation leverage by price area: orange represents the displayed 100x category, yellow 50x, darker blue 25x, and lighter blue 10x.*
+
+What can be read from this screenshot:
+
+- Below the current price, the red cumulative line rises as the chart moves toward lower prices. A sharp fall through a concentrated lower cluster could force some long positions to close and add selling pressure.
+- Above the current price, the green cumulative line rises sharply through the **83,000–85,000** area. A fast rise through a concentrated short-liquidation area could force short positions to close by buying, creating a short squeeze.
+- The largest visible bars show areas where the estimate is concentrated, but they do not tell us which side will win or whether price will visit that area.
+- The chart uses a seven-day window and a specific Binance perpetual contract. Changing the exchange, contract, leverage filter, or time window changes the map.
+
+![CoinGlass BTC liquidation heatmap](assets/coinglass-btc-liquidation-heatmap.png)
+
+*Figure 5 — CoinGlass BTC liquidation heatmap. Brighter horizontal bands represent higher estimated liquidation leverage in the selected view. The screenshot shows bright areas around the low-to-mid **84,000s** and several bands near **80,000–81,000**; the current price is near the right edge around the low **82,000s**.*
+
+The heatmap is easier to use as a map of **possible forced-flow zones** than as a prediction. For example, if price moves toward a bright band above and short liquidations begin, the move may accelerate upward. If it reaches a bright band below and long liquidations begin, the move may accelerate downward. The acceleration can stop once the forced orders are cleared, and the market can reverse or continue for unrelated reasons.
+
+Do not read a bright band as “price must go there.” CoinGlass combines exchange data and model assumptions, and the displayed estimates can change as positions open, close, or are liquidated. Confirm the actual contract, timeframe, funding, open interest, price structure, and current exchange conditions before treating a liquidation map as relevant.
+
+## 7. What a beginner should do
 
 A beginner does not need to model the entire order book. Use a short checklist:
 
@@ -160,7 +183,7 @@ A beginner does not need to model the entire order book. Use a short checklist:
 
 Liquidity is a condition of execution, not proof that a trade will win. It can make a good idea cheaper and a bad idea more expensive, but it cannot turn an uncertain signal into a reliable prediction.
 
-## 7. References and limits
+## 8. References and limits
 
 For a beginner explanation, see Binance Academy's [Liquidity](https://www.binance.com/en/academy/glossary/liquidity), [Bid-Ask Spread](https://www.binance.com/en/academy/glossary/bid-ask-spread), [Slippage](https://www.binance.com/en/academy/glossary/slippage), and [Market Order](https://www.binance.com/en/academy/glossary/market-order) pages. TradingView's [What is liquidity](https://www.tradingview.com/support/solutions/43000784778-what-is-liquidity/) and [What is a market order](https://www.tradingview.com/support/solutions/43000754940-what-is-a-market-order/) explain liquidity, spreads, depth of market, and execution in accessible terms.
 
