@@ -48,6 +48,18 @@ These patterns compare two or more adjacent candles. Their meaning is still cond
 - **Piercing pattern / dark cloud cover:** the second candle moves deeply into the previous candle's body. These are context-dependent attempts to reverse a recent move.
 - **Three white soldiers / three black crows:** three consecutive strong candles in one direction. They can show persistent control, but after an already extended move they can also mark exhaustion.
 
+The Binance illustrations below show several of these reversal ideas. They are pattern diagrams, not BTC trade signals.
+
+![Double top pattern](../assets/binance/classical-patterns/double-top.png)
+
+![Double bottom pattern](../assets/binance/classical-patterns/double-bottom.png)
+
+![Head and shoulders pattern](../assets/binance/classical-patterns/head-and-shoulders.png)
+
+![Inverse head and shoulders pattern](../assets/binance/classical-patterns/inverse-head-and-shoulders.png)
+
+![Rising wedge pattern](../assets/binance/classical-patterns/rising-wedge.png)
+
 ### Continuation and pause formations
 
 - **Inside bar:** the current candle stays within the prior candle's high and low. It shows temporary compression; the eventual break can occur in either direction.
@@ -55,6 +67,12 @@ These patterns compare two or more adjacent candles. Their meaning is still cond
 - **Falling three methods:** the bearish counterpart.
 - **Flag:** a short, sloping consolidation after a sharp move. It is a continuation hypothesis only if price breaks the flag and holds the direction.
 - **Pennant:** a small converging pause after a sharp move. The same breakout and invalidation rules apply.
+
+![Bull flag pattern](../assets/binance/classical-patterns/bull-flag.png)
+
+![Bear flag pattern](../assets/binance/classical-patterns/bear-flag.png)
+
+![Pennant pattern](../assets/binance/classical-patterns/pennant.png)
 
 TradingView's candlestick reference lists many additional names—abandoned baby, kicking, tasuki gaps, tweezer tops and bottoms, spinning tops, and others. Learning every label can be useful for vocabulary, but the core information remains body, wick, location, close, volume, and follow-through.
 
@@ -90,6 +108,12 @@ A **head and shoulders** structure has a left shoulder, a higher head, a right s
 
 - **Rising wedge:** both boundaries rise, but the range narrows. It often appears as a weakening advance or a countertrend rally, yet it can break either way.
 - **Falling wedge:** both boundaries fall, but the range narrows. It can show selling pressure losing force, but a bullish break still needs confirmation.
+
+![Ascending triangle pattern](../assets/binance/classical-patterns/ascending-triangle.png)
+
+![Descending triangle pattern](../assets/binance/classical-patterns/descending-triangle.png)
+
+![Falling wedge pattern](../assets/binance/classical-patterns/falling-wedge.png)
 
 ### Channels
 
@@ -145,6 +169,30 @@ Review the pattern only after the future candles are hidden again. A pattern tha
 
 Patterns are not laws of nature. Different traders can draw different swing points, trendlines, necklines, and pattern boundaries. Short timeframes add noise, crypto trades continuously without a daily exchange close, and news or liquidation can invalidate a clean formation. Automatic pattern tools can also label an incomplete pattern or use rules that differ from yours.
 
+### Frequently asked questions
+
+**Are chart patterns reliable?**
+
+No pattern is reliable on its own. A pattern summarizes a repeated historical shape and gives a probability-based hypothesis. Its usefulness changes with the market regime, timeframe, volume, and liquidity. Use it with structure, execution checks, and risk controls.
+
+**What are the three main types of chart patterns?**
+
+They are usually grouped as **reversal** patterns, which may mark a change in direction; **continuation** patterns, which may mark a pause before the existing trend resumes; and **bilateral** patterns, which can break either up or down.
+
+**Which timeframe is best?**
+
+There is no universal best timeframe. Four-hour and daily patterns generally contain less short-term noise than 15-minute patterns, but they form more slowly and need wider risk levels. A practical workflow is to set the directional context on a higher timeframe and use a lower timeframe only to plan a better entry.
+
+**How do traders confirm a pattern?**
+
+They normally wait for a decisive break of the relevant neckline, trendline, or range boundary. A candle close beyond the level, supporting volume, and a retest that holds can make the hypothesis stronger. None of these steps guarantees follow-through.
+
+**Do patterns work differently in crypto?**
+
+The names are the same, but crypto trades continuously and can move sharply through thin liquidity or liquidations. False breakouts and long wicks are therefore common. Waiting for the candle to close and checking participation are especially useful in crypto.
+
+Chart patterns are useful because they organize evidence, not because they remove uncertainty. They should be one part of a wider process that includes market structure, volume, momentum, volatility, execution, and a survivable risk plan.
+
 The following references are useful for definitions and platform conventions:
 
 - [Binance Academy — A Beginner's Guide to Classical Chart Patterns](https://academy.binance.com/en/articles/a-beginners-guide-to-classical-chart-patterns): reversal, continuation, and bilateral patterns, with a reminder that confirmation matters more than the label.
@@ -157,3 +205,5 @@ The following references are useful for definitions and platform conventions:
 - [TradingView — Triangle pattern drawing tool](https://www.tradingview.com/support/solutions/43000570208-triangle-pattern-drawing-tool/) and [Head and shoulders drawing tool](https://www.tradingview.com/support/solutions/43000570149-head-and-shoulders-drawing-tool/): platform drawing conventions for two common structures.
 
 Use these references to compare definitions, then use your own written rules and historical review to decide whether a pattern deserves a place in your trading process. No reference can turn a visual pattern into a guaranteed forecast.
+
+The pattern illustrations in this article were downloaded from the Binance Academy guide linked above and retained with source attribution for educational reference: [A Beginner's Guide to Classical Chart Patterns](https://www.binance.com/en/academy/articles/a-beginners-guide-to-classical-chart-patterns).
