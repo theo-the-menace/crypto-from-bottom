@@ -152,12 +152,12 @@ CoinGlass liquidation maps estimate where leveraged positions may be forced to c
 
 ![CoinGlass Binance BTC/USDT liquidation map](assets/coinglass-binance-btcusdt-liquidation-map.png)
 
-*Figure 4 — Binance BTC/USDT Perpetual, seven-day liquidation map. The screenshot marks the current price near **82,531**. The red cumulative long-liquidation curve is below the current price; the green cumulative short-liquidation curve is above it. The colored bars estimate liquidation leverage by price area: orange represents the displayed 100x category, yellow 50x, darker blue 25x, and lighter blue 10x.*
+*Figure 4 — Binance BTC/USDT Perpetual, seven-day liquidation map. The screenshot marks the current price near **82,531**. Because price runs from left to right, the red cumulative long-liquidation curve is to the left of the current-price marker and represents lower price levels; the green cumulative short-liquidation curve is to the right and represents higher price levels. The colored bars estimate liquidation leverage by price area: orange represents the displayed 100x category, yellow 50x, darker blue 25x, and lighter blue 10x.*
 
 What can be read from this screenshot:
 
-- Below the current price, the red cumulative line rises as the chart moves toward lower prices. A sharp fall through a concentrated lower cluster could force some long positions to close and add selling pressure.
-- Above the current price, the green cumulative line rises sharply through the **83,000–85,000** area. A fast rise through a concentrated short-liquidation area could force short positions to close by buying, creating a short squeeze.
+- To the left of the current-price marker, the red cumulative line represents lower price levels. A sharp fall through a concentrated lower cluster could force some long positions to close and add selling pressure.
+- To the right of the current-price marker, the green cumulative line rises sharply through the **83,000–85,000** area. A fast rise through a concentrated short-liquidation area could force short positions to close by buying, creating a short squeeze.
 - The largest visible bars show areas where the estimate is concentrated, but they do not tell us which side will win or whether price will visit that area.
 - The chart uses a seven-day window and a specific Binance perpetual contract. Changing the exchange, contract, leverage filter, or time window changes the map.
 
