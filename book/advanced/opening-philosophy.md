@@ -25,6 +25,12 @@ A useful signal normally answers four questions:
 
 An indicator crossing is not automatically a complete signal. RSI recovering through 50, MACD turning upward, or an EMA crossover may support a hypothesis, but the signal still needs a location, a timeframe, and a risk definition. A signal that cannot be written in one sentence cannot be reviewed fairly.
 
+### Why can some people explain a chart so fluently?
+
+They are usually applying a learned language, not reading a guaranteed answer from the candles. They first identify the timeframe and the market regime, then mark the important swings and levels. They describe what buyers and sellers have already done: for example, price made higher highs and higher lows, reached an old resistance zone, broke above it, and either held or failed on the retest. Volume, volatility, and momentum tools then add context. Finally, they compare at least two possible paths and state what would invalidate each one.
+
+This process can sound certain when it is spoken after the move has happened. Before the next candle closes, the same analyst still faces uncertainty. Good analysis therefore sounds like a conditional statement: “If price holds this level and the next swing confirms, the bullish idea becomes more credible; if it closes back inside the range, the idea is weakened.” The skill is building and testing a probability-based explanation, not predicting every candle.
+
 Example:
 
 > “If BTC is in a daily HH/HL structure, closes above the 70,000–70,500 USDT resistance zone, and a 4-hour pullback holds that zone while forming a higher low, I will consider a small spot position. A close below the retest low invalidates the idea.”
@@ -87,3 +93,9 @@ Review trades in groups rather than judging one trade alone. Ask whether the sig
 The market does not owe you an entry every day. Do not open a trade when the higher-timeframe context is unclear, the signal is late, the stop is too wide, the target is too close, the spread is abnormal, or you cannot explain the position in plain language.
 
 The purpose of this philosophy is not to find a signal that never fails. It is to make every entry conditional, measurable, and survivable. The trade begins with a reason and ends when the reason is confirmed, invalidated, or no longer worth the risk.
+
+## 7. How this fits the rest of the book
+
+The core should stay small. Chapter 2 teaches the basic K-line language: candles, timeframes, market structure, key levels, breaks, traps, indicators, volume, and divergence. The advanced articles can then examine one question at a time, such as how moving averages and momentum interact, how several indicators can be combined without double-counting the same price data, or how liquidity affects execution.
+
+You do not need an encyclopedia of patterns before you can read a chart. Learn the common structures first, test them on historical examples, and add a new pattern only when it helps you make a clearer decision. More names can create the feeling of expertise while adding little independent evidence. The foundation comes first; advanced studies should sharpen a written hypothesis rather than replace it.
