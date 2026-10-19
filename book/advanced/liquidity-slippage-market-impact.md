@@ -4,7 +4,7 @@ Liquidity is not a direction signal. It tells you how easily a trade can enter o
 
 For a retail trader, liquidity matters because the chart shows a reference price, while your order is filled against actual available orders. The difference becomes especially important when using market orders, large position sizes, stops, leverage, or small tokens.
 
-## 1. The four ideas to understand
+## 1. The core ideas to understand
 
 ### 1.1 Bid, ask, and spread
 
@@ -56,24 +56,28 @@ A retail trader can form only a cautious inference. Repeated unusually large exe
 
 Yes, but for a more practical reason than guessing who placed the orders:
 
-- **Execution:** the spread, depth, and recent fills tell you whether your own order may fill close to the displayed price.
-- **Participation:** a breakout with sustained executions and rising volume has more activity behind it than a move on very quiet trading.
-- **Absorption:** large trades with little price progress can show that opposing orders are absorbing the flow. That is a warning to avoid assuming that aggressive buying must continue upward.
-- **Urgency:** fast prints, thinning depth, and widening spread can warn that conditions are becoming unstable. Reduce size or wait rather than trying to guess the cause.
-- **Risk:** if a stop would need to cross several empty price levels, the possible loss is larger than the chart distance suggests.
-- **Limits:** none of these observations proves direction or trader identity. They help you choose whether the trade is executable and whether the risk is acceptable.
+- **Execution:** the spread, depth, and recent fills tell you whether your own order may fill close to the displayed price. *In plain language: can I buy or sell without paying a surprisingly bad price?*
+- **Participation:** a breakout with sustained executions and rising volume has more activity behind it than a move on very quiet trading. *In plain language: are many trades supporting the move, or did price jump on almost no activity?*
+- **Absorption:** large trades with little price progress can show that opposing liquidity is absorbing the flow. *In plain language: buyers may be hitting the market, but sellers keep taking the other side, so price is not moving as expected.*
+- **Urgency:** fast prints, thinning depth, and a widening spread can warn that conditions are becoming unstable. *In plain language: the market is moving too quickly for a calm entry; reduce size or wait instead of guessing why.*
+- **Risk:** if a stop would need to cross several empty price levels, the possible loss is larger than the chart distance suggests. *In plain language: the stop may say “1% away,” but a fast move can make the actual loss larger before you get out.*
+- **Limits:** none of these observations proves direction or trader identity. *In plain language: this helps you decide whether the trade is practical and affordable, not whether BTC must rise or fall.*
 
 For most beginners, this is enough. Use Recent Trades and depth as an **execution and risk check**, not as a secret whale detector. Price structure, timeframe context, and a defined invalidation remain more important for deciding direction.
 
-### 1.3 Slippage
+### 1.5 Slippage
 
 **Slippage** is the difference between the price you expected and the average price you actually received.
 
-For example, you submit a market order when BTC is displayed at 80,000 USDT. Fast buying consumes the nearby asks and your order fills at an average of 80,080. The 80 USDT difference is negative slippage for the buyer. Slippage can also occur when a stop order becomes a market order during a fast move.
+For example, you submit a market order when BTC is displayed at 80,000 USDT. The sell orders at 80,000 have already been filled, so your order consumes asks at 80,020, 80,050, and 80,080 and fills at an average of 80,080. The 80 USDT difference is negative slippage for the buyer. Slippage can also occur when a stop order becomes a market order during a fast move.
 
-Limit orders can control the maximum buy price or minimum sell price, but they may remain unfilled. Market orders prioritize execution, but they accept the available prices. The right choice depends on whether execution certainty or price control matters more.
+With a **limit buy**, you set the highest price you will accept. If you place a buy limit at 80,000, it cannot fill at 80,080; it either fills at 80,000 or lower, or remains unfilled. The protection is price control, but the trade may never happen. A sell limit works in the opposite direction: it sets the lowest price you will accept.
 
-### 1.4 Market impact
+With a **post-only order**, the exchange is instructed to let the order rest on the book as a maker order. If a post-only buy at 80,000 would immediately match an ask already at 80,000, the exchange cancels or rejects it instead of filling it as a taker. Post-only can help avoid crossing the spread and may qualify for maker fees, but it gives up execution certainty.
+
+Market orders prioritize execution, limit orders prioritize price control, and post-only orders prioritize resting on the maker side. None of them guarantees that the market will move in your favor.
+
+### 1.6 Market impact
 
 **Market impact** is the price movement caused by your own order as it consumes available liquidity. It is different from a general market move that would have happened anyway.
 
