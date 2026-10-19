@@ -102,7 +102,7 @@ A beginner can study the two routes without trading both at once:
 
 The goal is not to choose the product with the largest possible return. It is to choose the product whose risks you understand well enough to follow a written plan.
 
-The two detailed strategy guides are [Advanced — A spot trading strategy](advanced/spot-trading-strategy.md) and [Advanced — A futures trading strategy](advanced/futures-trading-strategy.md). They will turn these product-level ideas into separate rules, examples, and review methods.
+The core framework for opening any trade is in [Advanced — The philosophy of opening a trade](advanced/opening-philosophy.md). It explains how to define a signal, stop, size, target, and review process before choosing a specific product or strategy.
 
 ## 6. A practical beginner default
 
