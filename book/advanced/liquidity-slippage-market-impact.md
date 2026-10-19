@@ -33,6 +33,25 @@ Visible depth is only a snapshot. Orders can be cancelled, moved, hidden, or rep
 
 *Figure 2 — Binance depth view: the bid and ask curves show how much visible order quantity is stacked at different prices. A steep curve means more displayed quantity in that area; it does not prove that every order will remain or that price must reverse there.*
 
+### 1.3 Recent trades: what has actually filled
+
+![Binance recent trades example](assets/binance-recent-trades-example.jpeg)
+
+*Figure 3 — Binance Recent Trades: each row records a completed match, with a price, quantity, and timestamp. The colors usually distinguish trades executed at the ask from trades executed at the bid, but check the app legend because display conventions can differ.*
+
+Recent Trades is different from the volume panel. **Recent Trades** shows individual or grouped executions arriving now; **VOL** adds all reported trading quantity inside each candle. A large number in one row means that a relatively large amount traded in that match. It does not tell you whether one person, several accounts, a market maker, or an automated strategy created it.
+
+Read the numbers in context:
+
+- Several large prints close together can show that significant size is being executed quickly, especially if price moves through nearby levels.
+- Many small prints with steady price movement can reflect ordinary fragmented activity, algorithmic execution, or a large order being split into smaller child orders.
+- A large print that is immediately absorbed with little price movement suggests that opposing liquidity was available; a large print followed by a fast move suggests thinner nearby liquidity or an imbalance.
+- Compare the trade size with the pair's normal recent sizes and with the order-book depth. A number that looks large in isolation may be small for BTC but enormous for a thin token.
+
+A whale does not need to place one obvious order. A large participant may split an order over time, use several accounts, or execute passively so that the flow looks like many ordinary trades. That is **order splitting**, not proof of deception. **Spoofing**—placing orders with the intention of cancelling them rather than trading—can occur, but a screenshot cannot establish it and it is prohibited or restricted under many market rules. Do not label every small trade as a hidden whale.
+
+A retail trader can form only a cautious inference. Repeated unusually large executions, a sudden change in volume, price moving despite visible opposing orders, and depth disappearing together may suggest larger or urgent participation. They cannot prove that a whale is buying or selling, predict direction, or identify the trader. Treat Recent Trades as execution evidence: ask who appears to be taking liquidity, whether price is accepting the new level, and whether the move survives after the burst ends.
+
 ### 1.3 Slippage
 
 **Slippage** is the difference between the price you expected and the average price you actually received.
