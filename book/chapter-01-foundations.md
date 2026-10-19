@@ -24,6 +24,7 @@ Crypto consists of digital assets such as Bitcoin; this book focuses on crypto r
 - **Leverage:** the size of the position compared with the margin supporting it. It magnifies gains, losses, fees, and liquidation risk.
 - **Wallet/custody:** where the asset or claim is held and who controls the keys or account withdrawals.
 - **K-line (candlestick):** a compact record of a market interval showing its open, high, low, and close price; the body shows open-to-close movement and the wicks show the extremes.
+- **Liquidity:** how much can be bought or sold near the current price without moving the market sharply. A deep BTC market may absorb a large order across many nearby prices; a thin market may jump several levels when a modest order arrives. Low liquidity usually means wider spreads, more slippage, and a greater chance that a stop or indicator signal behaves differently from the chart expectation.
 
 These definitions are enough to read a basic order screen. Learn more technical details when a strategy actually uses them; memorizing vocabulary is not the same as understanding risk.
 

@@ -167,6 +167,8 @@ For beginners, start with a small set that answers different questions. **VOL is
 
 These tools answer different questions, but they are all derived from market data and can still be wrong. A practical beginner chart is **price structure + MA/EMA + RSI or MACD + VOL + ATR**. The full indicator reference, including optional and futures-specific tools, is in [Advanced — Combining price, volume, and indicators](advanced/combining-indicators.md).
 
+Technical-analysis signals are not always reliable. False signals are especially common on short timeframes, during sideways markets, and in low-liquidity markets where a relatively small order can move price sharply. Combining indicators with market structure, volume, timeframe context, and a risk plan can reduce the damage from a wrong signal; it cannot remove uncertainty.
+
 #### Volume: did the move attract participation?
 
 **Volume** is the amount traded during each candle on the selected venue. Rising volume during a breakout can show that more participants are accepting the new prices. Falling volume while price continues in the same direction can warn that participation is thinning. A sudden volume spike can accompany a breakout, a news reaction, stop orders, or forced liquidations; volume alone cannot tell us which one happened.
