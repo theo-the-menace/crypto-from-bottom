@@ -52,6 +52,19 @@ A whale does not need to place one obvious order. A large participant may split 
 
 A retail trader can form only a cautious inference. Repeated unusually large executions, a sudden change in volume, price moving despite visible opposing orders, and depth disappearing together may suggest larger or urgent participation. They cannot prove that a whale is buying or selling, predict direction, or identify the trader. Treat Recent Trades as execution evidence: ask who appears to be taking liquidity, whether price is accepting the new level, and whether the move survives after the burst ends.
 
+### 1.4 Does this matter if we cannot identify the whale?
+
+Yes, but for a more practical reason than guessing who placed the orders:
+
+- **Execution:** the spread, depth, and recent fills tell you whether your own order may fill close to the displayed price.
+- **Participation:** a breakout with sustained executions and rising volume has more activity behind it than a move on very quiet trading.
+- **Absorption:** large trades with little price progress can show that opposing orders are absorbing the flow. That is a warning to avoid assuming that aggressive buying must continue upward.
+- **Urgency:** fast prints, thinning depth, and widening spread can warn that conditions are becoming unstable. Reduce size or wait rather than trying to guess the cause.
+- **Risk:** if a stop would need to cross several empty price levels, the possible loss is larger than the chart distance suggests.
+- **Limits:** none of these observations proves direction or trader identity. They help you choose whether the trade is executable and whether the risk is acceptable.
+
+For most beginners, this is enough. Use Recent Trades and depth as an **execution and risk check**, not as a secret whale detector. Price structure, timeframe context, and a defined invalidation remain more important for deciding direction.
+
 ### 1.3 Slippage
 
 **Slippage** is the difference between the price you expected and the average price you actually received.
