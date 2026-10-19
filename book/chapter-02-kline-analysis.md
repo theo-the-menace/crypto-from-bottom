@@ -132,6 +132,8 @@ For example, if BTC falls toward a daily support zone, prints a small red candle
 
 The pattern can also be drawn with different platform conventions. Some traders require the second candle's body to cover the first body completely; others include the wicks or allow a small gap. State the rule before testing it. A bullish engulfing candle is therefore best treated as a possible entry trigger or confirmation inside a larger plan, with a defined invalidation below the support or swing low—not as a reason to buy every large green candle.
 
+**References:** [Binance Academy: How to Read the Most Popular Candlestick Patterns](https://www.binance.com/en/square/post/492082) describes the bullish engulfing pattern and recommends reading it with trend, support or resistance, and volume. TradingView's [Engulfing Bullish reference](https://www.tradingview.com/support/solutions/43000583771-engulfing-bullish/) defines the pattern using the two real bodies and notes that trend context affects how it is detected. These references support the definition; they do not turn the pattern into a guaranteed reversal signal.
+
 ### 1.3.8 False breaks and traps
 
 A market can briefly move beyond support or resistance and then return. Before calling a breakout real, ask: **Did it close beyond the level? Was volume or participation supportive? Did the next pullback hold?** These checks reduce false confidence, but they do not remove uncertainty. A whale can move price temporarily, and news or a liquidation cascade can invalidate a clean-looking setup.
@@ -180,6 +182,16 @@ For example, a breakout above resistance is more convincing when the candle clos
 ### 1.4.1 Divergence: when price and momentum disagree
 
 ![Conceptual bullish divergence: price makes a lower low while the oscillator makes a higher low](assets/divergence.svg)
+
+![Three types of divergence: regular, hidden, and exaggerated](assets/divergence-three-types.svg)
+
+This comparison shows three common labels:
+
+- **Regular divergence:** price makes a lower low while RSI makes a higher low, which is a possible bullish warning; the reverse—price makes a higher high while RSI makes a lower high—is a possible bearish warning.
+- **Hidden divergence:** price makes a higher low while RSI makes a lower low, as shown in the middle panel. This is commonly read as possible bullish continuation. The opposite arrangement, price making a lower high while RSI makes a higher high, is commonly read as possible bearish continuation.
+- **Exaggerated divergence:** price makes approximately equal highs or lows while the oscillator makes a clearly different high or low. The right panel shows equal price highs with lower RSI highs, a possible bearish warning.
+
+The diagram is a teaching schematic, not a live BTC signal. Its middle and right panels show only one directional example each, and the exact naming rules vary across trading communities. Compare like-for-like swing points on the same timeframe, then wait for price structure, a close, volume, or another predefined confirmation. Divergence can persist during a strong trend and does not tell you the entry, stop, or target by itself.
 
 Divergence means that price and a momentum indicator are telling different stories. A **bullish divergence** occurs when price makes a lower low but an oscillator, such as RSI or MACD, makes a higher low. It says that the latest sell-off has less measured momentum than the previous sell-off. A **bearish divergence** is the opposite: price makes a higher high while the oscillator makes a lower high, suggesting that the latest rise has less momentum.
 

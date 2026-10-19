@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Three common types of divergence</title>
+<desc id="desc">Three panels compare regular, hidden, and exaggerated divergence with price swings above and RSI swings below.</desc>
+<rect width="1200" height="650" fill="#151923"/>
+<text x="600" y="42" text-anchor="middle" fill="#f4d62f" font-family="Arial,sans-serif" font-size="28" font-weight="700">Three common divergence labels</text>
+<g font-family="Arial,sans-serif" font-weight="700" font-size="23" text-anchor="middle">
+<text x="200" y="86" fill="#55e34b">Regular</text><text x="600" y="86" fill="#55e34b">Hidden</text><text x="1000" y="86" fill="#55e34b">Exaggerated</text></g>
+<g stroke="#d9dee7" stroke-width="2"><line x1="400" y1="68" x2="400" y2="610"/><line x1="800" y1="68" x2="800" y2="610"/><line x1="20" y1="390" x2="1180" y2="390"/></g>
+<!-- regular: price LL, RSI HL -->
+<g stroke="#36d179" stroke-width="4" fill="#36d179"><line x1="85" y1="240" x2="85" y2="340"/><rect x="75" y="265" width="20" height="55"/><line x1="130" y1="255" x2="130" y2="350"/><rect x="120" y="285" width="20" height="45"/><line x1="175" y1="270" x2="175" y2="365"/><rect x="165" y="300" width="20" height="45"/><line x1="220" y1="245" x2="220" y2="350"/><rect x="210" y="270" width="20" height="55"/><line x1="265" y1="215" x2="265" y2="330"/><rect x="255" y="240" width="20" height="55"/><line x1="310" y1="230" x2="310" y2="320"/><rect x="300" y="250" width="20" height="45"/></g>
+<g fill="none" stroke="#f6e75a" stroke-width="3"><path d="M72 335 L180 365 L310 342"/></g>
+<g fill="#f6e75a" stroke="#f6e75a"><circle cx="175" cy="365" r="8"/><circle cx="310" cy="342" r="8"/></g>
+<path d="M70 525 L150 500 L230 515 L310 470" fill="none" stroke="#2f7df6" stroke-width="5"/>
+<g fill="#f6e75a" stroke="#f6e75a"><circle cx="150" cy="500" r="8"/><circle cx="310" cy="470" r="8"/></g>
+<text x="200" y="575" fill="#e8edf3" text-anchor="middle" font-family="Arial,sans-serif" font-size="16">Price: lower low</text><text x="200" y="598" fill="#e8edf3" text-anchor="middle" font-family="Arial,sans-serif" font-size="16">RSI: higher low</text>
+<!-- hidden: price HL, RSI LL -->
+<g stroke="#36d179" stroke-width="4" fill="#36d179"><line x1="485" y1="210" x2="485" y2="340"/><rect x="475" y="250" width="20" height="60"/><line x1="530" y1="235" x2="530" y2="335"/><rect x="520" y="260" width="20" height="45"/><line x1="575" y1="220" x2="575" y2="315"/><rect x="565" y="240" width="20" height="48"/><line x1="620" y1="190" x2="620" y2="300"/><rect x="610" y="220" width="20" height="52"/><line x1="665" y1="205" x2="665" y2="315"/><rect x="655" y="235" width="20" height="50"/><line x1="710" y1="175" x2="710" y2="285"/><rect x="700" y="205" width="20" height="52"/><line x1="755" y1="140" x2="755" y2="260"/><rect x="745" y="175" width="20" height="60"/></g>
+<path d="M480 335 L575 320 L710 340" fill="none" stroke="#f6e75a" stroke-width="3"/><g fill="#f6e75a"><circle cx="480" cy="335" r="8"/><circle cx="710" cy="340" r="8"/></g>
+<path d="M470 510 L550 535 L635 495 L715 550" fill="none" stroke="#2f7df6" stroke-width="5"/><g fill="#f6e75a"><circle cx="550" cy="535" r="8"/><circle cx="715" cy="550" r="8"/></g>
+<text x="600" y="575" fill="#e8edf3" text-anchor="middle" font-family="Arial,sans-serif" font-size="16">Price: higher low</text><text x="600" y="598" fill="#e8edf3" text-anchor="middle" font-family="Arial,sans-serif" font-size="16">RSI: lower low</text>
+<!-- exaggerated: equal price highs, lower RSI highs -->
+<g stroke="#36d179" stroke-width="4" fill="#36d179"><line x1="875" y1="330" x2="875" y2="220"/><rect x="865" y="265" width="20" height="55"/><line x1="920" y1="290" x2="920" y2="165"/><rect x="910" y="215" width="20" height="55"/><line x1="965" y1="230" x2="965" y2="130"/><rect x="955" y="170" width="20" height="48"/><line x1="1010" y1="240" x2="1010" y2="155"/><rect x="1000" y="180" width="20" height="45"/><line x1="1055" y1="220" x2="1055" y2="130"/><rect x="1045" y="160" width="20" height="45"/><line x1="1100" y1="210" x2="1100" y2="150"/><rect x="1090" y="170" width="20" height="30"/></g>
+<line x1="950" y1="132" x2="1060" y2="132" stroke="#f6e75a" stroke-width="3" stroke-dasharray="7 5"/><path d="M860 510 L930 480 L1000 510 L1070 545" fill="none" stroke="#2f7df6" stroke-width="5"/><path d="M920 480 L1035 535" fill="none" stroke="#f6e75a" stroke-width="3"/><g fill="#f6e75a"><circle cx="930" cy="480" r="8"/><circle cx="1035" cy="535" r="8"/></g>
+<text x="1000" y="575" fill="#e8edf3" text-anchor="middle" font-family="Arial,sans-serif" font-size="16">Price: approximately equal highs</text><text x="1000" y="598" fill="#e8edf3" text-anchor="middle" font-family="Arial,sans-serif" font-size="16">RSI: lower high</text>
+</svg>
