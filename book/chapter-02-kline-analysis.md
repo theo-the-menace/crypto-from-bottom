@@ -183,15 +183,15 @@ For example, a breakout above resistance is more convincing when the candle clos
 
 ![Conceptual bullish divergence: price makes a lower low while the oscillator makes a higher low](assets/divergence.svg)
 
-![Three types of divergence: regular, hidden, and exaggerated](assets/divergence-three-types.svg)
+![Three types of divergence: regular, hidden, and exaggerated](assets/divergence-three-types.png)
 
-This comparison shows three common labels:
+Read the three examples in the image like this:
 
-- **Regular divergence:** price makes a lower low while RSI makes a higher low, which is a possible bullish warning; the reverse—price makes a higher high while RSI makes a lower high—is a possible bearish warning.
-- **Hidden divergence:** price makes a higher low while RSI makes a lower low, as shown in the middle panel. This is commonly read as possible bullish continuation. The opposite arrangement, price making a lower high while RSI makes a higher high, is commonly read as possible bearish continuation.
-- **Exaggerated divergence:** price makes approximately equal highs or lows while the oscillator makes a clearly different high or low. The right panel shows equal price highs with lower RSI highs, a possible bearish warning.
+- **Regular divergence:** price makes a new extreme, but RSI does not. A lower price low with a higher RSI low can warn that selling pressure is weakening; a higher price high with a lower RSI high can warn that buying pressure is weakening.
+- **Hidden divergence:** price makes a higher low while RSI makes a lower low, which can support trend continuation. The reverse—price makes a lower high while RSI makes a higher high—can support bearish continuation.
+- **Exaggerated divergence:** price makes roughly equal highs or lows, while RSI makes a different high or low. Equal price highs with a lower RSI high, as shown on the right, can warn of rejection near resistance.
 
-The diagram is a teaching schematic, not a live BTC signal. Its middle and right panels show only one directional example each, and the exact naming rules vary across trading communities. Compare like-for-like swing points on the same timeframe, then wait for price structure, a close, volume, or another predefined confirmation. Divergence can persist during a strong trend and does not tell you the entry, stop, or target by itself.
+The image is a teaching example, not a live BTC signal. Compare matching swing points on the same timeframe, then wait for price structure, a candle close, volume, or another predefined confirmation. Divergence can persist during a strong trend and does not provide an entry, stop, or target by itself.
 
 Divergence means that price and a momentum indicator are telling different stories. A **bullish divergence** occurs when price makes a lower low but an oscillator, such as RSI or MACD, makes a higher low. It says that the latest sell-off has less measured momentum than the previous sell-off. A **bearish divergence** is the opposite: price makes a higher high while the oscillator makes a lower high, suggesting that the latest rise has less momentum.
 
