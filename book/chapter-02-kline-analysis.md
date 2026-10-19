@@ -183,6 +183,8 @@ For example, a breakout above resistance is more convincing when the candle clos
 
 ![Conceptual bullish divergence: price makes a lower low while the oscillator makes a higher low](assets/divergence.svg)
 
+Divergence occurs when an asset’s price and a technical indicator (such as RSI or MACD) move in opposite directions, often signaling weakening momentum and a potential trend reversal.
+
 ![Three types of divergence: regular, hidden, and exaggerated](assets/divergence-three-types.png)
 
 Read the three examples in the image like this:
