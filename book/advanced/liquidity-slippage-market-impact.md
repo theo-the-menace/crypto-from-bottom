@@ -56,12 +56,35 @@ A retail trader can form only a cautious inference. Repeated unusually large exe
 
 Yes, but use the information to read the trading conditions, not to play detective:
 
-- **Execution — “Will my order get a fair fill?”** You press Buy on BTC and the screen shows 80,000 USDT, but only a small amount is offered there. Your order then fills at 80,020, 80,050, and 80,080. The chart did not lie; the nearby sell orders simply ran out. Check the spread and depth before assuming that the displayed price is your price.
-- **Participation — “Is this move backed by real activity?”** BTC breaks resistance and the candles keep printing with high volume and steady trades. That is more meaningful than a single jump on almost no trading. It still does not guarantee continuation, but it tells you that the move is being accepted by more participants.
-- **Absorption — “Why did a big order fail to move price?”** Imagine a trader sells 100,000 USDT of BTC into the market. Price barely falls because a large amount of buying takes the other side. That may be absorption: someone is willing to buy the selling pressure. Do not immediately conclude “the big seller failed, so I should go long.” If those bids disappear, the price can fall quickly. A displayed buy wall can also be cancelled, so it is not a promise of support.
-- **Urgency — “Is the market becoming dangerous to enter?”** Recent Trades start flashing rapidly, the order book becomes thin, and the spread widens. This often means that traders are rushing, news is moving the market, or liquidity is leaving. Do not try to guess the hidden reason with a large order; reduce size, use a controlled limit order, or wait for the market to calm down.
-- **Risk — “Can my stop really protect me at the chart price?”** Your stop looks only 1% below entry, but there are very few bids between your entry and the stop. During a fast fall, your sell may fill below the stop because it has to search for the next available buyers. The chart distance says 1%; the actual loss can be larger.
-- **Limits — “What can this data actually tell me?”** Trades, depth, and volume can show that orders are active, prices are being absorbed, or execution is becoming difficult. They cannot tell you with certainty who placed the orders or whether BTC must rise or fall. Use them to decide whether a trade is executable and affordable, then use structure and a defined invalidation to decide direction.
+#### Execution
+
+- **Explanation:** The spread, depth, and recent fills help you judge whether your own order can fill near the displayed price.
+- **Example:** You press Buy when BTC shows 80,000 USDT, but only a small amount is offered there. Your order fills at 80,020, 80,050, and 80,080 because the nearby sell orders run out. The chart price was only a reference; the order book determines your actual fill.
+
+#### Participation
+
+- **Explanation:** Sustained trades and rising volume show that more participants are accepting the move.
+- **Example:** BTC breaks resistance and several candles print with high volume. That is stronger evidence than one quick jump on almost no trading. It still does not guarantee continuation.
+
+#### Absorption
+
+- **Explanation:** A large amount of buying or selling can be absorbed by the other side without much price movement.
+- **Example:** Someone sells 100,000 USDT of BTC, but price barely falls because buyers take the other side. Do not immediately go long: if that buy wall disappears, price can fall quickly. A displayed wall is not guaranteed support.
+
+#### Urgency
+
+- **Explanation:** Fast prints, thin depth, and a widening spread suggest that normal execution conditions are becoming unstable.
+- **Example:** Recent Trades start flashing rapidly while the order book empties. News, liquidations, or traders rushing for the exit may be involved. Reduce size, use a controlled order, or wait instead of guessing the cause.
+
+#### Risk
+
+- **Explanation:** A stop can fill worse than its chart level when there are few orders between entry and stop.
+- **Example:** Your stop is 1% below entry, but the bids below it are sparse. During a fast fall, the sell order may search for lower buyers and the real loss can exceed 1%.
+
+#### Limits
+
+- **Explanation:** Trades, depth, and volume show activity and execution conditions, not the identity of traders or a guaranteed direction.
+- **Example:** A large print may come from one trader, several accounts, or an algorithm. Use this information to decide whether the trade is executable and affordable; use structure and invalidation to decide direction.
 
 For most beginners, this is enough. Use Recent Trades and depth as an **execution and risk check**, not as a secret whale detector. Price structure, timeframe context, and a defined invalidation remain more important for deciding direction.
 
