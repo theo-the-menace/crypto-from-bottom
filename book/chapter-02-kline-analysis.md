@@ -175,6 +175,8 @@ Technical-analysis signals are not always reliable. False signals are especially
 
 **VWAP** is an average traded price weighted by volume. It can provide a reference for whether price is above or below the period’s average execution level. **Volume profile** groups volume by price instead of by time, showing where trading concentrated. Exchange volume is fragmented, so treat all of these as evidence rather than a complete picture.
 
+For the execution side of this topic, read [Advanced — Liquidity, slippage, and market impact](advanced/liquidity-slippage-market-impact.md). It explains why a chart price is not always the price you receive, and why spread, order-book depth, order size, and fast markets matter.
+
 #### A simple way to combine indicators
 
 Start with price structure: is BTC making HH/HL, LH/LL, or moving in a range? Then use moving averages to describe trend direction, MACD or RSI to describe momentum, and volume to ask whether the move has participation. Use ATR or Bollinger Bands to understand normal movement and set a sensible risk distance. For perpetuals, funding and open interest add information about leverage and crowding.
