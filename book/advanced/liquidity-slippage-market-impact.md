@@ -25,6 +25,14 @@ If 1 BTC is offered at 80,002, another 2 BTC at 80,010, and another 5 BTC at 80,
 
 Visible depth is only a snapshot. Orders can be cancelled, moved, hidden, or replaced before your order arrives. A large wall is evidence about the current book, not guaranteed support or resistance.
 
+![Binance order book example](assets/binance-order-book-example.jpeg)
+
+*Figure 1 — Binance order book: asks are shown above the current price and bids below it. Read the best ask and best bid first, then look at how much quantity sits across the nearby levels. The visible wall can disappear, so it is not a guaranteed barrier.*
+
+![Binance market-depth example](assets/binance-depth-example.jpeg)
+
+*Figure 2 — Binance depth view: the bid and ask curves show how much visible order quantity is stacked at different prices. A steep curve means more displayed quantity in that area; it does not prove that every order will remain or that price must reverse there.*
+
 ### 1.3 Slippage
 
 **Slippage** is the difference between the price you expected and the average price you actually received.
