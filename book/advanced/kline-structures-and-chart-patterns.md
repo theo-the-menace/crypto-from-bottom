@@ -48,31 +48,12 @@ These patterns compare two or more adjacent candles. Their meaning is still cond
 - **Piercing pattern / dark cloud cover:** the second candle moves deeply into the previous candle's body. These are context-dependent attempts to reverse a recent move.
 - **Three white soldiers / three black crows:** three consecutive strong candles in one direction. They can show persistent control, but after an already extended move they can also mark exhaustion.
 
-The Binance illustrations below show several of these reversal ideas. They are pattern diagrams, not BTC trade signals.
-
-![Double top pattern](../assets/binance/classical-patterns/double-top.png)
-
-![Double bottom pattern](../assets/binance/classical-patterns/double-bottom.png)
-
-![Head and shoulders pattern](../assets/binance/classical-patterns/head-and-shoulders.png)
-
-![Inverse head and shoulders pattern](../assets/binance/classical-patterns/inverse-head-and-shoulders.png)
-
-![Rising wedge pattern](../assets/binance/classical-patterns/rising-wedge.png)
-
 ### Continuation and pause formations
 
 - **Inside bar:** the current candle stays within the prior candle's high and low. It shows temporary compression; the eventual break can occur in either direction.
 - **Rising three methods:** a strong bullish candle, a short pause of smaller bearish candles, and a bullish continuation candle.
 - **Falling three methods:** the bearish counterpart.
-- **Flag:** a short, sloping consolidation after a sharp move. It is a continuation hypothesis only if price breaks the flag and holds the direction.
-- **Pennant:** a small converging pause after a sharp move. The same breakout and invalidation rules apply.
-
-![Bull flag pattern](../assets/binance/classical-patterns/bull-flag.png)
-
-![Bear flag pattern](../assets/binance/classical-patterns/bear-flag.png)
-
-![Pennant pattern](../assets/binance/classical-patterns/pennant.png)
+- **Flag and pennant:** these are multi-candle pause structures, covered with the other swing and trend patterns below.
 
 TradingView's candlestick reference lists many additional names—abandoned baby, kicking, tasuki gaps, tweezer tops and bottoms, spinning tops, and others. Learning every label can be useful for vocabulary, but the core information remains body, wick, location, close, volume, and follow-through.
 
@@ -92,28 +73,61 @@ Price repeatedly reacts between a range high and range low. A range is useful be
 
 ### Double and triple top or bottom
 
-A **double top** has two attempts near resistance with a pullback between them. The pattern is not complete until price breaks the intervening neckline or support. A **double bottom** is the reverse. Triple versions make three attempts, but extra touches do not guarantee a reversal; a strong market can eventually break the level.
+A **double top** has two attempts near resistance with a pullback between them. It is only a possible reversal; confirmation comes if price closes below the support between the two peaks (the neckline). If BTC rises to a similar resistance area twice but keeps holding the pullback low, the pattern is still incomplete.
+
+![Binance Academy diagram of a double top](../assets/binance/classical-patterns/double-top.png)
+
+A **double bottom** is the reverse: price tests support twice, with a rebound high between the lows. A close above that rebound high is the usual confirmation. Two similar lows alone do not prove that buyers have taken control.
+
+![Binance Academy diagram of a double bottom](../assets/binance/classical-patterns/double-bottom.png)
+
+Triple versions make three attempts, but extra touches do not guarantee a reversal; repeated tests can also weaken a level before it breaks.
 
 ### Head and shoulders
 
-A **head and shoulders** structure has a left shoulder, a higher head, a right shoulder, and a neckline. A close below the neckline can support a bearish reversal hypothesis. An **inverse head and shoulders** uses a lower head and can support a bullish hypothesis after a neckline break. The pattern needs a preceding trend, a clearly defined neckline, and an invalidation if price reclaims or fails to break the neckline.
+A **head and shoulders** structure has a left shoulder, a higher head, a right shoulder, and a neckline. After an uptrend, a close below the neckline can support a bearish reversal hypothesis. The right shoulder need not be perfectly symmetrical; the neckline break is the key test.
+
+![Binance Academy diagram of a head and shoulders pattern](../assets/binance/classical-patterns/head-and-shoulders.png)
+
+An **inverse head and shoulders** has the same outline upside down: a lower head between two higher troughs. After a decline, a close above its neckline can support a bullish reversal hypothesis. In either version, a failed break or a move back through the shoulder structure weakens the idea.
+
+![Binance Academy diagram of an inverse head and shoulders pattern](../assets/binance/classical-patterns/inverse-head-and-shoulders.png)
 
 ### Triangles
 
-- **Ascending triangle:** a relatively flat resistance area and rising lows. It can show buyers becoming more willing to buy higher, but it can break down as well as up.
-- **Descending triangle:** a relatively flat support area and falling highs. It can show sellers becoming more willing to sell lower, but it can break up as well as down.
+- **Ascending triangle:** a relatively flat resistance area and rising lows. Buyers appear willing to step in at progressively higher prices, but the pattern can still break down.
+
+  ![Binance Academy diagram of an ascending triangle](../assets/binance/classical-patterns/ascending-triangle.png)
+
+- **Descending triangle:** a relatively flat support area and falling highs. Sellers appear willing to sell at progressively lower prices, but the pattern can still break up.
+
+  ![Binance Academy diagram of a descending triangle](../assets/binance/classical-patterns/descending-triangle.png)
+
 - **Symmetrical triangle:** converging lower highs and higher lows. It is a compression pattern without a reliable direction until the boundary breaks.
 
 ### Wedges
 
-- **Rising wedge:** both boundaries rise, but the range narrows. It often appears as a weakening advance or a countertrend rally, yet it can break either way.
-- **Falling wedge:** both boundaries fall, but the range narrows. It can show selling pressure losing force, but a bullish break still needs confirmation.
+- **Rising wedge:** both boundaries rise, but the range narrows. It can warn that an advance is losing force, especially after a long rise, but it is not bearish until price confirms a downside break.
 
-![Ascending triangle pattern](../assets/binance/classical-patterns/ascending-triangle.png)
+  ![Binance Academy diagram of a rising wedge](../assets/binance/classical-patterns/rising-wedge.png)
 
-![Descending triangle pattern](../assets/binance/classical-patterns/descending-triangle.png)
+- **Falling wedge:** both boundaries fall, but the range narrows. It can warn that selling pressure is easing, especially after a long decline, but it is not bullish until price confirms an upside break.
 
-![Falling wedge pattern](../assets/binance/classical-patterns/falling-wedge.png)
+  ![Binance Academy diagram of a falling wedge](../assets/binance/classical-patterns/falling-wedge.png)
+
+### Flags and pennants
+
+A **bull flag** is a brief, often downward-sloping pause after a sharp rise. It may continue upward if price closes above the flag and holds; if the pause breaks down, the continuation idea is weakened.
+
+![Binance Academy diagram of a bull flag](../assets/binance/classical-patterns/bull-flag.png)
+
+A **bear flag** is a brief, often upward-sloping pause after a sharp decline. A close below the flag may support continuation down, while a break upward weakens that idea.
+
+![Binance Academy diagram of a bear flag](../assets/binance/classical-patterns/bear-flag.png)
+
+A **pennant** is a small converging pause after a strong move. Its shape alone does not tell the direction; wait for a confirmed break and define what would invalidate the setup.
+
+![Binance Academy diagram of a pennant](../assets/binance/classical-patterns/pennant.png)
 
 ### Channels
 
