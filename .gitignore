@@ -1,1 +1,13 @@
 tmp/
+
+# Local relay credentials, tools, and processing artifacts
+api-relay-guide*
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+reference-books/*/work/
+reference-books/*/work-previous-*/
+reference-books/tools/
+reference-books/requirements.txt

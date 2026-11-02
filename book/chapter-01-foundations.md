@@ -157,7 +157,7 @@ If you cannot answer those questions, you have not yet selected a product—you 
 
 1. **Product tab:** USDⓈ-M, COIN-M, Options, or another derivative product.
 2. **Symbol and contract:** the underlying, quote/settlement convention, and `Perp` or expiry.
-3. **Chart:** selected timeframe, candles, indicators, and mark/last display.
+3. **Chart:** selected timeframe, candles, indicators, and whether the chart uses Last Price or Mark Price.
 4. **Funding:** current rate and countdown; funding is a transfer between eligible long and short positions, not a free yield.
 5. **Open/Close:** whether the order increases exposure or reduces an existing position.
 6. **Margin mode:** Cross or Isolated. Cross can use the eligible futures-wallet balance collectively; isolated assigns margin to a position under the product rules.
@@ -166,6 +166,25 @@ If you cannot answer those questions, you have not yet selected a product—you 
 9. **Trigger source:** Last Price or Mark Price. A stop based on one can trigger differently from a stop based on the other.
 10. **TP/SL:** check whether it is reduce-only, which quantity it covers, and what order type is created after triggering.
 11. **Order book:** red asks and green bids are currently displayed liquidity, not guaranteed support or resistance.
+
+#### Index Price, Mark Price, and Last Price
+
+Futures screens can show three related prices. They answer different questions, so do not treat them as interchangeable:
+
+- **Index Price:** an exchange-calculated reference for the underlying spot asset, usually built from weighted prices across several spot venues. It is meant to represent the broader spot market, not the price at which your futures order will necessarily fill.
+- **Mark Price:** a fair-value reference derived from the Index Price and the contract's premium or funding calculation. Binance uses it for important risk calculations such as unrealized PNL and liquidation; a stop configured to use Mark Price can trigger even when the latest futures trade has not reached that level.
+- **Last Price:** the most recent futures transaction on this exchange. It is the price that produces the familiar traded candles and is closest to the question “what just traded here?” It can briefly move away from the broader spot market when the book is thin or futures demand is one-sided.
+
+The exact formula and reference venues can differ by contract and can change with the exchange's rules. Check the contract specification and current price-index documentation before relying on a displayed value. Binance describes the [Price Index and Mark Price for USDⓈ-M contracts](https://www.binance.com/en/support/faq/detail/360033525071) and the [difference between Mark Price and Last Price](https://www.binance.com/en/support/faq/detail/360033525271).
+
+Use them on a chart in this order:
+
+1. **Read the tradeable chart with Last Price** when studying the exchange's actual candles, breakouts, wicks, and likely entry or exit fills. Confirm that the chart selector really says Last Price.
+2. **Compare Mark Price before judging risk.** Check it when estimating unrealized PNL, liquidation distance, or a stop that uses Mark Price. A sharp Last-Price wick that Mark Price does not follow may be a brief futures-market dislocation; it is evidence about execution and positioning, not automatic proof of a spot-market reversal.
+3. **Use Index Price for the underlying reference.** Compare it with Last Price to see whether the futures contract is trading at a premium or discount to spot. A widening gap can reflect funding, leverage, or temporary demand and should make you more cautious about treating the futures candle as a clean spot signal.
+4. **Do not mix the three series inside one analysis.** If your indicators are calculated from Last Price but your stop triggers from Mark Price, write that distinction in the trade plan. A setup can appear to break on one series and remain unbroken on another.
+
+For example, if BTC Last Price briefly prints 84,000 while Mark Price is 83,700 and Index Price is 83,650, the futures contract has moved above its broader references. First check the order book, spread, funding, and whether the candle closes. Do not describe that wick as a confirmed spot breakout until the relevant price series and timeframe support the conclusion.
 
 Binance’s own futures guide explains that USDⓈ-M can use USDT/USDC margin while COIN-M uses coin collateral, and that futures PNL and liquidation calculations depend on the contract specification and mark price. Read the [current Futures contract and clearing rules](https://www.binance.com/en/support/faq/detail/360033180732) before using derivatives.
 

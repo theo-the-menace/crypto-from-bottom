@@ -22,3 +22,9 @@ These articles deepen one topic after the main path. They are reference material
 - [Advanced — How to identify a market trend](book/advanced/identifying-market-trends.md)
 - [Advanced — Liquidity, slippage, and market impact](book/advanced/liquidity-slippage-market-impact.md)
 - [Advanced — The philosophy of opening a trade](book/advanced/philosophy-of-opening-a-trade.md)
+
+## Reference books
+
+These source books sit outside the chapter sequence.
+
+- [The Rommel Papers — source PDF](reference-books/the-rommel-papers/source/the-rommel-papers.pdf)
