@@ -1,4 +1,6 @@
-# Advanced — The philosophy of opening a trade
+# Advanced reference — The philosophy of opening a trade
+
+> The practical version of this process is now part of [Chapter 3 — From chart reading to a trade plan](../chapter-03-chart-reading-to-trade-plan.md). Read this article when you want a slower explanation of the same decision framework.
 
 Opening a trade is not the same as pressing a button. It is a decision to exchange money for a specific risk. Before the order is sent, you should know what price relationship you are trying to use, what would prove the idea wrong, how much you can lose, and where you will take profit.
 

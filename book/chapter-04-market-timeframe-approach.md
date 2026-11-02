@@ -1,4 +1,4 @@
-# Chapter 4 — Choose Your Trading Approach
+# Chapter 4 — Choose a Market, Timeframe, and Approach
 
 Chapter 1 introduced the exchange, products, and the emotional cost of trading. Chapter 2 taught us to read K-lines, market structure, timeframes, and indicators. Chapter 3 added money management, position sizing, stops, and simulated execution. The next decision is not which indicator to add. It is deciding what kind of trader you are going to be.
 
@@ -11,6 +11,18 @@ A strategy is a repeatable answer to five questions:
 5. **How will I record and review the result?**
 
 A high-return method cannot be selected in advance with certainty. High expected return usually comes with larger drawdowns, more losing trades, more leverage, or a greater chance of ruin. The useful target is a method with positive expectancy that you can survive and follow. Return comes after risk, evidence, and repetition.
+
+Before choosing a strategy, classify the market on a timeframe that matches the intended holding period. BTC can rise on the weekly chart, move sideways on the daily chart, and fall on the 15-minute chart at the same time. Use the weekly chart for the broad environment, the daily chart for a swing context, the 4-hour chart for an opportunity, and a 15-minute chart only to refine an entry. A lower timeframe can improve execution; it cannot overrule a clearly defined higher-timeframe invalidation.
+
+For a beginner, use this top-down process:
+
+1. **Environment:** On the daily chart, identify a sequence of HH/HL, LH/LL, a range, or an unclear transition.
+2. **Opportunity:** On the 4-hour chart, look for a pullback, breakout and retest, or a separately tested range setup that fits the daily environment.
+3. **Entry:** On the 15-minute chart, wait for a local close or pullback that triggers the already-defined idea. Do not use it to invent a new direction.
+
+Define trend failure before entering. In an upward setup, a close below the important higher low followed by a failed recovery is stronger evidence of failure than one intraday wick. Trend failure can lead to a range before it becomes a downtrend, so move from “bullish” to “unclear” before claiming the opposite trend.
+
+For the full history ranges, timeframe examples, and extended BTC case studies, see [Advanced — How to Identify a Market Trend](advanced/identifying-market-trends.md). That article is a reference after this basic process, not a prerequisite for choosing a first practice route.
 
 ## 1. What matters most: news, K-lines, or divergence?
 
@@ -102,7 +114,7 @@ A beginner can study the two routes without trading both at once:
 
 The goal is not to choose the product with the largest possible return. It is to choose the product whose risks you understand well enough to follow a written plan.
 
-The core framework for opening any trade is in [Advanced — The philosophy of opening a trade](advanced/opening-philosophy.md). It explains how to define a signal, stop, size, target, and review process before choosing a specific product or strategy.
+The core framework for opening any trade is in [Advanced — The philosophy of opening a trade](advanced/philosophy-of-opening-a-trade.md). It explains how to define a signal, stop, size, target, and review process before choosing a specific product or strategy.
 
 ## 6. A practical beginner default
 

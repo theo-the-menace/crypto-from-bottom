@@ -1,8 +1,12 @@
-# Chapter 3 — Welcome to the Crypto World
+# Chapter 3 — From Chart Reading to a Trade Plan
 
 After learning K-lines, market structure, and indicators, many beginners enter a difficult stage: a few small wins, followed by one or two much larger losses. This usually happens because a chart observation was mistaken for a complete trading plan. Indicators can describe a market, but they do not decide how much to risk, where an idea becomes wrong, or how to exit.
 
 This chapter turns chart reading into a safer process. We will move from evidence to a trade hypothesis, from the hypothesis to position size, and from position size to a simulated order. The aim is to build skills before adding real money.
+
+A trade signal is an observable event that changes the decision from “observe” to “consider an entry.” It is not a feeling and it is not an indicator name. A complete signal states the location, the market context, the trigger, and the invalidation. For example: “On the 4-hour chart, BTC is in a higher-high and higher-low structure; after a close above resistance, I will consider a small spot position if the pullback holds that level; a close below the retest low invalidates the idea.”
+
+The order of this chapter is deliberate: describe the market first, define the trade second, calculate the size third, and only then send a simulated order. The companion [philosophy of opening a trade](advanced/philosophy-of-opening-a-trade.md) article explains the same process in more detail; the working checklist belongs here.
 
 ## 1. The learning period: why small wins can become large losses
 
@@ -56,13 +60,13 @@ Keep separate limits for one trade, one day, and the whole account. Do not avera
 
 Use the same order every time. The order prevents a fast indicator from overriding the larger context.
 
-### 3.1 Start with price and timeframe
+### 4.1 Start with price and timeframe
 
 Choose the instrument and timeframe first. Use the daily or weekly chart to identify the broad regime and major support or resistance. Use the 4-hour or 1-hour chart to describe the current setup. Use a lower timeframe only to improve execution after the higher-timeframe idea is clear.
 
 Write the observation without a prediction: “BTC is making higher highs and higher lows,” “BTC is below a falling MA(25),” or “price is inside a 57,000–67,000 range.” This keeps the chart description separate from the decision.
 
-### 3.2 Use indicators to answer different questions
+### 4.2 Use indicators to answer different questions
 
 Do not ask every indicator whether to buy. Give each one a job:
 
@@ -76,7 +80,7 @@ Do not ask every indicator whether to buy. Give each one a job:
 
 The indicators are related because many are calculated from the same candles. MA, RSI, and MACD agreeing is useful context, but it is not three independent votes. Structure and risk still control the decision.
 
-### 3.3 Turn the reading into a hypothesis
+### 4.3 Turn the reading into a hypothesis
 
 A usable hypothesis has four parts:
 

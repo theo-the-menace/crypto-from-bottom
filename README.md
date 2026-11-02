@@ -8,12 +8,17 @@ A book-style, practice-first curriculum for people who are new to crypto and wan
 
 1. [Chapter 1 — Foundations: from crypto to a real trading decision](book/chapter-01-foundations.md)
 2. [Chapter 2 — K-line analysis and market structure](book/chapter-02-kline-analysis.md)
-   - [Advanced — Moving-average and momentum tools](book/advanced/moving-average-and-momentum.md)
-   - [Advanced — Combining price, volume, and indicators](book/advanced/combining-indicators.md)
-   - [Advanced — Liquidity, slippage, and market impact](book/advanced/liquidity-slippage-market-impact.md)
-   - [Advanced — K-line structures and chart patterns](book/advanced/kline-structures-and-chart-patterns.md)
-3. [Chapter 3 — Welcome to the Crypto World](book/chapter-03-welcome-to-crypto-world.md)
-4. [Chapter 4 — Choose Your Trading Approach](book/chapter-04-choose-your-trading-approach.md)
-   - [Advanced — The philosophy of opening a trade](book/advanced/opening-philosophy.md)
-   - [Advanced — How to identify a market trend](book/advanced/identifying-market-trends.md)
-5. [Chapter 5 — From TradingView Script to a Binance Order](book/chapter-05-tradingview-webhook-binance.md)
+3. [Chapter 3 — From chart reading to a trade plan](book/chapter-03-chart-reading-to-trade-plan.md)
+4. [Chapter 4 — Choose a market, timeframe, and approach](book/chapter-04-market-timeframe-approach.md)
+5. [Chapter 5 — Execution, liquidity, and automation](book/chapter-05-execution-liquidity-automation.md)
+
+## Advanced reference
+
+These articles deepen one topic after the main path. They are reference material, not additional required chapters.
+
+- [Advanced — Moving averages and momentum tools](book/advanced/moving-average-and-momentum.md)
+- [Advanced — Combining price, volume, and indicators](book/advanced/combining-indicators.md)
+- [Advanced — K-line structures and chart patterns](book/advanced/kline-structures-and-chart-patterns.md)
+- [Advanced — How to identify a market trend](book/advanced/identifying-market-trends.md)
+- [Advanced — Liquidity, slippage, and market impact](book/advanced/liquidity-slippage-market-impact.md)
+- [Advanced — The philosophy of opening a trade](book/advanced/philosophy-of-opening-a-trade.md)

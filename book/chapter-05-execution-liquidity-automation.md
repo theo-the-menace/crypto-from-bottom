@@ -1,6 +1,12 @@
-# Chapter 5 — From TradingView Script to a Binance Order
+# Chapter 5 — Execution, Liquidity, and Automation
 
 Chapter 4 explained how to choose a trading approach, define a testable hypothesis, and build a written playbook. Chapter 3 introduced money management, position sizing, stops, and simulated execution. This chapter connects those pieces into an automated workflow:
+
+Before automation, understand execution. The chart price is a reference; your order is matched against the current bid and ask. The **spread** is the gap between the best buyer and seller. **Depth** is the quantity available near those prices. **Slippage** is the difference between the expected price and your average fill. **Market impact** is the movement caused by your own order consuming nearby liquidity. A market order prioritizes execution, a limit order prioritizes price control, and a post-only order prioritizes resting as a maker. None guarantees a fill at the last price shown on the chart.
+
+For a beginner, use a liquid BTC pair and check the spread, nearby depth, expected slippage, and current volatility before submitting an order. Compare the planned size with the quantity actually available near the price. A stop can fill worse than its trigger during a fast move, especially in a thin market or liquidation cascade, so include plausible slippage in the risk calculation. The detailed order-book, Recent Trades, and liquidation-map reference is in [Advanced — Liquidity, slippage, and market impact](advanced/liquidity-slippage-market-impact.md).
+
+Execution belongs before automation because an automated system must model the costs and failure modes of a real order, rather than treating a chart signal as a guaranteed fill.
 
 ```text
 TradingView chart → Pine Script condition → TradingView alert
@@ -9,7 +15,11 @@ TradingView chart → Pine Script condition → TradingView alert
 
 Automation does not make a weak strategy stronger. It only makes the strategy act faster and more consistently. A wrong condition, an unprotected endpoint, a duplicated webhook, or an incorrect contract setting can lose money without waiting for a human to notice. Build and test the whole path with virtual funds before enabling real orders.
 
-## 1. Write the TradingView script
+## 1. Check execution conditions
+
+The spread, depth, slippage, and market-impact checks above belong in the written trade plan. For a live or simulated order, record the expected price and the actual average fill. If the spread widens, the order book becomes thin, or a major event is approaching, reduce size or wait. These checks are especially important for stops: a stop trigger is not a promise of an exact fill.
+
+## 2. Write the TradingView script
 
 TradingView scripts use **Pine Script**. An indicator calculates and displays information. A strategy can also simulate entries and exits in TradingView's broker emulator, which is useful for research but is not a Binance order.
 
@@ -38,13 +48,13 @@ This is a learning example, not a complete strategy. A crossover is a lagging si
 
 Use `barstate.isconfirmed` when the rule is meant to use a closed candle. Otherwise, a condition can appear and disappear while the candle is still forming. TradingView's [Pine Script alert documentation](https://www.tradingview.com/pine-script-docs/concepts/alerts/) explains the difference between `alert()`, `alertcondition()`, and strategy order-fill alerts. Test the script visually: mark the bars where it would signal and compare them with the rule you wrote before connecting a webhook.
 
-### 1.1 Backtest before creating an alert
+### 2.1 Backtest before creating an alert
 
 If the idea is a strategy, use `strategy()` and include fees, slippage, position sizing, and exits in the TradingView test. Check the result on more than one symbol and timeframe. Compare it with buy-and-hold and inspect the worst losing streak, maximum drawdown, and behavior in a sideways market. A good-looking equity curve is not enough.
 
 Keep the signal payload small. Send an action, symbol, timeframe, closed-bar timestamp, signal price, and a shared secret or signed token. Never put a Binance API key, secret key, password, or withdrawal credential in the alert message. TradingView explicitly warns against transmitting credentials in webhook bodies.
 
-## 2. Create an HTTPS webhook server
+## 3. Create an HTTPS webhook server
 
 A webhook is an HTTP POST request. TradingView sends the alert body to a public HTTPS URL when the alert fires. Your server must authenticate the request, validate the data, decide whether the action is allowed, and only then pass a normalized order instruction to the Binance adapter.
 
@@ -78,7 +88,7 @@ def tradingview_webhook():
 
 Run the receiver behind a real TLS certificate on port 443. TradingView's webhook service accepts ports 80 and 443, can cancel a request that takes longer than three seconds, and may occasionally fail to deliver a request. The [TradingView webhook guide](https://www.tradingview.com/support/solutions/43000529348-how-to-configure-webhook-alerts/) documents these limits. Return quickly, put order work on a queue, and keep a delivery log.
 
-### 2.1 Controls the server must add
+### 3.1 Controls the server must add
 
 Before the server can place an order, add these controls:
 
@@ -94,7 +104,7 @@ Before the server can place an order, add these controls:
 
 A server that simply converts `buy` into a market order is not a trading system. It is an unprotected button exposed to the internet.
 
-## 3. Connect the server to Binance
+## 4. Connect the server to Binance
 
 Create a Binance API key only after the demo flow works. Restrict the key to the required product and permissions. Disable withdrawals. Use IP restrictions where possible, keep the secret in an environment variable or secret manager, and never commit it to Git. The API key is an account credential; treat it like a password that can place orders.
 
@@ -127,7 +137,7 @@ Conceptually, the Binance adapter should receive a safe internal instruction, no
 
 The adapter then checks exchange filters, available balance, current position, and risk limits; submits the order; records the exchange order ID; and reconciles the actual fill. The server must not trust a quantity or price supplied by a public alert without recalculating or checking it.
 
-## 4. Connect the complete workflow
+## 5. Connect the complete workflow
 
 Use this staged rollout:
 
@@ -151,7 +161,7 @@ For a sustained period, calculate what a live order would have been but do not s
 
 Only after the previous stages are reliable, use the smallest practical live size, with withdrawals disabled, strict daily loss limits, and a manual kill switch. Reconcile every order against Binance's actual status. A live system must be able to stop safely when TradingView, the server, the exchange, or the network behaves unexpectedly.
 
-## 5. A complete example of the decision path
+## 6. A complete example of the decision path
 
 Suppose the TradingView script runs on BTCUSDT 1-hour candles. It observes an HH/HL context, a close above resistance, a rising EMA(25), improving MACD, and volume above its recent average. The alert sends a `buy` signal after the candle closes.
 
@@ -159,7 +169,7 @@ The server does not immediately buy. It checks that the signal ID is new, that t
 
 If the order fills, the system creates or records the exit plan. If the stop is hit, the position is closed and the signal ID is marked complete. If the webhook arrives twice, the second copy is ignored. If the exchange times out, the system queries order status before retrying. This sequence is the difference between an automated process and a script that blindly clicks Buy.
 
-## 6. What to add next
+## 7. What to add next
 
 The next practical addition is a set of annotated screenshots showing the TradingView Pine editor, the Create Alert dialog, the webhook request arriving at the server, Binance Demo Trading, and the resulting order and position history. Those images should be captured from the same product and account mode used in the examples, because Spot, USDⓈ-M, and COIN-M screens use different fields.
 

@@ -5,7 +5,6 @@
 1. [Before you dive into trading](#1-before-you-dive-into-trading)
 2. [What a real CEX looks like](#2-what-a-real-cex-looks-like)
 3. [The essence of making money](#3-the-essence-of-making-money)
-5. [Binance app field guide](#5-binance-app-field-guide)
 
 This chapter answers a simple question: what exactly are you looking at when you open Binance? A token, an account balance, an order book, a derivative, and a wallet transaction are different things. Confusing them is one of the fastest ways for a beginner to lose money.
 
@@ -154,7 +153,7 @@ Rows such as **BTCS**, **BTCT**, and **BTCZ** are stock tickers containing the l
 
 If you cannot answer those questions, you have not yet selected a product—you have only selected a search result.
 
-### 2.2 Read the futures screen from top to bottom
+### 2.3 Read the futures screen from top to bottom
 
 1. **Product tab:** USDⓈ-M, COIN-M, Options, or another derivative product.
 2. **Symbol and contract:** the underlying, quote/settlement convention, and `Perp` or expiry.
@@ -170,7 +169,7 @@ If you cannot answer those questions, you have not yet selected a product—you 
 
 Binance’s own futures guide explains that USDⓈ-M can use USDT/USDC margin while COIN-M uses coin collateral, and that futures PNL and liquidation calculations depend on the contract specification and mark price. Read the [current Futures contract and clearing rules](https://www.binance.com/en/support/faq/detail/360033180732) before using derivatives.
 
-### 2.3 Order types in the screenshot
+### 2.4 Order types in the screenshot
 
 The order-type sheet in Figure 2.3 lists **Limit, Post Only, Market, Conditional, Trailing Stop, and Scaled Order**. They answer different execution questions:
 
@@ -191,7 +190,7 @@ The fee column below uses the published **regular-user starting rates** as a sim
 | **Trailing Stop** | “Follow BTC while it moves in my favor; exit after a reversal.” | BTC rises from 83,300 to 84,000. With a 1% callback, the exit follows and triggers after the configured reversal. | Normal noise can trigger it, and execution is not guaranteed at the trigger price. | The resulting execution determines it: usually the **taker rate** for a market-style exit. |
 | **Scaled Order** | “Break one large order into many smaller limit orders across a price range.” | You spread a BTC buy across 82,800, 82,600, 82,400, and 82,200. | Some orders may never fill, and each child order can have a different fee tier. | Each child order is charged according to its own execution: maker if it rests, taker if it crosses. |
 
-### A single BTC example: choosing the order deliberately
+#### A single BTC example: choosing the order deliberately
 
 Imagine BTCUSDC is trading at **83,300**, and you have decided—before opening the ticket—that you will risk only **10 USDC** on a small paper-trading experiment. Your market view is not enough by itself; you also need an entry, an invalidation, and an exit plan.
 
@@ -208,37 +207,37 @@ Binance documents conditional orders as a category containing stop-limit, stop-m
 
 A beginner should first understand **limit, market, and one explicit stop rule** in paper trading. Post Only, conditional, trailing, and scaled orders are execution tools—not independent strategies. If you cannot explain what happens when the trigger gaps through your price, do not rely on that order to protect you.
 
-### 2.4 What a CEX cannot promise
+### 2.5 What a CEX cannot promise
 
 A CEX cannot promise that a market order fills at the number on your chart, that a stop-limit exits during a gap, that a displayed order-book wall remains, that a grid bot profits outside its assumptions, or that an options premium will retain value. It also cannot remove phishing, API-key leakage, account takeover, or network mistakes. Convenience is not certainty.
 
 ## 3. The essence of making money
 
-### 4.1 Can we really predict the market?
+### 3.1 Can we really predict the market?
 
 Usually we cannot predict the next price with certainty. A trading strategy can still make money if it has positive expectancy: across many trades, its average outcome after fees and slippage is positive. The useful question is not “Will this candle go up?” but “Under what conditions does this rule have a small, repeatable advantage, and how much can I lose while testing it?”
 
 A strategy can win with a low win rate if winners are sufficiently larger than losers. It can also lose with a high win rate if one large loss erases many small wins. This is why expectancy, drawdown, risk of ruin, and execution costs matter more than a screenshot of a winning trade.
 
-### 4.2 Analyst and K-line reading
+### 3.2 Analyst and K-line reading
 
 Chart analysis is a way to form conditional hypotheses about trend, liquidity, momentum, and risk. It is useful when the rules are explicit and tested. It fails when a person retrofits a story to a completed chart, changes the pattern definition after each loss, or treats a familiar shape as a law of nature.
 
 Write the setup before the outcome: instrument, timeframe, entry, invalidation, exit, size, and what would make you skip the trade. If two analysts cannot tell whether the rule triggered, it is not yet a strategy.
 
-### 4.3 News and fundamentals
+### 3.3 News and fundamentals
 
 News can change the distribution of outcomes, but a headline alone does not tell you whether the market already priced it in, how crowded the trade is, or how liquidity will behave. Follow primary sources where possible: protocol releases, governance decisions, filings, official exchange notices, token-unlock schedules, and macroeconomic data. Record the timestamp and the market’s reaction rather than trading the headline’s emotional tone.
 
 Fundamental research asks what supports value or demand: network usage, fees, security, supply schedule, treasury, competition, governance, regulation, and dependency on an issuer or venue. Fundamentals can be slow-moving while price is driven by leverage and positioning in the short term.
 
-### 4.4 Quantitative research
+### 3.4 Quantitative research
 
 Quant is not a magic prediction machine. It is a disciplined way to turn a hypothesis into data, rules, tests, and execution assumptions. A beginner can start with a simple moving-average trend rule or volatility filter. A professional workflow usually includes clean timestamped data, a benchmark, train/validation/test separation, realistic fees and slippage, walk-forward testing, paper trading, monitoring, and a kill switch.
 
 Machine learning comes late. A model can memorize noise, leak future information, exploit bad data, or produce signals that cannot be executed. A simple strategy that survives unseen data and realistic costs is more valuable than a complex model with an impressive backtest.
 
-### 4.5 Where returns actually come from
+### 3.5 Where returns actually come from
 
 A sustainable edge must come from a reason participants pay you to take risk or provide a service. Examples include bearing inventory risk as a market maker, supplying liquidity, harvesting a documented risk premium, reacting faster to public information, or exploiting a temporary behavioral/structural inefficiency. Every edge competes with fees, slippage, adverse selection, other traders, changing regimes, and your own operational mistakes.
 
@@ -248,7 +247,7 @@ The complete money-making equation is:
 
 Risk management does not create an edge, but it determines whether you remain alive long enough to learn whether an edge exists.
 
-### 4.6 Four questions before every trade
+### 3.6 Four questions before every trade
 
 1. What is the product and what exactly do I own or owe?
 2. What is my testable reason for entering now?
