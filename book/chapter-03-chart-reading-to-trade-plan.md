@@ -91,6 +91,155 @@ A usable hypothesis has four parts:
 
 Example: “On the 4-hour chart, BTC is in an HH/HL structure. I will consider a long only after a close above 84,000 and a pullback that holds 84,000 as support. A close below the new higher low invalidates the idea. I will risk no more than 5 USDT and will not widen the stop.” This is a hypothesis, not a prediction.
 
+### 4.4 Why markets crash through support vs. bounce: reading follow-through
+
+One of the most frustrating experiences for a beginner is watching price approach a support level with perfect chart logic—only to see it slice straight through and keep falling. Or the opposite: you wait for confirmation after a support touch, and by the time you enter, the bounce is already halfway to resistance and the risk-reward is poor.
+
+Understanding **why** some support levels hold and others fail will help you choose better entry timing. The difference is not random, and it is not “manipulated by whales.” It comes down to **participation, liquidity, and structural context**.
+
+#### When support holds and bounces
+
+**What you observe:**
+- Price approaches a known support level (previous low, round number, major moving average)
+- Volume increases as price reaches the level
+- A strong rejection candle forms (long lower wick, closes near the high)
+- Price quickly recovers above the level
+
+**Why it happens:**
+1. **Buyers are waiting there.** Limit buy orders are stacked at the support level. When price touches it, those orders absorb the selling pressure.
+2. **Shorts start covering.** Traders who shorted above support now take profit by buying, adding to the bounce.
+3. **Structural alignment:** The support level aligns with higher-timeframe structure. For example, it is not just a 4-hour support but also a daily higher low or a weekly demand zone.
+4. **Low selling pressure:** Sellers are exhausted or waiting for a higher price to sell. There is no urgent reason to sell below support.
+
+**Observable clues before the bounce:**
+- **Volume increasing into support:** More participants are engaging, not ignoring the level.
+- **Order book shows depth:** Large bid walls appear near the support (though these can be spoofed, so treat as one signal among many).
+- **RSI or other oscillators show oversold + divergence:** Suggests selling pressure is weakening.
+- **Higher-timeframe trend is still bullish:** The overall structure says “this is a dip to buy,” not “this is a breakdown.”
+
+**Entry timing:**
+- **Conservative:** Wait for the rejection candle to close, then enter on the first pullback that holds above support (retest).
+- **Aggressive:** Enter on the wick touch itself, with a tight stop below the level. Higher risk but better entry price.
+
+**Example:**
+BTC is in a daily uptrend (HH/HL). Price pulls back to 82,000, which is a previous 4-hour higher low. Volume picks up as it approaches. A 1-hour candle drops to 81,950, wicks down, and closes at 82,100. This is a rejection. A conservative entry is at 82,200 on the next candle, stop at 81,800. Risk is 400 USDT per BTC, and target is the next higher high at 84,000 (1,800 USDT reward, 4.5:1 ratio).
+
+#### When support breaks and keeps falling
+
+**What you observe:**
+- Price approaches support
+- Instead of bouncing, it closes below the level decisively
+- The next candle continues lower, often accelerating
+- Attempts to recover are weak (small bounces that fail quickly)
+
+**Why it happens:**
+1. **No buyers left.** The limit orders at support were already consumed, or traders pulled their bids when they saw weakness.
+2. **Forced liquidations.** Many leveraged longs had stops or liquidation prices just below support. When price breaks it, those forced sells create a cascade.
+3. **Structural breakdown:** The support was not aligned with higher timeframes. Breaking it signals a shift from uptrend to downtrend (CHoCH: Change of Character).
+4. **High selling pressure:** New sellers appear (panic, news, institutional flows). The reason to sell is stronger than the reason to buy at support.
+5. **Thin liquidity:** Weekend, holiday, or a thinly traded altcoin. A modest sell order can punch through support easily.
+
+**Observable clues before the breakdown:**
+- **Volume decreasing into support:** Fewer participants care about the level. It is being ignored, not defended.
+- **Order book is thin:** Few bids below current price. A breakdown will have little support.
+- **No divergence on oscillators:** RSI falls along with price, showing selling pressure is strong and sustained.
+- **Higher-timeframe trend is weak or bearish:** The support is a lower high in a downtrend, not a higher low in an uptrend.
+- **Multiple failed bounces:** Price has tested the level 3-4 times already. Each bounce is weaker than the last (lower highs forming below resistance).
+
+**Entry timing (for shorts or avoiding longs):**
+- **Do NOT enter a long just because price touched support.** Wait for confirmation that it holds first.
+- **For a short:** Enter after the break is confirmed (daily close below support) and the first retest fails (price tries to recover but gets rejected).
+- **If already long:** Tighten your stop or exit before the break confirms. Do not hold hoping for a miracle.
+
+**Example:**
+BTC is in a daily downtrend (LH/LL). Price bounces to 83,000, forms a lower high, and starts falling. It approaches the previous low at 81,500. Volume is declining. When price reaches 81,500, there is a small wick but the candle closes at 81,400. The next candle drops to 80,800. This is a breakdown. A short entry is at 81,300 on the retest (if it happens), stop at 81,800. Target is the next support at 79,000.
+
+#### How to tell the difference **before** it happens
+
+You cannot predict with certainty, but you can weigh probabilities:
+
+| Factor | Bounce likely | Breakdown likely |
+|--------|---------------|------------------|
+| **Higher-timeframe trend** | Uptrend (HH/HL), support aligns with higher low | Downtrend (LH/LL), support is a lower high |
+| **Volume** | Increasing into support | Decreasing or flat |
+| **Previous tests** | First or second test of support | Third or fourth test (support weakening) |
+| **Oscillator divergence** | Bullish divergence (lower low on price, higher low on RSI) | No divergence or bearish divergence |
+| **Order book depth** | Visible bid stacks near support | Thin bids, large asks above |
+| **Time of day/week** | Active hours (UTC afternoon), weekday | Weekend, holiday, thin liquidity hours |
+| **News/macro context** | Positive or neutral | Negative (Fed rates, regulation, hack) |
+| **Funding rate (futures)** | Negative or neutral (longs not overcrowded) | Very positive (too many longs, squeeze risk) |
+
+**The 3-step decision process:**
+
+1. **Before price reaches support:**
+   - Is the higher-timeframe trend bullish or bearish?
+   - How many times has this level been tested recently?
+   - Is volume increasing or decreasing?
+
+2. **As price touches support:**
+   - Does the candle close above or below support?
+   - Is there a strong rejection wick, or does it slice through cleanly?
+   - Does volume spike (participation) or stay quiet (no one cares)?
+
+3. **After the initial reaction:**
+   - **If it bounces:** Does the next candle confirm the bounce (higher close), or does it immediately fail?
+   - **If it breaks:** Does price keep falling, or does it immediately recover above support (fake breakdown)?
+
+**Conservative entry rule:**
+
+Do not enter **on the touch**. Enter **after confirmation:**
+- **For a bounce:** Wait for the rejection candle to close, then enter on the retest of support.
+- **For a breakdown short:** Wait for a daily close below support, then enter on the first failed retest.
+
+This means you miss the absolute best entry (the wick low), but you avoid the much worse scenario of entering a support that breaks and keeps falling 10%.
+
+#### Why waiting for confirmation feels bad but works better
+
+**Psychological trap:**
+- You see price approach support.
+- You think: “This is going to bounce! If I wait for confirmation, I will miss the entry!”
+- You enter at support touch.
+- Price slices through and keeps falling.
+- You panic, hold, move your stop, or take a large loss.
+
+**Reality:**
+- If support holds, the bounce is usually not a V-shaped instant reversal. Most bounces retest support after the initial rejection. You get a second chance.
+- If support breaks, waiting for confirmation saves you from a large loss.
+- Over 50 trades, the losses avoided by waiting for confirmation outweigh the few trades where you missed the absolute perfect entry.
+
+**Example of waiting for confirmation:**
+
+BTC approaches 82,000 support. You want to go long.
+
+- **Scenario A (enter on touch):** You buy at 82,000. Price wicks to 81,900, then falls to 81,000 the next day. You lose 1,000 USDT per BTC.
+- **Scenario B (wait for confirmation):** You wait. Price wicks to 81,900, then closes at 82,150 (rejection). You enter at 82,200 on the next candle's retest. If it bounces, you are in. If it breaks, you did not enter yet. You lose 0.
+
+Yes, you might miss the trade if it bounces and never retests. But you avoided the breakdown scenario, which is much more expensive.
+
+#### Practical checklist for entry timing
+
+Before entering at or near support:
+
+- [ ] Higher-timeframe trend supports this direction (uptrend for long, downtrend for short)
+- [ ] This is the 1st or 2nd test of support, not the 5th
+- [ ] Volume is increasing as price approaches
+- [ ] Oscillators show bullish divergence (for bounces)
+- [ ] Order book shows depth near support (optional, can be spoofed)
+- [ ] I am willing to wait for a rejection candle to close before entering
+- [ ] My stop is placed below support with room for a wick (not at the exact level)
+- [ ] I have calculated position size based on stop distance, not guessed
+
+If most boxes are unchecked, **do not force the trade**. Wait for a clearer setup.
+
+#### Summary: bounce vs. breakdown
+
+- **Bounces happen** when buyers defend the level with volume, structure aligns across timeframes, and selling pressure is exhausted.
+- **Breakdowns happen** when no one defends the level, forced liquidations cascade, and the higher-timeframe trend is already weak.
+- **You cannot predict with certainty**, but you can read **participation (volume), structure (trend context), and reaction (candle closes)** to improve your odds.
+- **Waiting for confirmation** means missing some perfect entries but avoiding far more painful false entries.
+
+The goal is not to catch every move. The goal is to enter trades where the probability and risk-reward justify the position.
+
 ## 5. How to open a position
 
 First choose the product. A spot purchase gives you the asset after the order fills. A perpetual futures position gives leveraged long or short exposure under the contract rules and can be liquidated. A beginner should understand the spot example before using futures; leverage changes the speed and size of losses, not the quality of an analysis.
