@@ -9,8 +9,10 @@ A book-style, practice-first curriculum for people who are new to crypto and wan
 1. [Chapter 1 — Foundations: from crypto to a real trading decision](book/chapter-01-foundations.md)
 2. [Chapter 2 — K-line analysis and market structure](book/chapter-02-kline-analysis.md)
 3. [Chapter 3 — From chart reading to a trade plan](book/chapter-03-chart-reading-to-trade-plan.md)
-4. [Chapter 4 — Choose a market, timeframe, and approach](book/chapter-04-market-timeframe-approach.md)
-5. [Chapter 5 — Execution, liquidity, and automation](book/chapter-05-execution-liquidity-automation.md)
+4. [Chapter 4 — Choose your trading style and learn from strategies](book/chapter-04-trading-style-and-strategies.md)
+5. [Chapter 5 — Choose a market, timeframe, and approach](book/chapter-05-market-timeframe-approach.md)
+6. [Chapter 6 — Execution basics](book/chapter-06-execution-basics.md)
+7. [Chapter 7 — Trading automation (optional)](book/chapter-07-trading-automation.md)
 
 ## Advanced reference
 
