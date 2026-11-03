@@ -171,6 +171,30 @@ The heatmap is easier to use as a map of **possible forced-flow zones** than as 
 
 Do not read a bright band as “price must go there.” CoinGlass combines exchange data and model assumptions, and the displayed estimates can change as positions open, close, or are liquidated. Confirm the actual contract, timeframe, funding, open interest, price structure, and current exchange conditions before treating a liquidation map as relevant.
 
+### 6.1 How to use liquidation maps in real trading decisions
+
+Liquidation maps are a **risk management tool**, not a signal generator. They show where forced orders may cluster, but they do not tell you which direction to trade or guarantee that price will reach those zones.
+
+**Reference weight in practice:**
+
+When making a trading decision, the liquidation map should be **secondary context** (15–25% weight), while K-line structure, support and resistance, volume confirmation, and higher-timeframe alignment remain primary (70–80% weight). Think of the K-line chart as the map showing where the road is, and the liquidation heatmap as a detector showing where traps might be.
+
+**Entry decisions (5–10% weight):**
+
+Use the heatmap to refine timing, not to create the trade idea. If your K-line analysis suggests a long entry near 82,500 and the heatmap shows heavy long liquidations concentrated at 81,800, consider waiting for price to sweep that zone first or widen your planned entry range. The heatmap does not change your directional view; it warns that price may dip lower before the bounce.
+
+**Stop-loss placement (20–30% weight, most useful):**
+
+This is where liquidation maps add the most value. If your technical stop would sit at 82,400 but the heatmap shows a bright liquidation band from 82,300 to 82,500, your stop sits in a high-probability “stop hunt” zone. Either place the stop below the cluster (e.g., 82,100) to survive the sweep, or tighten it above the cluster (e.g., 82,700) for faster invalidation. Never ignore a liquidation cluster that overlaps your stop level.
+
+**Take-profit placement (10–15% weight):**
+
+If your K-line target is 84,500 and the heatmap shows heavy short liquidations near 84,800–85,000, price may reach that zone as forced short-covering accelerates the move. You can extend part of your target or use a trailing stop to capture the potential extension. However, do not abandon your original K-line-based target just because a liquidation zone exists further away—the move may reverse before reaching it.
+
+**Limitations:**
+
+Liquidation maps are estimates based on open interest and do not reflect every participant's liquidation price. They update slowly and do not show real-time changes. Over-reliance can cause you to hesitate when a clean breakout occurs or to expect a reversal that never comes. Use them to avoid obvious traps, not to predict every market turn.
+
 ## 7. What a beginner should do
 
 A beginner does not need to model the entire order book. Use a short checklist:
