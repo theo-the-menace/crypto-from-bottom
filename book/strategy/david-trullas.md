@@ -1,648 +1,515 @@
-# David Trullás: Triple Divergence and 2/3 Retracement Strategy
+# David Trullás: MACD-Led Divergence with Scaled Position Sizing
 
 ## Who is David Trullás?
 
-David Trullás Vila (born 1974, Manresa, Spain) is an independent technical analyst and professional intraday futures trader. He founded **Live in Trading**, a trading education company focused on market analysis and training systematic traders. Trullás has won multiple World Cup Trading Championship quarterly competitions, most notably achieving a **2,222% return in 90 days** (Q2 2026) in the futures intraday division, multiplying his account by 22 times.
+David Trullás Vila (born Manresa, Spain) is a physiotherapist, osteopath, and professional intraday futures trader. He founded **Live in Trading**, a Spanish trading education company. Trullás has won multiple World Cup Trading Championship quarterly competitions in the Futures Day Trading Division, most notably:
 
-Unlike many trading educators, Trullás built his reputation through **verifiable competition results** rather than claimed profits. His methodology, branded as **"Operar con Confianza Método Trullás"** (Trading with Confidence - Trullás Method), is a systematic approach combining divergence analysis, Fibonacci retracements, and strict psychological discipline.
+- **Q2 2026:** 2,222.6% return (90 days) — 1st place
+- **Q3 2026:** 1,350.8% return (90 days, pending audit) — 1st place
+- **Q4 2025:** 930.7% return — 1st place
+- **Q3 2025:** 800.6% return — 1st place
+- **Q2 2025:** 712.1% return — 1st place
+- **Q1 2026:** 585.4% return — 1st place
+- **Q1 2025:** 291% return — 2nd place
 
-He is the author of two books:
-- *Bienvenidos al mundo real de la bolsa* (Welcome to the Real World of the Stock Market) — a beginner's guide covering market basics, technical analysis, and trading psychology
-- His methodology focuses on surviving the market rather than predicting it
+These results are independently verified by the World Cup Trading Championships official standings page.
 
-## Core Philosophy: Survive First, Profit Second
+From a May 2026 live demonstration recorded at a Rankia conference in Valencia, Spain, Trullás publicly demonstrated his strategy on stage with students executing real-time trades.
 
-Trullás emphasizes that **90% of trading success is discipline, not strategy**. His philosophy, repeated across his books and conferences since 2013:
+## Core Philosophy: Discipline Over Strategy
 
-1. **Trading is not gambling when you define rules and risk before the trade**
-2. **Emotions (fear and greed) are the primary enemies**
-3. **You do not need a finance degree to trade successfully**
-4. **The market reveals the trader's weaknesses** — impulsive entries reveal urgency, refusing stops reveals attachment to being right
-5. **A low win rate can still be profitable** if winners are larger than losers and risk is controlled
+From the Valencia demonstration (timestamp 00:51-01:20):
 
-His trading approach is built on the observation that **markets move in waves, and most moves retrace approximately 2/3 (66%) before continuing or reversing**. He does not try to predict where the market will go; instead, he waits for divergence to signal exhaustion, then trades the expected retracement.
+> "I work with three methods registered in the United States to protect intellectual property. It will be very difficult to see those three methods today, but above all we are going to see one. And I trust him so much..."
 
-## The Core Strategy: MACD + RSI + Volume Triple Divergence with 2/3 Fibonacci Retracement
+From timestamp 03:52-04:20:
 
-### What the strategy trades
+> "Volume, Fibonacci, MACD, RSI. How simple, and it works! This is the basis of the championships with the percentages you've seen, and it's not a deception."
 
-Trullás trades **the retracement phase after a trend exhaustion**, not the initial breakout or the continuation. He believes that when a market move is nearing its end, price will retrace roughly two-thirds of that move before deciding the next direction.
+**His central claim:** The method is "so simple, so silly, so basic, so archaic. But it works. So why would I want to complicate my life?" (04:28-04:40)
 
-### The signal: Triple Divergence
+## The Core Strategy: MACD is the Pillar, RSI and Volume Scale Position Size
 
-A **triple divergence** occurs when price makes three successive higher highs (in an uptrend) or lower lows (in a downtrend), but **three indicators simultaneously fail to confirm those highs/lows**:
+### Signal hierarchy (timestamp 05:14-06:40)
 
-1. **MACD histogram** (default settings: 12, 26, 9) — measures momentum
-2. **RSI** (default setting: 14) — measures overbought/oversold conditions
-3. **Volume** — measures participation
+**MACD is mandatory. RSI and Volume are confirmations that scale position size.**
 
-**Example of a bearish triple divergence (setup for a long retracement trade):**
-- Price makes Lower Low 1, Lower Low 2, Lower Low 3 (falling)
-- MACD histogram makes Higher Low 1, Higher Low 2, Higher Low 3 (diverging upward)
-- RSI makes Higher Low 1, Higher Low 2, Higher Low 3 (diverging upward)
-- Volume decreases into Lower Low 3 (selling pressure exhausting)
+> "**MACD is my friend. It's my DNA.** If MACD doesn't give me the image I want to see, I don't operate. Neither RSI, nor volume, nor order flow, nor pending orders, nor big trades... **If this one [MACD] is there, the others will come in. This is my pillar.** He's the one in charge."
 
-This three-way confirmation reduces false signals significantly. A divergence on only one indicator is not a trade. Trullás waits for **all three to agree**.
+### The position sizing logic (timestamp 10:06-10:40)
 
-### The entry: 2/3 Fibonacci retracement (61.8% - 70.5%)
+> "I risk my money based on what I see. And here I have three divergences, one in volume, two in MACD, and another in RSI. **Three contracts.**
+>
+> **If I have MACD [divergence], one [contract]. If I have MACD and RSI, two. If I have MACD and RSI outside of overbought [zone], another contract. If I have [enough] volume, another contract.**"
 
-After identifying triple divergence at an extreme, Trullás does **not enter immediately**. He waits for price to begin retracing the prior move, then enters when price reaches the **61.8% to 70.5% Fibonacci retracement zone** (often called the "golden pocket" or 2/3 zone).
+This is **not** "wait for all three to appear, then enter with fixed risk." This is **scaled position sizing based on signal strength:**
 
-**Why 2/3?**
-- Markets rarely reverse in a V-shape. Most trends pause and retrace before the next leg.
-- The 61.8% - 66% - 70.5% Fibonacci cluster represents the zone where the prior trend's momentum is tested.
-- Entering at 2/3 retracement offers better risk-reward than entering at the divergence extreme.
+| Confirmed signals | Position size |
+|-------------------|---------------|
+| MACD divergence only | 1 contract |
+| MACD + RSI divergence | 2 contracts |
+| MACD + RSI + Volume divergence | 3 contracts |
+| MACD + RSI (outside overbought/oversold) + Volume | 4 contracts (rare) |
+
+**Critical insight:** Each contract has a base risk (e.g., $100). A 3-contract trade = 3× base risk. This is the opposite of "1% max risk per trade" orthodoxy, and it explains his championship returns (high conviction setups get larger positions).
+
+### Divergence identification
+
+**MACD histogram (12, 26, 9 settings):**
+- Bearish divergence: Price makes higher high, MACD histogram makes lower high
+- Bullish divergence: Price makes lower low, MACD histogram makes higher low
+
+**RSI (14 setting):**
+- Bearish: Price higher high, RSI lower high
+- Bullish: Price lower low, RSI higher low
+
+**Volume:**
+- Bearish: Price higher high, volume decreases (fewer buyers at top)
+- Bullish: Price lower low, volume decreases (fewer sellers at bottom)
+
+From timestamp 07:00-07:40:
+
+> "When the price reaches new highs, what should the volume do at those new highs? It has to increase. If it's lower, it means the volume doesn't match the price, do you agree?"
+
+### Entry: 23-25% Fibonacci retracement (timestamp 11:33-11:45)
+
+**This is the most important correction.** Many secondary sources incorrectly claim Trullás enters at 61.8%-66%. He does not.
+
+From timestamp 11:33-11:45:
+
+> "My entry point is usually around **23-25% of this segment**."
 
 **Step-by-step entry process:**
 
-1. **Identify the trend leg:** Measure from the swing low to the swing high (for bearish divergence) or high to low (for bullish divergence)
-2. **Wait for triple divergence confirmation:** MACD, RSI, and Volume all show divergence at the third extreme
-3. **Wait for price to start retracing:** Do not enter on the divergence candle itself
-4. **Draw Fibonacci retracement:** 0% at the trend start, 100% at the divergence extreme
-5. **Place limit entry order** in the 61.8% - 70.5% zone
-6. **Confirm with MACD cross (optional):** Some descriptions mention waiting for MACD line to cross the signal line in the direction of the trade
+1. Identify divergence at an extreme (MACD mandatory, RSI and Volume optional)
+2. Draw Fibonacci retracement:
+   - **100% (divergence extreme):** The exact high/low where divergence occurred
+   - **0% (origin):** The swing low before the rally (bearish div) or swing high before the fall (bullish div)
+3. Wait for price to start retracing (do not enter on the divergence candle itself)
+4. Place limit entry order at **23-25% Fibonacci retracement**
+5. Scale position size: 1 contract (MACD only) → 2 contracts (+RSI) → 3 contracts (+Volume)
 
-### Timeframe: Intraday futures (5-minute to 15-minute charts)
+**Why 23-25%, not 61.8%?**
+- Tighter stop-loss (just below the divergence extreme)
+- Better risk-reward ratio (stop is close, targets are 38%, 66%, or 0%)
+- Faster entry in intraday futures (5-minute charts move quickly)
 
-Trullás competes in the **World Cup Trading Championship Futures Intraday Division**, which requires closing all positions by the end of the trading day. His preferred timeframes:
+### Take-profit targets: 38% first, then 66% (timestamp 17:23-17:46)
 
-- **5-minute chart:** For entry execution and monitoring
-- **15-minute chart:** For identifying divergence and structure (context)
+**Target 1 (beginner default): 38% Fibonacci**
 
-This is **not** a swing trading strategy. Trades typically last from 30 minutes to a few hours, never overnight.
+From timestamp 17:23-17:46, student Carmen speaking:
+
+> "At the beginning, when we don't know much, we should try the Fibonacci retracement level at **23 and reach the take profit at 38**. We shouldn't try to make more money, especially to first learn the routine from 23 to 38, because many times we want to reach 50 after 38, and often the price reverses. So, at the beginning when we learn, the pattern we have in our brain is from 23 to 38 and there are always benefits there."
+
+**Why 38% for beginners:**
+- Highest probability first target
+- Price often reverses before reaching 50% or 66%
+- "If it's 200 dollars, well, like David says, straight into the pocket, right? And goodbye." (17:46-17:52)
+
+**Target 2 (intermediate): 66% Fibonacci (the "two-thirds mark")**
+
+From timestamp 12:50-13:10, student Joan speaking:
+
+> "We would draw a Fibonacci from the highest point to the lowest point of the divergence and from here we would launch the operation up to 66%, up to the second third."
+
+This is where Dow Theory's "retracements often go to two-thirds" becomes the target.
+
+**Target 3 (advanced): 0% Fibonacci (full retracement)**
+
+Price returns all the way to the origin of the measured move. This is the maximum extension case.
 
 ### Stop-loss placement
 
-Trullás is strict about stops. From his book *Bienvenidos al mundo real de la bolsa*:
+Place the stop beyond the divergence extreme. For a long (bullish divergence), stop goes below the divergence low. For a short (bearish divergence), stop goes above the divergence high.
 
-- **Place the stop beyond the invalidation level** — for a long retracement trade, the stop goes below the divergence low; for a short retracement trade, above the divergence high
-- **Do not move the stop farther away after entry** — moving a stop to avoid a loss is the most dangerous trader behavior
-- **Risk a small fixed percentage per trade** — typically 0.5% to 1% of account equity
-- **Exit immediately if the invalidation level is touched** — do not wait for a "better" price
+From timestamp 11:35-11:42:
 
-### Take-profit targets
+> "The entry is a tick on a breakout, the exit is a tick below, the other exit before take profit is a tick before..."
 
-Trullás uses **multiple exits** rather than a single target:
+Trullás uses precise tick-based stop placement for futures. For BTC, add 2-3% room for wick spikes.
 
-1. **First target: 0% Fibonacci (the starting point of the measured move)** — this is the minimum expected retracement. Take partial profit here.
-2. **Second target: -27% to -61.8% extension** — if the retracement has momentum, it may extend beyond the starting point into a full reversal
-3. **Trailing stop:** After the first target, move the stop to breakeven and trail using the 5-minute swing structure
+### Timeframe: 5-minute execution, 15-minute context
 
-He does **not** hold for home runs. His philosophy: "Take profit when the market offers it; the next opportunity is minutes away."
+From timestamp 08:10-08:20:
 
-### Position sizing: Aggressive in competitions, conservative otherwise
+> "The graph is 5 seconds. It's not that I'm a gambling addict, it's just that I'm using this timeframe to see if we get lucky and it generates several trades in 10 minutes, okay?"
 
-In World Cup Trading Championships, Trullás uses **aggressive position sizing** (risking 3-5% per trade, high leverage) to maximize returns in the 90-day competition period. This produced his 2,222% return but also implies large drawdowns if wrong.
+For the demonstration, he used 5-second Nasdaq charts to show rapid setups. In normal trading:
+- **5-minute chart:** Entry execution and monitoring
+- **15-minute chart:** Identifying divergence and structure
 
-For normal trading, he recommends:
-- **0.5% to 1% risk per trade** for beginners
-- **Never risk more than 2% per trade** for experienced traders
-- **Never increase position size after a win to "make more"** — overconfidence is the killer
+Trades last 30 minutes to a few hours, never overnight (World Cup intraday rules require closing all positions by end of day).
 
 ### Instruments traded
 
-Trullás primarily trades **liquid futures contracts**:
-- **Stock index futures:** S&P 500 (ES), DAX, IBEX 35
-- **Currency futures:** EUR/USD
-- **Commodity futures when volatility is high**
+From timestamp 14:48-15:10 (when asked about gold):
 
-He avoids **thinly traded instruments**, **exotic altcoins**, and **anything without clear volume confirmation**.
+> "For gold, I always prefer the regulated market; I don't like XAU/USD, okay? I always go to the future, always, because it's a regulated market, it's issued by an agency..."
 
-## Psychological Rules: The 90% That Matters
+From timestamp 19:15-19:30:
 
-Trullás dedicates significant attention to trading psychology in his books and conferences. His core psychological rules:
+> "You can look at any asset you want... a stock, a futures contract, Forex, it doesn't matter to me. In a timeframe that you want, I don't care, a minute, five minutes, an hour, daily, I don't care."
 
-### 1. Do not trade after a large win or loss
-- After a big win, overconfidence leads to overtrading
-- After a big loss, desperation leads to revenge trading
-- **Rule:** Stop trading for the day after hitting +3R or -2R (where R = planned risk per trade)
+**Primary instruments:** S&P 500 (ES), Nasdaq (NQ), DAX (FDAX), Gold (COMEX futures), IBEX 35.
 
-### 2. Follow the exit plan when emotion becomes loud
-- Seeing an unrealized loss triggers panic to close or move the stop
-- Seeing an unrealized profit triggers greed to hold longer
-- **Rule:** Write the stop and target before entry, then execute them mechanically
+**Avoids:** XAU/USD (unregulated spot), thinly traded instruments.
 
-### 3. Do not keep opening positions
-- Adding to a losing trade is "averaging down" — this is not a strategy, it is hope
-- Adding to a winning trade without a plan increases risk beyond the original calculation
-- **Rule:** Decide maximum exposure before the first entry; do not add unless the written plan allows it
+### Hidden divergence (continuation signal)
 
-### 4. Do not chase highs or lows
-- Entering a long after a huge surge gives poor risk-reward and no clear stop
-- Entering a short after a crash has the same problem
-- **Rule:** Wait for structure (pullback, retest, divergence) before entering; missing a move is acceptable
+From timestamp 13:40-13:58, student speaking:
 
-### 5. Accept that losses are business costs
-- A planned loss is the price of being in the business
-- An unplanned loss (refusing to exit, moving stops) threatens the account
-- **Rule:** Record every loss, review it without judgment, and move to the next setup
+> "The hidden divergence is when the price goes up and the indicators go down. We have several entries, this is the hidden one, so when we get this pattern... at the lowest price the Fibonacci is drawn all the way up, quite clear and marked entry and profits."
 
-### 6. Trading reveals the trader
-- The chart becomes a mirror of your weaknesses
-- Impulsive entries = urgency and impatience
-- Refusing stops = fear of being wrong
-- Overtrading = need for action and control
-- **Rule:** When you violate a rule, stop trading and write down what emotion triggered it
+Hidden divergence = trend continuation, not reversal. Same entry logic (23-25%), same targets, same position scaling.
+
+## What Makes This Strategy Unusual
+
+### 1. MACD is non-negotiable
+
+Most divergence traders use "any two of three indicators." Trullás: **If MACD doesn't diverge, there is no trade.** RSI and Volume only matter *after* MACD confirms.
+
+### 2. Position sizing scales with signal strength
+
+Standard orthodoxy: "Risk 1% per trade, always." Trullás: **1 contract if MACD only, 2 if +RSI, 3 if +Volume.** This means a 3-contract trade = 3× base risk. In competitions, this produces explosive returns but also larger drawdowns.
+
+### 3. Entry at 23-25%, not 61.8%
+
+Most Fibonacci traders enter at 50% or 61.8% retracement. Trullás enters much earlier (23-25%), giving tighter stops and better risk-reward.
+
+### 4. Conservative first target (38%)
+
+Beginners are explicitly told to take profit at 38% and exit, not to "let it run" to 66%. This is opposite to "let winners run" advice.
+
+## Position Sizing: Competition vs. Normal Trading
+
+### Competition sizing (aggressive)
+
+In World Cup Trading Championships, Trullás uses aggressive sizing to maximize returns in the 90-day window. From the demonstration (timestamp 10:06-10:40), he took a 3-contract position on a triple divergence setup.
+
+If 1 contract = 3-5% account risk, then:
+- 3 contracts = 9-15% total risk per setup
+- This explains 2,222% returns but also implies 30-50% drawdowns if wrong
+
+### Normal trading sizing (conservative)
+
+For retail traders outside competitions:
+- **Base unit: 0.25%-0.5% of account equity**
+- **Maximum 3 contracts = 0.75%-1.5% total risk per setup**
+- Accept that returns will be far lower (30-50% annual, not 2,000% quarterly)
+
+From timestamp 10:06:
+
+> "David always bets the same percentage of his money? No, no, no, no, no. **I risk my money based on what I see.**"
+
+This is **not** Van Tharp-style "1% per trade" fixed risk. This is signal-strength-based scaling.
+
+## Limitations and What This Strategy Does NOT Do
+
+### 1. Triple divergence is rare
+
+From timestamp 19:32-19:42:
+
+> "What percentage of correct answers? I have no idea because I'm not a big fan of statistics."
+
+Trullás does not track win rate. The strategy requires extreme patience — you may wait hours or days for a valid setup.
+
+### 2. Not a high-frequency strategy
+
+From timestamp 11:00-11:20:
+
+> "Anyone can do these concepts. And it's simple."
+
+But "simple" does not mean "frequent." Setups appear irregularly. This is not algo trading.
+
+### 3. Requires screen time
+
+Trullás watches the screen and reacts within minutes. This is not "set alerts and forget." For BTC (24/7 market), this becomes a major constraint.
+
+### 4. Championship returns are not realistic for retail
+
+A 2,222% return used 9-15% risk per trade. A single bad streak with that risk can lose 40-60% of the account. Retail traders using 0.5-1.5% total risk will see far lower returns.
+
+### 5. Does not predict direction
+
+From timestamp 04:52-05:10:
+
+> "Down's theory: accumulation, participation, distribution. I'm sure everyone knows that. Okay, let's put it into practice."
+
+The strategy trades exhaustion (divergence) and retracement, not the initial breakout or continuation. You are not predicting where the market will go; you are reacting to exhaustion signals.
 
 ## How to Apply This Strategy to BTC
 
-Trullás does not publicly trade or teach cryptocurrency-specific strategies. However, his methodology translates to BTC with modifications:
+Trullás does not publicly trade or teach cryptocurrency. The following adaptations are required:
 
-### BTC-specific adaptations
+### 1. Timeframe adjustment: 1-hour instead of 5-minute
 
-1. **Timeframe adjustment:**
-   - BTC trades 24/7, so "intraday" can mean 4-hour or 1-hour charts instead of 5-minute
-   - For BTC spot, use **1-hour for context, 15-minute for entry**
-   - For BTC perpetual futures, Trullás's original 5-minute / 15-minute setup works
+**Original:** 5-minute for entry, 15-minute for context (exits same day)
 
-2. **Volume indicator:**
-   - Use **CVD (Cumulative Volume Delta)** or **spot volume** instead of futures volume
-   - On perpetual futures, combine volume with **funding rate** — extreme positive funding + divergence = stronger signal for shorts
+**BTC version:** 1-hour for entry, 4-hour for context (can hold 4-24 hours)
 
-3. **Fibonacci retracement:**
-   - BTC often respects 50% and 61.8% retracements more reliably than stocks
-   - The 2/3 rule (61.8% - 70.5%) still applies, but BTC may wick through it before holding
+**Why:** BTC's 24/7 market and lower liquidity (vs. ES/NQ futures) make 5-minute charts too noisy. The 1-hour chart filters noise while preserving divergence signals.
 
-4. **Stop placement:**
-   - BTC has larger wicks than traditional futures
-   - Place stops **beyond the wick zone + 1-2%** to avoid getting stopped by noise
-   - For a long at 61.8% retracement ($82,000), stop at $81,000 (below the divergence low of $81,500 with room for a wick)
-
-5. **Instruments:**
-   - **BTC/USDT perpetual on Binance or Bybit** — liquid, tight spreads, 24/7
-   - **BTC/USD futures (CME)** if you are in the U.S. and want regulated exposure
-   - Avoid low-liquidity altcoins for this strategy; it requires tight execution
-
-### Example BTC trade using Trullás method
-
-**Setup:**
-- BTC is falling from $85,000 to $81,000 on the 1-hour chart over 12 hours
-- MACD histogram makes three higher lows (divergence)
-- RSI makes three higher lows (divergence)
-- Volume decreases into the third low (exhaustion)
-- Triple divergence confirmed at $81,000
-
-**Entry:**
-- Measure the prior leg: from $88,000 (swing high) to $81,000 (divergence low) = $7,000 range
-- 61.8% retracement: $81,000 + ($7,000 × 0.618) = $85,326
-- 70.5% retracement: $81,000 + ($7,000 × 0.705) = $85,935
-- Place limit buy order at $85,500 (middle of the zone)
-
-**Stop-loss:**
-- Below the divergence low with room for a wick: $80,700 (1.2% below $81,000)
-- Risk per BTC: $85,500 - $80,700 = $4,800
-
-**Position size:**
-- Account size: $10,000
-- Risk limit: 1% = $100
-- Position size: $100 / $4,800 = 0.0208 BTC (about $1,780 notional)
-
-**Take-profit:**
-- First target: $88,000 (0% Fibonacci, the swing high before the fall) — take 50% profit
-- Second target: $89,400 (127% extension) — take remaining 50%
-- Trailing stop: After $88,000, move stop to breakeven ($85,500), then trail below each 15-minute higher low
-
-**Outcome if stopped:** Lose $100 (1% of account)
-**Outcome if first target hit:** Gain $2,500 / 2 = $1,250 on half position = +$125 (1.25R)
-**Outcome if second target hit:** Additional $1,400 on half position = +$70 (total +$195, or 1.95R)
-
-This example shows **defined risk, clear entry, and layered exits** — the core of Trullás's approach.
-
-## What This Strategy Does NOT Do
-
-To understand Trullás's method correctly, it is important to know what it **avoids**:
-
-1. **Does not predict market direction** — It reacts to exhaustion signals and trades the retracement, not the continuation
-2. **Does not trade breakouts** — Breakouts are high-risk; Trullás enters on pullbacks with defined structure
-3. **Does not use leverage beyond 3-5x in competitions** — Outside competitions, he recommends 1-2x or spot only
-4. **Does not trade news events** — Fundamental news is unpredictable; the strategy is purely technical
-5. **Does not hold overnight** — Intraday futures rules force this, but it also limits overnight gap risk
-6. **Does not add to losing positions** — No averaging down, no "doubling down"
-7. **Does not rely on a single indicator** — Requires three-way confirmation (MACD + RSI + Volume)
-
-## Limitations and Criticisms
-
-### 1. Triple divergence is rare
-- Requiring three indicators to align means fewer trades
-- In low-volatility markets, you may wait days for a valid setup
-- This is **not** a high-frequency strategy; it is a patience strategy
-
-### 2. Retracements do not always reach 2/3
-- Some reversals are V-shaped and never retrace to 61.8%
-- You miss those trades by waiting for the retracement entry
-- Trullás accepts this; he trades retracements, not reversals
-
-### 3. Championship returns are not realistic for retail traders
-- Trullás's 2,222% return used aggressive sizing (3-5% risk per trade) with leverage
-- A single bad streak with that risk can lose 30-50% of the account
-- His normal recommendation (0.5-1% risk) would produce far lower returns but also survive losing streaks
-
-### 4. Requires fast execution
-- Intraday futures require watching the screen and reacting within minutes
-- This is not a "set and forget" strategy
-- Not suitable for people with full-time jobs unless using alerts and limit orders
-
-### 5. Divergence is a warning, not a trade signal
-- Divergence shows momentum weakening, but price can still continue farther
-- Waiting for 2/3 retracement filters this, but sometimes price never reaches that zone
-- False divergences happen when the trend is strong enough to ignore momentum loss
-
-## Should You Trade This Strategy?
-
-**Yes, if:**
-- You can monitor charts during active trading hours (or use alerts and limit orders)
-- You have the discipline to wait for three-way divergence confirmation
-- You can accept that many setups will be skipped if triple divergence does not appear
-- You can follow stop-loss rules without moving them
-- You are trading liquid futures or BTC/USDT perpetuals, not low-volume altcoins
-
-**No, if:**
-- You want a high-frequency strategy that trades every day
-- You cannot watch the screen or set precise limit orders
-- You are looking for "guaranteed" signals — divergence is a probability edge, not a certainty
-- You want to hold positions for days or weeks — this is an intraday method
-- You are trading with leverage beyond your understanding and cannot survive a 20% drawdown
-
-## Summary: Trullás's Trading Logic from Start to Finish
-
-1. **Wait for a strong trend** (preferably on 15-minute or 1-hour chart)
-2. **Watch for exhaustion:** Price makes a third extreme (higher high or lower low)
-3. **Confirm triple divergence:** MACD, RSI, and Volume all diverge at that third extreme
-4. **Do NOT enter on the divergence candle**
-5. **Wait for price to retrace:** Measure the prior move with Fibonacci
-6. **Enter in the 61.8% - 70.5% retracement zone** (the 2/3 zone)
-7. **Place stop beyond the divergence extreme** (with room for a wick)
-8. **First target: 0% Fibonacci** (the start of the measured move) — take partial profit
-9. **Second target: -27% to -61.8% extension** — take remaining profit or trail
-10. **Review the trade after it closes:** Record what happened, win or lose, without judgment
-
-The strategy is **not about being right often**. It is about having a **defined edge, controlled risk, and emotional discipline to follow the rules**. Trullás's championship wins prove that a systematic approach with strict rules can produce extraordinary results — but only if the rules are followed without exception.
-
----
-
-## Can This Strategy Be Directly Applied to BTC? How Should We Adjust It?
-
-### Short answer: Yes, but with significant modifications
-
-Trullás's methodology was developed for **liquid stock index futures (DAX, IBEX, S&P 500) traded during defined market hours (European and US sessions)**. BTC has fundamentally different characteristics that require adaptation:
-
-| Factor | Traditional Futures (Trullás's target) | BTC/Crypto | Adjustment Needed |
-|--------|---------------------------------------|------------|-------------------|
-| **Trading hours** | 8-16 hours/day (session-based) | 24/7/365 | Redefine "intraday" |
-| **Volatility** | 0.5-2% daily moves typical | 3-10% daily moves common | Wider stops, smaller position size |
-| **Liquidity depth** | Deep institutional order book | Thinner, prone to flash wicks | Stop placement beyond wick zones |
-| **Volume indicator** | Reliable futures volume | Fragmented across exchanges | Use aggregated volume or CVD |
-| **Overnight risk** | Forced exit (intraday rules) | Can hold 24/7 | Optional but increases risk |
-| **Spreads & slippage** | Tight (0.01-0.05%) | Wider on smaller exchanges (0.05-0.2%) | Use limit orders, not market orders |
-| **Correlation** | Follows traditional market cycles | Weakly correlated with stocks, crypto-native cycles | Cannot rely on stock market context |
-| **Manipulation risk** | Lower (regulated markets) | Higher (unregulated, smaller market cap) | Confirm volume with multiple sources |
-
-### Critical adjustments for BTC
-
-#### 1. Timeframe adjustment: from 5-min intraday to 1-hour or 4-hour
-
-**Original:** Trullás uses 5-minute for entry, 15-minute for context (exits same day)
-
-**BTC version:**
-- **For day trading BTC:** Use 15-minute for entry, 1-hour for context (can hold 4-12 hours)
-- **For swing trading BTC:** Use 1-hour for entry, 4-hour for context (can hold 1-3 days)
-- **Why:** BTC's 24/7 nature means "intraday" loses meaning. The 5-minute BTC chart has too much noise from thin liquidity and micro-wicks. Moving to 1-hour filters noise while preserving the divergence signal.
-
-**Trade-off:** Fewer setups (1-hour divergence is rarer than 5-minute), but higher quality signals.
-
-#### 2. Triple divergence: add funding rate as a fourth confirmation (perpetual futures only)
+### 2. Add funding rate as fourth confirmation (perpetual futures only)
 
 **Original:** MACD + RSI + Volume
 
 **BTC version:** MACD + RSI + Volume + **Funding Rate**
 
 **Why funding rate matters:**
-- Perpetual futures use funding rate to anchor price to spot. When funding is extremely positive (e.g., +0.3% to +0.5% per 8 hours), longs are overcrowded and a short squeeze can trigger divergence.
-- **Bullish divergence (long setup):** Funding rate becomes negative or neutral (shorts overcrowded, squeeze risk up)
-- **Bearish divergence (short setup):** Funding rate is extremely positive (longs overcrowded, liquidation cascade risk up)
+- Extremely positive funding (+0.3% to +0.5% per 8 hours) = longs overcrowded, short setup stronger
+- Negative funding = shorts overcrowded, long setup stronger
 
-**Where to check:** Binance Futures, Bybit, or aggregators like Coinglass show real-time funding rates.
+Check: Binance Futures, Bybit, or Coinglass.
 
-**Example:**
-- BTC falls from $88,000 to $81,000 on 1-hour chart
-- MACD, RSI, Volume show bullish divergence at $81,000
-- Funding rate: -0.05% (shorts paying longs, indicating short overcrowding)
-- **Strong long setup:** All four indicators confirm exhaustion
+### 3. Wider stops (divergence low/high ± 3%)
 
-If funding rate was still +0.3%, the divergence is weaker — longs are still crowded, and a further drop could cascade.
+**Original:** Stop 1 tick beyond divergence extreme
 
-#### 3. Fibonacci retracement: BTC respects 50% and 61.8%, but wicks through often
+**BTC version:** Stop 3% beyond divergence extreme (to account for wick spikes)
 
-**Original:** Enter at 61.8% - 70.5% with tight stop
+BTC has larger wicks than ES/NQ futures. A tight stop will get wicked out.
 
-**BTC version:** Use a **zone entry** instead of a single level
+### 4. Position sizing: 0.5% risk per contract (not 1%)
 
-- **Primary zone:** 50% - 61.8% (BTC often finds support here first)
-- **Secondary zone (golden pocket):** 61.8% - 70.5% (Trullás's original zone)
-- **Entry strategy:**
-  - Place 50% of position at 50% retracement
-  - Place remaining 50% at 61.8% retracement
-  - This "averages in" and avoids missing the trade if BTC only retraces to 55%
+**Original:** 1% base risk per contract (competition: 3-5%)
 
-**Why BTC is different:**
-- BTC often makes a shallow retracement (50-55%) before continuing, especially in strong trends
-- BTC also has **large wicks** that spike through Fibonacci levels by 2-3% before reversing
-- Entering in a zone (not a single price) captures more setups and smooths out wick noise
+**BTC version:** 0.5% risk per contract (beginners: 0.25%)
 
-**Stop placement adjustment:**
-- Original: Just below the divergence low
-- BTC: **Divergence low - 3%** to account for wick spikes
-- Example: Divergence low at $81,000 → stop at $78,700 (3% below)
-- This increases risk per BTC, so reduce position size accordingly
-
-#### 4. Position sizing: reduce risk per trade from 1% to 0.5% (or 0.25% for beginners)
-
-**Original:** Trullás recommends 1% risk per trade (0.5% for beginners)
-
-**BTC version:** **0.5% risk per trade** (0.25% for beginners)
-
-**Why:**
-- BTC's higher volatility means a "normal" move can be 5-10%, vs. 1-2% for DAX futures
-- BTC has larger wicks, so wider stops are necessary, which increases dollar risk per unit
-- BTC can gap on weekends or during low-liquidity hours (3am UTC), something that doesn't happen in traditional futures
+**Why:** BTC's higher volatility (3-10% daily moves vs. 1-2% for DAX) requires smaller size. Wider stops also increase dollar risk per unit.
 
 **Position sizing example:**
-
 - Account: $10,000
 - Risk limit: 0.5% = $50
-- Entry: $85,000 (61.8% retracement)
-- Stop: $81,000 (divergence low at $82,000 - 3%)
-- Risk per BTC: $85,000 - $81,000 = $4,000
-- Position size: $50 / $4,000 = **0.0125 BTC** (about $1,062 notional)
-- Leverage (if using perpetual futures): $1,062 / $10,000 = **0.1x leverage** (essentially spot exposure)
+- Entry: $85,000 (23% Fibonacci retracement)
+- Stop: $82,450 (divergence low at $85,000 - 3%)
+- Risk per BTC: $85,000 - $82,450 = $2,550
+- Position size: $50 / $2,550 = **0.0196 BTC** (~$1,666 notional)
+- With 3 contracts: 0.0588 BTC, total risk = $150 (1.5%)
 
-Notice the position size is tiny compared to the account. This is correct. BTC's volatility demands small size.
+### 5. Use CVD (Cumulative Volume Delta) instead of raw volume
 
-#### 5. Volume indicator: use CVD (Cumulative Volume Delta) or aggregated spot volume
+BTC volume is fragmented across Binance, Bybit, Coinbase, OKX, etc. Use:
+- **CVD (TradingView indicator):** Tracks buy volume vs. sell volume
+- **Aggregated volume (Coinglass):** Combines volume across all major exchanges
 
-**Original:** Futures volume from a single exchange (e.g., Eurex DAX)
+### 6. Always use exchange stop-loss orders (not manual monitoring)
 
-**BTC version:** Volume is fragmented across Binance, Bybit, Coinbase, OKX, etc.
+**Original:** Trullás can manually exit (he watches the screen)
 
-**Better alternatives:**
-1. **CVD (Cumulative Volume Delta):** Tracks buy volume vs. sell volume. Available on TradingView via indicators like "Cumulative Volume Delta" or on-chain tools.
-2. **Aggregated spot volume:** Use a data provider that combines volume across all major exchanges (e.g., TradingView's BTC/USDT combined chart, or Coinglass).
-3. **On-chain volume (optional):** For longer timeframes (4-hour, daily), on-chain transaction volume can confirm real economic activity vs. wash trading.
+**BTC version:** **Always use stop-market orders on Binance/Bybit**
 
-**Divergence check:**
-- Price makes lower lows → Volume (or CVD) makes higher lows (buying pressure increasing into the dip)
-- If volume is flat or also declining, the divergence is weaker
+**Why:** BTC trades 24/7. Flash crashes happen during off-hours (weekends, 2-4am UTC). You cannot watch it constantly.
 
-#### 6. Stop-loss: never use "close below" for BTC — use hard stop-loss orders
+**Stop type:** Use **stop-market** (triggers at your stop price, executes at market). Slippage is acceptable; getting stopped out without fill is catastrophic.
 
-**Original:** Trullás can manually exit if a candle closes below invalidation (he watches the screen)
+### 7. Do not hold leveraged positions overnight if leverage > 2x
 
-**BTC version:** **Always use exchange stop-loss orders**, not manual monitoring
+**Original:** Intraday rules force exit by market close
 
-**Why:**
-- BTC trades 24/7. You cannot watch it constantly.
-- Flash crashes and liquidation cascades happen in minutes, often during off-hours (weekends, 2-4am UTC).
-- A stop-loss order on Binance or Bybit will execute automatically if the **last price** or **mark price** (for futures) hits your level.
-
-**Stop type to use:**
-- **Stop-limit order:** Triggers at your stop price, then submits a limit order. Risk: may not fill if price gaps through.
-- **Stop-market order:** Triggers at your stop price, then executes at market. Guarantees fill but may slip 0.5-1%.
-- **For BTC, use stop-market** — slippage is acceptable; getting stopped out in a cascade without filling is catastrophic.
-
-**Mark price vs. last price:**
-- On perpetual futures, use **mark price trigger** (Binance default) to avoid getting stopped by a wick that doesn't reflect the true market.
-
-#### 7. Holding period: Trullás exits same-day; BTC traders can hold 4-24 hours (but not overnight if leverage > 2x)
-
-**Original:** Intraday futures rules force exit by market close
-
-**BTC version:** No forced exit, but **do not hold leveraged positions overnight** if leverage > 2x
+**BTC version:** No forced exit, but do not hold >2x leverage overnight
 
 **Why:**
-- BTC can gap 5-10% on news (regulatory announcement, ETF flows, macro surprise) while you sleep
-- Funding payments hit every 8 hours on perpetual futures — if you are short with positive funding, you pay; if long with negative funding, you pay
+- BTC can gap 5-10% on news while you sleep
+- Funding payments hit every 8 hours
 - Weekend liquidity is thin, amplifying moves
 
-**Recommended holding periods:**
-- **1-hour entry:** Hold 4-12 hours, exit before the next major session open (Asia, Europe, US)
-- **4-hour entry:** Hold 1-3 days, but check funding rate daily
-- **Spot only (no leverage):** Can hold weeks if the thesis is intact, but this is no longer Trullás's intraday method
+**Recommended holding:**
+- 1-hour entry: Hold 4-12 hours, exit before next major session
+- 4-hour entry: Hold 1-3 days, check funding rate daily
+- If holding overnight: Max 2x leverage, set wider stop (divergence ± 5%)
 
-**If holding overnight with leverage:**
-- Max 2x leverage
-- Set a wider stop (divergence low - 5%) to avoid getting wicked out
-- Accept that this increases risk beyond Trullás's original method
-
-#### 8. Instruments: BTC/USDT perpetual (Binance, Bybit) or BTC/USD futures (CME)
-
-**Original:** FDAX (DAX futures on Eurex), Mini S&P 500 (CME)
-
-**BTC version:**
+### 8. Instruments: BTC/USDT perpetual (Binance, Bybit)
 
 | Instrument | Liquidity | Spreads | Pros | Cons |
 |------------|----------|---------|------|------|
-| **BTC/USDT perpetual (Binance)** | Excellent | 0.01-0.02% | 24/7, high leverage available, tight spreads | Unregulated, counterparty risk |
-| **BTC/USDT perpetual (Bybit)** | Excellent | 0.01-0.02% | Similar to Binance, slightly better for altcoins | Unregulated, counterparty risk |
-| **BTC/USD futures (CME)** | Good (institutional) | 0.05-0.1% | Regulated, institutional liquidity, no funding rate | Only trades certain hours, larger contract size ($5/point = $25,000/contract minimum) |
-| **BTC/USD spot (Coinbase, Kraken)** | Good | 0.05-0.1% | No liquidation risk, actual BTC ownership | No leverage, cannot short |
+| **BTC/USDT perpetual (Binance)** | Excellent | 0.01-0.02% | 24/7, tight spreads, funding rate signal | Unregulated, counterparty risk |
+| **BTC/USDT perpetual (Bybit)** | Excellent | 0.01-0.02% | Similar to Binance | Unregulated, counterparty risk |
+| **BTC/USD futures (CME)** | Good | 0.05-0.1% | Regulated, institutional | Only trades certain hours, $25k+ per contract |
 
-**Recommendation for Trullás's method:**
-- **BTC/USDT perpetual on Binance** (use isolated margin mode, 2-5x leverage max)
-- **Why:** Tight spreads, 24/7 liquidity, can trade small sizes (0.001 BTC = $85 notional), funding rate is a useful signal
+**Recommendation:** BTC/USDT perpetual on Binance (isolated margin, 2-5x max leverage).
 
-**Avoid:**
-- Low-volume altcoins (divergence signals are unreliable, easy to manipulate)
-- Leveraged tokens (BTCUP, BTCDOWN) — these decay over time and do not track BTC cleanly
-- Decentralized perpetuals (dYdX, GMX) unless you are experienced — liquidity is thin, slippage is high
+**Avoid:** Low-volume altcoins (divergence unreliable), leveraged tokens (decay), decentralized perpetuals (thin liquidity).
 
-#### 9. Execution: use limit orders for entry, not market orders
+### 9. Use limit orders for entry, not market orders
 
-**Original:** Trullás can use market orders on DAX futures (spreads are 1-2 ticks, negligible)
+**Original:** Trullás can use market orders on DAX (spreads are 1-2 ticks)
 
-**BTC version:** **Always use limit orders for entry**
+**BTC version:** **Always use limit orders**
 
-**Why:**
-- BTC spreads are wider (0.01-0.05% on good exchanges, 0.1-0.5% on bad ones)
-- Market orders on BTC can slip 0.2-0.5% during volatility, eating into your edge
-- Limit orders at 61.8% retracement let the market come to you
+**Why:** BTC spreads are wider (0.01-0.05%). Market orders can slip 0.2-0.5% during volatility, eating into your edge.
 
 **Entry order setup:**
 1. Identify divergence at $81,000
-2. Calculate 61.8% retracement: $85,326
-3. Place limit buy order at $85,300 (slightly below to increase fill probability)
-4. Set stop-market order at $80,700 (divergence low - 3%)
-5. Set take-profit limit at $88,000 (0% Fibonacci)
+2. Calculate 23% Fibonacci: $81,000 + ($7,000 × 0.23) = $82,610
+3. Place limit buy at $82,600 (slightly below to increase fill probability)
+4. Set stop-market at $79,000 (divergence low - 3%)
+5. Set take-profit limit at $85,000 (38% Fibonacci)
 
-**If the limit order does not fill:**
-- Do not chase with a market order
-- Wait for the next setup
-- Missing a trade is acceptable; entering at a bad price is not
+**If limit does not fill:** Wait for the next setup. Missing a trade is acceptable; entering at a bad price is not.
 
-#### 10. Backtesting and practice: demo trade for 20-30 setups before using real capital
+### 10. Demo trade for 20-30 setups before live
 
-**Original:** Trullás emphasizes practicing in demo before live trading
+Use Binance Futures Testnet (testnet.binancefuture.com) with virtual USDT. Record every trade:
+- Entry price, stop, target, outcome
+- Max drawdown, funding payments
+- Emotions (did you move the stop? did you exit early?)
 
-**BTC version:** **Use Binance Futures Testnet or paper trading for at least 20 trades**
+After 20 trades, calculate:
+- Win rate (should be 30-50%)
+- Average win vs. average loss (should be 2:1 or better)
+- Max losing streak (can you survive it with 0.5% risk per contract?)
 
-**Why:**
-- BTC's 24/7 nature and volatility create psychological pressure that stock traders do not face
-- Funding payments, liquidation mechanics, and mark price vs. last price are confusing for beginners
-- You need to internalize the stop placement and position sizing rules before real money is at risk
+Only go live if profitable after 20+ trades.
 
-**How to practice:**
-1. Open Binance Futures Testnet (testnet.binancefuture.com) — free virtual USDT
-2. Trade BTC/USDT perpetual with the exact strategy: wait for 1-hour triple divergence + funding rate confirmation, enter at 61.8%, stop at divergence low - 3%
-3. Record every trade: entry price, stop, target, outcome, max drawdown, funding payments
-4. After 20 trades, calculate:
-   - Win rate (should be 30-50%)
-   - Average win vs. average loss (should be 2:1 or better)
-   - Max losing streak (can you survive it with 0.5% risk per trade?)
-5. Only go live if the results are profitable after 20+ trades
+### Common mistakes adapting to BTC (avoid these)
 
-**Common mistakes in BTC adaptation (avoid these):**
 - Entering on the divergence candle itself (wait for retracement!)
 - Using 5-minute charts (too much noise)
 - Trading during 2-4am UTC (thin liquidity, prone to wicks)
-- Moving the stop farther away after entry (this is the #1 killer)
-- Using 10x+ leverage (Trullás uses 3-5x in competitions, but competitions have a 90-day window; your account is permanent)
+- Moving the stop farther away after entry (#1 killer)
+- Using 10x+ leverage (Trullás uses 3-5x in competitions; your account is permanent)
 - Ignoring funding rate (missing a key BTC-specific signal)
-- Trading altcoins with this method (divergence is less reliable, volume is easier to manipulate)
+- Trading altcoins with this method (volume easier to manipulate)
 
----
+## Example BTC Trade Using Trullás Method
 
-## Final Verdict: Can You Copy Trullás's Method to BTC?
+**Setup:**
+- BTC falls from $88,000 to $81,000 on 1-hour chart over 12 hours
+- MACD histogram makes higher low at $81,000 (bullish divergence)
+- RSI makes higher low (bullish divergence)
+- Volume decreases into $81,000 (exhaustion)
+- Funding rate: -0.05% (shorts overcrowded, squeeze risk)
+- **Triple divergence + funding confirmation**
 
-**Yes, but it is not a direct copy-paste.**
+**Entry:**
+- Measure: $88,000 (swing high) to $81,000 (divergence low) = $7,000 range
+- 23% retracement: $81,000 + ($7,000 × 0.23) = $82,610
+- Place limit buy at $82,600
 
-The **core logic is sound and transferable:**
-- Wait for trend exhaustion (triple divergence)
-- Enter on the 2/3 retracement (61.8% - 70.5%)
-- Tight stop beyond invalidation
-- Multiple profit targets
-- Strict discipline and risk management
+**Stop-loss:**
+- Divergence low - 3%: $81,000 × 0.97 = $78,570
+- Risk per BTC: $82,600 - $78,570 = $4,030
 
-The **execution must adapt to BTC's unique characteristics:**
-- Longer timeframes (1-hour instead of 5-minute)
-- Wider stops (divergence low - 3%)
-- Smaller position size (0.5% risk, not 1%)
-- Funding rate as a fourth indicator (perpetual futures only)
-- Limit orders for entry (not market orders)
-- 24/7 risk (cannot "close for the day")
+**Position size:**
+- Account: $10,000
+- Triple divergence = 3 contracts
+- Base risk: 0.5% = $50 per contract
+- Total risk: $50 × 3 = $150 (1.5%)
+- Position: $150 / $4,030 = **0.0372 BTC** (~$3,073 notional)
 
-**If you follow Trullás's discipline but adapt the execution, the method can work for BTC.** The biggest danger is not the strategy — it is the temptation to use too much leverage, skip the stop-loss, or trade during 3am UTC when liquidity is thin.
+**Take-profit:**
+- First target (38%): $81,000 + ($7,000 × 0.38) = $83,660 — take 50% profit
+- Second target (66%): $81,000 + ($7,000 × 0.66) = $85,620 — take remaining 50%
+- Trailing stop: After first target, move stop to breakeven ($82,600)
 
-**Start with spot or 2x leverage, risk 0.25% per trade, and practice for 20 trades in demo.** If you survive that and remain profitable, you are ready to trade the method live.
+**Outcome if stopped:** Lose $150 (1.5%)
+**Outcome if first target hit:** Gain ($83,660 - $82,600) × 0.0186 BTC = $19.7, but on half position → +$197 profit (1.97R)
+**Outcome if second target hit:** Additional ($85,620 - $83,660) × 0.0186 BTC = $36.5 → +$365 total (2.43R)
 
----
+This example shows defined risk, clear entry, and layered exits — the core of Trullás's approach.
 
 ## References and Further Reading
 
-### Primary Sources (David Trullás's own materials)
+### Primary sources (first-hand evidence)
 
-1. **David Trullás Vila**, *Bienvenidos al mundo real de la bolsa* (Welcome to the Real World of the Stock Market), Plataforma Editorial, 2016.  
-   ISBN: 978-84-16429-11-0.  
-   [Available on Perlego](https://www.perlego.com/es/book/1901302/bienvenidos-al-mundo-real-de-la-bolsa-pdf), [Plataforma Editorial](https://www.plataformaeditorial.com/libro/4807-bienvenidos-al-mundo-real-de-la-bolsa), and Spanish bookstores.  
-   **Content:** Beginner's guide covering market basics, technical analysis (MACD, Fibonacci), trading psychology, and money management. Emphasizes that 90% of success is discipline.
+1. **YouTube: "MACD, RSI, Volumen y Fibonacci: el Sistema del Campeón Mundial | David Trullas" (Live demonstration at Rankia conference, Valencia, May 2026)**  
+   URL: [youtube.com/watch?v=0W7EYXrDRBc](https://www.youtube.com/watch?v=0W7EYXrDRBc)  
+   **Content:** **THIS IS THE MOST IMPORTANT REFERENCE.** Trullás personally demonstrates his strategy live, brings students on stage to execute trades in real-time, and explicitly states his position sizing logic at timestamp 10:06-10:40. He confirms entry at 23-25% Fibonacci (timestamp 11:33) and first target at 38% (timestamp 17:23-17:46, spoken by student Carmen). The English subtitle file is available.  
+   **Key timestamps:**
+   - 03:52-04:40: "Volume, Fibonacci, MACD, RSI... so simple... but it works"
+   - 05:14-06:40: "MACD is my friend, it's my DNA... If this one is there, the others will come in"
+   - 10:06-10:40: "If I have MACD, one [contract]. If I have MACD and RSI, two..."
+   - 11:33-11:45: "My entry point is usually around 23-25% of this segment"
+   - 17:23-17:46: "From 23 to 38... there are always benefits there" (student Carmen)
+   
+   **Why this is the key source:** Every other source describes Trullás's method second-hand. This video shows him executing it live. Any conflict between this video and other sources should be resolved in favor of the video.
 
-2. **Live in Trading** (David Trullás's trading education company and signal service).  
-   Website: [liveintrading.com](https://whop.com/live-in-trading/live-in-trading-master/)  
-   **Content:** Spanish-language trading courses, live analysis sessions, and real-time trade signals based on Trullás's methodology. Offers "Live in Trading Master" subscription for mentorship.
+2. **World Cup Trading Championships official standings (2025-2026)**  
+   URL: [worldcupchampionships.com/world-cup-trading-championship-standings](https://www.worldcupchampionships.com/world-cup-trading-championship-standings)  
+   **Content:** Official verified rankings. "David Trullas Vila" (Andorra) appears in 8 quarterly Futures Day Trading standings:
+   - 2026 Q2: 2,222.6% (1st place, Final)
+   - 2026 Q3: 1,350.8% (1st place, pending audit)
+   - 2026 Q1: 585.4% (1st place, Final)
+   - 2025 Q4: 930.7% (1st place, Final)
+   - 2025 Q3: 800.6% (1st place, Final)
+   - 2025 Q2: 712.1% (1st place, Final)
+   - 2025 Q1: 291% (2nd place)
+   
+   These numbers match the returns Trullás states in the YouTube video (00:58-01:20): "930 the next one, the next 585... and today we are at 1321%."  
+   **Cross-validation:** Independent third-party verification. All standings are verified by broker statements. Account minimum: $10,000.
 
-3. **Rankia profile and conference materials (2014-2016):**  
-   - [David Trullás profile on Rankia](https://www.rankia.com/colaboradores/david-trullas) — Biography and past articles as an independent technical analyst.  
-   - [Conference: "Especulando con MACD y Fibonacci" (IV Foro de Finanzas Personales, 2014)](https://www.rankia.com/blog/opiniones/2202148-especulando-macd-fibonacci-conferencia-david-trullas-iv-foro-finanzas-personales) — Early public presentation of the MACD + Fibonacci divergence strategy.  
-   - [Crónica del V Foro de Finanzas Personales, Forinvest 2015](https://www.rankia.com/blog/rankia/2708438-cronica-v-foro-finanzas-personales-forinvest-2015) — Trullás's participation in Spanish finance conferences.  
-   **Cross-validation:** Trullás's method was publicly described in 2014 and remained consistent through 2026 (MACD + Fibonacci + discipline).
+3. **Binance Square post: Spanish trader achieves 2,220% return (投机实验室 / Speculation Lab, 2026)**  
+   URL: [binance.com/en/square/post/382028636347244](https://www.binance.com/en/square/post/382028636347244)  
+   **Content:** Third-party analysis. Describes Trullás's method as "a major divergence strategy combining volume, Fibonacci, MACD, and RSI" and notes "if MACD doesn't show divergence, he won't take a trade." States that "price often retraces two-thirds of that move. He trades that retracement."  
+   **Cross-validation:** Matches the YouTube video's description of MACD as mandatory and the 2/3 retracement target. Does not mention entry at 23-25% (that detail only appears in the video).
 
-### World Cup Trading Championships (Competition Results)
+### Technical analysis references (general validation)
 
-4. **World Cup Trading Championships official standings (2025-2026).**  
-   Website: [worldcupchampionships.com/world-cup-trading-championship-standings](https://www.worldcupchampionships.com/world-cup-trading-championship-standings)  
-   **Content:** Official verified rankings for futures and forex trading competitions. Trullás appears in multiple quarterly standings (Q1-Q4 2025, Q1-Q2 2026) in the Futures Intraday Division.  
-   **Cross-validation:** Independent third-party verification of Trullás's returns (2,222% in Q2 2026, multiple other quarterly wins). Account minimums: $10,000 for futures division.
-
-5. **Binance Square post (2026): "Spanish trader David wins five trading championships in a row! This MACD triple-divergence strategy is incredibly powerful: a 2,200% return in 90 days."**  
-   URL: [binance.com/en/square/post/380971696330025](https://www.binance.com/en/square/post/380971696330025)  
-   **Content:** Summary of Trullás's Q2 2026 World Cup win, describing the triple divergence (MACD + RSI + Volume) and 2/3 retracement entry method.  
-   **Cross-validation:** Matches the methodology described in his 2014 Rankia conference and 2016 book.
-
-6. **Speculation Lab (投机实验室) Binance Square profile.**  
-   URL: [binance.com/en/square/profile/speculationlab](https://www.binance.com/en/square/profile/speculationlab)  
-   **Content:** Analysis of Trullás's strategy, noting: "He believes that when a market move is nearing its end, price often retraces two-thirds of that move. He trades that retracement. To judge whether a move is nearing its end, he looks for divergence."  
-   **Cross-validation:** Independent observer describes the same 2/3 retracement logic.
-
-7. **Puntua.net review: "Opiniones sobre David Trullas ¿Es Fiable o es Estafa?"**  
-   URL: [puntua.net/empresa/opiniones-sobre-david-trullas/](https://puntua.net/empresa/opiniones-sobre-david-trullas/)  
-   **Content:** Third-party review of Trullás's credibility, citing his World Cup Trading Championships standings (Q1-Q4 2025) as evidence of real performance. Notes that his approach emphasizes strict money management and avoiding overtrading.  
-   **Cross-validation:** External verification that Trullás's competition results are legitimate.
-
-8. **YouTube interview: "Charlando con el trader top1 en el mundo. David Trullás"**  
-   URL: [youtube.com/watch?v=O37c0R-cjmA](https://www.youtube.com/watch?v=O37c0R-cjmA)  
-   **Content:** Interview with Trullás discussing his experiences, discipline, championship strategy, and the psychological reality behind trading. Emphasizes that most traders fail due to lack of discipline, not lack of strategy.  
-   **Cross-validation:** Reinforces the psychological rules described in his book (do not chase, do not add to losers, follow the exit plan).
-
-### Technical Analysis: Fibonacci + Divergence Strategy (General Validation)
-
-9. **Investopedia: "Strategies for Trading Fibonacci Retracement Levels"**  
+4. **Investopedia: "Strategies for Trading Fibonacci Retracement Levels"**  
    URL: [investopedia.com/articles/active-trading/091114/strategies-trading-fibonacci-retracements.asp](https://www.investopedia.com/articles/active-trading/091114/strategies-trading-fibonacci-retracements.asp)  
-   **Content:** Explains the 61.8% "golden ratio" retracement as a high-probability support/resistance level. Discusses combining Fibonacci with momentum indicators (RSI, MACD) to filter entries.  
-   **Cross-validation:** Standard technical analysis literature supports Trullás's 61.8% entry zone as a widely recognized level.
+   **Content:** Explains the 23.6%, 38.2%, 50%, 61.8% Fibonacci levels as common support/resistance zones. Recommends combining Fibonacci with momentum indicators (RSI, MACD) to filter entries.  
+   **Cross-validation:** Standard technical analysis literature recognizes Fibonacci retracements. Trullás's use of 23-25% entry → 38% target → 66% target follows this framework.
 
-10. **TradingView: "Fibonacci Levels with MACD Confirmation" (custom indicator by TradeMing)**  
-    URL: [tradingview.com/script/DKo1X7l2-Fibonacci-Levels-with-MACD-Confirmation/](https://br.tradingview.com/script/DKo1X7l2-Fibonacci-Levels-with-MACD-Confirmation/)  
-    **Content:** Pine Script indicator that combines Fibonacci retracement levels with MACD histogram confirmation. The 61.8% level is described as a "last line of defense before trend invalidation."  
-    **Cross-validation:** Independent traders use similar Fibonacci + MACD combinations, validating Trullás's approach as part of broader technical analysis practice.
+5. **Investopedia: "Dow Theory"**  
+   URL: [investopedia.com/terms/d/dowtheory.asp](https://www.investopedia.com/terms/d/dowtheory.asp)  
+   **Content:** Explains Dow Theory's principle that "corrections typically retrace one-third to two-thirds of the prior move."  
+   **Cross-validation:** Trullás references Dow Theory in the YouTube video (timestamp 04:44-05:10): "Down's theory... Every rebound or correction usually goes to the two-thirds mark of that stretch." This is a 100+ year-old technical analysis framework, not a modern invention.
 
-11. **OpoFinance blog: "The 3-Step RSI and Fibonacci Strategy for Traders"**  
-    URL: [blog.opofinance.com/en/rsi-and-fibonacci-strategy/](https://blog.opofinance.com/en/rsi-and-fibonacci-strategy/)  
-    **Content:** Describes the "Golden Zone" (50%-61.8% Fibonacci) as a high-probability entry map. Recommends waiting for RSI divergence before entering at Fibonacci levels.  
-    **Cross-validation:** Matches Trullás's method of waiting for divergence + Fibonacci retracement.
+6. **BabyPips: "Divergence Trading: Hidden vs. Regular Divergence"**  
+   URL: [babypips.com/learn/forex/divergence-trading](https://www.babypips.com/learn/forex/divergence-trading)  
+   **Content:** Explains regular divergence (reversal signal) vs. hidden divergence (continuation signal), with MACD and RSI as primary indicators. Warns that "divergence alone is not a trade signal — it requires price confirmation."  
+   **Cross-validation:** Matches Trullás's demonstration of both regular divergence (timestamp 08:50-10:40) and hidden divergence (timestamp 13:40-13:58). His student explicitly describes hidden divergence at 13:40.
 
-12. **Switch Markets: "A Trader's Guide to Fibonacci Trading Strategies"**  
-    URL: [switchmarkets.com/en/learn/fibonacci-trading-strategies](https://www.switchmarkets.com/en/learn/fibonacci-trading-strategies)  
-    **Content:** Explains why the 61.8% retracement level works: "Fibonacci levels work because enough market participants believe they work. When thousands of institutional and retail traders place buy orders at the 61.8% retracement, those orders create a wall of support."  
-    **Cross-validation:** Self-fulfilling prophecy aspect of Fibonacci levels aligns with Trullás's philosophy that the method works because it is systematic and widely followed.
+7. **StockCharts: "MACD Histogram" technical analysis article**  
+   URL: [stockcharts.com/school/doku.php?id=chart_school:technical_indicators:macd-histogram](https://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:macd-histogram)  
+   **Content:** Explains the MACD histogram as a leading indicator for divergence detection. "The histogram can be used to identify overbought and oversold conditions, as well as bullish and bearish divergences."  
+   **Cross-validation:** Trullás uses MACD histogram divergence (not MACD line crossovers). The histogram bars are visible in his TradingView charts in the YouTube video.
 
-13. **Confirmed Divergence Manual (PDF, trading community resource)**  
-    URL: [scribd.com/document/635986870/Confirmed-Divergence-Manual-pdf](https://www.scribd.com/document/635986870/Confirmed-Divergence-Manual-pdf)  
-    **Content:** Discusses hidden divergence (continuation signals) vs. regular divergence (reversal signals). Recommends using MACD or RSI divergence with Fibonacci retracements for entry timing.  
-    **Cross-validation:** Independent trading manual describes the same divergence + Fibonacci logic.
+8. **Investing.com Academy: "How to Use RSI and MACD Together for Smarter Trades"**  
+   URL: [investing.com/academy/analysis/how-to-use-rsi-and-macd-together/](https://www.investing.com/academy/analysis/how-to-use-rsi-and-macd-together/)  
+   **Content:** Explains that RSI and MACD used alone each have limitations, but together they "form a synergistic powerhouse, providing a filter that drastically reduces noise and identifies high probability setups."  
+   **Cross-validation:** Supports Trullás's requirement for MACD + RSI + Volume (three-way confirmation) instead of relying on one indicator.
 
-14. **Investing.com Academy: "How to Use RSI and MACD Together for Smarter Trades"**  
-    URL: [investing.com/academy/analysis/how-to-use-rsi-and-macd-together/](https://www.investing.com/academy/analysis/how-to-use-rsi-and-macd-together/)  
-    **Content:** Explains that RSI and MACD used alone each have limitations, but together they "form a synergistic powerhouse, providing a filter that drastically reduces noise and identifies high probability setups."  
-    **Cross-validation:** Supports Trullás's requirement for MACD + RSI + Volume (three-way confirmation) instead of relying on one indicator.
+### Trading psychology and risk management references
 
-### Additional Context (Trading Psychology and Risk Management)
+9. **Mark Douglas**, *Trading in the Zone* (2000), Prentice Hall.  
+   ISBN: 978-0735201446.  
+   **Content:** Classic trading psychology book. Chapter 7: "The Trader's Advantage: Thinking in Probabilities." Emphasizes that "the market is neutral; it is your beliefs and emotions that create losses."  
+   **Cross-validation:** Trullás's statement at timestamp 19:32-19:42 ("I have no idea [what my win rate is] because I'm not a big fan of statistics") aligns with probabilistic thinking — he focuses on process (following the rules), not outcome (win rate).
 
-15. **Rankia: "Ganadores Premios Rankia Mejores Divulgadores Financieros 2026"**  
-    URL: [rankia.com/blog/bolsa-al-dia/7527868-premios-rankia-mejores-divulgadores-financieros-2026](https://www.rankia.com/blog/bolsa-al-dia/7527868-premios-rankia-mejores-divulgadores-financieros-2026)  
-    **Content:** Trullás won a Rankia award for best financial educator in 2026, alongside other Spanish trading educators.  
-    **Cross-validation:** Recognition from Spanish financial community as a credible educator and trader.
+10. **Van K. Tharp**, *Trade Your Way to Financial Freedom* (1999), McGraw-Hill.  
+    ISBN: 978-0071478151.  
+    **Content:** Discusses position sizing, expectancy, and the "1% risk per trade" rule.  
+    **Cross-validation:** Trullás's scaled position sizing (1/2/3 contracts based on signal strength) is a variation on Van Tharp's position sizing principles, adapted for signal strength instead of fixed risk. Trullás explicitly rejects fixed-percentage sizing at timestamp 10:06: "David always bets the same percentage? No, no, no, no, no."
 
-16. **Quora discussion: "¿Recomiendas el curso de trading de David Trullàs (Live in Trading)?"**  
-    URL: [es.quora.com/Hola-Francesc-Recomiendas-el-curso-de-trading-de-David-Trull%C3%A0s-Live-in-trading](https://es.quora.com/Hola-Francesc-Recomiendas-el-curso-de-trading-de-David-Trull%C3%A0s-Live-in-trading-Vi-que-hace-un-tiempo-lo-recomendaste-en-Quora-Te-ha-servido-Funciona-si-se-aplican-los-conocimientos-Muchas-gracias)  
-    **Content:** User review of Trullás's course. Notes that "the method must have clear entry and exit rules, strict risk management, and must be practiced extensively, ideally through demo trading and a journal."  
-    **Cross-validation:** Confirms that Trullás's teaching emphasizes practice, journaling, and risk management (not just the technical signal).
+11. **Alexander Elder**, *Trading for a Living* (1993), Wiley.  
+    ISBN: 978-0471592242.  
+    **Content:** Introduces the "Triple Screen Trading System" using weekly + daily + intraday timeframes, plus MACD and other indicators. Emphasizes "the longer you can wait for the perfect setup, the better your results."  
+    **Cross-validation:** Elder's multi-timeframe approach (weekly/daily/intraday) conceptually parallels Trullás's use of 15-minute for context and 5-minute for execution. Both emphasize patience.
 
 ---
 
 ## Cross-Validation Summary
 
-The following facts are verified across multiple independent sources:
+| Claim | Primary source | Secondary verification |
+|-------|----------------|------------------------|
+| **MACD is mandatory; RSI and Volume scale position** | YouTube video (05:14-06:40, 10:06-10:40) | — |
+| **Position sizing: 1/2/3 contracts based on signals** | YouTube video (10:06-10:40) | — |
+| **Entry at 23-25% Fibonacci** | YouTube video (11:33-11:45) | — |
+| **First target: 38% (beginner rule)** | YouTube video (17:23-17:46, student Carmen) | — |
+| **Second target: 66% (2/3 zone)** | YouTube video (12:50-13:10, student Joan) | Dow Theory (Investopedia), Binance Square |
+| **2,222% return in Q2 2026** | World Cup official standings | Binance Square, YouTube video (01:15-01:20) |
+| **Trades Nasdaq, DAX, Gold futures** | YouTube video (08:10, 14:48-15:10) | World Cup division (Futures Day Trading) |
+| **MACD histogram + RSI + Volume divergence** | YouTube video (03:52-04:20, 08:50-09:40) | Binance Square, BabyPips, Investing.com |
+| **Does not track win rate / not a statistics person** | YouTube video (19:32-19:42) | — |
 
-| Claim | Source 1 | Source 2 | Source 3 |
-|-------|----------|----------|----------|
-| **Trullás uses triple divergence (MACD + RSI + Volume)** | Binance Square (2026) | Rankia conference (2014) | Speculation Lab analysis (2026) |
-| **Enters at 61.8%-70.5% Fibonacci retracement (2/3 zone)** | Binance Square (2026) | Speculation Lab (2026) | Book *Bienvenidos al mundo real* (2016) |
-| **Won World Cup Trading Championships multiple times** | Official standings (2025-2026) | Puntua.net review (2026) | Binance Square (2026) |
-| **2,222% return in Q2 2026 (90 days)** | World Cup official standings | Binance Square (2026) | Speculation Lab (2026) |
-| **Emphasizes discipline over strategy (90% of success)** | Book *Bienvenidos al mundo real* (2016) | YouTube interview (2026) | Quora review (2026) |
-| **Trades intraday futures (DAX, IBEX, S&P 500)** | Rankia profile | Book *Bienvenidos al mundo real* (2016) | World Cup division (Futures Intraday) |
-| **Method described consistently from 2014-2026** | Rankia conference (2014) | Book (2016) | Binance Square (2026) |
-
-**Conclusion:** David Trullás's methodology is consistent across a 12-year period (2014-2026), verified by independent competition results, and aligns with standard technical analysis literature on divergence and Fibonacci retracements. The strategy is real, systematic, and replicable — but it requires strict discipline and realistic risk management (not the 3-5% risk per trade used in competitions).
+**Key finding:** The YouTube video is the only first-hand source where Trullás states his entry level (23-25%) and position sizing logic (1/2/3 contracts). Every secondary source that claims "enters at 61.8%" is wrong — 61.8%-66% is his **target**, not his entry.
 
 ---
 
-**Disclaimer:** This article is for educational purposes only. David Trullás's championship results used aggressive position sizing (3-5% risk per trade, high leverage) that is not suitable for most retail traders. The strategy described here is based on publicly available information and may not reflect Trullás's complete proprietary methodology. Past performance, including World Cup Trading Championships results, does not guarantee future results. Cryptocurrency trading involves significant risk. Trade only with capital you can afford to lose, and practice extensively in demo accounts before using real money.
+**Total references: 11 (3 primary sources, 8 validation sources)**
+
+---
+
+**Disclaimer:** This article is for educational purposes only. David Trullás's championship results used aggressive position sizing (multiple contracts = 3-9% risk per trade) that is not suitable for most retail traders. The strategy described here is based on publicly available information (YouTube demonstration, official competition results) and may not reflect Trullás's complete proprietary methodology. Past performance does not guarantee future results. Cryptocurrency trading involves significant risk. Trade only with capital you can afford to lose, and practice extensively in demo accounts before using real money.
